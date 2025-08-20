@@ -1,0 +1,271 @@
+body { background-color: #222; 
+		background-image: url('img/pbg2.jpg'); 
+		background-repeat: repeat; 
+		color: #eee; 
+		font-family: sans-serif; 
+		display: flex; 
+		flex-direction: column; 
+		align-items: center; 
+		margin: 3px; 
+		padding: 0px; 
+}
+#controls, #judgementDisplay, #songContainer { 
+		background-image: url('img/bgctrls.jpg'); 
+		background-color: #121c1f;
+		margin-bottom: 2px; 
+		border: 1px solid #363839; 
+		padding: 1rem; 
+		border-radius: 8px; 
+		width: 90%; 
+		max-width: 450px; 
+}
+#controls { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+#dropZone {
+		/* Keep it hidden and non-interactive by default */
+		display: none;
+		pointer-events: none; 
+
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 9999; 
+}
+#dropZone.drag-over {
+		/* When active, make it visible and a flex container */
+		display: flex;
+		pointer-events: all; /* Make it the target for events */
+
+		background-color: rgba(0, 123, 255, 0.1);
+		border: 4px dashed #007bff;
+		
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+}
+#chartSelector { padding: 5px; min-width: 200px; }
+.control-group { margin-bottom: 0.5rem; display: flex; align-items: center; justify-content: space-between; width: 100%; max-width: 400px;}
+.control-group label { margin-right: 10px; }
+#keybindSettings input { width: 80px; text-align: center; }
+
+#canvasContainer { 
+    position: relative; 
+    background-color: #eed; 
+    background-image: url('img/background.jpg');
+    /*border: 1px solid #555;  */
+}
+
+#underlayCanvas { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    pointer-events: none; 
+    z-index: 0;
+}
+
+#chartCanvas { 
+    position: relative;
+    z-index: 1;
+    display: block; /* to avoid extra space below */
+}
+
+#overlayCanvas { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    pointer-events: none; 
+    z-index: 2;
+}
+
+#judgementDisplay { display: flex; justify-content: space-around; font-size: 1.5em; text-align: center; }
+#judgementDisplay div { flex: 1; }
+#judgementDisplay .label { font-size: 0.6em; color: #aaa; }
+				
+.hidden {
+    display: none !important;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #333;
+    padding: 20px 30px;
+    border-radius: 8px;
+    border: 1px solid #555;
+    max-width: 950px;
+    width: 90%;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+.modal-content {
+		a { color: #ff8; }
+		a:visited { color: #ff8; }
+		a:hover { color: #ff8; }​
+}
+
+.modal-content h3 {
+    margin-top: 0;
+    color: #00aaff;
+}
+.modal-content h4 {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 5px;
+}
+.modal-content ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.modal-content li {
+    margin-bottom: 8px;
+}
+.modal-content strong {
+    color: #f0f0f0;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #aaa;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.close-button:hover {
+    color: #fff;
+}
+
+.modal-content {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+
+
+.control-group button {
+    border: none;
+    border-radius: 6px; /* Rounded corners */
+    padding: 6px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    flex-grow: 1; /* Make buttons share the space */
+    margin: 0 5px; /* Add some space between them */
+    
+    /* A subtle shadow to lift the button off the page */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+
+    /* Smooth transition for all effects */
+    transition: all 0.2s ease-in-out;
+}
+
+/* Hover effect: lift the button and brighten it */
+.control-group button:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Active (click) effect: press the button down */
+.control-group button:active:not(:disabled) {
+    transform: translateY(1px);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Specific button colors */
+#playButton {
+    background-color: #288745; /* Green */
+}
+#playButton:hover:not(:disabled) {
+    background-color: #2e9f4f;
+}
+
+#stopButton {
+    background-color: #ac3545; /* Red */
+}
+#stopButton:hover:not(:disabled) {
+    background-color: #e43d5a;
+}
+
+#helpButton {
+    background-color: #005bcc; /* Blue */
+}
+#helpButton:hover:not(:disabled) {
+    background-color: #008ce0;
+}
+
+/* Style for when the button is disabled */
+.control-group button:disabled {
+    background-color: #5a5a5a;
+    color: #999;
+    cursor: not-allowed;
+    box-shadow: none; /* No shadow when disabled */
+}
+
+/* Visual indicator for locked input offset */
+.offset-locked {
+    color: #ffd700 !important;   /* gold */
+    font-weight: 700;
+}
+
+/* listbox styling (basic) */
+.song-listbox {
+  width: 100%;
+  max-width: 400px;
+  min-height: 120px;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+/* pack headers */
+.song-listbox option.pack {
+  font-weight: 700;
+  text-align: center;
+  //background: #cde;
+	background: linear-gradient(#ccc, #ddd);
+  color: #003;
+}
+
+/* song rows indent */
+.song-listbox option.song {
+  padding-left: 1.2em;
+  text-align: left;
+}
+
+/* highlight currently loaded/active song */
+.song-listbox option.current-song {
+  background: yellow !important;
+  color: black !important;
+  font-weight: 700;
+}
+
+.song-listbox option.roulette-option {
+  font-weight: 800;
+  text-align: center;
+  background: linear-gradient(#dd6, #ff8);
+  //background: #ff8;
+  color: #222;
+}
+
+/* dim / de-emphasize excluded songs */
+.song-listbox option.excluded-song {
+  opacity: 0.55;
+  text-decoration: line-through;
+}
+
