@@ -150,7 +150,8 @@ let lastStartBeat = 0; // for starting from the last place (Blackquote hotkey)
 let quickStarts = new Array(10).fill(null); // starting places (1-0 shortcuts)
 let curSongTime = 0;
 let playbackRate = 1.0;
-let additionalOffset = document.getElementById('audioOffset').value = -9;
+document.getElementById('audioOffset').value = -9;
+let additionalOffset = -0.009;
 let animationFrameId;
 let allCharts = [];
 let songInfo = { title: '', offset: 0, bpms: [], stops: [], warps: [] };
