@@ -2255,5 +2255,86 @@
   "chartPath": "songs/Virus Funk.sm",
   "audioPath": "songs/Virus Funk.ogg",
   "key": "1755687609453"
+},
+{
+  "pack": "Around the World",
+  "author": ""
+},
+{
+  "title": "Cicho",
+  "artist": "Ewa Farna",
+  "chartPath": "songs/Cicho.ssc",
+  "audioPath": "songs/Cicho.ogg",
+  "key": "1755770688702"
+},
+{
+  "title": "Contempo",
+  "artist": "The Sidh",
+  "chartPath": "songs/Contempo.sm",
+  "audioPath": "songs/Contempo.ogg",
+  "key": "1755790843739"
+},
+{
+  "title": "Dans Ma Fusée",
+  "artist": "Ilona Mitrecey",
+  "chartPath": "songs/Dans Me Fusee.ssc",
+  "audioPath": "songs/Dans Me Fusee.ogg",
+  "key": "1755791017669"
+},
+{
+  "title": "Det' Det",
+  "artist": "Sukkerchok",
+  "chartPath": "songs/Det' Det.sm",
+  "audioPath": "songs/Det Det.ogg",
+  "key": "1755792495582"
+},
+{
+  "title": "Ethän Lähde",
+  "artist": "G-powered",
+  "chartPath": "songs/Ethan Ladhe.sm",
+  "audioPath": "songs/Ethan Ladhe.ogg",
+  "key": "1755792732465"
+},
+{
+  "title": "Ho Voglia",
+  "artist": "Power Francers",
+  "chartPath": "songs/Ho Voglia.sm",
+  "audioPath": "songs/Ho Voglia.ogg",
+  "key": "1755793083280"
+},
+{
+  "title": "Impikan",
+  "artist": "DOLLA",
+  "chartPath": "songs/Impikan.sm",
+  "audioPath": "songs/Impikan.ogg",
+  "key": "1755793220024"
+},
+{
+  "title": "Kaya",
+  "artist": "Kaia",
+  "chartPath": "songs/Kaya.sm",
+  "audioPath": "songs/Kaya.ogg",
+  "key": "1755793501319"
+},
+{
+  "title": "Muévelo",
+  "artist": "Fey",
+  "chartPath": "songs/Muevelo.sm",
+  "audioPath": "songs/Muevelo.ogg",
+  "key": "1755793885931"
+},
+{
+  "title": "Spelar Ingen Roll",
+  "artist": "Caramell",
+  "chartPath": "songs/Spelar Ingen Roll.sm",
+  "audioPath": "songs/Spelar Ingen Roll.ogg",
+  "key": "1755794140299"
+},
+{
+  "title": "Tike Tike Kardi",
+  "artist": "Arash",
+  "chartPath": "songs/Tike Tike Kardi.sm",
+  "audioPath": "songs/Tike Tike Kardi-.ogg",
+  "key": "1755794299626"
 }
 ]
