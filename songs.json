@@ -2543,5 +2543,135 @@
   "chartPath": "songs/Touchy.ssc",
   "audioPath": "songs/Touchy.ogg",
   "key": "1755880743692"
+},
+{
+  "pack": "Lisia Nora Community Simfiles 1-2",
+  "author": ""
+},
+{
+  "title": "Bad Romance",
+  "artist": "Lady Gaga",
+  "chartPath": "songs/Bad Romance.ssc",
+  "audioPath": "songs/Bad Romance.ogg",
+  "key": "1755887672917"
+},
+{
+  "title": "Celestial Solace",
+  "artist": "SAMString",
+  "chartPath": "songs/Celestial Solace.ssc",
+  "audioPath": "songs/Celestial Solace.ogg",
+  "key": "1755887884497"
+},
+{
+  "title": "Dizzy Paranoia Girl",
+  "artist": "KAT",
+  "chartPath": "songs/Dizzy Paranoia Girl.ssc",
+  "audioPath": "songs/Dizzy Paranoia Girl.ogg",
+  "key": "1755888040068"
+},
+{
+  "title": "Europapa",
+  "artist": "Joost",
+  "chartPath": "songs/Europapa.ssc",
+  "audioPath": "songs/Europapa.ogg",
+  "key": "1755888161792"
+},
+{
+  "title": "Evil Eye",
+  "artist": "Simon Viklund",
+  "chartPath": "songs/Evil Eye.ssc",
+  "audioPath": "songs/Evil Eye.ogg",
+  "key": "1755888290125"
+},
+{
+  "title": "Level Up",
+  "artist": "Raccy",
+  "chartPath": "songs/Level Up.ssc",
+  "audioPath": "songs/Level Up.ogg",
+  "key": "1755888436239"
+},
+{
+  "title": "Life",
+  "artist": "Relect",
+  "chartPath": "songs/Life.ssc",
+  "audioPath": "songs/Life.ogg",
+  "key": "1755888561686"
+},
+{
+  "title": "Losing My Mind",
+  "artist": "Mystery Skulls",
+  "chartPath": "songs/Losing My Mind.ssc",
+  "audioPath": "songs/Losing My Mind.ogg",
+  "key": "1755888727545"
+},
+{
+  "title": "Jej czarne oczy",
+  "artist": "Ivan & Delfin",
+  "chartPath": "songs/Jej czarne oczy.ssc",
+  "audioPath": "songs/Jej czarne oczy.ogg",
+  "key": "1755889693721"
+},
+{
+  "title": "Makumba",
+  "artist": "Big Cyc",
+  "chartPath": "songs/Makumba.ssc",
+  "audioPath": "songs/Makumba.ogg",
+  "key": "1755890045311"
+},
+{
+  "title": "Mix Sałat",
+  "artist": "Taco Hemingway feat. Daria Zawiałow",
+  "chartPath": "songs/Mix Salat.ssc",
+  "audioPath": "songs/Mix Salat.ogg",
+  "key": "1755890206246"
+},
+{
+  "title": "Parostatek",
+  "artist": "Krzysztof Krawczyk",
+  "chartPath": "songs/Parostatek.ssc",
+  "audioPath": "songs/Parostatek.ogg",
+  "key": "1755890391755"
+},
+{
+  "title": "Prawy do lewego",
+  "artist": "Kayah & Goran Bregović",
+  "chartPath": "songs/Prawy do lewego.ssc",
+  "audioPath": "songs/Prawy do lewego.ogg",
+  "key": "1755890547368"
+},
+{
+  "title": "STAR WALKIN'",
+  "artist": "Karol Suchecki & Kito",
+  "chartPath": "songs/Star Walkin.ssc",
+  "audioPath": "songs/Star Walkin.ogg",
+  "key": "1755894378627"
+},
+{
+  "title": "Takie Tango",
+  "artist": "Budka Suflera",
+  "chartPath": "songs/Takie Tango.ssc",
+  "audioPath": "songs/Takie Tango.ogg",
+  "key": "1755894587098"
+},
+{
+  "title": "VHS",
+  "artist": "Figo i Samogony ft. Grzegorz Skawiński",
+  "chartPath": "songs/VHS.ssc",
+  "audioPath": "songs/VHS.ogg",
+  "key": "1755894948771"
+},
+{
+  "title": "Zawsze z Toba Chcialbym Byc",
+  "artist": "Ich Troje",
+  "chartPath": "songs/Zawsze Z Toba Chcialbym Byc.ssc",
+  "audioPath": "songs/Zawsze Z Toba Chcialbym Byc.ogg",
+  "key": "1755895141329"
+},
+{
+  "title": "Zimna Lufa",
+  "artist": "Jacek Stachursky",
+  "chartPath": "songs/Zimna Lufa (Babylon DENN Remix).ssc",
+  "audioPath": "songs/Zimna Lufa (Babylon DENN Remix).ogg",
+  "key": "1755895326823"
 }
 ]
