@@ -202,7 +202,7 @@ function drawNotesForMeasure(ctx, measure, measureYBase, colXBase, colIndex, act
                 case NOTE_TYPES.HOLD_END:
                     const hold = activeHolds[i];
                     if (hold) {
-                        const endNoteInfo = { colIndex, x, lineY: lineY + NOTE_SIZE / 2, laneIndex: i, xOffset };
+                        const endNoteInfo = { colIndex, x, lineY: lineY, laneIndex: i, xOffset };
                         drawHoldBody(ctx, hold, endNoteInfo, layout);
                         activeHolds[i] = null; // The hold has been drawn
                     }
