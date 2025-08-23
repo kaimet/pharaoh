@@ -2673,5 +2673,156 @@
   "chartPath": "songs/Zimna Lufa (Babylon DENN Remix).ssc",
   "audioPath": "songs/Zimna Lufa (Babylon DENN Remix).ogg",
   "key": "1755895326823"
+},
+{
+  "pack": "dimocracy",
+  "author": ""
+},
+{
+  "title": "Another Night",
+  "artist": "MYRNE",
+  "chartPath": "songs/Another Night.sm",
+  "audioPath": "songs/Another Night.ogg",
+  "key": "1755940568650"
+},
+{
+  "title": "Subside",
+  "artist": "Ephixa & Bossfight",
+  "chartPath": "songs/Subside.ssc",
+  "audioPath": "songs/Subside.ogg",
+  "key": "1755940792404"
+},
+{
+  "title": "Let Me Hear That",
+  "artist": "Haywyre",
+  "chartPath": "songs/let me hear that.sm",
+  "audioPath": "songs/let me hear that.ogg",
+  "key": "1755940942114"
+},
+{
+  "title": "Work",
+  "artist": "Teminite",
+  "chartPath": "songs/work.sm",
+  "audioPath": "songs/work.ogg",
+  "key": "1755941111792"
+},
+{
+  "title": "Deathtrap",
+  "artist": "Nhato",
+  "chartPath": "songs/deathtrap.ssc",
+  "audioPath": "songs/deathtrap.ogg",
+  "key": "1755941871604"
+},
+{
+  "title": "Waltz Capriccio",
+  "artist": "Synthion",
+  "chartPath": "songs/waltz_capriccio.ssc",
+  "audioPath": "songs/waltz_capriccio.ogg",
+  "key": "1755942202688"
+},
+{
+  "title": "Champagne",
+  "artist": "Polyphia",
+  "chartPath": "songs/Champagne.sm",
+  "audioPath": "songs/Champagne.ogg",
+  "key": "1755948202120"
+},
+{
+  "title": "G.O.A.T.",
+  "artist": "Polyphia",
+  "chartPath": "songs/Goat.sm",
+  "audioPath": "songs/Polyphia - G.O.A.T.ogg",
+  "key": "1755948365359"
+},
+{
+  "title": "King Jammy's Twitching Hype Vampire Nightmare 2",
+  "artist": "Moody Good",
+  "chartPath": "songs/King Jammy's Twitching Hype Vampire Nightmare 2.ssc",
+  "audioPath": "songs/King Jammy's Twitching Hype Vampire Nightmare 2.ogg",
+  "key": "1755948498694"
+},
+{
+  "title": "Ultramarine",
+  "artist": "Yunosuke",
+  "chartPath": "songs/ultramarine.sm",
+  "audioPath": "songs/ultramarine.ogg",
+  "key": "1755948630850"
+},
+{
+  "title": "Hanabi",
+  "artist": "polysha & Tanchiky",
+  "chartPath": "songs/Hanabi.sm",
+  "audioPath": "songs/Hanabi.ogg",
+  "key": "1755948769526"
+},
+{
+  "title": "Lovesick Asteroids",
+  "artist": "polysha",
+  "chartPath": "songs/lovesick asteroids.sm",
+  "audioPath": "songs/lovesick asteroids.ogg",
+  "key": "1755948930460"
+},
+{
+  "title": "Never Ever",
+  "artist": "Röyksopp feat. Susanne Sundfør",
+  "chartPath": "songs/Never Ever.ssc",
+  "audioPath": "songs/RФyksopp - Never Ever (Edit).ogg",
+  "key": "1755949106032"
+},
+{
+  "title": "Rendezvous",
+  "artist": "polysha",
+  "chartPath": "songs/rendezvous.sm",
+  "audioPath": "songs/rendezvous.ogg",
+  "key": "1755949259055"
+},
+{
+  "title": "Meet You",
+  "artist": "DÉ DÉ MOUSE feat. Kizuna Ai",
+  "chartPath": "songs/Meet You.sm",
+  "audioPath": "songs/Meet You.ogg",
+  "key": "1755949458903"
+},
+{
+  "title": "raindance",
+  "artist": "Zekk & poplavor",
+  "chartPath": "songs/raindance.ssc",
+  "audioPath": "songs/raindance.ogg",
+  "key": "1755949653994"
+},
+{
+  "title": "Sleep Cannon",
+  "artist": "Nokae",
+  "chartPath": "songs/Sleep Cannon.ssc",
+  "audioPath": "songs/Sleep Cannon - Nokae.ogg",
+  "key": "1755949941192"
+},
+{
+  "title": "Flamenco House",
+  "artist": "lapix",
+  "chartPath": "songs/Flamenco House.sm",
+  "audioPath": "songs/Flamenco House.ogg",
+  "key": "1755950347648"
+},
+{
+  "title": "La Primavera",
+  "artist": "FAKE TYPE. feat. REMAH",
+  "chartPath": "songs/La Primavera.sm",
+  "audioPath": "songs/La Primavera.ogg",
+  "key": "1755950480716"
+},
+{
+  "title": "MASAMUNE",
+  "artist": "NS-Factory",
+  "chartPath": "songs/masamune.ssc",
+  "audioPath": "songs/masamune.ogg",
+  "key": "1755950657932"
+},
+{
+  "title": "Pon-Pon-Pompoko Dai-Sen-Saw!!",
+  "artist": "Chroma",
+  "chartPath": "songs/pompoko.ssc",
+  "audioPath": "songs/pompoko.ogg",
+  "key": "1755950814443"
 }
 ]
