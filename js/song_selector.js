@@ -32,6 +32,7 @@
 						openPackContainingIndex(selectedIndex);
 						highlightCurrentSong(getOptionIndexForSongValue(selectedIndex));
 						loadSongFromUrl(item);
+						window.dispatchEvent(new KeyboardEvent('keydown',{'code': 'NumpadMultiply'})); // original speed
 						saveSettings();
 				}
 		});
@@ -313,7 +314,7 @@ function openPackContainingIndex(songIndex) {
     if (packIndex >= 0) openOnlyPack(packIndex);
 }
 
-/** Consistent key for recentPlays lookup for a song item */
+/** Consistent key for a song item */
 function getPlayKey(item) {
     if (!item) return '';
     return item.key ? item.key : `${item.artist || ''}-${item.title || ''}`;

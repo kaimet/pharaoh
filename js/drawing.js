@@ -275,12 +275,7 @@ function drawNextColumnHeadPreview(ctx, measureIndex, colXBase, measureYBase, la
 
             // rectangle connecting up a bit
             ctx.fillRect(centerX - Math.max(1, Math.round(radius/2)), previewCenterY, Math.max(1, Math.round(radius)), stubHeight);
-        } else {
-            // fallback: draw simple circle
-            ctx.beginPath();
-            ctx.arc(centerX, previewCenterY, radius, 0, Math.PI * 2);
-            ctx.fill();
-        }
+        } 
     }
 
     // Debug dot (uncomment to visually verify alignment) 

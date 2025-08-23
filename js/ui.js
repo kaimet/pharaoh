@@ -30,15 +30,15 @@ window.onload = async function() {
 								}
 						} else {
 								// no settings at all (first time) -> pick the very first song
-								initialSongIndex = 2;
+								initialSongIndex = 2; // after roulette and first pack options  // <-- shady
 						}
 
 						if (prepackagedSongs.length > 0) {
 								// Set the selector to the correct song and then load it
 								openOnlyPack(getPackIndexForSongIndex(initialSongIndex));
 								highlightCurrentSong(initialSongIndex);
-								document.getElementById('songSelector').value = initialSongIndex - 1;
-								loadSongFromUrl(prepackagedSongs[initialSongIndex - 1]);
+								document.getElementById('songSelector').value = initialSongIndex - 1; // <-- shady
+								loadSongFromUrl(prepackagedSongs[initialSongIndex - 1]); // <-- shady
 						}
         }
     } catch (error) {
@@ -212,6 +212,8 @@ function setupUIEventListeners() {
         
         // Pass the event to file handler.
         handleFileDrop(e);
+				
+				window.dispatchEvent(new KeyboardEvent('keydown',{'code': 'NumpadMultiply'})); // set original speed
     });
 		
 		/*
