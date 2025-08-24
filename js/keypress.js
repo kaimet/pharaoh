@@ -374,23 +374,8 @@ function registerQuickStart(beat, thresholdBeats = 8) {
   const msg = wasAdjustment
     ? `Start position updated → key ${keyLabel}`
     : `Start position assigned to key ${keyLabel}`;
-
-  // show toast 
-  if (typeof window.showSongToast === 'function') {
-    window.showSongToast(msg, { tag: 'quickStart', duration: 1400 });
-  } else if (typeof showSongToast === 'function') {
-    showSongToast(msg, { tag: 'quickStart', duration: 1400 });
-  } else {
-    //console.log(msg);
-  }
-
-  if (typeof updateQuickStartsDisplay === 'function') updateQuickStartsDisplay();
+	
+  window.showSongToast(msg, { tag: 'quickStart', duration: 1400 });
 }
-
-
-
-
-
-
 
 
