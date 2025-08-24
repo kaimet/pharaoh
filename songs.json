@@ -3118,5 +3118,61 @@
   "chartPath": "songs/dimocracy-3/K-Pop Culture.ssc",
   "audioPath": "songs/dimocracy-3/K-Pop Culture.ogg",
   "key": "1756051163558"
+},
+{
+  "title": "LIN NE KRO NE",
+  "artist": "sasalasa",
+  "chartPath": "songs/LIN NE KRO NE.ssc",
+  "audioPath": "songs/LIN NE KRO NE.ogg",
+  "key": "1756062258937"
+},
+{
+  "title": "Live Nor Die - Nhato Remix",
+  "artist": "lapix feat. Kanae Asaba",
+  "chartPath": "songs/Live Nor Die - Nhato Remix.sm",
+  "audioPath": "songs/Live Nor Die - Nhato Remix.ogg",
+  "key": "1756062537791"
+},
+{
+  "title": "Neko to Mahou to Natsuyasumi",
+  "artist": "uynet",
+  "chartPath": "songs/neko to mahou to natsuyasumi.ssc",
+  "audioPath": "songs/neko to mahou to natsuyasumi.ogg",
+  "key": "1756062795225"
+},
+{
+  "title": "NO",
+  "artist": "Meghan Trainor",
+  "chartPath": "songs/NO-chart.sm",
+  "audioPath": "songs/NO-audio.ogg",
+  "key": "1756062952884"
+},
+{
+  "title": "NULCTRL",
+  "artist": "Silentroom",
+  "chartPath": "songs/nulctrl.ssc",
+  "audioPath": "songs/nulctrl.ogg",
+  "key": "1756063070627"
+},
+{
+  "title": "Oosanbashi",
+  "artist": "Ucchies",
+  "chartPath": "songs/Oosanbashi(iroha chou).sm",
+  "audioPath": "songs/Oosanbashi(iroha chou).ogg",
+  "key": "1756063384208"
+},
+{
+  "title": "Pixel",
+  "artist": "Mewnlight Rose",
+  "chartPath": "songs/pixel.ssc",
+  "audioPath": "songs/pixel.ogg",
+  "key": "1756063552533"
+},
+{
+  "title": "PUMPIN' JUMPIN'",
+  "artist": "Hideki Naganuma",
+  "chartPath": "songs/Pumpin Jumpin.ssc",
+  "audioPath": "songs/Pumpin Jumpin.ogg",
+  "key": "1756063773391"
 }
 ]
