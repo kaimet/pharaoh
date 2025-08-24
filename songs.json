@@ -2539,7 +2539,7 @@
 },
 {
   "title": "Touchy",
-  "artist": "Bright Light Bright Light feat. Brendan MacLean",
+  "artist": "Bright Light feat. Brendan MacLean",
   "chartPath": "songs/Touchy.ssc",
   "audioPath": "songs/Touchy.ogg",
   "key": "1755880743692"
@@ -2675,7 +2675,7 @@
   "key": "1755895326823"
 },
 {
-  "pack": "dimocracy",
+  "pack": "dimocracy 1-2",
   "author": ""
 },
 {
@@ -2824,5 +2824,208 @@
   "chartPath": "songs/pompoko.ssc",
   "audioPath": "songs/pompoko.ogg",
   "key": "1755950814443"
+},
+{
+  "title": "AM to PM",
+  "artist": "Christina Milian",
+  "chartPath": "songs/AM_to_PM.ssc",
+  "audioPath": "songs/AM to PM.ogg",
+  "key": "1755956374431"
+},
+{
+  "title": "Astronomical Optical Interferometry",
+  "artist": "poplavor & Zekk",
+  "chartPath": "songs/Astronomical_Optical_Interferometry.ssc",
+  "audioPath": "songs/Astronomical Optical Interferometry.ogg",
+  "key": "1755956805473"
+},
+{
+  "title": "BENJAMIN",
+  "artist": "MARON (IOSYS)",
+  "chartPath": "songs/BENJAMIN_-_MARON_IOSYS.ssc",
+  "audioPath": "songs/BENJAMIN - MARON (IOSYS).ogg",
+  "key": "1755956951989"
+},
+{
+  "title": "Bi-Zon Zon Zombi",
+  "artist": "MC Natsack",
+  "chartPath": "songs/Bi-Zon_Zon_Zombi.ssc",
+  "audioPath": "songs/Bi-Zon Zon Zombi.ogg",
+  "key": "1755957089599"
+},
+{
+  "title": "Bloody Tears",
+  "artist": "Kenichi Matsubara",
+  "chartPath": "songs/Bloody Tears.ssc",
+  "audioPath": "songs/Bloody_Tears.ogg",
+  "key": "1755957275290"
+},
+{
+  "title": "Bounce Trippy",
+  "artist": "Dustvoxx",
+  "chartPath": "songs/Bounce_Trippy.ssc",
+  "audioPath": "songs/Bounce Trippy.ogg",
+  "key": "1755957578887"
+},
+{
+  "title": "Bunny House",
+  "artist": "lapix",
+  "chartPath": "songs/bunny_house_cut.sm",
+  "audioPath": "songs/bunny_house_cut.ogg",
+  "key": "1755957722237"
+},
+{
+  "title": "Chikuwa parfait da yo ☆ CKP",
+  "artist": "Hinata Mi Bitter Sweets ♪",
+  "chartPath": "songs/CKP.ssc",
+  "audioPath": "songs/CKP.ogg",
+  "key": "1755957974259"
+},
+{
+  "title": "cockpit",
+  "artist": "Jimmy Weckl",
+  "chartPath": "songs/26_-_cockpit_Jimmy_Weckl.sm",
+  "audioPath": "songs/26 - cockpit (Jimmy Weckl).ogg",
+  "key": "1755958127661"
+},
+{
+  "title": "Do It!",
+  "artist": "House Rulez",
+  "chartPath": "songs/13._House_Rulez_-_Do_It.ssc",
+  "audioPath": "songs/13. House Rulez - Do It!.ogg",
+  "key": "1755958253585"
+},
+{
+  "title": "Electric Injury",
+  "artist": "siqlo",
+  "chartPath": "songs/Electric Injury.ssc",
+  "audioPath": "songs/Electric Injury.ogg",
+  "key": "1755958405875"
+},
+{
+  "title": "Energetic Engine ~ Excited Existence",
+  "artist": "wrsw as \"Sound Wave\"",
+  "chartPath": "songs/EEEE.ssc",
+  "audioPath": "songs/EEEE.ogg",
+  "key": "1755959832142"
+},
+{
+  "title": "Gemini in Clockland",
+  "artist": "Chroma",
+  "chartPath": "songs/Gemini in Clockland.ssc",
+  "audioPath": "songs/Gemini in Clockland.ogg",
+  "key": "1755960670695"
+},
+{
+  "title": "Ghetto Funk",
+  "artist": "Matroda",
+  "chartPath": "songs/ghettofunk.ssc",
+  "audioPath": "songs/ghettofunk.ogg",
+  "key": "1755966352730"
+},
+{
+  "title": "Himawari Sunset",
+  "artist": "IOSYS × Butaotome",
+  "chartPath": "songs/Himawari sunset.ssc",
+  "audioPath": "songs/Himawari sunset.ogg",
+  "key": "1755966560143"
+},
+{
+  "title": "Oshakashama",
+  "artist": "RADWIMPS",
+  "chartPath": "songs/Oshakashama.ssc",
+  "audioPath": "songs/Oshakashama.ogg",
+  "key": "1755969650717"
+},
+{
+  "title": "Panopticon",
+  "artist": "cybermiso",
+  "chartPath": "songs/panopticon.ssc",
+  "audioPath": "songs/panopticon.ogg",
+  "key": "1755980341516"
+},
+{
+  "title": "Plash, Plop, Gurgle",
+  "artist": "Camellia",
+  "chartPath": "songs/Plash_plop_gurgle.ssc",
+  "audioPath": "songs/plash plop gurgle.ogg",
+  "key": "1755980507031"
+},
+{
+  "title": "Play It Loud",
+  "artist": "Far Too Loud",
+  "chartPath": "songs/Play_It_Loud_Broken_Robot_Mix.sm",
+  "audioPath": "songs/Play It Loud (Broken Robot Mix).ogg",
+  "key": "1755980761759"
+},
+{
+  "title": "Raspberry Railgun",
+  "artist": "OSTER Project",
+  "chartPath": "songs/Raspberry Railgun.ssc",
+  "audioPath": "songs/OSTER Project - Raspberry Railgun.ogg",
+  "key": "1755980968927"
+},
+{
+  "title": "Riot",
+  "artist": "Tanchiky",
+  "chartPath": "songs/riot.sm",
+  "audioPath": "songs/riot.ogg",
+  "key": "1755981182190"
+},
+{
+  "title": "Sairai",
+  "artist": "Shinichi Kobayashi",
+  "chartPath": "songs/sairai.ssc",
+  "audioPath": "songs/sairai.ogg",
+  "key": "1755981371967"
+},
+{
+  "title": "Six String Proof",
+  "artist": "Yvya x Mutsuhiko Izumi",
+  "chartPath": "songs/ssp.sm",
+  "audioPath": "songs/ssp.ogg",
+  "key": "1755981647192"
+},
+{
+  "title": "Spicy Trap-House Drums",
+  "artist": "Eliminate & Modestep",
+  "chartPath": "songs/Spicy_Trap_House_Drums.ssc",
+  "audioPath": "songs/Spicy Trap House Drums.ogg",
+  "key": "1755981861208"
+},
+{
+  "title": "Take Me To Pleasure Island",
+  "artist": "Shirobon",
+  "chartPath": "songs/Take_Me_To_Pleasure_Island.ssc",
+  "audioPath": "songs/Take Me To Pleasure Island.ogg",
+  "key": "1755982543677"
+},
+{
+  "title": "Take me to the Future",
+  "artist": "Haamoja",
+  "chartPath": "songs/Take_me_to_the_Future.ssc",
+  "audioPath": "songs/Take_me_to_the_Future.ogg",
+  "key": "1755982681843"
+},
+{
+  "title": "The 90's Decision",
+  "artist": "MYUKKE.",
+  "chartPath": "songs/the_90s_decision.ssc",
+  "audioPath": "songs/the 90s decision.ogg",
+  "key": "1755982848292"
+},
+{
+  "title": "This Night",
+  "artist": "yaseta",
+  "chartPath": "songs/this night.sm",
+  "audioPath": "songs/this night.ogg",
+  "key": "1755983294424"
+},
+{
+  "title": "Utopia of Oz",
+  "artist": "sasakure.UK x OSTER project",
+  "chartPath": "songs/Utopia of Oz.ssc",
+  "audioPath": "songs/Utopia of Oz.ogg",
+  "key": "1755983436470"
 }
 ]
