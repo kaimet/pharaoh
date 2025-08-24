@@ -3174,5 +3174,33 @@
   "chartPath": "songs/Pumpin Jumpin.ssc",
   "audioPath": "songs/Pumpin Jumpin.ogg",
   "key": "1756063773391"
+},
+{
+  "title": "space dust something something",
+  "artist": "Shirobon",
+  "chartPath": "songs/space dust something something.ssc",
+  "audioPath": "songs/space dust something something.ogg",
+  "key": "1756065729278"
+},
+{
+  "title": "sparky spark",
+  "artist": "kamome sano",
+  "chartPath": "songs/sparky.sm",
+  "audioPath": "songs/sparky.ogg",
+  "key": "1756065941994"
+},
+{
+  "title": "Tir na n'Og",
+  "artist": "WORLD SEQUENCE",
+  "chartPath": "songs/Tir na n'Og.ssc",
+  "audioPath": "songs/Tir na n'Og.ogg",
+  "key": "1756066184092"
+},
+{
+  "title": "Transport",
+  "artist": "Sota Fujimori",
+  "chartPath": "songs/transport.sm",
+  "audioPath": "songs/transport.ogg",
+  "key": "1756066281996"
 }
 ]
