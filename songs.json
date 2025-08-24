@@ -2675,7 +2675,7 @@
   "key": "1755895326823"
 },
 {
-  "pack": "dimocracy 1-2",
+  "pack": "dimocracy 1-3",
   "author": ""
 },
 {
@@ -3027,5 +3027,96 @@
   "chartPath": "songs/Utopia of Oz.ssc",
   "audioPath": "songs/Utopia of Oz.ogg",
   "key": "1755983436470"
+},
+{
+  "title": "1516",
+  "artist": "saaa",
+  "chartPath": "songs/dimocracy-3/1516.ssc",
+  "audioPath": "songs/dimocracy-3/1516.ogg",
+  "key": "1756039583004"
+},
+{
+  "title": "AI Chill",
+  "artist": "Aichimu",
+  "chartPath": "songs/dimocracy-3/ai chill.ssc",
+  "audioPath": "songs/dimocracy-3/ai chill.ogg",
+  "key": "1756040036078"
+},
+{
+  "title": "Amazing Mirage",
+  "artist": "lapix",
+  "chartPath": "songs/dimocracy-3/Amazing Mirage.sm",
+  "audioPath": "songs/dimocracy-3/Amazing Mirage.ogg",
+  "key": "1756040393524"
+},
+{
+  "title": "AYAKASHI",
+  "artist": "Hommarju",
+  "chartPath": "songs/dimocracy-3/ayakashi.sm",
+  "audioPath": "songs/dimocracy-3/ayakashi.ogg",
+  "key": "1756040812839"
+},
+{
+  "title": "Brother Goes Away",
+  "artist": "Hideki Naganuma",
+  "chartPath": "songs/dimocracy-3/Brother Goes Away.ssc",
+  "audioPath": "songs/dimocracy-3/Brother Goes Away.ogg",
+  "key": "1756043292393"
+},
+{
+  "title": "Feel It",
+  "artist": "IAHN",
+  "chartPath": "songs/dimocracy-3/Feel It.sm",
+  "audioPath": "songs/dimocracy-3/Feel It.ogg",
+  "key": "1756043653804"
+},
+{
+  "title": "Hellfire",
+  "artist": "Daisuke Ishiwatari",
+  "chartPath": "songs/dimocracy-3/hellfire.sm",
+  "audioPath": "songs/dimocracy-3/hellfire.ogg",
+  "key": "1756044110315"
+},
+{
+  "title": "HyperTwist",
+  "artist": "TANUKI",
+  "chartPath": "songs/dimocracy-3/HyperTwist.ssc",
+  "audioPath": "songs/dimocracy-3/HyperTwist.ogg",
+  "key": "1756047161160"
+},
+{
+  "title": "I Love Love You",
+  "artist": "Guitar Vader remixed by Hideki Naganuma",
+  "chartPath": "songs/dimocracy-3/I Love Love You (Love Love Super Dimension Mix).sm",
+  "audioPath": "songs/dimocracy-3/I Love Love You (Love Love Super Dimension Mix).ogg",
+  "key": "1756047318996"
+},
+{
+  "title": "In My Head",
+  "artist": "Virtual Riot feat. PRXZM",
+  "chartPath": "songs/dimocracy-3/In My Head.sm",
+  "audioPath": "songs/dimocracy-3/In My Head.ogg",
+  "key": "1756047506526"
+},
+{
+  "title": "In the past",
+  "artist": "PSYQUI",
+  "chartPath": "songs/dimocracy-3/In the past.ssc",
+  "audioPath": "songs/dimocracy-3/In the past.ogg",
+  "key": "1756047722698"
+},
+{
+  "title": "Intersection",
+  "artist": "AZKi (prod. lapix)",
+  "chartPath": "songs/dimocracy-3/Intersection.sm",
+  "audioPath": "songs/dimocracy-3/Intersection.ogg",
+  "key": "1756047869038"
+},
+{
+  "title": "K-Pop Culture",
+  "artist": "TAK",
+  "chartPath": "songs/dimocracy-3/K-Pop Culture.ssc",
+  "audioPath": "songs/dimocracy-3/K-Pop Culture.ogg",
+  "key": "1756051163558"
 }
 ]
