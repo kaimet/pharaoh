@@ -18,6 +18,8 @@ const CHART_CONSTANTS = {
     }
 };
 
+const nextColumnPreview = false;
+
 /**
  * Calculates the dynamic layout of the chart based on note density and screen size.
  * This is a "pure" function: its output depends only on its inputs, making it predictable.
@@ -44,7 +46,10 @@ function calculateChartLayout(measures, availableWidth, topOffset) {
 
     // spacing between measures (previous code had hardcoded 2px)
     const MEASURE_SPACING = 0;
-
+		
+		// if density is too high we are taking all avalable screen space
+		if (totalNoteEvents / finalColumnCount > TARGET_DENSITY * 2) topOffset = 0;
+		
     const targetHeight = window.innerHeight - topOffset - (BORDER * 2);
     const measureHeight = Math.max(20, Math.floor((targetHeight / measuresPerColumn) - MEASURE_SPACING));
 
@@ -435,7 +440,7 @@ function drawChart() {
         drawBpmChangesForMeasure(ctx, measureIndex, measureYBase, colXBase, colIndex, layout);
 				
         drawNotesForMeasure(ctx, measure, measureYBase, colXBase, colIndex, activeHolds, layout);
-				drawNextColumnHeadPreview(ctx, measureIndex, colXBase, measureYBase, layout);
+				if (nextColumnPreview) drawNextColumnHeadPreview(ctx, measureIndex, colXBase, measureYBase, layout);
     });
 }
 

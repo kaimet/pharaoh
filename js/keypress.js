@@ -215,7 +215,8 @@ function handlePlayStopShortcuts(e) {
         playSong(lastStartBeat);
         return true;
     }
-		// --- quick-start digit keys (Digit1..Digit0) ---
+		
+		// --- quick-start digit keys (Digit1..Digit9) ---
     const idx = digitCodeToIndex(e.code);
     if (idx !== -1) {
         if (isLoadingSong) return;
@@ -274,7 +275,7 @@ function handleKeyPress(e) {
     }
 
     // Speed control hotkeys
-    if (['NumpadSubtract', 'NumpadAdd', 'NumpadMultiply', 'Minus', 'Equal'].includes(e.code)) {
+    if (['NumpadSubtract', 'NumpadAdd', 'NumpadMultiply', 'Minus', 'Equal', 'Digit0'].includes(e.code)) {
         handleSpeedControl(e);
         return;
     }
@@ -290,10 +291,10 @@ function handleKeyPress(e) {
 }
 
 /**
- * Convert 'Digit1'..'Digit0' to quickStarts index 0..9
+ * Convert 'Digit1'..'Digit9' to quickStarts index 0..8
  */
 function digitCodeToIndex(code) {
-    if (code === 'Digit0') return 9;
+    if (typeof code !== 'string' || !code.startsWith('Digit')) return -1;
     const n = parseInt(code.slice(5), 10);
     return (!isNaN(n) && n >= 1 && n <= 9) ? (n - 1) : -1;
 }
@@ -301,14 +302,16 @@ function digitCodeToIndex(code) {
 /**
  * Register/adjust quick-starts, keep them sorted (earliest -> key 1).
  * Show toast ONLY when quickStarts actually change.
+ * Uses 9 slots (keys 1..9).
  */
 function registerQuickStart(beat, thresholdBeats = 8) {
   if (!beat || beat <= 0) return; // only non-beginning starts
 
   const EPS = 1e-6;
+  const MAX_SLOTS = 9;
 
-  // helper to deep-copy current slots (we keep exactly 10 entries)
-  const oldSlots = (typeof quickStarts !== 'undefined' ? quickStarts.slice(0, 10) : new Array(10).fill(null));
+  // copy current slots (ensure length MAX_SLOTS)
+  const oldSlots = (typeof quickStarts !== 'undefined' ? quickStarts.slice(0, MAX_SLOTS) : new Array(MAX_SLOTS).fill(null));
 
   // Work on a temporary 'existing' array of non-null beats
   const existing = oldSlots.filter(b => b !== null);
@@ -332,16 +335,16 @@ function registerQuickStart(beat, thresholdBeats = 8) {
     existing.push(beat);
   }
 
-  // sort ascending and keep earliest 10
+  // sort ascending and keep earliest MAX_SLOTS
   existing.sort((a, b) => a - b);
-  const kept = existing.slice(0, 10);
+  const kept = existing.slice(0, MAX_SLOTS);
 
   // build the newSlots (earliest -> index 0)
-  const newSlots = kept.concat(Array(Math.max(0, 10 - kept.length)).fill(null));
+  const newSlots = kept.concat(Array(Math.max(0, MAX_SLOTS - kept.length)).fill(null));
 
   // compare oldSlots vs newSlots (consider EPS)
   const slotsChanged = (function (a, b) {
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < MAX_SLOTS; i++) {
       const ai = a[i];
       const bi = b[i];
       const aIsNull = (ai === null || ai === undefined);
@@ -359,25 +362,29 @@ function registerQuickStart(beat, thresholdBeats = 8) {
   // If nothing changed, do not show toast or update UI
   if (!slotsChanged) return;
 
-  // find which key index the beat ended up at
+  // find which key index this beat ended up at
   let idx = quickStarts.findIndex(b => b !== null && Math.abs(b - beat) <= EPS);
   if (idx === -1) {
     // if not found by EPS (float mismatch), try approximate match
     idx = quickStarts.findIndex(b => b !== null && Math.abs(b - beat) < 1e-2);
   }
-  const keyLabel = (idx === 9) ? '0' : (idx === -1 ? '—' : String(idx + 1));
+  const keyLabel = (idx === -1 ? '—' : String(idx + 1)); // now keys are 1..9
 
   const wasAdjustment = (closestIdx !== -1);
   const msg = wasAdjustment
     ? `Start position updated → key ${keyLabel}`
     : `Start position assigned to key ${keyLabel}`;
 
-  // show toast
-  if (typeof showSongToast === 'function' || typeof window.showSongToast === 'function') {
-    (window.showSongToast || showSongToast)(msg, { tag: 'quickStart', duration: 1500 });
+  // show toast 
+  if (typeof window.showSongToast === 'function') {
+    window.showSongToast(msg, { tag: 'quickStart', duration: 1400 });
+  } else if (typeof showSongToast === 'function') {
+    showSongToast(msg, { tag: 'quickStart', duration: 1400 });
   } else {
-    console.log(msg);
+    //console.log(msg);
   }
+
+  if (typeof updateQuickStartsDisplay === 'function') updateQuickStartsDisplay();
 }
 
 

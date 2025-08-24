@@ -42,16 +42,20 @@
  *   (like a click handler) must pre-adjust the beat to account for the offset this
  *   function will add. See `onCanvasClick()` for the required implementation.
  */
-function playSong(startFromBeat = 0) {
+async function playSong(startFromBeat = 0) {
     if (allCharts.length === 0) return;
     if (audioContext.state === 'suspended') {
-        audioContext.resume();
+        await audioContext.resume();
     }
+		// schedule a little into the future to avoid races
+		const SLACK = 0.02; // 20 ms
+		const scheduledStart = audioContext.currentTime + SLACK;
+		
     stopSong();
 		document.getElementById('songSelector').blur();
 		document.getElementById('chartSelector').blur();
 		document.getElementById('audioOffset').blur();
-    document.getElementById('judgementDisplay').scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('chartCanvas').scrollIntoView({ behavior: 'smooth' });
 		userWantToPlay = false;
 		
 		// The pre-compensation logic in click handlers can produce a negative beat
@@ -92,7 +96,7 @@ function playSong(startFromBeat = 0) {
     // `startTime` is a reference point in the past that allows our `gameLoop`
     // to calculate `curSongTime` correctly using the simple formula:
     // `curSongTime = (audioContext.currentTime - startTime) * playbackRate`.
-    startTime = audioContext.currentTime - (initialGameClockTime / playbackRate);
+    startTime = scheduledStart - (initialGameClockTime / playbackRate);
     
     // State should be reset based on the pure logical time.
     resetJudgingState(logicalTimeOffset);
@@ -119,7 +123,7 @@ function playSong(startFromBeat = 0) {
 				// The first parameter is `when` (in absolute real-world time)
 				// (0 is being shortcut of `now`), 
         // The second is `where` (offset within the audio buffer).
-        songSource.start(0, physicalAudioOffset);
+        songSource.start(scheduledStart, physicalAudioOffset);
     }
     
     isPlaying = true;
