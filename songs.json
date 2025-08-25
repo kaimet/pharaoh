@@ -1,3206 +1,3399 @@
 [
 {
-  "pack": "In The Groove (all parts)",
-  "author": ""
+	"pack": "In The Groove",
+	"author": ""
 },
 {
-  "title": "Anubis",
-  "artist": "SlipGate vs. Banzai",
-  "chartPath": "songs/Anubis (Necro-Industrial Mix).sm",
-  "audioPath": "songs/Anubis (Necro-Industrial Mix).ogg"
+	"title": "Anubis",
+	"artist": "SlipGate vs. Banzai",
+	"chartPath": "songs/In-The-Groove/Anubis (Necro-Industrial Mix).sm",
+	"audioPath": "songs/In-The-Groove/Anubis (Necro-Industrial Mix).ogg"
 },
 {
-  "title": "Bend Your Mind",
-  "artist": "Reflection Theory",
-  "chartPath": "songs/Bend Your Mind.ssc",
-  "audioPath": "songs/Bend Your Mind.ogg"
+	"title": "Bend Your Mind",
+	"artist": "Reflection Theory",
+	"chartPath": "songs/In-The-Groove/Bend Your Mind.ssc",
+	"audioPath": "songs/In-The-Groove/Bend Your Mind.ogg"
 },
 {
-  "title": "Bouff",
-  "artist": "Machinae Supremacy",
-  "chartPath": "songs/Bouff.sm",
-  "audioPath": "songs/Bouff(ITG mix)(BPM 200.099).ogg"
+	"title": "Bouff",
+	"artist": "Machinae Supremacy",
+	"chartPath": "songs/In-The-Groove/Bouff.sm",
+	"audioPath": "songs/In-The-Groove/Bouff(ITG mix)(BPM 200.099).ogg"
 },
 {
-  "title": "Bubble Dancer",
-  "artist": "Crispy",
-  "chartPath": "songs/Bubble Dancer.sm",
-  "audioPath": "songs/Bubble Dancer.ogg"
+	"title": "Bubble Dancer",
+	"artist": "Crispy",
+	"chartPath": "songs/In-The-Groove/Bubble Dancer.sm",
+	"audioPath": "songs/In-The-Groove/Bubble Dancer.ogg"
 },
 {
-  "title": "Charlene",
-  "artist": "Missing Heart",
-  "chartPath": "songs/Charlene.sm",
-  "audioPath": "songs/Missing Heart - Charlene.ogg"
+	"title": "Charlene",
+	"artist": "Missing Heart",
+	"chartPath": "songs/In-The-Groove/Charlene.sm",
+	"audioPath": "songs/In-The-Groove/Missing Heart - Charlene.ogg"
 },
 {
-  "title": "Do U Love Me",
-  "artist": "DJ Doo",
-  "chartPath": "songs/douloveme.sm",
-  "audioPath": "songs/douloveme.ogg"
+	"title": "Do U Love Me",
+	"artist": "DJ Doo",
+	"chartPath": "songs/In-The-Groove/douloveme.sm",
+	"audioPath": "songs/In-The-Groove/douloveme.ogg"
 },
 {
-  "title": "Don't Promise Me",
-  "artist": "Reflection Theory",
-  "chartPath": "songs/dontpromiseme.sm",
-  "audioPath": "songs/Reflection Theory -DPM.ogg"
+	"title": "Don't Promise Me",
+	"artist": "Reflection Theory",
+	"chartPath": "songs/In-The-Groove/dontpromiseme.sm",
+	"audioPath": "songs/In-The-Groove/Reflection Theory -DPM.ogg"
 },
 {
-  "title": "Don't Promise Me 2",
-  "artist": "Reflection Theory",
-  "chartPath": "songs/Happiness Comes.sm",
-  "audioPath": "songs/Reflection Theory - DPM (Happiness Comes).ogg",
-  "key": "1754831107822"
+	"title": "Don't Promise Me 2",
+	"artist": "Reflection Theory",
+	"chartPath": "songs/In-The-Groove/Happiness Comes.sm",
+	"audioPath": "songs/In-The-Groove/Reflection Theory - DPM (Happiness Comes).ogg",
+	"key": "1754831107822"
 },
 {
-  "title": "Drifting Away",
-  "artist": "Filo Bedo",
-  "chartPath": "songs/Drifting Away.ssc",
-  "audioPath": "songs/Filo Bedo - Drifting Away.ogg"
+	"title": "Drifting Away",
+	"artist": "Filo Bedo",
+	"chartPath": "songs/In-The-Groove/Drifting Away.ssc",
+	"audioPath": "songs/In-The-Groove/Filo Bedo - Drifting Away.ogg"
 },
 {
-  "title": "Hand of Time",
-  "artist": "Reflection Theory",
-  "chartPath": "songs/Handoftime.sm",
-  "audioPath": "songs/Reflection Theory - Hand of time.ogg"
+	"title": "Hand of Time",
+	"artist": "Reflection Theory",
+	"chartPath": "songs/In-The-Groove/Handoftime.sm",
+	"audioPath": "songs/In-The-Groove/Reflection Theory - Hand of time.ogg"
 },
 {
-  "title": "Hip Hop Jam",
-  "artist": "Indiggo",
-  "chartPath": "songs/HipHopJam.sm",
-  "audioPath": "songs/Indiggo - HipHopjam.ogg"
+	"title": "Hip Hop Jam",
+	"artist": "Indiggo",
+	"chartPath": "songs/In-The-Groove/HipHopJam.sm",
+	"audioPath": "songs/In-The-Groove/Indiggo - HipHopjam.ogg"
 },
 {
-  "title": "Hybrid",
-  "artist": "Machinae Supremacy",
-  "chartPath": "songs/Hybrid.sm",
-  "audioPath": "songs/Hybrid(ITGmix)185.ogg"
+	"title": "Hybrid",
+	"artist": "Machinae Supremacy",
+	"chartPath": "songs/In-The-Groove/Hybrid.sm",
+	"audioPath": "songs/In-The-Groove/Hybrid(ITGmix)185.ogg"
 },
 {
-  "title": "Kiss Me Red",
-  "artist": "Crispy",
-  "chartPath": "songs/Kiss me red.sm",
-  "audioPath": "songs/Kiss Me Red.ogg"
+	"title": "Kiss Me Red",
+	"artist": "Crispy",
+	"chartPath": "songs/In-The-Groove/Kiss me red.sm",
+	"audioPath": "songs/In-The-Groove/Kiss Me Red.ogg"
 },
 {
-  "title": "Lemmings on the Run",
-  "artist": "E-Rotic",
-  "chartPath": "songs/Lemmings on the Run.ssc",
-  "audioPath": "songs/Lemmings on the Run.ogg"
+	"title": "Lemmings on the Run",
+	"artist": "E-Rotic",
+	"chartPath": "songs/In-The-Groove/Lemmings on the Run.ssc",
+	"audioPath": "songs/In-The-Groove/Lemmings on the Run.ogg"
 },
 {
-  "title": "No 1 Nation",
-  "artist": "Anet",
-  "chartPath": "songs/No 1 Nation.sm",
-  "audioPath": "songs/Anet. -  No.1 Nation.ogg"
+	"title": "No 1 Nation",
+	"artist": "Anet",
+	"chartPath": "songs/In-The-Groove/No 1 Nation.sm",
+	"audioPath": "songs/In-The-Groove/Anet. -  No.1 Nation.ogg"
 },
 {
-  "title": "Normal",
-  "artist": "Anet",
-  "chartPath": "songs/Normal.sm",
-  "audioPath": "songs/Anet - Normal.ogg"
+	"title": "Normal",
+	"artist": "Anet",
+	"chartPath": "songs/In-The-Groove/Normal.sm",
+	"audioPath": "songs/In-The-Groove/Anet - Normal.ogg"
 },
 {
-  "title": "Oasis",
-  "artist": "KaW",
-  "chartPath": "songs/Oasis.sm",
-  "audioPath": "songs/KaW - Oasis.ogg"
+	"title": "Oasis",
+	"artist": "KaW",
+	"chartPath": "songs/In-The-Groove/Oasis.sm",
+	"audioPath": "songs/In-The-Groove/KaW - Oasis.ogg"
 },
 {
-  "title": "ROM-eo & Juli8",
-  "artist": "Nina",
-  "chartPath": "songs/romeojuli8.sm",
-  "audioPath": "songs/Nina - Romeojuli8.ogg"
+	"title": "ROM-eo & Juli8",
+	"artist": "Nina",
+	"chartPath": "songs/In-The-Groove/romeojuli8.sm",
+	"audioPath": "songs/In-The-Groove/Nina - Romeojuli8.ogg"
 },
 {
-  "title": "Solina",
-  "artist": "Evolution",
-  "chartPath": "songs/Solina.sm",
-  "audioPath": "songs/Evolution - Solina.ogg"
+	"title": "Solina",
+	"artist": "Evolution",
+	"chartPath": "songs/In-The-Groove/Solina.sm",
+	"audioPath": "songs/In-The-Groove/Evolution - Solina.ogg"
 },
 {
-  "title": "Tension",
-  "artist": "Inspector K",
-  "chartPath": "songs/Tension.sm",
-  "audioPath": "songs/Inspector K - Tension.ogg"
+	"title": "Tension",
+	"artist": "Inspector K",
+	"chartPath": "songs/In-The-Groove/Tension.sm",
+	"audioPath": "songs/In-The-Groove/Inspector K - Tension.ogg"
 },
 {
-  "title": "Tough Enough",
-  "artist": "Vanilla Ninja",
-  "chartPath": "songs/Tough Enough.sm",
-  "audioPath": "songs/Vanilla Ninja - ToughEnough.ogg"
+	"title": "Tough Enough",
+	"artist": "Vanilla Ninja",
+	"chartPath": "songs/In-The-Groove/Tough Enough.sm",
+	"audioPath": "songs/In-The-Groove/Vanilla Ninja - ToughEnough.ogg"
 },
 {
-  "title": "Zodiac",
-  "artist": "Banzai",
-  "chartPath": "songs/Zodiac.ssc",
-  "audioPath": "songs/Banzai - Zodiac.ogg"
+	"title": "Zodiac",
+	"artist": "Banzai",
+	"chartPath": "songs/In-The-Groove/Zodiac.ssc",
+	"audioPath": "songs/In-The-Groove/Banzai - Zodiac.ogg"
 },
 {
-  "title": "Amore",
-  "artist": "Uniq",
-  "chartPath": "songs/Amore.sm",
-  "audioPath": "songs/Amore.ogg"
+	"title": "Amore",
+	"artist": "Uniq",
+	"chartPath": "songs/In-The-Groove/Amore.sm",
+	"audioPath": "songs/In-The-Groove/Amore.ogg"
 },
 {
-  "title": "Birdie",
-  "artist": "Doolittle",
-  "chartPath": "songs/Birdie.sm",
-  "audioPath": "songs/Birdie.ogg"
+	"title": "Birdie",
+	"artist": "Doolittle",
+	"chartPath": "songs/In-The-Groove/Birdie.sm",
+	"audioPath": "songs/In-The-Groove/Birdie.ogg"
 },
 {
-  "title": "Bumble Bee",
-  "artist": "Bambee",
-  "chartPath": "songs/Bumble Bee.sm",
-  "audioPath": "songs/Bumble Bee.ogg"
+	"title": "Bumble Bee",
+	"artist": "Bambee",
+	"chartPath": "songs/In-The-Groove/Bumble Bee.sm",
+	"audioPath": "songs/In-The-Groove/Bumble Bee.ogg"
 },
 {
-  "title": "Cryosleep",
-  "artist": "Machinae Supremacy",
-  "chartPath": "songs/Cryosleep.sm",
-  "audioPath": "songs/Cryosleep.ogg"
+	"title": "Cryosleep",
+	"artist": "Machinae Supremacy",
+	"chartPath": "songs/In-The-Groove/Cryosleep.sm",
+	"audioPath": "songs/In-The-Groove/Cryosleep.ogg"
 },
 {
-  "title": "D-Code",
-  "artist": "Dust Devil",
-  "chartPath": "songs/D-Code.sm",
-  "audioPath": "songs/D-Code.ogg"
+	"title": "D-Code",
+	"artist": "Dust Devil",
+	"chartPath": "songs/In-The-Groove/D-Code.sm",
+	"audioPath": "songs/In-The-Groove/D-Code.ogg"
 },
 {
-  "title": "Destiny",
-  "artist": "☺",
-  "chartPath": "songs/Destiny.sm",
-  "audioPath": "songs/Destiny.ogg"
+	"title": "Destiny",
+	"artist": "☺",
+	"chartPath": "songs/In-The-Groove/Destiny.sm",
+	"audioPath": "songs/In-The-Groove/Destiny.ogg"
 },
 {
-  "title": "Determinator",
-  "artist": "Dust Devil",
-  "chartPath": "songs/Determinator.sm",
-  "audioPath": "songs/Determinator.ogg"
+	"title": "Determinator",
+	"artist": "Dust Devil",
+	"chartPath": "songs/In-The-Groove/Determinator.sm",
+	"audioPath": "songs/In-The-Groove/Determinator.ogg"
 },
 {
-  "title": "Energizer",
-  "artist": "ZiGZaG",
-  "chartPath": "songs/Energizer.ssc",
-  "audioPath": "songs/Energizer.ogg"
+	"title": "Energizer",
+	"artist": "ZiGZaG",
+	"chartPath": "songs/In-The-Groove/Energizer.ssc",
+	"audioPath": "songs/In-The-Groove/Energizer.ogg"
 },
 {
-  "title": "Fleadh Uncut",
-  "artist": "Parker/Stiles",
-  "chartPath": "songs/Fleadh Uncut.ssc",
-  "audioPath": "songs/Fleadh Uncut.ogg"
+	"title": "Fleadh Uncut",
+	"artist": "Parker/Stiles",
+	"chartPath": "songs/In-The-Groove/Fleadh Uncut.ssc",
+	"audioPath": "songs/In-The-Groove/Fleadh Uncut.ogg"
 },
 {
-  "title": "Get Happy",
-  "artist": "Boom Boom Room",
-  "chartPath": "songs/Get Happy.sm",
-  "audioPath": "songs/Get Happy.ogg"
+	"title": "Get Happy",
+	"artist": "Boom Boom Room",
+	"chartPath": "songs/In-The-Groove/Get Happy.sm",
+	"audioPath": "songs/In-The-Groove/Get Happy.ogg"
 },
 {
-  "title": "Habanera 1",
-  "artist": "Boom Boom Room",
-  "chartPath": "songs/Habanera 1.sm",
-  "audioPath": "songs/Habanera 1.ogg"
+	"title": "Habanera 1",
+	"artist": "Boom Boom Room",
+	"chartPath": "songs/In-The-Groove/Habanera 1.sm",
+	"audioPath": "songs/In-The-Groove/Habanera 1.ogg"
 },
 {
-  "title": "High",
-  "artist": "Digital Explosion",
-  "chartPath": "songs/High.sm",
-  "audioPath": "songs/High.ogg"
+	"title": "High",
+	"artist": "Digital Explosion",
+	"chartPath": "songs/In-The-Groove/High.sm",
+	"audioPath": "songs/In-The-Groove/High.ogg"
 },
 {
-  "title": "Hispanic Panic",
-  "artist": "Chucho Merchan",
-  "chartPath": "songs/Hispanic Panic.sm",
-  "audioPath": "songs/hispanic panic.ogg"
+	"title": "Hispanic Panic",
+	"artist": "Chucho Merchan",
+	"chartPath": "songs/In-The-Groove/Hispanic Panic.sm",
+	"audioPath": "songs/In-The-Groove/hispanic panic.ogg"
 },
 {
-  "title": "Holy Guacamole",
-  "artist": "Chucho Merchan",
-  "chartPath": "songs/Holy Guacamole.sm",
-  "audioPath": "songs/Holy Guacamole.ogg"
+	"title": "Holy Guacamole",
+	"artist": "Chucho Merchan",
+	"chartPath": "songs/In-The-Groove/Holy Guacamole.sm",
+	"audioPath": "songs/In-The-Groove/Holy Guacamole.ogg"
 },
 {
-  "title": "Hustle Beach",
-  "artist": "Papa J",
-  "chartPath": "songs/Hustle Beach.sm",
-  "audioPath": "songs/Hustle Beach.ogg"
+	"title": "Hustle Beach",
+	"artist": "Papa J",
+	"chartPath": "songs/In-The-Groove/Hustle Beach.sm",
+	"audioPath": "songs/In-The-Groove/Hustle Beach.ogg"
 },
 {
-  "title": "Incognito",
-  "artist": "Inspector K",
-  "chartPath": "songs/Incognito.sm",
-  "audioPath": "songs/Incognito.ogg"
+	"title": "Incognito",
+	"artist": "Inspector K",
+	"chartPath": "songs/In-The-Groove/Incognito.sm",
+	"audioPath": "songs/In-The-Groove/Incognito.ogg"
 },
 {
-  "title": "Ize Pie",
-  "artist": "Headtwist & Pump",
-  "chartPath": "songs/Ize Pie.sm",
-  "audioPath": "songs/Ize Pie.ogg"
+	"title": "Ize Pie",
+	"artist": "Headtwist & Pump",
+	"chartPath": "songs/In-The-Groove/Ize Pie.sm",
+	"audioPath": "songs/In-The-Groove/Ize Pie.ogg"
 },
 {
-  "title": "Liquid Moon",
-  "artist": "Inspector K",
-  "chartPath": "songs/Liquid Moon.sm",
-  "audioPath": "songs/Liquid Moon.ogg"
+	"title": "Liquid Moon",
+	"artist": "Inspector K",
+	"chartPath": "songs/In-The-Groove/Liquid Moon.sm",
+	"audioPath": "songs/In-The-Groove/Liquid Moon.ogg"
 },
 {
-  "title": "Little Kitty Mine",
-  "artist": "Ni Ni",
-  "chartPath": "songs/Little Kitty Mine.sm",
-  "audioPath": "songs/Little Kitty Mine.ogg"
+	"title": "Little Kitty Mine",
+	"artist": "Ni Ni",
+	"chartPath": "songs/In-The-Groove/Little Kitty Mine.sm",
+	"audioPath": "songs/In-The-Groove/Little Kitty Mine.ogg"
 },
 {
-  "title": "Monolith",
-  "artist": "Affinity",
-  "chartPath": "songs/Monolith.sm",
-  "audioPath": "songs/Monolith.ogg"
+	"title": "Monolith",
+	"artist": "Affinity",
+	"chartPath": "songs/In-The-Groove/Monolith.sm",
+	"audioPath": "songs/In-The-Groove/Monolith.ogg"
 },
 {
-  "title": "My Life Is So Crazy",
-  "artist": "DJ Zombie",
-  "chartPath": "songs/My Life Is So Crazy.sm",
-  "audioPath": "songs/My Life Is So Crazy.ogg"
+	"title": "My Life Is So Crazy",
+	"artist": "DJ Zombie",
+	"chartPath": "songs/In-The-Groove/My Life Is So Crazy.sm",
+	"audioPath": "songs/In-The-Groove/My Life Is So Crazy.ogg"
 },
 {
-  "title": "No Princess",
-  "artist": "Lynn",
-  "chartPath": "songs/No Princess.sm",
-  "audioPath": "songs/No Princess.ogg"
+	"title": "No Princess",
+	"artist": "Lynn",
+	"chartPath": "songs/In-The-Groove/No Princess.sm",
+	"audioPath": "songs/In-The-Groove/No Princess.ogg"
 },
 {
-  "title": "Pick Me Up & Tango",
-  "artist": "Nina",
-  "chartPath": "songs/Pick Me Up & Tango.sm",
-  "audioPath": "songs/Pick Me Up & Tango.ogg"
+	"title": "Pick Me Up & Tango",
+	"artist": "Nina",
+	"chartPath": "songs/In-The-Groove/Pick Me Up & Tango.sm",
+	"audioPath": "songs/In-The-Groove/Pick Me Up & Tango.ogg"
 },
 {
-  "title": "Psalm Pilot",
-  "artist": "Jason Creasey",
-  "chartPath": "songs/Psalm Pilot.sm",
-  "audioPath": "songs/Psalm Pilot.ogg"
+	"title": "Psalm Pilot",
+	"artist": "Jason Creasey",
+	"chartPath": "songs/In-The-Groove/Psalm Pilot.sm",
+	"audioPath": "songs/In-The-Groove/Psalm Pilot.ogg"
 },
 {
-  "title": "Reactor",
-  "artist": "Jason Creasey",
-  "chartPath": "songs/Reactor.sm",
-  "audioPath": "songs/Reactor.ogg"
+	"title": "Reactor",
+	"artist": "Jason Creasey",
+	"chartPath": "songs/In-The-Groove/Reactor.sm",
+	"audioPath": "songs/In-The-Groove/Reactor.ogg"
 },
 {
-  "title": "Soapy Bubble",
-  "artist": "Fragmentz",
-  "chartPath": "songs/Soapy Bubble.sm",
-  "audioPath": "songs/Soapy Bubble.ogg"
+	"title": "Soapy Bubble",
+	"artist": "Fragmentz",
+	"chartPath": "songs/In-The-Groove/Soapy Bubble.sm",
+	"audioPath": "songs/In-The-Groove/Soapy Bubble.ogg"
 },
 {
-  "title": "Spaceman",
-  "artist": "Lynn",
-  "chartPath": "songs/Spaceman.sm",
-  "audioPath": "songs/Spaceman.ogg"
+	"title": "Spaceman",
+	"artist": "Lynn",
+	"chartPath": "songs/In-The-Groove/Spaceman.sm",
+	"audioPath": "songs/In-The-Groove/Spaceman.ogg"
 },
 {
-  "title": "Spacy Crazy Girl",
-  "artist": "Ni Ni",
-  "chartPath": "songs/Spacy Crazy Girl.sm",
-  "audioPath": "songs/Spacy Crazy Girl.ogg"
+	"title": "Spacy Crazy Girl",
+	"artist": "Ni Ni",
+	"chartPath": "songs/In-The-Groove/Spacy Crazy Girl.sm",
+	"audioPath": "songs/In-The-Groove/Spacy Crazy Girl.ogg"
 },
 {
-  "title": "Spin Chicken",
-  "artist": "Freebie & The Bean",
-  "chartPath": "songs/Spin Chicken.sm",
-  "audioPath": "songs/Spin Chicken.ogg"
+	"title": "Spin Chicken",
+	"artist": "Freebie & The Bean",
+	"chartPath": "songs/In-The-Groove/Spin Chicken.sm",
+	"audioPath": "songs/In-The-Groove/Spin Chicken.ogg"
 },
 {
-  "title": "Summer in Belize",
-  "artist": "Digital Explosion",
-  "chartPath": "songs/Summer in Belize.sm",
-  "audioPath": "songs/Summer in Belize.ogg"
+	"title": "Summer in Belize",
+	"artist": "Digital Explosion",
+	"chartPath": "songs/In-The-Groove/Summer in Belize.sm",
+	"audioPath": "songs/In-The-Groove/Summer in Belize.ogg"
 },
 {
-  "title": "Sunshine",
-  "artist": "Triple J",
-  "chartPath": "songs/Sunshine.sm",
-  "audioPath": "songs/Sunshine.ogg"
+	"title": "Sunshine",
+	"artist": "Triple J",
+	"chartPath": "songs/In-The-Groove/Sunshine.sm",
+	"audioPath": "songs/In-The-Groove/Sunshine.ogg"
 },
 {
-  "title": "Sweet World",
-  "artist": "Omega Men",
-  "chartPath": "songs/Sweet World.sm",
-  "audioPath": "songs/Sweet World.ogg"
+	"title": "Sweet World",
+	"artist": "Omega Men",
+	"chartPath": "songs/In-The-Groove/Sweet World.sm",
+	"audioPath": "songs/In-The-Groove/Sweet World.ogg"
 },
 {
-  "title": "Sweet World 2",
-  "artist": "Omega Men",
-  "chartPath": "songs/Sweet World.ssc",
-  "audioPath": "songs/Sweet World.ogg",
-  "key": "1754830496306"
+	"title": "Sweet World 2",
+	"artist": "Omega Men",
+	"chartPath": "songs/In-The-Groove/Sweet World.ssc",
+	"audioPath": "songs/songs/Sweet World.ogg",
+	"key": "1754830496306"
 },
 {
-  "title": "Temple of Boom",
-  "artist": "Yanis Kamarinos",
-  "chartPath": "songs/Temple of Boom.sm",
-  "audioPath": "songs/Temple of Boom.ogg"
+	"title": "Temple of Boom",
+	"artist": "Yanis Kamarinos",
+	"chartPath": "songs/In-The-Groove/Temple of Boom.sm",
+	"audioPath": "songs/In-The-Groove/Temple of Boom.ogg"
 },
 {
-  "title": "The Message",
-  "artist": "Ni Ni",
-  "chartPath": "songs/The Message.sm",
-  "audioPath": "songs/The Message.ogg"
+	"title": "The Message",
+	"artist": "Ni Ni",
+	"chartPath": "songs/In-The-Groove/The Message.sm",
+	"audioPath": "songs/In-The-Groove/The Message.ogg"
 },
 {
-  "title": "Tribal Style",
-  "artist": "KaW",
-  "chartPath": "songs/Tribal Style.sm",
-  "audioPath": "songs/Tribal Style.ogg"
+	"title": "Tribal Style",
+	"artist": "KaW",
+	"chartPath": "songs/In-The-Groove/Tribal Style.sm",
+	"audioPath": "songs/In-The-Groove/Tribal Style.ogg"
 },
 {
-  "title": "Twilight",
-  "artist": "KaW",
-  "chartPath": "songs/Twilight.sm",
-  "audioPath": "songs/Twilight.ogg"
+	"title": "Twilight",
+	"artist": "KaW",
+	"chartPath": "songs/In-The-Groove/Twilight.sm",
+	"audioPath": "songs/In-The-Groove/Twilight.ogg"
 },
 {
-  "title": "Typical Tropical",
-  "artist": "Bambee",
-  "chartPath": "songs/Typical Tropical.sm",
-  "audioPath": "songs/Typical Tropical.ogg"
+	"title": "Typical Tropical",
+	"artist": "Bambee",
+	"chartPath": "songs/In-The-Groove/Typical Tropical.sm",
+	"audioPath": "songs/In-The-Groove/Typical Tropical.ogg"
 },
 {
-  "title": "Visible Noise",
-  "artist": "Hybrid",
-  "chartPath": "songs/Visible Noise.sm",
-  "audioPath": "songs/Visible Noise.ogg"
+	"title": "Visible Noise",
+	"artist": "Hybrid",
+	"chartPath": "songs/In-The-Groove/Visible Noise.sm",
+	"audioPath": "songs/In-The-Groove/Visible Noise.ogg"
 },
 {
-  "title": "Vorsprung Durch",
-  "artist": "Sly/Fly/Badman",
-  "chartPath": "songs/Vorsprung Durch Techno.sm",
-  "audioPath": "songs/Vorsprung Durch Techno.ogg"
+	"title": "Vorsprung Durch",
+	"artist": "Sly/Fly/Badman",
+	"chartPath": "songs/In-The-Groove/Vorsprung Durch Techno.sm",
+	"audioPath": "songs/In-The-Groove/Vorsprung Durch Techno.ogg"
 },
 {
-  "title": "Wanna Do",
-  "artist": "Nina",
-  "chartPath": "songs/Wanna Do ~Hardhouse Mix~.sm",
-  "audioPath": "songs/Wanna Do ~Hardhouse Mix~.ogg"
+	"title": "Wanna Do",
+	"artist": "Nina",
+	"chartPath": "songs/In-The-Groove/Wanna Do ~Hardhouse Mix~.sm",
+	"audioPath": "songs/In-The-Groove/Wanna Do ~Hardhouse Mix~.ogg"
 },
 {
-  "title": "We Know What To Do",
-  "artist": "Matiloe",
-  "chartPath": "songs/We Know What To Do.sm",
-  "audioPath": "songs/We Know What To Do.ogg"
+	"title": "We Know What To Do",
+	"artist": "Matiloe",
+	"chartPath": "songs/In-The-Groove/We Know What To Do.sm",
+	"audioPath": "songs/In-The-Groove/We Know What To Do.ogg"
 },
 {
-  "title": "Aliens in Our Midst",
-  "artist": "Corporation",
-  "chartPath": "songs/Aliens in our Midst.sm",
-  "audioPath": "songs/Aliens in our Midst.ogg"
+	"title": "Aliens in Our Midst",
+	"artist": "Corporation",
+	"chartPath": "songs/In-The-Groove/Aliens in our Midst.sm",
+	"audioPath": "songs/In-The-Groove/Aliens in our Midst.ogg"
 },
 {
-  "title": "All That Matters",
-  "artist": "Andreas Viklund",
-  "chartPath": "songs/All That Matters.sm",
-  "audioPath": "songs/All That Matters.ogg"
+	"title": "All That Matters",
+	"artist": "Andreas Viklund",
+	"chartPath": "songs/In-The-Groove/All That Matters.sm",
+	"audioPath": "songs/In-The-Groove/All That Matters.ogg"
 },
 {
-  "title": "Always in My Heart",
-  "artist": "Lagoona",
-  "chartPath": "songs/Always in My Heart.sm",
-  "audioPath": "songs/Always in My Heart.ogg"
+	"title": "Always in My Heart",
+	"artist": "Lagoona",
+	"chartPath": "songs/In-The-Groove/Always in My Heart.sm",
+	"audioPath": "songs/In-The-Groove/Always in My Heart.ogg"
 },
 {
-  "title": "Art City",
-  "artist": "Virgill",
-  "chartPath": "songs/Art City.sm",
-  "audioPath": "songs/Art City.ogg"
+	"title": "Art City",
+	"artist": "Virgill",
+	"chartPath": "songs/In-The-Groove/Art City.sm",
+	"audioPath": "songs/In-The-Groove/Art City.ogg"
 },
 {
-  "title": "Autoload",
-  "artist": "Nightfly",
-  "chartPath": "songs/Autoload.sm",
-  "audioPath": "songs/Autoload.ogg"
+	"title": "Autoload",
+	"artist": "Nightfly",
+	"chartPath": "songs/In-The-Groove/Autoload.sm",
+	"audioPath": "songs/In-The-Groove/Autoload.ogg"
 },
 {
-  "title": "Bagpipe",
-  "artist": "A-Moe",
-  "chartPath": "songs/Bagpipe.sm",
-  "audioPath": "songs/Bagpipe.ogg"
+	"title": "Bagpipe",
+	"artist": "A-Moe",
+	"chartPath": "songs/In-The-Groove/Bagpipe.sm",
+	"audioPath": "songs/In-The-Groove/Bagpipe.ogg"
 },
 {
-  "title": "Coming Out",
-  "artist": "Playmaker feat. Robin",
-  "chartPath": "songs/Coming Out.sm",
-  "audioPath": "songs/Coming Out.ogg"
+	"title": "Coming Out",
+	"artist": "Playmaker feat. Robin",
+	"chartPath": "songs/In-The-Groove/Coming Out.sm",
+	"audioPath": "songs/In-The-Groove/Coming Out.ogg"
 },
 {
-  "title": "Dawn",
-  "artist": "KaW vs. i09",
-  "chartPath": "songs/Dawn (Perpetual Mix).sm",
-  "audioPath": "songs/Dawn (Perpetual Mix).ogg"
+	"title": "Dawn",
+	"artist": "KaW vs. i09",
+	"chartPath": "songs/In-The-Groove/Dawn (Perpetual Mix).sm",
+	"audioPath": "songs/In-The-Groove/Dawn (Perpetual Mix).ogg"
 },
 {
-  "title": "DJ Superstar",
-  "artist": "Oscillator X",
-  "chartPath": "songs/DJ Superstar.sm",
-  "audioPath": "songs/DJ Superstar.ogg"
+	"title": "DJ Superstar",
+	"artist": "Oscillator X",
+	"chartPath": "songs/In-The-Groove/DJ Superstar.sm",
+	"audioPath": "songs/In-The-Groove/DJ Superstar.ogg"
 },
 {
-  "title": "Do What You Wanna Do",
-  "artist": "Playmaker",
-  "chartPath": "songs/Do What You Wanna Do.sm",
-  "audioPath": "songs/Do What You Wanna Do.ogg"
+	"title": "Do What You Wanna Do",
+	"artist": "Playmaker",
+	"chartPath": "songs/In-The-Groove/Do What You Wanna Do.sm",
+	"audioPath": "songs/In-The-Groove/Do What You Wanna Do.ogg"
 },
 {
-  "title": "Don't Panic",
-  "artist": "Street Corner Poets",
-  "chartPath": "songs/Don't Panic.sm",
-  "audioPath": "songs/Don't Panic.ogg"
+	"title": "Don't Panic",
+	"artist": "Street Corner Poets",
+	"chartPath": "songs/In-The-Groove/Don't Panic.sm",
+	"audioPath": "songs/In-The-Groove/Don't Panic.ogg"
 },
 {
-  "title": "Dragostea Din Tei",
-  "artist": "Lucas Prata",
-  "chartPath": "songs/Dragostea Din Tei (English Mix).sm",
-  "audioPath": "songs/Dragostea Din Tei (English Mix).ogg"
+	"title": "Dragostea Din Tei",
+	"artist": "Lucas Prata",
+	"chartPath": "songs/In-The-Groove/Dragostea Din Tei (English Mix).sm",
+	"audioPath": "songs/In-The-Groove/Dragostea Din Tei (English Mix).ogg"
 },
 {
-  "title": "Dynamite",
-  "artist": "E-Rotic",
-  "chartPath": "songs/Dynamite.sm",
-  "audioPath": "songs/Dynamite.ogg"
+	"title": "Dynamite",
+	"artist": "E-Rotic",
+	"chartPath": "songs/In-The-Groove/Dynamite.sm",
+	"audioPath": "songs/In-The-Groove/Dynamite.ogg"
 },
 {
-  "title": "Esperanza",
-  "artist": "KaW",
-  "chartPath": "songs/Esperanza.sm",
-  "audioPath": "songs/Esperanza.ogg"
+	"title": "Esperanza",
+	"artist": "KaW",
+	"chartPath": "songs/In-The-Groove/Esperanza.sm",
+	"audioPath": "songs/In-The-Groove/Esperanza.ogg"
 },
 {
-  "title": "Exotica",
-  "artist": "Banzai",
-  "chartPath": "songs/Exotica.sm",
-  "audioPath": "songs/Exotica.ogg"
+	"title": "Exotica",
+	"artist": "Banzai",
+	"chartPath": "songs/In-The-Groove/Exotica.sm",
+	"audioPath": "songs/In-The-Groove/Exotica.ogg"
 },
 {
-  "title": "Hands Up",
-  "artist": "Lagoona",
-  "chartPath": "songs/Hands Up.sm",
-  "audioPath": "songs/Hands Up.ogg"
+	"title": "Hands Up",
+	"artist": "Lagoona",
+	"chartPath": "songs/In-The-Groove/Hands Up.sm",
+	"audioPath": "songs/In-The-Groove/Hands Up.ogg"
 },
 {
-  "title": "Hanging On",
-  "artist": "Cyrex",
-  "chartPath": "songs/Hanging On.sm",
-  "audioPath": "songs/Hanging On.ogg"
+	"title": "Hanging On",
+	"artist": "Cyrex",
+	"chartPath": "songs/In-The-Groove/Hanging On.sm",
+	"audioPath": "songs/In-The-Groove/Hanging On.ogg"
 },
 {
-  "title": "Hearts of Ice",
-  "artist": "Missing Heart",
-  "chartPath": "songs/Hearts of Ice.sm",
-  "audioPath": "songs/Hearts of Ice.ogg"
+	"title": "Hearts of Ice",
+	"artist": "Missing Heart",
+	"chartPath": "songs/In-The-Groove/Hearts of Ice.sm",
+	"audioPath": "songs/In-The-Groove/Hearts of Ice.ogg"
 },
 {
-  "title": "Into My Dream",
-  "artist": "Lagoona",
-  "chartPath": "songs/Into My Dream (Kaveh Azizi remix).sm",
-  "audioPath": "songs/Into My Dream (Kaveh Azizi remix).ogg"
+	"title": "Into My Dream",
+	"artist": "Lagoona",
+	"chartPath": "songs/In-The-Groove/Into My Dream (Kaveh Azizi remix).sm",
+	"audioPath": "songs/In-The-Groove/Into My Dream (Kaveh Azizi remix).ogg"
 },
 {
-  "title": "It's Over Now",
-  "artist": "Virgill",
-  "chartPath": "songs/It's Over Now.sm",
-  "audioPath": "songs/It's Over Now.ogg"
+	"title": "It's Over Now",
+	"artist": "Virgill",
+	"chartPath": "songs/In-The-Groove/It's Over Now.sm",
+	"audioPath": "songs/In-The-Groove/It's Over Now.ogg"
 },
 {
-  "title": "Kiss Me",
-  "artist": "E-Rotic",
-  "chartPath": "songs/Kiss Me.sm",
-  "audioPath": "songs/Kiss Me.ogg"
+	"title": "Kiss Me",
+	"artist": "E-Rotic",
+	"chartPath": "songs/In-The-Groove/Kiss Me.sm",
+	"audioPath": "songs/In-The-Groove/Kiss Me.ogg"
 },
 {
-  "title": "Land of Imagination",
-  "artist": "Lagoona",
-  "chartPath": "songs/Land of Imagination.sm",
-  "audioPath": "songs/Land of Imagination.ogg"
+	"title": "Land of Imagination",
+	"artist": "Lagoona",
+	"chartPath": "songs/In-The-Groove/Land of Imagination.sm",
+	"audioPath": "songs/In-The-Groove/Land of Imagination.ogg"
 },
 {
-  "title": "Land of the Rising Sun",
-  "artist": "Spacekats",
-  "chartPath": "songs/Land of the Rising Sun (Diskowarp Mix).sm",
-  "audioPath": "songs/Land of the Rising Sun (Diskowarp Mix).ogg"
+	"title": "Land of the Rising Sun",
+	"artist": "Spacekats",
+	"chartPath": "songs/In-The-Groove/Land of the Rising Sun (Diskowarp Mix).sm",
+	"audioPath": "songs/In-The-Groove/Land of the Rising Sun (Diskowarp Mix).ogg"
 },
 {
-  "title": "Living Without You",
-  "artist": "Ni Ni",
-  "chartPath": "songs/Living Without You.sm",
-  "audioPath": "songs/Living Without You.ogg"
+	"title": "Living Without You",
+	"artist": "Ni Ni",
+	"chartPath": "songs/In-The-Groove/Living Without You.sm",
+	"audioPath": "songs/In-The-Groove/Living Without You.ogg"
 },
 {
-  "title": "Moonstone",
-  "artist": "Virgill",
-  "chartPath": "songs/Moonstone.sm",
-  "audioPath": "songs/Moonstone.ogg"
+	"title": "Moonstone",
+	"artist": "Virgill",
+	"chartPath": "songs/In-The-Groove/Moonstone.sm",
+	"audioPath": "songs/In-The-Groove/Moonstone.ogg"
 },
 {
-  "title": "Online",
-  "artist": "Lynn",
-  "chartPath": "songs/Online.sm",
-  "audioPath": "songs/Online.ogg"
+	"title": "Online",
+	"artist": "Lynn",
+	"chartPath": "songs/In-The-Groove/Online.sm",
+	"audioPath": "songs/In-The-Groove/Online.ogg"
 },
 {
-  "title": "Partyman",
-  "artist": "Hit 'N' Hide",
-  "chartPath": "songs/Partyman.sm",
-  "audioPath": "songs/Partyman.ogg"
+	"title": "Partyman",
+	"artist": "Hit 'N' Hide",
+	"chartPath": "songs/In-The-Groove/Partyman.sm",
+	"audioPath": "songs/In-The-Groove/Partyman.ogg"
 },
 {
-  "title": "RE-RAVE",
-  "artist": "KURi-ZiLL",
-  "chartPath": "songs/RE-RAVE.sm",
-  "audioPath": "songs/RE-RAVE.ogg"
+	"title": "RE-RAVE",
+	"artist": "KURi-ZiLL",
+	"chartPath": "songs/In-The-Groove/RE-RAVE.sm",
+	"audioPath": "songs/In-The-Groove/RE-RAVE.ogg"
 },
 {
-  "title": "Riders, Unite!",
-  "artist": "Andreas Viklund",
-  "chartPath": "songs/Riders, Unite!.sm",
-  "audioPath": "songs/Riders, Unite!.ogg"
+	"title": "Riders, Unite!",
+	"artist": "Andreas Viklund",
+	"chartPath": "songs/In-The-Groove/Riders, Unite!.sm",
+	"audioPath": "songs/In-The-Groove/Riders, Unite!.ogg"
 },
 {
-  "title": "Round and Round",
-  "artist": "Eskimo & Icebird",
-  "chartPath": "songs/Round and Round.sm",
-  "audioPath": "songs/Round and Round.ogg"
+	"title": "Round and Round",
+	"artist": "Eskimo & Icebird",
+	"chartPath": "songs/In-The-Groove/Round and Round.sm",
+	"audioPath": "songs/In-The-Groove/Round and Round.ogg"
 },
 {
-  "title": "Smells Like a Chocolate",
-  "artist": "Vospi",
-  "chartPath": "songs/Smells Like a Chocolate.sm",
-  "audioPath": "songs/Smells Like a Chocolate.ogg"
+	"title": "Smells Like a Chocolate",
+	"artist": "Vospi",
+	"chartPath": "songs/In-The-Groove/Smells Like a Chocolate.sm",
+	"audioPath": "songs/In-The-Groove/Smells Like a Chocolate.ogg"
 },
 {
-  "title": "Snow Stream",
-  "artist": "Vospi",
-  "chartPath": "songs/Snow Stream.sm",
-  "audioPath": "songs/Snow Stream.ogg"
+	"title": "Snow Stream",
+	"artist": "Vospi",
+	"chartPath": "songs/In-The-Groove/Snow Stream.sm",
+	"audioPath": "songs/In-The-Groove/Snow Stream.ogg"
 },
 {
-  "title": "STOP! & Go",
-  "artist": "Onyx",
-  "chartPath": "songs/STOP! & Go.ssc",
-  "audioPath": "songs/STOP! & Go.ogg"
+	"title": "STOP! & Go",
+	"artist": "Onyx",
+	"chartPath": "songs/In-The-Groove/STOP! & Go.ssc",
+	"audioPath": "songs/In-The-Groove/STOP! & Go.ogg"
 },
 {
-  "title": "Take My Time",
-  "artist": "Alphadelta",
-  "chartPath": "songs/Take My Time.sm",
-  "audioPath": "songs/Take My Time.ogg"
+	"title": "Take My Time",
+	"artist": "Alphadelta",
+	"chartPath": "songs/In-The-Groove/Take My Time.sm",
+	"audioPath": "songs/In-The-Groove/Take My Time.ogg"
 },
 {
-  "title": "Temple of Love",
-  "artist": "E-Rotic",
-  "chartPath": "songs/Temple of Love.sm",
-  "audioPath": "songs/Temple of Love.ogg"
+	"title": "Temple of Love",
+	"artist": "E-Rotic",
+	"chartPath": "songs/In-The-Groove/Temple of Love.sm",
+	"audioPath": "songs/In-The-Groove/Temple of Love.ogg"
 },
 {
-  "title": "The Deep Unknown",
-  "artist": "Adam Vox",
-  "chartPath": "songs/The Deep Unknown.sm",
-  "audioPath": "songs/The Deep Unknown.ogg"
+	"title": "The Deep Unknown",
+	"artist": "Adam Vox",
+	"chartPath": "songs/In-The-Groove/The Deep Unknown.sm",
+	"audioPath": "songs/In-The-Groove/The Deep Unknown.ogg"
 },
 {
-  "title": "The Last Kiss",
-  "artist": "Missing Heart",
-  "chartPath": "songs/The Last Kiss.sm",
-  "audioPath": "songs/The Last Kiss.ogg"
+	"title": "The Last Kiss",
+	"artist": "Missing Heart",
+	"chartPath": "songs/In-The-Groove/The Last Kiss.sm",
+	"audioPath": "songs/In-The-Groove/The Last Kiss.ogg"
 },
 {
-  "title": "The Promised Land",
-  "artist": "Lagoona",
-  "chartPath": "songs/The Promised Land.sm",
-  "audioPath": "songs/The Promised Land.ogg"
+	"title": "The Promised Land",
+	"artist": "Lagoona",
+	"chartPath": "songs/In-The-Groove/The Promised Land.sm",
+	"audioPath": "songs/In-The-Groove/The Promised Land.ogg"
 },
 {
-  "title": "Wham Bam Boogie",
-  "artist": "Bambee",
-  "chartPath": "songs/Wham Bam Boogie.sm",
-  "audioPath": "songs/Wham Bam Boogie.ogg"
+	"title": "Wham Bam Boogie",
+	"artist": "Bambee",
+	"chartPath": "songs/In-The-Groove/Wham Bam Boogie.sm",
+	"audioPath": "songs/In-The-Groove/Wham Bam Boogie.ogg"
 },
 {
-  "title": "World of Dreams",
-  "artist": "Hit 'N' Hide",
-  "chartPath": "songs/World of Dreams (Two Gees Radio Edit).sm",
-  "audioPath": "songs/World of Dreams (Two Gees Radio Edit).ogg"
+	"title": "World of Dreams",
+	"artist": "Hit 'N' Hide",
+	"chartPath": "songs/In-The-Groove/World of Dreams (Two Gees Radio Edit).sm",
+	"audioPath": "songs/In-The-Groove/World of Dreams (Two Gees Radio Edit).ogg"
 },
 {
-  "title": "Y2Z",
-  "artist": "Affinity",
-  "chartPath": "songs/Y2Z.sm",
-  "audioPath": "songs/Y2Z.ogg"
+	"title": "Y2Z",
+	"artist": "Affinity",
+	"chartPath": "songs/In-The-Groove/Y2Z.sm",
+	"audioPath": "songs/In-The-Groove/Y2Z.ogg"
 },
 {
-  "title": "Dead Souls",
-  "artist": "Tekno Dred",
-  "chartPath": "songs/Dead Souls.sm",
-  "audioPath": "songs/Dead Souls.ogg"
+	"title": "Dead Souls",
+	"artist": "Tekno Dred",
+	"chartPath": "songs/In-The-Groove/Dead Souls.sm",
+	"audioPath": "songs/In-The-Groove/Dead Souls.ogg"
 },
 {
-  "title": "Dr. Doolittle",
-  "artist": "Bambee",
-  "chartPath": "songs/Dr. Doolittle.sm",
-  "audioPath": "songs/Dr. Doolittle.ogg"
+	"title": "Dr. Doolittle",
+	"artist": "Bambee",
+	"chartPath": "songs/In-The-Groove/Dr. Doolittle.sm",
+	"audioPath": "songs/In-The-Groove/Dr. Doolittle.ogg"
 },
 {
-  "title": "Enchanted Journey",
-  "artist": "DJ Meas",
-  "chartPath": "songs/Enchanted Journey.sm",
-  "audioPath": "songs/Enchanted Journey.ogg"
+	"title": "Enchanted Journey",
+	"artist": "DJ Meas",
+	"chartPath": "songs/In-The-Groove/Enchanted Journey.sm",
+	"audioPath": "songs/In-The-Groove/Enchanted Journey.ogg"
 },
 {
-  "title": "EternuS",
-  "artist": "Sanxion7",
-  "chartPath": "songs/EternuS.sm",
-  "audioPath": "songs/EternuS.ogg"
+	"title": "EternuS",
+	"artist": "Sanxion7",
+	"chartPath": "songs/In-The-Groove/EternuS.sm",
+	"audioPath": "songs/In-The-Groove/EternuS.ogg"
 },
 {
-  "title": "Etude for a Dragon",
-  "artist": "Draigun",
-  "chartPath": "songs/Etude for a Dragon.sm",
-  "audioPath": "songs/Etude for a Dragon.ogg"
+	"title": "Etude for a Dragon",
+	"artist": "Draigun",
+	"chartPath": "songs/In-The-Groove/Etude for a Dragon.sm",
+	"audioPath": "songs/In-The-Groove/Etude for a Dragon.ogg"
 },
 {
-  "title": "Gargoyle",
-  "artist": "Sanxion7",
-  "chartPath": "songs/Gargoyle (Original Mix).sm",
-  "audioPath": "songs/Gargoyle (Original Mix).ogg"
+	"title": "Gargoyle",
+	"artist": "Sanxion7",
+	"chartPath": "songs/In-The-Groove/Gargoyle (Original Mix).sm",
+	"audioPath": "songs/In-The-Groove/Gargoyle (Original Mix).ogg"
 },
 {
-  "title": "Journey",
-  "artist": "Draigun",
-  "chartPath": "songs/Journey.sm",
-  "audioPath": "songs/Journey.ogg"
+	"title": "Journey",
+	"artist": "Draigun",
+	"chartPath": "songs/In-The-Groove/Journey.sm",
+	"audioPath": "songs/In-The-Groove/Journey.ogg"
 },
 {
 	"title": "King's Theme",
 	"artist": "Renard",
-	"chartPath": "songs/King's Theme (Pixel Remix).sm",
-	"audioPath": "songs/King's Theme (Pixel Remix).ogg"
+	"chartPath": "songs/In-The-Groove/King's Theme (Pixel Remix).sm",
+	"audioPath": "songs/In-The-Groove/King's Theme (Pixel Remix).ogg"
 },
 {
 	"title": "Machine Rhythm",
 	"artist": "KaW",
-	"chartPath": "songs/Machine Rhythm.sm",
-	"audioPath": "songs/Machine Rhythm.ogg"
+	"chartPath": "songs/In-The-Groove/Machine Rhythm.sm",
+	"audioPath": "songs/In-The-Groove/Machine Rhythm.ogg"
 },
 {
-  "title": "Megascorcher",
-  "artist": "Machinae Supremacy",
-  "chartPath": "songs/Megascorcher.sm",
-  "audioPath": "songs/Megascorcher.ogg"
+	"title": "Megascorcher",
+	"artist": "Machinae Supremacy",
+	"chartPath": "songs/In-The-Groove/Megascorcher.sm",
+	"audioPath": "songs/In-The-Groove/Megascorcher.ogg"
 },
 {
-  "title": "One Thousand Cranes",
-  "artist": "DJ Meas",
-  "chartPath": "songs/One Thousand Cranes.sm",
-  "audioPath": "songs/One Thousand Cranes.ogg"
+	"title": "One Thousand Cranes",
+	"artist": "DJ Meas",
+	"chartPath": "songs/In-The-Groove/One Thousand Cranes.sm",
+	"audioPath": "songs/In-The-Groove/One Thousand Cranes.ogg"
 },
 {
-  "title": "Progression",
-  "artist": "Draigun",
-  "chartPath": "songs/Progression.sm",
-  "audioPath": "songs/Progression.ogg"
+	"title": "Progression",
+	"artist": "Draigun",
+	"chartPath": "songs/In-The-Groove/Progression.sm",
+	"audioPath": "songs/In-The-Groove/Progression.ogg"
 },
 {
-  "title": "Stars Above",
-  "artist": "Digital Explosion",
-  "chartPath": "songs/Stars Above.sm",
-  "audioPath": "songs/Stars Above.ogg"
+	"title": "Stars Above",
+	"artist": "Digital Explosion",
+	"chartPath": "songs/In-The-Groove/Stars Above.sm",
+	"audioPath": "songs/In-The-Groove/Stars Above.ogg"
 },
 {
-  "title": "Strikebeam",
-  "artist": "Waterflame",
-  "chartPath": "songs/Strikebeam.sm",
-  "audioPath": "songs/Strikebeam.ogg"
+	"title": "Strikebeam",
+	"artist": "Waterflame",
+	"chartPath": "songs/In-The-Groove/Strikebeam.sm",
+	"audioPath": "songs/In-The-Groove/Strikebeam.ogg"
 },
 {
-  "title": "Supremacy",
-  "artist": "KaW",
-  "chartPath": "songs/Supremacy.sm",
-  "audioPath": "songs/Supremacy.ogg"
+	"title": "Supremacy",
+	"artist": "KaW",
+	"chartPath": "songs/In-The-Groove/Supremacy.sm",
+	"audioPath": "songs/In-The-Groove/Supremacy.ogg"
 },
 {
-  "title": "Synth Synth Synth",
-  "artist": "V-Band Selecta",
-  "chartPath": "songs/Synth Synth Synth.sm",
-  "audioPath": "songs/Synth Synth Synth.ogg",
-  "key": "1755691261498"
+	"title": "Synth Synth Synth",
+	"artist": "V-Band Selecta",
+	"chartPath": "songs/In-The-Groove/Synth Synth Synth.sm",
+	"audioPath": "songs/In-The-Groove/Synth Synth Synth.ogg",
+	"key": "1755691261498"
 },
 {
-  "title": "TechLo",
-  "artist": "Draigun",
-  "chartPath": "songs/TechLo.sm",
-  "audioPath": "songs/TechLo.ogg"
+	"title": "TechLo",
+	"artist": "Draigun",
+	"chartPath": "songs/In-The-Groove/TechLo.sm",
+	"audioPath": "songs/In-The-Groove/TechLo.ogg"
 },
 {
-  "title": "You Wanna Me",
-  "artist": "Vospi",
-  "chartPath": "songs/You Wanna Me.sm",
-  "audioPath": "songs/You Wanna Me.ogg"
+	"title": "You Wanna Me",
+	"artist": "Vospi",
+	"chartPath": "songs/In-The-Groove/You Wanna Me.sm",
+	"audioPath": "songs/In-The-Groove/You Wanna Me.ogg"
 },
 {
-  "title": "Abaddon",
-  "artist": "ZaG-X",
-  "chartPath": "songs/Abaddon.sm",
-  "audioPath": "songs/Abaddon.ogg"
+	"title": "Abaddon",
+	"artist": "ZaG-X",
+	"chartPath": "songs/In-The-Groove/Abaddon.sm",
+	"audioPath": "songs/In-The-Groove/Abaddon.ogg"
 },
 {
-  "title": "Colossus",
-  "artist": "Afro Celt Sound System",
-  "chartPath": "songs/Colossus.sm",
-  "audioPath": "songs/Colossus.ogg"
+	"title": "Colossus",
+	"artist": "Afro Celt Sound System",
+	"chartPath": "songs/In-The-Groove/Colossus.sm",
+	"audioPath": "songs/In-The-Groove/Colossus.ogg"
 },
 {
-  "title": "Dynamo",
-  "artist": "Oscillator X",
-  "chartPath": "songs/Dynamo.sm",
-  "audioPath": "songs/Dynamo.ogg"
+	"title": "Dynamo",
+	"artist": "Oscillator X",
+	"chartPath": "songs/In-The-Groove/Dynamo.sm",
+	"audioPath": "songs/In-The-Groove/Dynamo.ogg"
 },
 {
-  "title": "Elder God Shrine",
-  "artist": "E-Racer",
-  "chartPath": "songs/Elder God Shrine.sm",
-  "audioPath": "songs/Elder God Shrine.ogg"
+	"title": "Elder God Shrine",
+	"artist": "E-Racer",
+	"chartPath": "songs/In-The-Groove/Elder God Shrine.sm",
+	"audioPath": "songs/In-The-Groove/Elder God Shrine.ogg"
 },
 {
-  "title": "End of Line",
-  "artist": "When Machines Dream",
-  "chartPath": "songs/End of Line.sm",
-  "audioPath": "songs/End of Line.ogg"
+	"title": "End of Line",
+	"artist": "When Machines Dream",
+	"chartPath": "songs/In-The-Groove/End of Line.sm",
+	"audioPath": "songs/In-The-Groove/End of Line.ogg"
 },
 {
-  "title": "Fluffy Pants",
-  "artist": "Ralph the Wonder Llama",
-  "chartPath": "songs/Fluffy Pants.sm",
-  "audioPath": "songs/Fluffy Pants.ogg"
+	"title": "Fluffy Pants",
+	"artist": "Ralph the Wonder Llama",
+	"chartPath": "songs/In-The-Groove/Fluffy Pants.sm",
+	"audioPath": "songs/In-The-Groove/Fluffy Pants.ogg"
 },
 {
-  "title": "Force Feedback",
-  "artist": "Machinae Supremacy",
-  "chartPath": "songs/Force Feedback.sm",
-  "audioPath": "songs/Force Feedback.ogg"
+	"title": "Force Feedback",
+	"artist": "Machinae Supremacy",
+	"chartPath": "songs/In-The-Groove/Force Feedback.sm",
+	"audioPath": "songs/In-The-Groove/Force Feedback.ogg"
 },
 {
-  "title": "Jets'n'Guns",
-  "artist": "Machinae Supremacy",
-  "chartPath": "songs/Jets'n'Guns.sm",
-  "audioPath": "songs/Jets'n'Guns.ogg"
+	"title": "Jets'n'Guns",
+	"artist": "Machinae Supremacy",
+	"chartPath": "songs/In-The-Groove/Jets'n'Guns.sm",
+	"audioPath": "songs/In-The-Groove/Jets'n'Guns.ogg"
 },
 {
-  "title": "Land Of The Lost",
-  "artist": "Banzai",
-  "chartPath": "songs/Land Of The Lost.sm",
-  "audioPath": "songs/Land Of The Lost.ogg"
+	"title": "Land Of The Lost",
+	"artist": "Banzai",
+	"chartPath": "songs/In-The-Groove/Land Of The Lost.sm",
+	"audioPath": "songs/In-The-Groove/Land Of The Lost.ogg"
 },
 {
-  "title": "Medicine",
-  "artist": "Kim Leoni",
-  "chartPath": "songs/Medicine.sm",
-  "audioPath": "songs/Medicine.ogg"
+	"title": "Medicine",
+	"artist": "Kim Leoni",
+	"chartPath": "songs/In-The-Groove/Medicine.sm",
+	"audioPath": "songs/In-The-Groove/Medicine.ogg"
 },
 {
-  "title": "Mermaid Forest",
-  "artist": "DJ Meas",
-  "chartPath": "songs/Mermaid Forest.sm",
-  "audioPath": "songs/Mermaid Forest.ogg"
+	"title": "Mermaid Forest",
+	"artist": "DJ Meas",
+	"chartPath": "songs/In-The-Groove/Mermaid Forest.sm",
+	"audioPath": "songs/In-The-Groove/Mermaid Forest.ogg"
 },
 {
-  "title": "Ninja Boy",
-  "artist": "DJ Meas",
-  "chartPath": "songs/Ninja Boy.sm",
-  "audioPath": "songs/Ninja Boy.ogg"
+	"title": "Ninja Boy",
+	"artist": "DJ Meas",
+	"chartPath": "songs/In-The-Groove/Ninja Boy.sm",
+	"audioPath": "songs/In-The-Groove/Ninja Boy.ogg"
 },
 {
-  "title": "No Gravity",
-  "artist": "DJ Session One",
-  "chartPath": "songs/No Gravity.sm",
-  "audioPath": "songs/No Gravity.ogg"
+	"title": "No Gravity",
+	"artist": "DJ Session One",
+	"chartPath": "songs/In-The-Groove/No Gravity.sm",
+	"audioPath": "songs/In-The-Groove/No Gravity.ogg"
 },
 {
-  "title": "Onyx",
-  "artist": "Sanxion7",
-  "chartPath": "songs/Onyx.sm",
-  "audioPath": "songs/Onyx.ogg"
+	"title": "Onyx",
+	"artist": "Sanxion7",
+	"chartPath": "songs/In-The-Groove/Onyx.sm",
+	"audioPath": "songs/In-The-Groove/Onyx.ogg"
 },
 {
-  "title": "Paradise",
-  "artist": "Draigun",
-  "chartPath": "songs/Paradise.sm",
-  "audioPath": "songs/Paradise.ogg"
+	"title": "Paradise",
+	"artist": "Draigun",
+	"chartPath": "songs/In-The-Groove/Paradise.sm",
+	"audioPath": "songs/In-The-Groove/Paradise.ogg"
 },
 {
-  "title": "Phoning to Mercury",
-  "artist": "Canblaster",
-  "chartPath": "songs/Phoning to Mercury.sm",
-  "audioPath": "songs/Phoning to Mercury.ogg"
+	"title": "Phoning to Mercury",
+	"artist": "Canblaster",
+	"chartPath": "songs/In-The-Groove/Phoning to Mercury.sm",
+	"audioPath": "songs/In-The-Groove/Phoning to Mercury.ogg"
 },
 {
-  "title": "Prison of Passion",
-  "artist": "Missing Heart",
-  "chartPath": "songs/Prison of Passion.sm",
-  "audioPath": "songs/Prison Of Passion.ogg"
+	"title": "Prison of Passion",
+	"artist": "Missing Heart",
+	"chartPath": "songs/In-The-Groove/Prison of Passion.sm",
+	"audioPath": "songs/In-The-Groove/Prison Of Passion.ogg"
 },
 {
-  "title": "Style on my Speed Dial",
-  "artist": "Oscillator X",
-  "chartPath": "songs/Style on my Speed Dial.sm",
-  "audioPath": "songs/Style on my Speed Dial.ogg"
+	"title": "Style on my Speed Dial",
+	"artist": "Oscillator X",
+	"chartPath": "songs/In-The-Groove/Style on my Speed Dial.sm",
+	"audioPath": "songs/In-The-Groove/Style on my Speed Dial.ogg"
 },
 {
-  "title": "Tike Tike Kardi",
-  "artist": "Arash",
-  "chartPath": "songs/Tike Tike Kardi.sm",
-  "audioPath": "songs/Tike Tike Kardi.ogg"
+	"title": "Tike Tike Kardi",
+	"artist": "Arash",
+	"chartPath": "songs/In-The-Groove/Tike Tike Kardi.sm",
+	"audioPath": "songs/In-The-Groove/Tike Tike Kardi.ogg"
 },
 {
-  "title": "Anubis 2",
-  "artist": "Banzai",
-  "chartPath": "songs/Anubis.ssc",
-  "audioPath": "songs/Banzai - Anubis.ogg"
+	"title": "Anubis 2",
+	"artist": "Banzai",
+	"chartPath": "songs/In-The-Groove/Anubis.ssc",
+	"audioPath": "songs/In-The-Groove/Banzai - Anubis.ogg"
 },
 {
-  "title": "Allegro Con Fuoco",
-  "artist": "DM Ashura",
-  "chartPath": "songs/Allegro Con Fuoco.sm",
-  "audioPath": "songs/Allegro Con Fuoco.ogg",
-  "key": "1755361295255"
+	"title": "Allegro Con Fuoco",
+	"artist": "DM Ashura",
+	"chartPath": "songs/In-The-Groove/Allegro Con Fuoco.sm",
+	"audioPath": "songs/In-The-Groove/Allegro Con Fuoco.ogg",
+	"key": "1755361295255"
 },
 {
-  "title": "Boom Digi Da",
-  "artist": "Bambee",
-  "chartPath": "songs/Boom Digi Da.sm",
-  "audioPath": "songs/Boom Digi Da.ogg",
-  "key": "1755361118202"
+	"title": "Boom Digi Da",
+	"artist": "Bambee",
+	"chartPath": "songs/In-The-Groove/Boom Digi Da.sm",
+	"audioPath": "songs/In-The-Groove/Boom Digi Da.ogg",
+	"key": "1755361118202"
 },
 {
-  "title": "Closer to Heaven",
-  "artist": "MePuma",
-  "chartPath": "songs/Closer to Heaven.sm",
-  "audioPath": "songs/Closer to Heaven.ogg",
-  "key": "1755361734436"
+	"title": "Closer to Heaven",
+	"artist": "MePuma",
+	"chartPath": "songs/In-The-Groove/Closer to Heaven.sm",
+	"audioPath": "songs/In-The-Groove/Closer to Heaven.ogg",
+	"key": "1755361734436"
 },
 {
-  "title": "Cyst",
-  "artist": "Sanxion7",
-  "chartPath": "songs/cyst.sm",
-  "audioPath": "songs/cyst.ogg",
-  "key": "1755362033984"
+	"title": "Cyst",
+	"artist": "Sanxion7",
+	"chartPath": "songs/In-The-Groove/cyst.sm",
+	"audioPath": "songs/In-The-Groove/cyst.ogg",
+	"key": "1755362033984"
 },
 {
-  "title": "Electrock",
-  "artist": "Throwdown",
-  "chartPath": "songs/Electrock.sm",
-  "audioPath": "songs/Electrock.ogg",
-  "key": "1755362296522"
+	"title": "Electrock",
+	"artist": "Throwdown",
+	"chartPath": "songs/In-The-Groove/Electrock.sm",
+	"audioPath": "songs/In-The-Groove/Electrock.ogg",
+	"key": "1755362296522"
 },
 {
-  "title": "Epilogue",
-  "artist": "When Machines Dream",
-  "chartPath": "songs/Epilogue.sm",
-  "audioPath": "songs/Epilogue.ogg",
-  "key": "1755362431624"
+	"title": "Epilogue",
+	"artist": "When Machines Dream",
+	"chartPath": "songs/In-The-Groove/Epilogue.sm",
+	"audioPath": "songs/In-The-Groove/Epilogue.ogg",
+	"key": "1755362431624"
 },
 {
-  "title": "Haven",
-  "artist": "SGX",
-  "chartPath": "songs/Haven.sm",
-  "audioPath": "songs/Haven.ogg",
-  "key": "1755363143089"
+	"title": "Haven",
+	"artist": "SGX",
+	"chartPath": "songs/In-The-Groove/Haven.sm",
+	"audioPath": "songs/In-The-Groove/Haven.ogg",
+	"key": "1755363143089"
 },
 {
-  "title": "Rainspark",
-  "artist": "Sanxion7",
-  "chartPath": "songs/Rainspark.sm",
-  "audioPath": "songs/Rainspark.ogg",
-  "key": "1755364268492"
+	"title": "Maslo",
+	"artist": "Vospi",
+	"chartPath": "songs/In-The-Groove/maslo.sm",
+	"audioPath": "songs/In-The-Groove/maslo.ogg",
+	"key": "1756140943131"
 },
 {
-  "title": "Sweet Senorita",
-  "artist": "Miss Papaya",
-  "chartPath": "songs/Sweet Senorita.sm",
-  "audioPath": "songs/Sweet Senorita.ogg",
-  "key": "1755367327164"
+	"title": "Rainspark",
+	"artist": "Sanxion7",
+	"chartPath": "songs/In-The-Groove/Rainspark.sm",
+	"audioPath": "songs/In-The-Groove/Rainspark.ogg",
+	"key": "1755364268492"
 },
 {
-  "pack": "Ben Speirs - Speirmix Galaxy",
-  "author": ""
+	"title": "Sweet Senorita",
+	"artist": "Miss Papaya",
+	"chartPath": "songs/In-The-Groove/Sweet Senorita.sm",
+	"audioPath": "songs/In-The-Groove/Sweet Senorita.ogg",
+	"key": "1755367327164"
 },
 {
-  "title": "Adventure Of A Lifetime",
-  "artist": "Coldplay",
-  "chartPath": "songs/Adventure Of A Lifetime.sm",
-  "audioPath": "songs/Adventure Of A Lifetime.ogg"
+	"pack": "Ben Speirs - Speirmix Galaxy",
+	"author": ""
 },
 {
-  "title": "Ain't Nobody",
-  "artist": "Felix Jaehn feat. Jasmine Thompson",
-  "chartPath": "songs/Ain't Nobody (Loves Me Better).sm",
-  "audioPath": "songs/Ain't Nobody (Loves Me Better).ogg"
+	"title": "Adventure Of A Lifetime",
+	"artist": "Coldplay",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Adventure Of A Lifetime.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Adventure Of A Lifetime.ogg"
 },
 {
-  "title": "Animals",
-  "artist": "Maroon 5",
-  "chartPath": "songs/Animals.sm",
-  "audioPath": "songs/Animals.ogg"
+	"title": "Ain't Nobody",
+	"artist": "Felix Jaehn feat. Jasmine Thompson",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Ain't Nobody (Loves Me Better).sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Ain't Nobody (Loves Me Better).ogg"
 },
 {
-  "title": "Are You With Me",
-  "artist": "Lost Frequencies",
-  "chartPath": "songs/Are You With Me.sm",
-  "audioPath": "songs/Are You With Me.ogg"
+	"title": "Animals",
+	"artist": "Maroon 5",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Animals.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Animals.ogg"
 },
 {
-  "title": "Black Magic",
-  "artist": "Little Mix",
-  "chartPath": "songs/Black Magic.sm",
-  "audioPath": "songs/Black Magic.ogg"
+	"title": "Are You With Me",
+	"artist": "Lost Frequencies",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Are You With Me.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Are You With Me.ogg"
 },
 {
-  "title": "Blank Space",
-  "artist": "Taylor Swift",
-  "chartPath": "songs/Blank Space.sm",
-  "audioPath": "songs/Blank Space.ogg"
+	"title": "Black Magic",
+	"artist": "Little Mix",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Black Magic.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Black Magic.ogg"
 },
 {
-  "title": "Bloom",
-  "artist": "ODESZA",
-  "chartPath": "songs/Bloom (Odesza).sm",
-  "audioPath": "songs/Bloom (Odesza).ogg"
+	"title": "Blank Space",
+	"artist": "Taylor Swift",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Blank Space.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Blank Space.ogg"
 },
 {
-  "title": "Break Free",
-  "artist": "Arianna Grande ft. Zedd",
-  "chartPath": "songs/Break Free.sm",
-  "audioPath": "songs/Break Free.ogg"
+	"title": "Bloom",
+	"artist": "ODESZA",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Bloom (Odesza).sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Bloom (Odesza).ogg"
 },
 {
-  "title": "Cake By The Ocean",
-  "artist": "DNCE",
-  "chartPath": "songs/Cake By The Ocean.sm",
-  "audioPath": "songs/Cake By The Ocean.ogg"
+	"title": "Break Free",
+	"artist": "Arianna Grande ft. Zedd",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Break Free.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Break Free.ogg"
 },
 {
-  "title": "Call Me Maybe",
-  "artist": "Carly Rae Jepsen",
-  "chartPath": "songs/Call Me Maybe.sm",
-  "audioPath": "songs/Call Me Maybe.ogg"
+	"title": "Cake By The Ocean",
+	"artist": "DNCE",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Cake By The Ocean.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Cake By The Ocean.ogg"
 },
 {
-  "title": "Can't Deny My Love",
-  "artist": "Brandon Flowers",
-  "chartPath": "songs/Can't Deny My Love.sm",
-  "audioPath": "songs/Can't Deny My Love.ogg"
+	"title": "Call Me Maybe",
+	"artist": "Carly Rae Jepsen",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Call Me Maybe.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Call Me Maybe.ogg"
 },
 {
-  "title": "Can't Feel My Face",
-  "artist": "The Weeknd",
-  "chartPath": "songs/Can't Feel My Face.sm",
-  "audioPath": "songs/Can't Feel My Face.ogg"
+	"title": "Can't Deny My Love",
+	"artist": "Brandon Flowers",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Can't Deny My Love.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Can't Deny My Love.ogg"
 },
 {
-  "title": "Castle on the Hill",
-  "artist": "Ed Sheeran",
-  "chartPath": "songs/Castle on the Hill.sm",
-  "audioPath": "songs/Castle on the Hill.ogg"
+	"title": "Can't Feel My Face",
+	"artist": "The Weeknd",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Can't Feel My Face.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Can't Feel My Face.ogg"
 },
 {
-  "title": "Chained To The Rhythm",
-  "artist": "Katy Perry",
-  "chartPath": "songs/Chained To The Rhythm.sm",
-  "audioPath": "songs/Chained To The Rhythm.ogg"
+	"title": "Castle on the Hill",
+	"artist": "Ed Sheeran",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Castle on the Hill.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Castle on the Hill.ogg"
 },
 {
-  "title": "Chained Up",
-  "artist": "VIXX",
-  "chartPath": "songs/Chained Up.sm",
-  "audioPath": "songs/Chained Up.ogg"
+	"title": "Chained To The Rhythm",
+	"artist": "Katy Perry",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Chained To The Rhythm.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Chained To The Rhythm.ogg"
 },
 {
-  "title": "Chandelier",
-  "artist": "Sia",
-  "chartPath": "songs/Chandelier.sm",
-  "audioPath": "songs/Chandelier.ogg"
+	"title": "Chained Up",
+	"artist": "VIXX",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Chained Up.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Chained Up.ogg"
 },
 {
-  "title": "Ciao Adios",
-  "artist": "Anne-Marie",
-  "chartPath": "songs/Ciao Adios.sm",
-  "audioPath": "songs/Ciao Adios.ogg"
+	"title": "Chandelier",
+	"artist": "Sia",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Chandelier.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Chandelier.ogg"
 },
 {
-  "title": "Cold Skin",
-  "artist": "Seven Lions & Echoes",
-  "chartPath": "songs/Cold Skin (MitiS Mix).sm",
-  "audioPath": "songs/Cold Skin (MitiS Mix).ogg"
+	"title": "Ciao Adios",
+	"artist": "Anne-Marie",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Ciao Adios.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Ciao Adios.ogg"
 },
 {
-  "title": "Cool For the Summer",
-  "artist": "Demi Lovato",
-  "chartPath": "songs/Cool For The Summer.sm",
-  "audioPath": "songs/Cool For The Summer.ogg"
+	"title": "Cold Skin",
+	"artist": "Seven Lions & Echoes",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Cold Skin (MitiS Mix).sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Cold Skin (MitiS Mix).ogg"
 },
 {
-  "title": "Cool Kids",
-  "artist": "Echosmith",
-  "chartPath": "songs/Cool Kids.sm",
-  "audioPath": "songs/Cool Kids.ogg"
+	"title": "Cool For the Summer",
+	"artist": "Demi Lovato",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Cool For The Summer.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Cool For The Summer.ogg"
 },
 {
-  "title": "Cosmic Love",
-  "artist": "ODESZA",
-  "chartPath": "songs/Cosmic Love (Seven Lions Remix).sm",
-  "audioPath": "songs/Cosmic Love (Seven Lions Remix).ogg"
+	"title": "Cool Kids",
+	"artist": "Echosmith",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Cool Kids.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Cool Kids.ogg"
 },
 {
-  "title": "Could Have Been Me",
-  "artist": "The Struts",
-  "chartPath": "songs/Could Have Been Me.sm",
-  "audioPath": "songs/Could Have Been Me.ogg"
+	"title": "Cosmic Love",
+	"artist": "ODESZA",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Cosmic Love (Seven Lions Remix).sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Cosmic Love (Seven Lions Remix).ogg"
 },
 {
-  "title": "Counting Stars",
-  "artist": "One Republic",
-  "chartPath": "songs/Counting Stars.sm",
-  "audioPath": "songs/Counting Stars.ogg"
+	"title": "Could Have Been Me",
+	"artist": "The Struts",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Could Have Been Me.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Could Have Been Me.ogg"
 },
 {
-  "title": "Cry Baby",
-  "artist": "Melanie Martinez",
-  "chartPath": "songs/Cry Baby.sm",
-  "audioPath": "songs/Cry Baby.ogg"
+	"title": "Counting Stars",
+	"artist": "One Republic",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Counting Stars.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Counting Stars.ogg"
 },
 {
-  "title": "Diamonds",
-  "artist": "Rihanna",
-  "chartPath": "songs/Diamonds.sm",
-  "audioPath": "songs/Diamonds.ogg"
+	"title": "Cry Baby",
+	"artist": "Melanie Martinez",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Cry Baby.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Cry Baby.ogg"
 },
 {
-  "title": "Domino",
-  "artist": "Jessie J",
-  "chartPath": "songs/Domino.sm",
-  "audioPath": "songs/Domino.ogg"
+	"title": "Diamonds",
+	"artist": "Rihanna",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Diamonds.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Diamonds.ogg"
 },
 {
-  "title": "Drag Me Down",
-  "artist": "One Direction",
-  "chartPath": "songs/Drag Me Down.sm",
-  "audioPath": "songs/Drag Me Down.ogg"
+	"title": "Domino",
+	"artist": "Jessie J",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Domino.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Domino.ogg"
 },
 {
-  "title": "Drop Dead Cynical",
-  "artist": "Amaranthe",
-  "chartPath": "songs/Drop Dead Cynical.sm",
-  "audioPath": "songs/Drop Dead Cynical.ogg"
+	"title": "Drag Me Down",
+	"artist": "One Direction",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Drag Me Down.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Drag Me Down.ogg"
 },
 {
-  "title": "Elastic Heart",
-  "artist": "Sia",
-  "chartPath": "songs/Elastic Heart.sm",
-  "audioPath": "songs/Elastic Heart.ogg"
+	"title": "Drop Dead Cynical",
+	"artist": "Amaranthe",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Drop Dead Cynical.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Drop Dead Cynical.ogg"
 },
 {
-  "title": "Electric Eye",
-  "artist": "As I Lay Dying",
-  "chartPath": "songs/Electric Eye.sm",
-  "audioPath": "songs/Electric Eye.ogg"
+	"title": "Elastic Heart",
+	"artist": "Sia",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Elastic Heart.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Elastic Heart.ogg"
 },
 {
-  "title": "Ex's & Oh's",
-  "artist": "Elle King",
-  "chartPath": "songs/Ex's & Oh's.sm",
-  "audioPath": "songs/Ex's & Oh's.ogg"
+	"title": "Electric Eye",
+	"artist": "As I Lay Dying",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Electric Eye.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Electric Eye.ogg"
 },
 {
-  "title": "Far Away",
-  "artist": "12 Stones",
-  "chartPath": "songs/Far Away.sm",
-  "audioPath": "songs/Far Away.ogg"
+	"title": "Ex's & Oh's",
+	"artist": "Elle King",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Ex's & Oh's.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Ex's & Oh's.ogg"
 },
 {
-  "title": "Figure It Out",
-  "artist": "Royal Blood",
-  "chartPath": "songs/Figure It Out.sm",
-  "audioPath": "songs/Figure It Out.ogg"
+	"title": "Far Away",
+	"artist": "12 Stones",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Far Away.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Far Away.ogg"
 },
 {
-  "title": "Fire",
-  "artist": "Queen Bee",
-  "chartPath": "songs/Fire (Uverworld).sm",
-  "audioPath": "songs/Fire (Uverworld).ogg"
+	"title": "Figure It Out",
+	"artist": "Royal Blood",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Figure It Out.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Figure It Out.ogg"
 },
 {
-  "title": "Follow You",
-  "artist": "Bring Me The Horizon",
-  "chartPath": "songs/Follow You.sm",
-  "audioPath": "songs/Follow You.ogg"
+	"title": "Fire",
+	"artist": "Queen Bee",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Fire (Uverworld).sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Fire (Uverworld).ogg"
 },
 {
-  "title": "Freestyler",
-  "artist": "Bomfunk MCs",
-  "chartPath": "songs/Freestyler.sm",
-  "audioPath": "songs/Freestyler.ogg"
+	"title": "Follow You",
+	"artist": "Bring Me The Horizon",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Follow You.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Follow You.ogg"
 },
 {
-  "title": "G.D.F.R",
-  "artist": "Flo Rida",
-  "chartPath": "songs/G.D.F.R (Going Down For Real).sm",
-  "audioPath": "songs/G.D.F.R (Going Down For Real).ogg"
+	"title": "Freestyler",
+	"artist": "Bomfunk MCs",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Freestyler.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Freestyler.ogg"
 },
 {
-  "title": "Groovejet",
-  "artist": "Spiller ft. Sophie Ellis-Bextor",
-  "chartPath": "songs/Groovejet (If This Ain't Love).sm",
-  "audioPath": "songs/Groovejet (If This Ain't Love).ogg"
+	"title": "G.D.F.R",
+	"artist": "Flo Rida",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/G.D.F.R (Going Down For Real).sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/G.D.F.R (Going Down For Real).ogg"
 },
 {
-  "title": "Guilty",
-  "artist": "Gravity Kills",
-  "chartPath": "songs/Guilty.sm",
-  "audioPath": "songs/Guilty.ogg"
+	"title": "Groovejet",
+	"artist": "Spiller ft. Sophie Ellis-Bextor",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Groovejet (If This Ain't Love).sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Groovejet (If This Ain't Love).ogg"
 },
 {
-  "title": "Hail To The King",
-  "artist": "Avenged Sevenfold",
-  "chartPath": "songs/Hail To The King.sm",
-  "audioPath": "songs/Hail To The King.ogg"
+	"title": "Guilty",
+	"artist": "Gravity Kills",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Guilty.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Guilty.ogg"
 },
 {
-  "title": "HandClap",
-  "artist": "Fitz & The Tantrums",
-  "chartPath": "songs/HandClap.sm",
-  "audioPath": "songs/HandClap.ogg"
+	"title": "Hail To The King",
+	"artist": "Avenged Sevenfold",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Hail To The King.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Hail To The King.ogg"
 },
 {
-  "title": "Happy",
-  "artist": "Pharrell Williams",
-  "chartPath": "songs/Happy.sm",
-  "audioPath": "songs/Happy.ogg"
+	"title": "HandClap",
+	"artist": "Fitz & The Tantrums",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/HandClap.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/HandClap.ogg"
 },
 {
-  "title": "Hater",
-  "artist": "Korn",
-  "chartPath": "songs/Hater.sm",
-  "audioPath": "songs/Hater.ogg"
+	"title": "Happy",
+	"artist": "Pharrell Williams",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Happy.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Happy.ogg"
 },
 {
-  "title": "Heartbeat Song",
-  "artist": "Kelly Clarkson",
-  "chartPath": "songs/Heartbeat Song.sm",
-  "audioPath": "songs/Heartbeat Song.ogg"
+	"title": "Hater",
+	"artist": "Korn",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Hater.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Hater.ogg"
 },
 {
-  "title": "Hold Back The River",
-  "artist": "James Bay",
-  "chartPath": "songs/Hold Back The River.sm",
-  "audioPath": "songs/Hold Back The River.ogg"
+	"title": "Heartbeat Song",
+	"artist": "Kelly Clarkson",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Heartbeat Song.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Heartbeat Song.ogg"
 },
 {
-  "title": "Hold My Hand",
-  "artist": "Jess Glynne",
-  "chartPath": "songs/Hold My Hand.sm",
-  "audioPath": "songs/Hold My Hand.ogg"
+	"title": "Hold Back The River",
+	"artist": "James Bay",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Hold Back The River.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Hold Back The River.ogg"
 },
 {
-  "title": "Hot n Cold",
-  "artist": "Katy Perry",
-  "chartPath": "songs/Hot n Cold.sm",
-  "audioPath": "songs/Hot n Cold.ogg"
+	"title": "Hold My Hand",
+	"artist": "Jess Glynne",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Hold My Hand.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Hold My Hand.ogg"
 },
 {
-  "title": "Human",
-  "artist": "The Killers",
-  "chartPath": "songs/Human (The Killers).sm",
-  "audioPath": "songs/Human (The Killers).ogg"
+	"title": "Hot n Cold",
+	"artist": "Katy Perry",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Hot n Cold.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Hot n Cold.ogg"
 },
 {
-  "title": "Hymn For The Weekend",
-  "artist": "Coldplay feat. Beyonce",
-  "chartPath": "songs/Hymn For The Weekend.sm",
-  "audioPath": "songs/Hymn For The Weekend.ogg"
+	"title": "Human",
+	"artist": "The Killers",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Human (The Killers).sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Human (The Killers).ogg"
 },
 {
-  "title": "I Am Machine",
-  "artist": "Three Days Grace",
-  "chartPath": "songs/I Am Machine.sm",
-  "audioPath": "songs/I Am Machine.ogg"
+	"title": "Hymn For The Weekend",
+	"artist": "Coldplay feat. Beyonce",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Hymn For The Weekend.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Hymn For The Weekend.ogg"
 },
 {
-  "title": "I Don't Like It, I Love It",
-  "artist": "Flo Rida",
-  "chartPath": "songs/I Don't Like It, I Love It.sm",
-  "audioPath": "songs/I Don't Like It, I Love It.ogg"
+	"title": "I Am Machine",
+	"artist": "Three Days Grace",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/I Am Machine.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/I Am Machine.ogg"
 },
 {
-  "title": "I Feel It Coming",
-  "artist": "The Weeknd feat. Daft Punk",
-  "chartPath": "songs/I Feel It Coming.sm",
-  "audioPath": "songs/I Feel It Coming.ogg"
+	"title": "I Don't Like It, I Love It",
+	"artist": "Flo Rida",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/I Don't Like It, I Love It.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/I Don't Like It, I Love It.ogg"
 },
 {
-  "title": "I Really Like You",
-  "artist": "Carly Rae Jepsen",
-  "chartPath": "songs/I Really Like You.sm",
-  "audioPath": "songs/I Really Like You.ogg"
+	"title": "I Feel It Coming",
+	"artist": "The Weeknd feat. Daft Punk",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/I Feel It Coming.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/I Feel It Coming.ogg"
 },
 {
-  "title": "I Took A Pill In Ibiza",
-  "artist": "Mike Posner",
-  "chartPath": "songs/I Took A Pill In Ibiza (SeeB Mix).sm",
-  "audioPath": "songs/I Took A Pill In Ibiza (SeeB Mix).ogg"
+	"title": "I Really Like You",
+	"artist": "Carly Rae Jepsen",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/I Really Like You.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/I Really Like You.ogg"
 },
 {
-  "title": "I Wish",
-  "artist": "Cher Lloyd feat. T.I.",
-  "chartPath": "songs/I Wish.sm",
-  "audioPath": "songs/I Wish.ogg"
+	"title": "I Took A Pill In Ibiza",
+	"artist": "Mike Posner",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/I Took A Pill In Ibiza (SeeB Mix).sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/I Took A Pill In Ibiza (SeeB Mix).ogg"
 },
 {
-  "title": "If We Ever Meet Again",
-  "artist": "Timbaland with Katy Perry",
-  "chartPath": "songs/If We Ever Meet Again.sm",
-  "audioPath": "songs/If We Ever Meet Again.ogg"
+	"title": "I Wish",
+	"artist": "Cher Lloyd feat. T.I.",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/I Wish.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/I Wish.ogg"
 },
 {
-  "title": "Immortals",
-  "artist": "Fall Out Boy",
-  "chartPath": "songs/Immortals.sm",
-  "audioPath": "songs/Immortals.ogg"
+	"title": "If We Ever Meet Again",
+	"artist": "Timbaland with Katy Perry",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/If We Ever Meet Again.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/If We Ever Meet Again.ogg"
 },
 {
-  "title": "Jealous",
-  "artist": "Nick Jonas",
-  "chartPath": "songs/Jealous.sm",
-  "audioPath": "songs/Jealous.ogg"
+	"title": "Immortals",
+	"artist": "Fall Out Boy",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Immortals.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Immortals.ogg"
 },
 {
-  "title": "Keeping Your Head Up",
-  "artist": "Birdy",
-  "chartPath": "songs/Keeping Your Head Up (Don Diablo Remix).sm",
-  "audioPath": "songs/Keeping Your Head Up (Don Diablo Remix).ogg"
+	"title": "Jealous",
+	"artist": "Nick Jonas",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Jealous.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Jealous.ogg"
 },
 {
-  "title": "Lean On",
-  "artist": "Major Lazer",
-  "chartPath": "songs/Lean On.sm",
-  "audioPath": "songs/Lean On.ogg"
+	"title": "Keeping Your Head Up",
+	"artist": "Birdy",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Keeping Your Head Up (Don Diablo Remix).sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Keeping Your Head Up (Don Diablo Remix).ogg"
 },
 {
-  "title": "Leave A Trace",
-  "artist": "CHVRCHES",
-  "chartPath": "songs/Leave A Trace.sm",
-  "audioPath": "songs/Leave A Trace.ogg"
+	"title": "Lean On",
+	"artist": "Major Lazer",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Lean On.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Lean On.ogg"
 },
 {
-  "title": "Lift Me From The Ground",
-  "artist": "Han Solo feat. Sofie Winterson",
-  "chartPath": "songs/Lift Me From The Ground.sm",
-  "audioPath": "songs/Lift Me From The Ground.ogg"
+	"title": "Leave A Trace",
+	"artist": "CHVRCHES",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Leave A Trace.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Leave A Trace.ogg"
 },
 {
-  "title": "Lone Digger",
-  "artist": "Caravan Palace",
-  "chartPath": "songs/Lone Digger.sm",
-  "audioPath": "songs/Lone Digger.ogg"
+	"title": "Lift Me From The Ground",
+	"artist": "Han Solo feat. Sofie Winterson",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Lift Me From The Ground.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Lift Me From The Ground.ogg"
 },
 {
-  "title": "Long Time",
-  "artist": "Blondie",
-  "chartPath": "songs/Long Time.sm",
-  "audioPath": "songs/Long Time.ogg"
+	"title": "Lone Digger",
+	"artist": "Caravan Palace",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Lone Digger.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Lone Digger.ogg"
 },
 {
-  "title": "Lost Boys",
-  "artist": "Graves & Maazel",
-  "chartPath": "songs/Lost Boys.sm",
-  "audioPath": "songs/Lost Boys.ogg"
+	"title": "Long Time",
+	"artist": "Blondie",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Long Time.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Long Time.ogg"
 },
 {
-  "title": "Love Dramatic",
-  "artist": "Masayuki Suzuki",
-  "chartPath": "songs/Love Dramatic.sm",
-  "audioPath": "songs/Love Dramatic.ogg"
+	"title": "Lost Boys",
+	"artist": "Graves & Maazel",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Lost Boys.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Lost Boys.ogg"
 },
 {
-  "title": "Love Me",
-  "artist": "The 1975",
-  "chartPath": "songs/Love Me.sm",
-  "audioPath": "songs/Love Me.ogg"
+	"title": "Love Dramatic",
+	"artist": "Masayuki Suzuki",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Love Dramatic.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Love Dramatic.ogg"
 },
 {
-  "title": "ME!",
-  "artist": "Taylor Swift & Brendon Urie",
-  "chartPath": "songs/Me.sm",
-  "audioPath": "songs/Me.ogg"
+	"title": "Love Me",
+	"artist": "The 1975",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Love Me.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Love Me.ogg"
 },
 {
-  "title": "Moves Like Jagger",
-  "artist": "Maroon 5 feat. Christina Aguilera",
-  "chartPath": "songs/Moves Like Jagger.sm",
-  "audioPath": "songs/Moves Like Jagger.ogg"
+	"title": "ME!",
+	"artist": "Taylor Swift & Brendon Urie",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Me.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Me.ogg"
 },
 {
-  "title": "No Room In Frame",
-  "artist": "Death Cab For Cutie",
-  "chartPath": "songs/No Room In Frame.sm",
-  "audioPath": "songs/No Room In Frame.ogg"
+	"title": "Moves Like Jagger",
+	"artist": "Maroon 5 feat. Christina Aguilera",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Moves Like Jagger.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Moves Like Jagger.ogg"
 },
 {
-  "title": "On My Mind",
-  "artist": "Ellie Goulding",
-  "chartPath": "songs/On My Mind.sm",
-  "audioPath": "songs/On My Mind.ogg",
-  "key": "1754837443738"
+	"title": "No Room In Frame",
+	"artist": "Death Cab For Cutie",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/No Room In Frame.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/No Room In Frame.ogg"
 },
 {
-  "title": "Paris",
-  "artist": "The Chainsmokers",
-  "chartPath": "songs/Paris.sm",
-  "audioPath": "songs/Paris.ogg",
-  "key": "1754837638351"
+	"title": "On My Mind",
+	"artist": "Ellie Goulding",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/On My Mind.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/On My Mind.ogg",
+	"key": "1754837443738"
 },
 {
-  "title": "Perfect",
-  "artist": "One Direction",
-  "chartPath": "songs/Perfect.sm",
-  "audioPath": "songs/Perfect.ogg",
-  "key": "1754838260488"
+	"title": "Paris",
+	"artist": "The Chainsmokers",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Paris.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Paris.ogg",
+	"key": "1754837638351"
 },
 {
-  "title": "Prayer",
-  "artist": "Disturbed",
-  "chartPath": "songs/Prayer.sm",
-  "audioPath": "songs/Prayer.ogg",
-  "key": "1754848179765"
+	"title": "Perfect",
+	"artist": "One Direction",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Perfect.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Perfect.ogg",
+	"key": "1754838260488"
 },
 {
-  "title": "Raise Your Glass",
-  "artist": "P!nk",
-  "chartPath": "songs/Raise Your Glass.sm",
-  "audioPath": "songs/Raise Your Glass.ogg",
-  "key": "1754848885358"
+	"title": "Prayer",
+	"artist": "Disturbed",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Prayer.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Prayer.ogg",
+	"key": "1754848179765"
 },
 {
-  "title": "Roar",
-  "artist": "Katy Perry",
-  "chartPath": "songs/Roar.sm",
-  "audioPath": "songs/Roar.ogg",
-  "key": "1754849589996"
+	"title": "Raise Your Glass",
+	"artist": "P!nk",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Raise Your Glass.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Raise Your Glass.ogg",
+	"key": "1754848885358"
 },
 {
-  "title": "Rolling Girl",
-  "artist": "wowaka ft.Hatsune Miku",
-  "chartPath": "songs/Rolling Girl.sm",
-  "audioPath": "songs/Rolling Girl.ogg",
-  "key": "1754849768369"
+	"title": "Roar",
+	"artist": "Katy Perry",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Roar.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Roar.ogg",
+	"key": "1754849589996"
 },
 {
-  "title": "Rude",
-  "artist": "MAGIC!",
-  "chartPath": "songs/Rude.sm",
-  "audioPath": "songs/Rude.ogg",
-  "key": "1754851863723"
+	"title": "Rolling Girl",
+	"artist": "wowaka ft.Hatsune Miku",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Rolling Girl.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Rolling Girl.ogg",
+	"key": "1754849768369"
 },
 {
-  "title": "Run Away With Me",
-  "artist": "Carly Rae Jepsen",
-  "chartPath": "songs/Run Away With Me.sm",
-  "audioPath": "songs/Run Away With Me.ogg",
-  "key": "1754852017094"
+	"title": "Rude",
+	"artist": "MAGIC!",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Rude.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Rude.ogg",
+	"key": "1754851863723"
 },
 {
-  "title": "Safe and Sound",
-  "artist": "Capital Cities",
-  "chartPath": "songs/Safe and Sound.sm",
-  "audioPath": "songs/Safe and Sound.ogg",
-  "key": "1754852189054"
+	"title": "Run Away With Me",
+	"artist": "Carly Rae Jepsen",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Run Away With Me.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Run Away With Me.ogg",
+	"key": "1754852017094"
 },
 {
-  "title": "Shake It Off",
-  "artist": "Taylor Swift",
-  "chartPath": "songs/Shake It Off.sm",
-  "audioPath": "songs/Shake It Off.ogg",
-  "key": "1754857778820"
+	"title": "Safe and Sound",
+	"artist": "Capital Cities",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Safe and Sound.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Safe and Sound.ogg",
+	"key": "1754852189054"
 },
 {
-  "title": "She's Kerosene",
-  "artist": "The Interruptors",
-  "chartPath": "songs/Shes Kerosene.sm",
-  "audioPath": "songs/Shes Kerosene.ogg",
-  "key": "1754857955286"
+	"title": "Shake It Off",
+	"artist": "Taylor Swift",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Shake It Off.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Shake It Off.ogg",
+	"key": "1754857778820"
 },
 {
-  "title": "Ship To Wreck",
-  "artist": "Florence & The Machine",
-  "chartPath": "songs/Ship To Wreck.sm",
-  "audioPath": "songs/Ship To Wreck.ogg",
-  "key": "1754858104946"
+	"title": "She's Kerosene",
+	"artist": "The Interruptors",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Shes Kerosene.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Shes Kerosene.ogg",
+	"key": "1754857955286"
 },
 {
-  "title": "Short Skirt / Long Jacket",
-  "artist": "Cake",
-  "chartPath": "songs/Short Skirt Long Jacket.sm",
-  "audioPath": "songs/Short Skirt Long Jacket.ogg",
-  "key": "1754858274130"
+	"title": "Ship To Wreck",
+	"artist": "Florence & The Machine",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Ship To Wreck.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Ship To Wreck.ogg",
+	"key": "1754858104946"
 },
 {
-  "title": "Shout Out To My Ex",
-  "artist": "Little Mix",
-  "chartPath": "songs/Shout Out to My Ex.sm",
-  "audioPath": "songs/Shout Out to My Ex.ogg",
-  "key": "1754858679995"
+	"title": "Short Skirt / Long Jacket",
+	"artist": "Cake",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Short Skirt Long Jacket.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Short Skirt Long Jacket.ogg",
+	"key": "1754858274130"
 },
 {
-  "title": "Shut Up and Dance",
-  "artist": "Walk The Moon",
-  "chartPath": "songs/Shut Up And Dance.sm",
-  "audioPath": "songs/Shut Up And Dance.ogg",
-  "key": "1754858878678"
+	"title": "Shout Out To My Ex",
+	"artist": "Little Mix",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Shout Out to My Ex.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Shout Out to My Ex.ogg",
+	"key": "1754858679995"
 },
 {
-  "title": "Somebody Told Me",
-  "artist": "The Killers",
-  "chartPath": "songs/Somebody Told Me.sm",
-  "audioPath": "songs/Somebody Told Me.ogg",
-  "key": "1755027396958"
+	"title": "Shut Up and Dance",
+	"artist": "Walk The Moon",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Shut Up And Dance.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Shut Up And Dance.ogg",
+	"key": "1754858878678"
 },
 {
-  "title": "Something Just Like This",
-  "artist": "The Chainsmokers & Coldplay",
-  "chartPath": "songs/Something Just Like This.sm",
-  "audioPath": "songs/Something Just Like This.ogg",
-  "key": "1755027570634"
+	"title": "Somebody Told Me",
+	"artist": "The Killers",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Somebody Told Me.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Somebody Told Me.ogg",
+	"key": "1755027396958"
 },
 {
-  "title": "Starboy",
-  "artist": "The Weeknd feat. Daft Punk",
-  "chartPath": "songs/Starboy.sm",
-  "audioPath": "songs/Starboy.ogg",
-  "key": "1755032347062"
+	"title": "Something Just Like This",
+	"artist": "The Chainsmokers & Coldplay",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Something Just Like This.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Something Just Like This.ogg",
+	"key": "1755027570634"
 },
 {
-  "title": "Still Breathing",
-  "artist": "Green Day",
-  "chartPath": "songs/Still Breathing.sm",
-  "audioPath": "songs/Still Breathing.ogg",
-  "key": "1755085043080"
+	"title": "Starboy",
+	"artist": "The Weeknd feat. Daft Punk",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Starboy.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Starboy.ogg",
+	"key": "1755032347062"
 },
 {
-  "title": "Stitches",
-  "artist": "Shawn Mendes",
-  "chartPath": "songs/Stitches.sm",
-  "audioPath": "songs/Stitches.ogg",
-  "key": "1755085476725"
+	"title": "Still Breathing",
+	"artist": "Green Day",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Still Breathing.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Still Breathing.ogg",
+	"key": "1755085043080"
 },
 {
-  "title": "Style",
-  "artist": "Taylor Swift",
-  "chartPath": "songs/Style.sm",
-  "audioPath": "songs/Style.ogg",
-  "key": "1755089131817"
+	"title": "Stitches",
+	"artist": "Shawn Mendes",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Stitches.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Stitches.ogg",
+	"key": "1755085476725"
 },
 {
-  "title": "Sugar",
-  "artist": "Maroon 5",
-  "chartPath": "songs/Sugar.sm",
-  "audioPath": "songs/Sugar.ogg",
-  "key": "1755089299147"
+	"title": "Style",
+	"artist": "Taylor Swift",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Style.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Style.ogg",
+	"key": "1755089131817"
 },
 {
-  "title": "Sugar, You",
-  "artist": "Oh, Honey!",
-  "chartPath": "songs/Sugar You.sm",
-  "audioPath": "songs/Sugar You.ogg",
-  "key": "1755089529576"
+	"title": "Sugar",
+	"artist": "Maroon 5",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Sugar.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Sugar.ogg",
+	"key": "1755089299147"
 },
 {
-  "title": "Summertime Sadness",
-  "artist": "Lana Del Rey vs Cedric Gervais",
-  "chartPath": "songs/Summertime Sadness (Cedric Gervais Mix).sm",
-  "audioPath": "songs/Summertime Sadness (Cedric Gervais Mix).ogg",
-  "key": "1755089697359"
+	"title": "Sugar, You",
+	"artist": "Oh, Honey!",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Sugar You.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Sugar You.ogg",
+	"key": "1755089529576"
 },
 {
-  "title": "Switch",
-  "artist": "Will Smith",
-  "chartPath": "songs/Switch.sm",
-  "audioPath": "songs/Switch.ogg",
-  "key": "1755089873094"
+	"title": "Summertime Sadness",
+	"artist": "Lana Del Rey vs Cedric Gervais",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Summertime Sadness (Cedric Gervais Mix).sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Summertime Sadness (Cedric Gervais Mix).ogg",
+	"key": "1755089697359"
 },
 {
-  "title": "Symphony",
-  "artist": "Clean Bandit feat. Zara Larsson",
-  "chartPath": "songs/Symphony (feat. Zara Larsson).sm",
-  "audioPath": "songs/Symphony (feat. Zara Larsson).ogg",
-  "key": "1755090037603"
+	"title": "Switch",
+	"artist": "Will Smith",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Switch.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Switch.ogg",
+	"key": "1755089873094"
 },
 {
-  "title": "The Greatest",
-  "artist": "Sia ft. Kendrick Lamar",
-  "chartPath": "songs/The Greatest.sm",
-  "audioPath": "songs/The Greatest.ogg",
-  "key": "1755095649155"
+	"title": "Symphony",
+	"artist": "Clean Bandit feat. Zara Larsson",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Symphony (feat. Zara Larsson).sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Symphony (feat. Zara Larsson).ogg",
+	"key": "1755090037603"
 },
 {
-  "title": "The Look",
-  "artist": "Roxette",
-  "chartPath": "songs/The Look.sm",
-  "audioPath": "songs/The Look.ogg",
-  "key": "1755095978695"
+	"title": "The Greatest",
+	"artist": "Sia ft. Kendrick Lamar",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/The Greatest.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/The Greatest.ogg",
+	"key": "1755095649155"
 },
 {
-  "title": "The Rising Sun",
-  "artist": "CF0$",
-  "chartPath": "songs/The Rising Sun (Theme of Shinsuke Nakamura).sm",
-  "audioPath": "songs/The Rising Sun (Theme of Shinsuke Nakamura).ogg",
-  "key": "1755097550753"
+	"title": "The Look",
+	"artist": "Roxette",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/The Look.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/The Look.ogg",
+	"key": "1755095978695"
 },
 {
-  "title": "The Second Coming",
-  "artist": "CF0$",
-  "chartPath": "songs/The Second Coming (Theme of Seth Rollins).sm",
-  "audioPath": "songs/The Second Coming (Theme of Seth Rollins).ogg",
-  "key": "1755106665040"
+	"title": "The Rising Sun",
+	"artist": "CF0$",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/The Rising Sun (Theme of Shinsuke Nakamura).sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/The Rising Sun (Theme of Shinsuke Nakamura).ogg",
+	"key": "1755097550753"
 },
 {
-  "title": "This Is What You Came For",
-  "artist": "Calvin Harris feat. Rihanna",
-  "chartPath": "songs/This Is What You Came For.sm",
-  "audioPath": "songs/This Is What You Came For.ogg",
-  "key": "1755107456808"
+	"title": "The Second Coming",
+	"artist": "CF0$",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/The Second Coming (Theme of Seth Rollins).sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/The Second Coming (Theme of Seth Rollins).ogg",
+	"key": "1755106665040"
 },
 {
-  "title": "Throne",
-  "artist": "Bring Me The Horizon",
-  "chartPath": "songs/Throne.sm",
-  "audioPath": "songs/Throne.ogg",
-  "key": "1755107641829"
+	"title": "This Is What You Came For",
+	"artist": "Calvin Harris feat. Rihanna",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/This Is What You Came For.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/This Is What You Came For.ogg",
+	"key": "1755107456808"
 },
 {
-  "title": "Tik Tok",
-  "artist": "Ke$ha",
-  "chartPath": "songs/Tik Tok.sm",
-  "audioPath": "songs/Tik Tok.ogg",
-  "key": "1755107790774"
+	"title": "Throne",
+	"artist": "Bring Me The Horizon",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Throne.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Throne.ogg",
+	"key": "1755107641829"
 },
 {
-  "title": "Titanium",
-  "artist": "David Guetta feat. Sia",
-  "chartPath": "songs/Titanium.sm",
-  "audioPath": "songs/Titanium.ogg",
-  "key": "1755107941295"
+	"title": "Tik Tok",
+	"artist": "Ke$ha",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Tik Tok.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Tik Tok.ogg",
+	"key": "1755107790774"
 },
 {
-  "title": "Uma Thurman",
-  "artist": "Fall Out Boy",
-  "chartPath": "songs/Uma Thurman.sm",
-  "audioPath": "songs/Uma Thurman.ogg",
-  "key": "1755108919793"
+	"title": "Titanium",
+	"artist": "David Guetta feat. Sia",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Titanium.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Titanium.ogg",
+	"key": "1755107941295"
 },
 {
-  "title": "Want To Want Me",
-  "artist": "Jason Derulo",
-  "chartPath": "songs/Want To Want Me.sm",
-  "audioPath": "songs/Want To Want Me.ogg",
-  "key": "1755110615228"
+	"title": "Uma Thurman",
+	"artist": "Fall Out Boy",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Uma Thurman.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Uma Thurman.ogg",
+	"key": "1755108919793"
 },
 {
-  "title": "What About Us",
-  "artist": "P!nk",
-  "chartPath": "songs/What About Us.sm",
-  "audioPath": "songs/What About Us.ogg",
-  "key": "1755110799169"
+	"title": "Want To Want Me",
+	"artist": "Jason Derulo",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Want To Want Me.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Want To Want Me.ogg",
+	"key": "1755110615228"
 },
 {
-  "title": "Wildest Dreams",
-  "artist": "Taylor Swift",
-  "chartPath": "songs/Wildest Dreams.sm",
-  "audioPath": "songs/Wildest Dreams.ogg",
-  "key": "1755111313657"
+	"title": "What About Us",
+	"artist": "P!nk",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/What About Us.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/What About Us.ogg",
+	"key": "1755110799169"
 },
 {
-  "title": "Wilt",
-  "artist": "VerseQuence",
-  "chartPath": "songs/Wilt.sm",
-  "audioPath": "songs/Wilt.ogg",
-  "key": "1755111483442"
+	"title": "Wildest Dreams",
+	"artist": "Taylor Swift",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Wildest Dreams.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Wildest Dreams.ogg",
+	"key": "1755111313657"
 },
 {
-  "title": "Worth It",
-  "artist": "Fifth Harmony (feat. Kid Ink)",
-  "chartPath": "songs/Worth It .sm",
-  "audioPath": "songs/Worth It.ogg",
-  "key": "1755111768267"
+	"title": "Wilt",
+	"artist": "VerseQuence",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Wilt.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Wilt.ogg",
+	"key": "1755111483442"
 },
 {
-  "title": "Xepher",
-  "artist": "DeadballP",
-  "chartPath": "songs/Xepher (Light and Darkness Dragon REMIX).sm",
-  "audioPath": "songs/Xepher (Light and Darkness Dragon REMIX).ogg",
-  "key": "1755111919121"
+	"title": "Worth It",
+	"artist": "Fifth Harmony (feat. Kid Ink)",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Worth It .sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Worth It.ogg",
+	"key": "1755111768267"
 },
 {
-  "title": "Young, Wild & Free",
-  "artist": "B.A.P",
-  "chartPath": "songs/Young, Wild & Free.sm",
-  "audioPath": "songs/Young, Wild & Free.ogg",
-  "key": "1755180344967"
+	"title": "Xepher",
+	"artist": "DeadballP",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Xepher (Light and Darkness Dragon REMIX).sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Xepher (Light and Darkness Dragon REMIX).ogg",
+	"key": "1755111919121"
 },
 {
-  "title": "Your Love Is My Drug",
-  "artist": "Ke$ha",
-  "chartPath": "songs/Your Love Is My Drug.sm",
-  "audioPath": "songs/Your Love Is My Drug.ogg",
-  "key": "1755180522875"
+	"title": "Young, Wild & Free",
+	"artist": "B.A.P",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Young, Wild & Free.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Young, Wild & Free.ogg",
+	"key": "1755180344967"
 },
 {
-  "title": "You're All I Have",
-  "artist": "Snow Patrol",
-  "chartPath": "songs/You're All I Have.sm",
-  "audioPath": "songs/You're All I Have.ogg",
-  "key": "1755180778087"
+	"title": "Your Love Is My Drug",
+	"artist": "Ke$ha",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/Your Love Is My Drug.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/Your Love Is My Drug.ogg",
+	"key": "1755180522875"
 },
 {
-  "pack": "Highflyer's Tech Trails - Korean Air",
-  "author": ""
+	"title": "You're All I Have",
+	"artist": "Snow Patrol",
+	"chartPath": "songs/Ben-Speirs---Speirmix-Galaxy/You're All I Have.sm",
+	"audioPath": "songs/Ben-Speirs---Speirmix-Galaxy/You're All I Have.ogg",
+	"key": "1755180778087"
 },
 {
-  "title": "BOP! BOP!",
-  "artist": "VIVIZ",
-  "chartPath": "songs/Bop Bop VIVIZ.sm",
-  "audioPath": "songs/Bop Bop VIVIZ.ogg",
-  "key": "1755183806822"
+	"pack": "Highflyer's Tech Trails - Korean Air",
+	"author": ""
 },
 {
-  "title": "Breathe Again",
-  "artist": "KSUKE x AMBER",
-  "chartPath": "songs/KSUKE x AMBER - Breathe Again.sm",
-  "audioPath": "songs/KSUKE x AMBER - Breathe Again.ogg",
-  "key": "1755184115114"
+	"title": "BOP! BOP!",
+	"artist": "VIVIZ",
+	"chartPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Bop Bop VIVIZ.sm",
+	"audioPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Bop Bop VIVIZ.ogg",
+	"key": "1755183806822"
 },
 {
-  "title": "Cheese",
-  "artist": "Stray Kids",
-  "chartPath": "songs/Cheese.sm",
-  "audioPath": "songs/Cheese.ogg",
-  "key": "1755184466106"
+	"title": "Breathe Again",
+	"artist": "KSUKE x AMBER",
+	"chartPath": "songs/Highflyer's-Tech-Trails---Korean-Air/KSUKE x AMBER - Breathe Again.sm",
+	"audioPath": "songs/Highflyer's-Tech-Trails---Korean-Air/KSUKE x AMBER - Breathe Again.ogg",
+	"key": "1755184115114"
 },
 {
-  "title": "Classy",
-  "artist": "CLASS：y",
-  "chartPath": "songs/Classy.sm",
-  "audioPath": "songs/Classy.ogg",
-  "key": "1755184630959"
+	"title": "Cheese",
+	"artist": "Stray Kids",
+	"chartPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Cheese.sm",
+	"audioPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Cheese.ogg",
+	"key": "1755184466106"
 },
 {
-  "title": "Cowboy",
-  "artist": "f(x)",
-  "chartPath": "songs/f(x) - Cowboy.ssc",
-  "audioPath": "songs/f(x) - Cowboy.ogg",
-  "key": "1755184832307"
+	"title": "Classy",
+	"artist": "CLASS：y",
+	"chartPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Classy.sm",
+	"audioPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Classy.ogg",
+	"key": "1755184630959"
 },
 {
-  "title": "Cupid",
-  "artist": "Fifty Fifty",
-  "chartPath": "songs/FIFTY FIFTY Cupid.sm",
-  "audioPath": "songs/FIFTY FIFTY Cupid.ogg",
-  "key": "1755185011933"
+	"title": "Cowboy",
+	"artist": "f(x)",
+	"chartPath": "songs/Highflyer's-Tech-Trails---Korean-Air/f(x) - Cowboy.ssc",
+	"audioPath": "songs/Highflyer's-Tech-Trails---Korean-Air/f(x) - Cowboy.ogg",
+	"key": "1755184832307"
 },
 {
-  "title": "Hot Sauce",
-  "artist": "NCT DREAM",
-  "chartPath": "songs/Hot Sauce.sm",
-  "audioPath": "songs/Hot Sauce.ogg",
-  "key": "1755185369225"
+	"title": "Cupid",
+	"artist": "Fifty Fifty",
+	"chartPath": "songs/Highflyer's-Tech-Trails---Korean-Air/FIFTY FIFTY Cupid.sm",
+	"audioPath": "songs/Highflyer's-Tech-Trails---Korean-Air/FIFTY FIFTY Cupid.ogg",
+	"key": "1755185011933"
 },
 {
-  "title": "Kiss and Make Up",
-  "artist": "Dua Lipa x BLACKPINK",
-  "chartPath": "songs/Kiss And Make Up.sm",
-  "audioPath": "songs/Kiss And Make Up.ogg",
-  "key": "1755185538624"
+	"title": "Hot Sauce",
+	"artist": "NCT DREAM",
+	"chartPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Hot Sauce.sm",
+	"audioPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Hot Sauce.ogg",
+	"key": "1755185369225"
 },
 {
-  "title": "Let's Shut Up And Dance",
-  "artist": "Jason Derulo, Lay & NCT 127",
-  "chartPath": "songs/Let's Shut Up And Dance.sm",
-  "audioPath": "songs/Let's Shut Up And Dance.ogg",
-  "key": "1755186324142"
+	"title": "Kiss and Make Up",
+	"artist": "Dua Lipa x BLACKPINK",
+	"chartPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Kiss And Make Up.sm",
+	"audioPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Kiss And Make Up.ogg",
+	"key": "1755185538624"
 },
 {
-  "title": "Mamma Mia",
-  "artist": "KARA",
-  "chartPath": "songs/Mamma Mia.ssc",
-  "audioPath": "songs/Mamma Mia.ogg",
-  "key": "1755186467125"
+	"title": "Let's Shut Up And Dance",
+	"artist": "Jason Derulo, Lay & NCT 127",
+	"chartPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Let's Shut Up And Dance.sm",
+	"audioPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Let's Shut Up And Dance.ogg",
+	"key": "1755186324142"
 },
 {
-  "title": "On and On",
-  "artist": "VIXX",
-  "chartPath": "songs/On and On.sm",
-  "audioPath": "songs/On and On.ogg",
-  "key": "1755186726312"
+	"title": "Mamma Mia",
+	"artist": "KARA",
+	"chartPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Mamma Mia.ssc",
+	"audioPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Mamma Mia.ogg",
+	"key": "1755186467125"
 },
 {
-  "title": "POP",
-  "artist": "bugAboo",
-  "chartPath": "songs/POP.sm",
-  "audioPath": "songs/POP.ogg",
-  "key": "1755186881465"
+	"title": "On and On",
+	"artist": "VIXX",
+	"chartPath": "songs/Highflyer's-Tech-Trails---Korean-Air/On and On.sm",
+	"audioPath": "songs/Highflyer's-Tech-Trails---Korean-Air/On and On.ogg",
+	"key": "1755186726312"
 },
 {
-  "title": "RUN2U",
-  "artist": "STAYC",
-  "chartPath": "songs/RUN2U.sm",
-  "audioPath": "songs/RUN2U.ogg",
-  "key": "1755187058932"
+	"title": "POP",
+	"artist": "bugAboo",
+	"chartPath": "songs/Highflyer's-Tech-Trails---Korean-Air/POP.sm",
+	"audioPath": "songs/Highflyer's-Tech-Trails---Korean-Air/POP.ogg",
+	"key": "1755186881465"
 },
 {
-  "title": "Shark",
-  "artist": "Oh My Girl",
-  "chartPath": "songs/Shark.sm",
-  "audioPath": "songs/Shark.ogg",
-  "key": "1755193337153"
+	"title": "RUN2U",
+	"artist": "STAYC",
+	"chartPath": "songs/Highflyer's-Tech-Trails---Korean-Air/RUN2U.sm",
+	"audioPath": "songs/Highflyer's-Tech-Trails---Korean-Air/RUN2U.ogg",
+	"key": "1755187058932"
 },
 {
-  "title": "Baby Shark",
-  "artist": "OH MY GIRL",
-  "chartPath": "songs/Baby Shark.sm",
-  "audioPath": "songs/Baby Shark.ogg",
-  "key": "1755193583616"
+	"title": "Shark",
+	"artist": "Oh My Girl",
+	"chartPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Shark.sm",
+	"audioPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Shark.ogg",
+	"key": "1755193337153"
 },
 {
-  "title": "Tag Me (@Me)",
-  "artist": "Weeekly",
-  "chartPath": "songs/Tag Me.ssc",
-  "audioPath": "songs/Tag Me.ogg",
-  "key": "1755193874985"
+	"title": "Baby Shark",
+	"artist": "OH MY GIRL",
+	"chartPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Baby Shark.sm",
+	"audioPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Baby Shark.ogg",
+	"key": "1755193583616"
 },
 {
-  "title": "Talk That Talk",
-  "artist": "Twice",
-  "chartPath": "songs/Talk That Talk.sm",
-  "audioPath": "songs/Talk That Talk.ogg",
-  "key": "1755195004903"
+	"title": "Tag Me (@Me)",
+	"artist": "Weeekly",
+	"chartPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Tag Me.ssc",
+	"audioPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Tag Me.ogg",
+	"key": "1755193874985"
 },
 {
-  "title": "That That",
-  "artist": "PSY feat. SUGA",
-  "chartPath": "songs/That That.sm",
-  "audioPath": "songs/That That.ogg",
-  "key": "1755195396714"
+	"title": "Talk That Talk",
+	"artist": "Twice",
+	"chartPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Talk That Talk.sm",
+	"audioPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Talk That Talk.ogg",
+	"key": "1755195004903"
 },
 {
-  "title": "Unnatural",
-  "artist": "WJSN",
-  "chartPath": "songs/Unnatural.sm",
-  "audioPath": "songs/Unnatural.ogg",
-  "key": "1755198928251"
+	"title": "That That",
+	"artist": "PSY feat. SUGA",
+	"chartPath": "songs/Highflyer's-Tech-Trails---Korean-Air/That That.sm",
+	"audioPath": "songs/Highflyer's-Tech-Trails---Korean-Air/That That.ogg",
+	"key": "1755195396714"
 },
 {
-  "title": "Up!",
-  "artist": "Kep1er",
-  "chartPath": "songs/Up!.sm",
-  "audioPath": "songs/Up!.ogg",
-  "key": "1755199137030"
+	"title": "Unnatural",
+	"artist": "WJSN",
+	"chartPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Unnatural.sm",
+	"audioPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Unnatural.ogg",
+	"key": "1755198928251"
 },
 {
-  "title": "VENOM",
-  "artist": "BVNDIT",
-  "chartPath": "songs/VENOM.sm",
-  "audioPath": "songs/VENOM.ogg",
-  "key": "1755199329676"
+	"title": "Up!",
+	"artist": "Kep1er",
+	"chartPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Up!.sm",
+	"audioPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Up!.ogg",
+	"key": "1755199137030"
 },
 {
-  "title": "Zombie",
-  "artist": "Purple Kiss",
-  "chartPath": "songs/Zombie.sm",
-  "audioPath": "songs/Zombie.ogg",
-  "key": "1755199552306"
+	"title": "VENOM",
+	"artist": "BVNDIT",
+	"chartPath": "songs/Highflyer's-Tech-Trails---Korean-Air/VENOM.sm",
+	"audioPath": "songs/Highflyer's-Tech-Trails---Korean-Air/VENOM.ogg",
+	"key": "1755199329676"
 },
 {
-  "pack": "3guys1pack (null offset)",
-  "author": ""
+	"title": "Zombie",
+	"artist": "Purple Kiss",
+	"chartPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Zombie.sm",
+	"audioPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Zombie.ogg",
+	"key": "1755199552306"
 },
 {
-  "title": "Across the Ocean",
-  "artist": "zircon",
-  "chartPath": "songs/Across the Ocean.sm",
-  "audioPath": "songs/Across the Ocean.ogg",
-  "key": "1755286477635"
+	"pack": "3guys1pack",
+	"author": ""
 },
 {
-  "title": "Arcade",
-  "artist": "Matt Harper",
-  "chartPath": "songs/Arcade.sm",
-  "audioPath": "songs/Arcade.ogg",
-  "key": "1755286695298"
+	"title": "Across the Ocean",
+	"artist": "zircon",
+	"chartPath": "songs/3guys1pack/Across the Ocean.sm",
+	"audioPath": "songs/3guys1pack/Across the Ocean.ogg",
+	"key": "1755286477635"
 },
 {
-  "title": "Chronos",
-  "artist": "JAGGS & Dropgun",
-  "chartPath": "songs/Chronos.sm",
-  "audioPath": "songs/Chronos.ogg",
-  "key": "1755286870901"
+	"title": "Arcade",
+	"artist": "Matt Harper",
+	"chartPath": "songs/3guys1pack/Arcade.sm",
+	"audioPath": "songs/3guys1pack/Arcade.ogg",
+	"key": "1755286695298"
 },
 {
-  "title": "DANCE ALL NIGHT",
-  "artist": "Sota Fujimori",
-  "chartPath": "songs/DANCE ALL NIGHT.sm",
-  "audioPath": "songs/DANCE ALL NIGHT.ogg",
-  "key": "1755287168286"
+	"title": "Chronos",
+	"artist": "JAGGS & Dropgun",
+	"chartPath": "songs/3guys1pack/Chronos.sm",
+	"audioPath": "songs/3guys1pack/Chronos.ogg",
+	"key": "1755286870901"
 },
 {
-  "title": "Dance With Cannibals",
-  "artist": "Wildpuppet",
-  "chartPath": "songs/Dance with Cannibals.sm",
-  "audioPath": "songs/Dance with Cannibals.ogg",
-  "key": "1755287317717"
+	"title": "DANCE ALL NIGHT",
+	"artist": "Sota Fujimori",
+	"chartPath": "songs/3guys1pack/DANCE ALL NIGHT.sm",
+	"audioPath": "songs/3guys1pack/DANCE ALL NIGHT.ogg",
+	"key": "1755287168286"
 },
 {
-  "title": "Fire Starter",
-  "artist": "Rin",
-  "chartPath": "songs/Fire Starter.sm",
-  "audioPath": "songs/Fire Starter.ogg",
-  "key": "1755287462578"
+	"title": "Dance With Cannibals",
+	"artist": "Wildpuppet",
+	"chartPath": "songs/3guys1pack/Dance with Cannibals.sm",
+	"audioPath": "songs/3guys1pack/Dance with Cannibals.ogg",
+	"key": "1755287317717"
 },
 {
-  "title": "Glimmer",
-  "artist": "92elm",
-  "chartPath": "songs/Glimmer.sm",
-  "audioPath": "songs/Glimmer.ogg",
-  "key": "1755287696589"
+	"title": "Fire Starter",
+	"artist": "Rin",
+	"chartPath": "songs/3guys1pack/Fire Starter.sm",
+	"audioPath": "songs/3guys1pack/Fire Starter.ogg",
+	"key": "1755287462578"
 },
 {
-  "title": "Jazz Candy",
-  "artist": "Nate Harrell",
-  "chartPath": "songs/Jazz Candy.sm",
-  "audioPath": "songs/Jazz Candy.ogg",
-  "key": "1755288235766"
+	"title": "Glimmer",
+	"artist": "92elm",
+	"chartPath": "songs/3guys1pack/Glimmer.sm",
+	"audioPath": "songs/3guys1pack/Glimmer.ogg",
+	"key": "1755287696589"
 },
 {
-  "title": "KUSOGE- Pt.2",
-  "artist": "Ginsuke",
-  "chartPath": "songs/KUSOGE- Pt.2.ssc",
-  "audioPath": "songs/KUSOGE- Pt.2.ogg",
-  "key": "1755332849705"
+	"title": "Jazz Candy",
+	"artist": "Nate Harrell",
+	"chartPath": "songs/3guys1pack/Jazz Candy.sm",
+	"audioPath": "songs/3guys1pack/Jazz Candy.ogg",
+	"key": "1755288235766"
 },
 {
-  "title": "Make Believe",
-  "artist": "Aika",
-  "chartPath": "songs/Make Believe.ssc",
-  "audioPath": "songs/Make Believe.ogg",
-  "key": "1755343741404"
+	"title": "KUSOGE- Pt.2",
+	"artist": "Ginsuke",
+	"chartPath": "songs/3guys1pack/KUSOGE- Pt.2.ssc",
+	"audioPath": "songs/3guys1pack/KUSOGE- Pt.2.ogg",
+	"key": "1755332849705"
 },
 {
-  "title": "Marionette",
-  "artist": "Memme",
-  "chartPath": "songs/Marionette.ssc",
-  "audioPath": "songs/Marionette.ogg",
-  "key": "1755343973648"
+	"title": "Make Believe",
+	"artist": "Aika",
+	"chartPath": "songs/3guys1pack/Make Believe.ssc",
+	"audioPath": "songs/3guys1pack/Make Believe.ogg",
+	"key": "1755343741404"
 },
 {
-  "title": "Nurture",
-  "artist": "Glacier",
-  "chartPath": "songs/Nurture.ssc",
-  "audioPath": "songs/Nurture.ogg",
-  "key": "1755344112397"
+	"title": "Marionette",
+	"artist": "Memme",
+	"chartPath": "songs/3guys1pack/Marionette.ssc",
+	"audioPath": "songs/3guys1pack/Marionette.ogg",
+	"key": "1755343973648"
 },
 {
-  "title": "Syrup",
-  "artist": "Inktome",
-  "chartPath": "songs/Syrup.ssc",
-  "audioPath": "songs/Syrup.ogg",
-  "key": "1755344289807"
+	"title": "Nurture",
+	"artist": "Glacier",
+	"chartPath": "songs/3guys1pack/Nurture.ssc",
+	"audioPath": "songs/3guys1pack/Nurture.ogg",
+	"key": "1755344112397"
 },
 {
-  "title": "The Creator Of Coffee",
-  "artist": "Auratic & Chugo",
-  "chartPath": "songs/The Creator of Coffee.ssc",
-  "audioPath": "songs/The Creator of Coffee.ogg",
-  "key": "1755344495257"
+	"title": "Syrup",
+	"artist": "Inktome",
+	"chartPath": "songs/3guys1pack/Syrup.ssc",
+	"audioPath": "songs/3guys1pack/Syrup.ogg",
+	"key": "1755344289807"
 },
 {
-  "pack": "5guys1pack",
-  "author": ""
+	"title": "The Creator Of Coffee",
+	"artist": "Auratic & Chugo",
+	"chartPath": "songs/3guys1pack/The Creator of Coffee.ssc",
+	"audioPath": "songs/3guys1pack/The Creator of Coffee.ogg",
+	"key": "1755344495257"
 },
 {
-  "title": "Armada",
-  "artist": "Black Tiger Sex Machine & Lektrique",
-  "chartPath": "songs/Armada SK remix.sm",
-  "audioPath": "songs/Armada SK remix.ogg",
-  "key": "1755447945833"
+	"pack": "5guys1pack",
+	"author": ""
 },
 {
-  "title": "Beat Dem Up",
-  "artist": "Dirtyphonics X Virtual Riot",
-  "chartPath": "songs/Beat Dem Up.sm",
-  "audioPath": "songs/Beat Dem Up.ogg",
-  "key": "1755448001203"
+	"title": "Armada",
+	"artist": "Black Tiger Sex Machine & Lektrique",
+	"chartPath": "songs/5guys1pack/Armada SK remix.sm",
+	"audioPath": "songs/5guys1pack/Armada SK remix.ogg",
+	"key": "1755447945833"
 },
 {
-  "title": "Dance with Cannibals",
-  "artist": "Wildpuppet",
-  "chartPath": "songs/Dance with Cannibals (Auratic).sm",
-  "audioPath": "songs/Dance With Cannibals (Auratic Remix).ogg",
-  "key": "1755448333914"
+	"title": "Beat Dem Up",
+	"artist": "Dirtyphonics X Virtual Riot",
+	"chartPath": "songs/5guys1pack/Beat Dem Up.sm",
+	"audioPath": "songs/5guys1pack/Beat Dem Up.ogg",
+	"key": "1755448001203"
 },
 {
-  "title": "Disarray",
-  "artist": "Bad Computer",
-  "chartPath": "songs/Dissaray.sm",
-  "audioPath": "songs/Disarray.ogg",
-  "key": "1755448599431"
+	"title": "Dance with Cannibals",
+	"artist": "Wildpuppet",
+	"chartPath": "songs/5guys1pack/Dance with Cannibals (Auratic).sm",
+	"audioPath": "songs/5guys1pack/Dance With Cannibals (Auratic Remix).ogg",
+	"key": "1755448333914"
 },
 {
-  "title": "ECHO",
-  "artist": "Crusher-P",
-  "chartPath": "songs/ECHO (The Living Tombstone Remix).sm",
-  "audioPath": "songs/ECHO (The Living Tombstone Remix).ogg",
-  "key": "1755449045633"
+	"title": "Disarray",
+	"artist": "Bad Computer",
+	"chartPath": "songs/5guys1pack/Dissaray.sm",
+	"audioPath": "songs/5guys1pack/Disarray.ogg",
+	"key": "1755448599431"
 },
 {
-  "title": "Fuck Gravity",
-  "artist": "Virtual Riot",
-  "chartPath": "songs/Fuck Gravity.sm",
-  "audioPath": "songs/Fuck Gravity.ogg",
-  "key": "1755462991109"
+	"title": "ECHO",
+	"artist": "Crusher-P",
+	"chartPath": "songs/5guys1pack/ECHO (The Living Tombstone Remix).sm",
+	"audioPath": "songs/5guys1pack/ECHO (The Living Tombstone Remix).ogg",
+	"key": "1755449045633"
 },
 {
-  "title": "Ghost",
-  "artist": "Secret Weapons",
-  "chartPath": "songs/Secret Weapons - Ghost (Tommie Sunshine & SLATIN Remix).sm",
-  "audioPath": "songs/Secret Weapons - Ghost (Tommie Sunshine & SLATIN Remix).ogg",
-  "key": "1755463527000"
+	"title": "Fuck Gravity",
+	"artist": "Virtual Riot",
+	"chartPath": "songs/5guys1pack/Fuck Gravity.sm",
+	"audioPath": "songs/5guys1pack/Fuck Gravity.ogg",
+	"key": "1755462991109"
 },
 {
-  "title": "Glacier",
-  "artist": "Braven",
-  "chartPath": "songs/Glacier.sm",
-  "audioPath": "songs/Glacier.ogg",
-  "key": "1755463732339"
+	"title": "Ghost",
+	"artist": "Secret Weapons",
+	"chartPath": "songs/5guys1pack/Secret Weapons - Ghost (Tommie Sunshine & SLATIN Remix).sm",
+	"audioPath": "songs/5guys1pack/Secret Weapons - Ghost (Tommie Sunshine & SLATIN Remix).ogg",
+	"key": "1755463527000"
 },
 {
-  "title": "Got You",
-  "artist": "Sunset Neon",
-  "chartPath": "songs/Got You.sm",
-  "audioPath": "songs/Got You.ogg",
-  "key": "1755464414129"
+	"title": "Glacier",
+	"artist": "Braven",
+	"chartPath": "songs/5guys1pack/Glacier.sm",
+	"audioPath": "songs/5guys1pack/Glacier.ogg",
+	"key": "1755463732339"
 },
 {
-  "title": "Last Rebirth",
-  "artist": "SHK",
-  "chartPath": "songs/Last Rebirth.sm",
-  "audioPath": "songs/Last Rebirth.ogg",
-  "key": "1755538026588"
+	"title": "Got You",
+	"artist": "Sunset Neon",
+	"chartPath": "songs/5guys1pack/Got You.sm",
+	"audioPath": "songs/5guys1pack/Got You.ogg",
+	"key": "1755464414129"
 },
 {
-  "title": "Monkey Dance",
-  "artist": "Y&Co.",
-  "chartPath": "songs/MonkeyDance.sm",
-  "audioPath": "songs/Monkey Dance.ogg",
-  "key": "1755538595325"
+	"title": "Last Rebirth",
+	"artist": "SHK",
+	"chartPath": "songs/5guys1pack/Last Rebirth.sm",
+	"audioPath": "songs/5guys1pack/Last Rebirth.ogg",
+	"key": "1755538026588"
 },
 {
-  "title": "Pixel Galaxy",
-  "artist": "Ujico/Snail’s House",
-  "chartPath": "songs/Pixel Galaxy.sm",
-  "audioPath": "songs/Pixel Galaxy.ogg",
-  "key": "1755538808134"
+	"title": "Monkey Dance",
+	"artist": "Y&Co.",
+	"chartPath": "songs/5guys1pack/MonkeyDance.sm",
+	"audioPath": "songs/5guys1pack/Monkey Dance.ogg",
+	"key": "1755538595325"
 },
 {
-  "title": "Rainbow Locus",
-  "artist": "Amane",
-  "chartPath": "songs/Rainbow Locus.sm",
-  "audioPath": "songs/Rainbow Locus.ogg",
-  "key": "1755546579448"
+	"title": "Pixel Galaxy",
+	"artist": "Ujico/Snail’s House",
+	"chartPath": "songs/5guys1pack/Pixel Galaxy.sm",
+	"audioPath": "songs/5guys1pack/Pixel Galaxy.ogg",
+	"key": "1755538808134"
 },
 {
-  "title": "Rocket Lanterns",
-  "artist": "Farhan Sarasin",
-  "chartPath": "songs/Rocket Lanterns.sm",
-  "audioPath": "songs/Rocket Lanterns.ogg",
-  "key": "1755546728090"
+	"title": "Rainbow Locus",
+	"artist": "Amane",
+	"chartPath": "songs/5guys1pack/Rainbow Locus.sm",
+	"audioPath": "songs/5guys1pack/Rainbow Locus.ogg",
+	"key": "1755546579448"
 },
 {
-  "title": "Time Goes By",
-  "artist": "Nitro Fun",
-  "chartPath": "songs/time-goes-by.ssc",
-  "audioPath": "songs/time-goes-by.ogg",
-  "key": "1755551796467"
+	"title": "Rocket Lanterns",
+	"artist": "Farhan Sarasin",
+	"chartPath": "songs/5guys1pack/Rocket Lanterns.sm",
+	"audioPath": "songs/5guys1pack/Rocket Lanterns.ogg",
+	"key": "1755546728090"
 },
 {
-  "title": "Time’s Up",
-  "artist": "Complexive",
-  "chartPath": "songs/Time's Up.sm",
-  "audioPath": "songs/Time's Up.ogg",
-  "key": "1755552094245"
+	"title": "Time Goes By",
+	"artist": "Nitro Fun",
+	"chartPath": "songs/5guys1pack/time-goes-by.ssc",
+	"audioPath": "songs/5guys1pack/time-goes-by.ogg",
+	"key": "1755551796467"
 },
 {
-  "title": "TOY",
-  "artist": "Netta",
-  "chartPath": "songs/TOY.sm",
-  "audioPath": "songs/TOY.ogg",
-  "key": "1755552258494"
+	"title": "Time’s Up",
+	"artist": "Complexive",
+	"chartPath": "songs/5guys1pack/Time's Up.sm",
+	"audioPath": "songs/5guys1pack/Time's Up.ogg",
+	"key": "1755552094245"
 },
 {
-  "title": "Valhalla",
-  "artist": "Retrograde & Xomu",
-  "chartPath": "songs/valhalla.sm",
-  "audioPath": "songs/valhalla.ogg",
-  "key": "1755552626748"
+	"title": "TOY",
+	"artist": "Netta",
+	"chartPath": "songs/5guys1pack/TOY.sm",
+	"audioPath": "songs/5guys1pack/TOY.ogg",
+	"key": "1755552258494"
 },
 {
-  "title": "Wavey",
-  "artist": "CLiQ",
-  "chartPath": "songs/Wavey.sm",
-  "audioPath": "songs/Get Wavy.ogg",
-  "key": "1755552854996"
+	"title": "Valhalla",
+	"artist": "Retrograde & Xomu",
+	"chartPath": "songs/5guys1pack/valhalla.sm",
+	"audioPath": "songs/5guys1pack/valhalla.ogg",
+	"key": "1755552626748"
 },
 {
-  "title": "Welcome To The Cyphisonia",
-  "artist": "かめりあ",
-  "chartPath": "songs/Welcome To The Cyphisonia.sm",
-  "audioPath": "songs/Welcome To The Cyphisonia.ogg",
-  "key": "1755553233158"
+	"title": "Wavey",
+	"artist": "CLiQ",
+	"chartPath": "songs/5guys1pack/Wavey.sm",
+	"audioPath": "songs/5guys1pack/Get Wavy.ogg",
+	"key": "1755552854996"
 },
 {
-  "title": "Woah!",
-  "artist": "Haki",
-  "chartPath": "songs/Woah!.sm",
-  "audioPath": "songs/Woah!.ogg",
-  "key": "1755553622312"
+	"title": "Welcome To The Cyphisonia",
+	"artist": "かめりあ",
+	"chartPath": "songs/5guys1pack/Welcome To The Cyphisonia.sm",
+	"audioPath": "songs/5guys1pack/Welcome To The Cyphisonia.ogg",
+	"key": "1755553233158"
 },
 {
-  "pack": "7guys1pack",
-  "author": ""
+	"title": "Woah!",
+	"artist": "Haki",
+	"chartPath": "songs/5guys1pack/Woah!.sm",
+	"audioPath": "songs/5guys1pack/Woah!.ogg",
+	"key": "1755553622312"
 },
 {
-  "title": "110",
-  "artist": "Maozon & C-Show",
-  "chartPath": "songs/110.sm",
-  "audioPath": "songs/110.ogg",
-  "key": "1755590649632"
+	"pack": "7guys1pack",
+	"author": ""
 },
 {
-  "title": "Abberate",
-  "artist": "Shadient",
-  "chartPath": "songs/Shadient - Abberate.sm",
-  "audioPath": "songs/Shadient - Abberate.ogg",
-  "key": "1755590808366"
+	"title": "110",
+	"artist": "Maozon & C-Show",
+	"chartPath": "songs/7guys1pack/110.sm",
+	"audioPath": "songs/7guys1pack/110.ogg",
+	"key": "1755590649632"
 },
 {
-  "title": "And Laugh",
-  "artist": "SMLE",
-  "chartPath": "songs/And Laugh.sm",
-  "audioPath": "songs/And Laugh.ogg",
-  "key": "1755591078798"
+	"title": "Abberate",
+	"artist": "Shadient",
+	"chartPath": "songs/7guys1pack/Shadient - Abberate.sm",
+	"audioPath": "songs/7guys1pack/Shadient - Abberate.ogg",
+	"key": "1755590808366"
 },
 {
-  "title": "Asymmetric Snowflakes",
-  "artist": "Camellia",
-  "chartPath": "songs/Asymmetric Snowflakes.sm",
-  "audioPath": "songs/Asymmetric Snowflakes.ogg",
-  "key": "1755591200462"
+	"title": "And Laugh",
+	"artist": "SMLE",
+	"chartPath": "songs/7guys1pack/And Laugh.sm",
+	"audioPath": "songs/7guys1pack/And Laugh.ogg",
+	"key": "1755591078798"
 },
 {
-  "title": "Bad Boy",
-  "artist": "Razihel",
-  "chartPath": "songs/Bad Boy.sm",
-  "audioPath": "songs/Bad Boy.ogg",
-  "key": "1755592471603"
+	"title": "Asymmetric Snowflakes",
+	"artist": "Camellia",
+	"chartPath": "songs/7guys1pack/Asymmetric Snowflakes.sm",
+	"audioPath": "songs/7guys1pack/Asymmetric Snowflakes.ogg",
+	"key": "1755591200462"
 },
 {
-  "title": "BOY",
-  "artist": "Charlie Puth",
-  "chartPath": "songs/BOY.sm",
-  "audioPath": "songs/BOY.ogg",
-  "key": "1755606969631"
+	"title": "Bad Boy",
+	"artist": "Razihel",
+	"chartPath": "songs/7guys1pack/Bad Boy.sm",
+	"audioPath": "songs/7guys1pack/Bad Boy.ogg",
+	"key": "1755592471603"
 },
 {
-  "title": "Bug A Boo",
-  "artist": "Destiny's Child",
-  "chartPath": "songs/Bug A Boo.sm",
-  "audioPath": "songs/Bug A Boo.ogg",
-  "key": "1755607148960"
+	"title": "BOY",
+	"artist": "Charlie Puth",
+	"chartPath": "songs/7guys1pack/BOY.sm",
+	"audioPath": "songs/7guys1pack/BOY.ogg",
+	"key": "1755606969631"
 },
 {
-  "title": "Chase the Shadow",
-  "artist": "影虎。",
-  "chartPath": "songs/Chase the Shadow.sm",
-  "audioPath": "songs/Chase the Shadow.ogg",
-  "key": "1755611100372"
+	"title": "Bug A Boo",
+	"artist": "Destiny's Child",
+	"chartPath": "songs/7guys1pack/Bug A Boo.sm",
+	"audioPath": "songs/7guys1pack/Bug A Boo.ogg",
+	"key": "1755607148960"
 },
 {
-  "title": "Dance with Silence",
-  "artist": "Camellia",
-  "chartPath": "songs/Dance with Silence.sm",
-  "audioPath": "songs/Dance with Silence.ogg",
-  "key": "1755611301238"
+	"title": "Chase the Shadow",
+	"artist": "影虎。",
+	"chartPath": "songs/7guys1pack/Chase the Shadow.sm",
+	"audioPath": "songs/7guys1pack/Chase the Shadow.ogg",
+	"key": "1755611100372"
 },
 {
-  "title": "Decay",
-  "artist": "PSYQUI",
-  "chartPath": "songs/Decay.sm",
-  "audioPath": "songs/Decay.ogg",
-  "key": "1755611567189"
+	"title": "Dance with Silence",
+	"artist": "Camellia",
+	"chartPath": "songs/7guys1pack/Dance with Silence.sm",
+	"audioPath": "songs/7guys1pack/Dance with Silence.ogg",
+	"key": "1755611301238"
 },
 {
-  "title": "Deep Down Low",
-  "artist": "Valentino Khan",
-  "chartPath": "songs/DDL.sm",
-  "audioPath": "songs/DDL G R.ogg",
-  "key": "1755611781158"
+	"title": "Decay",
+	"artist": "PSYQUI",
+	"chartPath": "songs/7guys1pack/Decay.sm",
+	"audioPath": "songs/7guys1pack/Decay.ogg",
+	"key": "1755611567189"
 },
 {
-  "title": "edamame",
-  "artist": "bbno$ & Rich Brian",
-  "chartPath": "songs/bbno$ & Rich Brian - edamame.sm",
-  "audioPath": "songs/bbno$ & Rich Brian - edamame.ogg",
-  "key": "1755612160029"
+	"title": "Deep Down Low",
+	"artist": "Valentino Khan",
+	"chartPath": "songs/7guys1pack/DDL.sm",
+	"audioPath": "songs/7guys1pack/DDL G R.ogg",
+	"key": "1755611781158"
 },
 {
-  "title": "Empyrean",
-  "artist": "meganeko",
-  "chartPath": "songs/Empyrean.sm",
-  "audioPath": "songs/Empyrean.ogg",
-  "key": "1755622583199"
+	"title": "edamame",
+	"artist": "bbno$ & Rich Brian",
+	"chartPath": "songs/7guys1pack/bbno$ & Rich Brian - edamame.sm",
+	"audioPath": "songs/7guys1pack/bbno$ & Rich Brian - edamame.ogg",
+	"key": "1755612160029"
 },
 {
-  "title": "Fixed On You",
-  "artist": "Hotel Garuda",
-  "chartPath": "songs/Fixed On You.sm",
-  "audioPath": "songs/Fixed On You.ogg",
-  "key": "1755623173210"
+	"title": "Empyrean",
+	"artist": "meganeko",
+	"chartPath": "songs/7guys1pack/Empyrean.sm",
+	"audioPath": "songs/7guys1pack/Empyrean.ogg",
+	"key": "1755622583199"
 },
 {
-  "title": "Kiss Me More",
-  "artist": "Doja Cat",
-  "chartPath": "songs/Kiss Me More (Daju Remix).sm",
-  "audioPath": "songs/Kiss Me More (Daju Remix).ogg",
-  "key": "1755624121363"
+	"title": "Fixed On You",
+	"artist": "Hotel Garuda",
+	"chartPath": "songs/7guys1pack/Fixed On You.sm",
+	"audioPath": "songs/7guys1pack/Fixed On You.ogg",
+	"key": "1755623173210"
 },
 {
-  "title": "Melody Driven",
-  "artist": "Mameyudoufu",
-  "chartPath": "songs/Melody Driven.sm",
-  "audioPath": "songs/Melody Driven.ogg",
-  "key": "1755684329813"
+	"title": "Kiss Me More",
+	"artist": "Doja Cat",
+	"chartPath": "songs/7guys1pack/Kiss Me More (Daju Remix).sm",
+	"audioPath": "songs/7guys1pack/Kiss Me More (Daju Remix).ogg",
+	"key": "1755624121363"
 },
 {
-  "title": "Nonstop",
-  "artist": "Full Mana",
-  "chartPath": "songs/Nonstop.sm",
-  "audioPath": "songs/Nonstop.ogg",
-  "key": "1755684857500"
+	"title": "Melody Driven",
+	"artist": "Mameyudoufu",
+	"chartPath": "songs/7guys1pack/Melody Driven.sm",
+	"audioPath": "songs/7guys1pack/Melody Driven.ogg",
+	"key": "1755684329813"
 },
 {
-  "title": "Overworld",
-  "artist": "Distayne",
-  "chartPath": "songs/Overworld.sm",
-  "audioPath": "songs/Overworld.ogg",
-  "key": "1755684998009"
+	"title": "Nonstop",
+	"artist": "Full Mana",
+	"chartPath": "songs/7guys1pack/Nonstop.sm",
+	"audioPath": "songs/7guys1pack/Nonstop.ogg",
+	"key": "1755684857500"
 },
 {
-  "title": "Pretty Please",
-  "artist": "Dua Lipa",
-  "chartPath": "songs/Pretty Please.sm",
-  "audioPath": "songs/Pretty Please.ogg",
-  "key": "1755685322806"
+	"title": "Overworld",
+	"artist": "Distayne",
+	"chartPath": "songs/7guys1pack/Overworld.sm",
+	"audioPath": "songs/7guys1pack/Overworld.ogg",
+	"key": "1755684998009"
 },
 {
-  "title": "Secrets",
-  "artist": "Regard, RAYE",
-  "chartPath": "songs/secrets.sm",
-  "audioPath": "songs/Regard, RAYE - Secrets.ogg",
-  "key": "1755685777911"
+	"title": "Pretty Please",
+	"artist": "Dua Lipa",
+	"chartPath": "songs/7guys1pack/Pretty Please.sm",
+	"audioPath": "songs/7guys1pack/Pretty Please.ogg",
+	"key": "1755685322806"
 },
 {
-  "title": "SELFISH",
-  "artist": "Moon Byul",
-  "chartPath": "songs/SELFISH (Kyun x moo Remix).sm",
-  "audioPath": "songs/SELFISH (Kyun x moo Remix).ogg",
-  "key": "1755685992820"
+	"title": "Secrets",
+	"artist": "Regard, RAYE",
+	"chartPath": "songs/7guys1pack/secrets.sm",
+	"audioPath": "songs/7guys1pack/Regard, RAYE - Secrets.ogg",
+	"key": "1755685777911"
 },
 {
-  "title": "Shower Beer",
-  "artist": "Smigonaut",
-  "chartPath": "songs/Shower Beer.sm",
-  "audioPath": "songs/Shower Beer.ogg",
-  "key": "1755686106908"
+	"title": "SELFISH",
+	"artist": "Moon Byul",
+	"chartPath": "songs/7guys1pack/SELFISH (Kyun x moo Remix).sm",
+	"audioPath": "songs/7guys1pack/SELFISH (Kyun x moo Remix).ogg",
+	"key": "1755685992820"
 },
 {
-  "title": "Thirsty",
-  "artist": "Speaker of the House",
-  "chartPath": "songs/Thirsty.sm",
-  "audioPath": "songs/Speaker of the House - Thirsty.ogg",
-  "key": "1755687001486"
+	"title": "Shower Beer",
+	"artist": "Smigonaut",
+	"chartPath": "songs/7guys1pack/Shower Beer.sm",
+	"audioPath": "songs/7guys1pack/Shower Beer.ogg",
+	"key": "1755686106908"
 },
 {
-  "title": "TiME",
-  "artist": "Max Styler",
-  "chartPath": "songs/TiME.sm",
-  "audioPath": "songs/TiME.ogg",
-  "key": "1755687279814"
+	"title": "Thirsty",
+	"artist": "Speaker of the House",
+	"chartPath": "songs/7guys1pack/Thirsty.sm",
+	"audioPath": "songs/7guys1pack/Speaker of the House - Thirsty.ogg",
+	"key": "1755687001486"
 },
 {
-  "title": "Virus Funk",
-  "artist": "Nhato",
-  "chartPath": "songs/Virus Funk.sm",
-  "audioPath": "songs/Virus Funk.ogg",
-  "key": "1755687609453"
+	"title": "TiME",
+	"artist": "Max Styler",
+	"chartPath": "songs/7guys1pack/TiME.sm",
+	"audioPath": "songs/7guys1pack/TiME.ogg",
+	"key": "1755687279814"
 },
 {
-  "pack": "Around the World",
-  "author": ""
+	"title": "Virus Funk",
+	"artist": "Nhato",
+	"chartPath": "songs/7guys1pack/Virus Funk.sm",
+	"audioPath": "songs/7guys1pack/Virus Funk.ogg",
+	"key": "1755687609453"
 },
 {
-  "title": "Cicho",
-  "artist": "Ewa Farna",
-  "chartPath": "songs/Cicho.ssc",
-  "audioPath": "songs/Cicho.ogg",
-  "key": "1755770688702"
+	"pack": "Around the World",
+	"author": ""
 },
 {
-  "title": "Contempo",
-  "artist": "The Sidh",
-  "chartPath": "songs/Contempo.sm",
-  "audioPath": "songs/Contempo.ogg",
-  "key": "1755790843739"
+	"title": "Cicho",
+	"artist": "Ewa Farna",
+	"chartPath": "songs/Around-the-World/Cicho.ssc",
+	"audioPath": "songs/Around-the-World/Cicho.ogg",
+	"key": "1755770688702"
 },
 {
-  "title": "Dans Ma Fusée",
-  "artist": "Ilona Mitrecey",
-  "chartPath": "songs/Dans Me Fusee.ssc",
-  "audioPath": "songs/Dans Me Fusee.ogg",
-  "key": "1755791017669"
+	"title": "Contempo",
+	"artist": "The Sidh",
+	"chartPath": "songs/Around-the-World/Contempo.sm",
+	"audioPath": "songs/Around-the-World/Contempo.ogg",
+	"key": "1755790843739"
 },
 {
-  "title": "Det' Det",
-  "artist": "Sukkerchok",
-  "chartPath": "songs/Det' Det.sm",
-  "audioPath": "songs/Det Det.ogg",
-  "key": "1755792495582"
+	"title": "Dans Ma Fusée",
+	"artist": "Ilona Mitrecey",
+	"chartPath": "songs/Around-the-World/Dans Me Fusee.ssc",
+	"audioPath": "songs/Around-the-World/Dans Me Fusee.ogg",
+	"key": "1755791017669"
 },
 {
-  "title": "Ethän Lähde",
-  "artist": "G-powered",
-  "chartPath": "songs/Ethan Ladhe.sm",
-  "audioPath": "songs/Ethan Ladhe.ogg",
-  "key": "1755792732465"
+	"title": "Det' Det",
+	"artist": "Sukkerchok",
+	"chartPath": "songs/Around-the-World/Det' Det.sm",
+	"audioPath": "songs/Around-the-World/Det Det.ogg",
+	"key": "1755792495582"
 },
 {
-  "title": "Ho Voglia",
-  "artist": "Power Francers",
-  "chartPath": "songs/Ho Voglia.sm",
-  "audioPath": "songs/Ho Voglia.ogg",
-  "key": "1755793083280"
+	"title": "Ethän Lähde",
+	"artist": "G-powered",
+	"chartPath": "songs/Around-the-World/Ethan Ladhe.sm",
+	"audioPath": "songs/Around-the-World/Ethan Ladhe.ogg",
+	"key": "1755792732465"
 },
 {
-  "title": "Impikan",
-  "artist": "DOLLA",
-  "chartPath": "songs/Impikan.sm",
-  "audioPath": "songs/Impikan.ogg",
-  "key": "1755793220024"
+	"title": "Ho Voglia",
+	"artist": "Power Francers",
+	"chartPath": "songs/Around-the-World/Ho Voglia.sm",
+	"audioPath": "songs/Around-the-World/Ho Voglia.ogg",
+	"key": "1755793083280"
 },
 {
-  "title": "Kaya",
-  "artist": "Kaia",
-  "chartPath": "songs/Kaya.sm",
-  "audioPath": "songs/Kaya.ogg",
-  "key": "1755793501319"
+	"title": "Impikan",
+	"artist": "DOLLA",
+	"chartPath": "songs/Around-the-World/Impikan.sm",
+	"audioPath": "songs/Around-the-World/Impikan.ogg",
+	"key": "1755793220024"
 },
 {
-  "title": "Muévelo",
-  "artist": "Fey",
-  "chartPath": "songs/Muevelo.sm",
-  "audioPath": "songs/Muevelo.ogg",
-  "key": "1755793885931"
+	"title": "Kaya",
+	"artist": "Kaia",
+	"chartPath": "songs/Around-the-World/Kaya.sm",
+	"audioPath": "songs/Around-the-World/Kaya.ogg",
+	"key": "1755793501319"
 },
 {
-  "title": "Spelar Ingen Roll",
-  "artist": "Caramell",
-  "chartPath": "songs/Spelar Ingen Roll.sm",
-  "audioPath": "songs/Spelar Ingen Roll.ogg",
-  "key": "1755794140299"
+	"title": "Muévelo",
+	"artist": "Fey",
+	"chartPath": "songs/Around-the-World/Muevelo.sm",
+	"audioPath": "songs/Around-the-World/Muevelo.ogg",
+	"key": "1755793885931"
 },
 {
-  "title": "Tike Tike Kardi",
-  "artist": "Arash",
-  "chartPath": "songs/Tike Tike Kardi.sm",
-  "audioPath": "songs/Tike Tike Kardi-.ogg",
-  "key": "1755794299626"
+	"title": "Spelar Ingen Roll",
+	"artist": "Caramell",
+	"chartPath": "songs/Around-the-World/Spelar Ingen Roll.sm",
+	"audioPath": "songs/Around-the-World/Spelar Ingen Roll.ogg",
+	"key": "1755794140299"
 },
 {
-  "pack": "15gays1-2pack",
-  "author": ""
+	"title": "Tike Tike Kardi",
+	"artist": "Arash",
+	"chartPath": "songs/Around-the-World/Tike Tike Kardi-.sm",
+	"audioPath": "songs/Around-the-World/Tike Tike Kardi-.ogg",
+	"key": "1755794299626"
 },
 {
-  "title": "Where Have You Been",
-  "artist": "Rihanna",
-  "chartPath": "songs/Where Have You Been.ssc",
-  "audioPath": "songs/Where Have You Been.ogg",
-  "key": "1755800042536"
+	"pack": "15gays1-2pack",
+	"author": ""
 },
 {
-  "title": "Sharkmode",
-  "artist": "ryhki",
-  "chartPath": "songs/Sharkmode.ssc",
-  "audioPath": "songs/Sharkmode.ogg",
-  "key": "1755800783520"
+	"title": "Where Have You Been",
+	"artist": "Rihanna",
+	"chartPath": "songs/15gays1-2pack/Where Have You Been.ssc",
+	"audioPath": "songs/15gays1-2pack/Where Have You Been.ogg",
+	"key": "1755800042536"
 },
 {
-  "title": "Revolution",
-  "artist": "BilliumMoto",
-  "chartPath": "songs/Revolution.sm",
-  "audioPath": "songs/Revolution.ogg",
-  "key": "1755800962716"
+	"title": "Sharkmode",
+	"artist": "ryhki",
+	"chartPath": "songs/15gays1-2pack/Sharkmode.ssc",
+	"audioPath": "songs/15gays1-2pack/Sharkmode.ogg",
+	"key": "1755800783520"
 },
 {
-  "title": "Relax",
-  "artist": "Frankie Goes to Hollywood",
-  "chartPath": "songs/Relax.ssc",
-  "audioPath": "songs/Relax.ogg",
-  "key": "1755801387014"
+	"title": "Revolution",
+	"artist": "BilliumMoto",
+	"chartPath": "songs/15gays1-2pack/Revolution.sm",
+	"audioPath": "songs/15gays1-2pack/Revolution.ogg",
+	"key": "1755800962716"
 },
 {
-  "title": "puppy",
-  "artist": "glass beach",
-  "chartPath": "songs/puppy.ssc",
-  "audioPath": "songs/puppy.ogg",
-  "key": "1755801802010"
+	"title": "Relax",
+	"artist": "Frankie Goes to Hollywood",
+	"chartPath": "songs/15gays1-2pack/Relax.ssc",
+	"audioPath": "songs/15gays1-2pack/Relax.ogg",
+	"key": "1755801387014"
 },
 {
-  "title": "Off-grid",
-  "artist": "Sobrem",
-  "chartPath": "songs/Off-grid.sm",
-  "audioPath": "songs/Off-grid.ogg",
-  "key": "1755802486694"
+	"title": "puppy",
+	"artist": "glass beach",
+	"chartPath": "songs/15gays1-2pack/puppy.ssc",
+	"audioPath": "songs/15gays1-2pack/puppy.ogg",
+	"key": "1755801802010"
 },
 {
-  "title": "Not Alone",
-  "artist": "Odyssey Eurobeat",
-  "chartPath": "songs/Not Alone.sm",
-  "audioPath": "songs/Not Alone.ogg",
-  "key": "1755802947798"
+	"title": "Off-grid",
+	"artist": "Sobrem",
+	"chartPath": "songs/15gays1-2pack/Off-grid.sm",
+	"audioPath": "songs/15gays1-2pack/Off-grid.ogg",
+	"key": "1755802486694"
 },
 {
-  "title": "No Angel",
-  "artist": "Charli XCX",
-  "chartPath": "songs/No Angel.ssc",
-  "audioPath": "songs/No Angel.ogg",
-  "key": "1755805355145"
+	"title": "Not Alone",
+	"artist": "Odyssey Eurobeat",
+	"chartPath": "songs/15gays1-2pack/Not Alone.sm",
+	"audioPath": "songs/15gays1-2pack/Not Alone.ogg",
+	"key": "1755802947798"
 },
 {
-  "title": "My Hitomi",
-  "artist": "nmk feat.橘花音",
-  "chartPath": "songs/My Hitomi.ssc",
-  "audioPath": "songs/My Hitomi.ogg",
-  "key": "1755805550390"
+	"title": "No Angel",
+	"artist": "Charli XCX",
+	"chartPath": "songs/15gays1-2pack/No Angel.ssc",
+	"audioPath": "songs/15gays1-2pack/No Angel.ogg",
+	"key": "1755805355145"
 },
 {
-  "title": "My Head & My Heart",
-  "artist": "Ava Max",
-  "chartPath": "songs/My Head & My Heart.ssc",
-  "audioPath": "songs/My Head & My Heart.ogg",
-  "key": "1755805755852"
+	"title": "My Hitomi",
+	"artist": "nmk feat.橘花音",
+	"chartPath": "songs/15gays1-2pack/My Hitomi.ssc",
+	"audioPath": "songs/15gays1-2pack/My Hitomi.ogg",
+	"key": "1755805550390"
 },
 {
-  "title": "Motorbike",
-  "artist": "Poppy",
-  "chartPath": "songs/Motorbike.ssc",
-  "audioPath": "songs/Motorbike.ogg",
-  "key": "1755805962260"
+	"title": "My Head & My Heart",
+	"artist": "Ava Max",
+	"chartPath": "songs/15gays1-2pack/My Head & My Heart.ssc",
+	"audioPath": "songs/15gays1-2pack/My Head & My Heart.ogg",
+	"key": "1755805755852"
 },
 {
-  "title": "Manzai Birds",
-  "artist": "Tsunku♂",
-  "chartPath": "songs/Manzai Birds.ssc",
-  "audioPath": "songs/Manzai Birds.ogg",
-  "key": "1755806132244"
+	"title": "Motorbike",
+	"artist": "Poppy",
+	"chartPath": "songs/15gays1-2pack/Motorbike.ssc",
+	"audioPath": "songs/15gays1-2pack/Motorbike.ogg",
+	"key": "1755805962260"
 },
 {
-  "title": "Levitating",
-  "artist": "Dua Lipa",
-  "chartPath": "songs/Levitating.sm",
-  "audioPath": "songs/Levitating.ogg",
-  "key": "1755806275852"
+	"title": "Manzai Birds",
+	"artist": "Tsunku♂",
+	"chartPath": "songs/15gays1-2pack/Manzai Birds.ssc",
+	"audioPath": "songs/15gays1-2pack/Manzai Birds.ogg",
+	"key": "1755806132244"
 },
 {
-  "title": "Immaterial",
-  "artist": "SOPHIE",
-  "chartPath": "songs/immaterial.ssc",
-  "audioPath": "songs/immaterial.ogg",
-  "key": "1755806421879"
+	"title": "Levitating",
+	"artist": "Dua Lipa",
+	"chartPath": "songs/15gays1-2pack/Levitating.sm",
+	"audioPath": "songs/15gays1-2pack/Levitating.ogg",
+	"key": "1755806275852"
 },
 {
-  "title": "HEADLIGHTS",
-  "artist": "Wolfgun",
-  "chartPath": "songs/HEADLIGHTS.ssc",
-  "audioPath": "songs/HEADLIGHTS.ogg",
-  "key": "1755806782661"
+	"title": "Immaterial",
+	"artist": "SOPHIE",
+	"chartPath": "songs/15gays1-2pack/immaterial.ssc",
+	"audioPath": "songs/15gays1-2pack/immaterial.ogg",
+	"key": "1755806421879"
 },
 {
-  "title": "Get Wild",
-  "artist": "nostraightanswer",
-  "chartPath": "songs/Get Wild.ssc",
-  "audioPath": "songs/Get Wild.ogg",
-  "key": "1755807499525"
+	"title": "HEADLIGHTS",
+	"artist": "Wolfgun",
+	"chartPath": "songs/15gays1-2pack/HEADLIGHTS.ssc",
+	"audioPath": "songs/15gays1-2pack/HEADLIGHTS.ogg",
+	"key": "1755806782661"
 },
 {
-  "title": "DIP N DRIP",
-  "artist": "COBRAH",
-  "chartPath": "songs/DIP N DRIP.ssc",
-  "audioPath": "songs/DIP N DRIP.ogg",
-  "key": "1755810382688"
+	"title": "Get Wild",
+	"artist": "nostraightanswer",
+	"chartPath": "songs/15gays1-2pack/Get Wild.ssc",
+	"audioPath": "songs/15gays1-2pack/Get Wild.ogg",
+	"key": "1755807499525"
 },
 {
-  "title": "CHARGER",
-  "artist": "ELIO, Charli XCX",
-  "chartPath": "songs/CHARGER.ssc",
-  "audioPath": "songs/Charger.ogg",
-  "key": "1755812032732"
+	"title": "DIP N DRIP",
+	"artist": "COBRAH",
+	"chartPath": "songs/15gays1-2pack/DIP N DRIP.ssc",
+	"audioPath": "songs/15gays1-2pack/DIP N DRIP.ogg",
+	"key": "1755810382688"
 },
 {
-  "title": "1UL",
-  "artist": "Danny L Harle",
-  "chartPath": "songs/1UL.ssc",
-  "audioPath": "songs/1UL.ogg",
-  "key": "1755813404048"
+	"title": "CHARGER",
+	"artist": "ELIO, Charli XCX",
+	"chartPath": "songs/15gays1-2pack/CHARGER.ssc",
+	"audioPath": "songs/15gays1-2pack/Charger.ogg",
+	"key": "1755812032732"
 },
 {
-  "title": "Abracadabra",
-  "artist": "Lady Gaga",
-  "chartPath": "songs/Abracadabra.ssc",
-  "audioPath": "songs/Abracadabra.ogg",
-  "key": "1755865161357"
+	"title": "1UL",
+	"artist": "Danny L Harle",
+	"chartPath": "songs/15gays1-2pack/1UL.ssc",
+	"audioPath": "songs/15gays1-2pack/1UL.ogg",
+	"key": "1755813404048"
 },
 {
-  "title": "As It Was",
-  "artist": "Harry Styles",
-  "chartPath": "songs/As It Was.ssc",
-  "audioPath": "songs/As It Was.ogg",
-  "key": "1755865440027"
+	"title": "Abracadabra",
+	"artist": "Lady Gaga",
+	"chartPath": "songs/15gays1-2pack/Abracadabra.ssc",
+	"audioPath": "songs/15gays1-2pack/Abracadabra.ogg",
+	"key": "1755865161357"
 },
 {
-  "title": "Blippy",
-  "artist": "ari melody & zaire",
-  "chartPath": "songs/Blippy.ssc",
-  "audioPath": "songs/Blippy.ogg",
-  "key": "1755865710264"
+	"title": "As It Was",
+	"artist": "Harry Styles",
+	"chartPath": "songs/15gays1-2pack/As It Was.ssc",
+	"audioPath": "songs/15gays1-2pack/As It Was.ogg",
+	"key": "1755865440027"
 },
 {
-  "title": "Circus",
-  "artist": "Dirty Loops",
-  "chartPath": "songs/Circus.ssc",
-  "audioPath": "songs/Circus.ogg",
-  "key": "1755867859360"
+	"title": "Blippy",
+	"artist": "ari melody & zaire",
+	"chartPath": "songs/15gays1-2pack/Blippy.ssc",
+	"audioPath": "songs/15gays1-2pack/Blippy.ogg",
+	"key": "1755865710264"
 },
 {
-  "title": "FI3BRE",
-  "artist": "spanish nxc",
-  "chartPath": "songs/FI3BRE.ssc",
-  "audioPath": "songs/FI3BRE.ogg",
-  "key": "1755868087409"
+	"title": "Circus",
+	"artist": "Dirty Loops",
+	"chartPath": "songs/15gays1-2pack/Circus.ssc",
+	"audioPath": "songs/15gays1-2pack/Circus.ogg",
+	"key": "1755867859360"
 },
 {
-  "title": "Fighting Chance",
-  "artist": "Chipzel",
-  "chartPath": "songs/Fighting Chance.ssc",
-  "audioPath": "songs/Fighting Chance.ogg",
-  "key": "1755868217646"
+	"title": "FI3BRE",
+	"artist": "spanish nxc",
+	"chartPath": "songs/15gays1-2pack/FI3BRE.ssc",
+	"audioPath": "songs/15gays1-2pack/FI3BRE.ogg",
+	"key": "1755868087409"
 },
 {
-  "title": "KITTY",
-  "artist": "REYSHA RAMI",
-  "chartPath": "songs/KITTY.ssc",
-  "audioPath": "songs/KITTY.ogg",
-  "key": "1755877082756"
+	"title": "Fighting Chance",
+	"artist": "Chipzel",
+	"chartPath": "songs/15gays1-2pack/Fighting Chance.ssc",
+	"audioPath": "songs/15gays1-2pack/Fighting Chance.ogg",
+	"key": "1755868217646"
 },
 {
-  "title": "Say So",
-  "artist": "Doja Cat",
-  "chartPath": "songs/Say So.ssc",
-  "audioPath": "songs/Say So.ogg",
-  "key": "1755880357831"
+	"title": "KITTY",
+	"artist": "REYSHA RAMI",
+	"chartPath": "songs/15gays1-2pack/KITTY.ssc",
+	"audioPath": "songs/15gays1-2pack/KITTY.ogg",
+	"key": "1755877082756"
 },
 {
-  "title": "Spot A Fake",
-  "artist": "Ava Max",
-  "chartPath": "songs/Spot A Fake.ssc",
-  "audioPath": "songs/Spot A Fake.ogg",
-  "key": "1755880493564"
+	"title": "Say So",
+	"artist": "Doja Cat",
+	"chartPath": "songs/15gays1-2pack/Say So.ssc",
+	"audioPath": "songs/15gays1-2pack/Say So.ogg",
+	"key": "1755880357831"
 },
 {
-  "title": "Touchy",
-  "artist": "Bright Light feat. Brendan MacLean",
-  "chartPath": "songs/Touchy.ssc",
-  "audioPath": "songs/Touchy.ogg",
-  "key": "1755880743692"
+	"title": "Spot A Fake",
+	"artist": "Ava Max",
+	"chartPath": "songs/15gays1-2pack/Spot A Fake.ssc",
+	"audioPath": "songs/15gays1-2pack/Spot A Fake.ogg",
+	"key": "1755880493564"
 },
 {
-  "pack": "Lisia Nora Community Simfiles 1-2",
-  "author": ""
+	"title": "Touchy",
+	"artist": "Bright Light feat. Brendan MacLean",
+	"chartPath": "songs/15gays1-2pack/Touchy.ssc",
+	"audioPath": "songs/15gays1-2pack/Touchy.ogg",
+	"key": "1755880743692"
 },
 {
-  "title": "Bad Romance",
-  "artist": "Lady Gaga",
-  "chartPath": "songs/Bad Romance.ssc",
-  "audioPath": "songs/Bad Romance.ogg",
-  "key": "1755887672917"
+	"pack": "Lisia Nora 1-2",
+	"author": ""
 },
 {
-  "title": "Celestial Solace",
-  "artist": "SAMString",
-  "chartPath": "songs/Celestial Solace.ssc",
-  "audioPath": "songs/Celestial Solace.ogg",
-  "key": "1755887884497"
+	"title": "Bad Romance",
+	"artist": "Lady Gaga",
+	"chartPath": "songs/Lisia-Nora-1-2/Bad Romance.ssc",
+	"audioPath": "songs/Lisia-Nora-1-2/Bad Romance.ogg",
+	"key": "1755887672917"
 },
 {
-  "title": "Dizzy Paranoia Girl",
-  "artist": "KAT",
-  "chartPath": "songs/Dizzy Paranoia Girl.ssc",
-  "audioPath": "songs/Dizzy Paranoia Girl.ogg",
-  "key": "1755888040068"
+	"title": "Celestial Solace",
+	"artist": "SAMString",
+	"chartPath": "songs/Lisia-Nora-1-2/Celestial Solace.ssc",
+	"audioPath": "songs/Lisia-Nora-1-2/Celestial Solace.ogg",
+	"key": "1755887884497"
 },
 {
-  "title": "Europapa",
-  "artist": "Joost",
-  "chartPath": "songs/Europapa.ssc",
-  "audioPath": "songs/Europapa.ogg",
-  "key": "1755888161792"
+	"title": "Dizzy Paranoia Girl",
+	"artist": "KAT",
+	"chartPath": "songs/Lisia-Nora-1-2/Dizzy Paranoia Girl.ssc",
+	"audioPath": "songs/Lisia-Nora-1-2/Dizzy Paranoia Girl.ogg",
+	"key": "1755888040068"
 },
 {
-  "title": "Evil Eye",
-  "artist": "Simon Viklund",
-  "chartPath": "songs/Evil Eye.ssc",
-  "audioPath": "songs/Evil Eye.ogg",
-  "key": "1755888290125"
+	"title": "Europapa",
+	"artist": "Joost",
+	"chartPath": "songs/Lisia-Nora-1-2/Europapa.ssc",
+	"audioPath": "songs/Lisia-Nora-1-2/Europapa.ogg",
+	"key": "1755888161792"
 },
 {
-  "title": "Level Up",
-  "artist": "Raccy",
-  "chartPath": "songs/Level Up.ssc",
-  "audioPath": "songs/Level Up.ogg",
-  "key": "1755888436239"
+	"title": "Evil Eye",
+	"artist": "Simon Viklund",
+	"chartPath": "songs/Lisia-Nora-1-2/Evil Eye.ssc",
+	"audioPath": "songs/Lisia-Nora-1-2/Evil Eye.ogg",
+	"key": "1755888290125"
 },
 {
-  "title": "Life",
-  "artist": "Relect",
-  "chartPath": "songs/Life.ssc",
-  "audioPath": "songs/Life.ogg",
-  "key": "1755888561686"
+	"title": "Level Up",
+	"artist": "Raccy",
+	"chartPath": "songs/Lisia-Nora-1-2/Level Up.ssc",
+	"audioPath": "songs/Lisia-Nora-1-2/Level Up.ogg",
+	"key": "1755888436239"
 },
 {
-  "title": "Losing My Mind",
-  "artist": "Mystery Skulls",
-  "chartPath": "songs/Losing My Mind.ssc",
-  "audioPath": "songs/Losing My Mind.ogg",
-  "key": "1755888727545"
+	"title": "Life",
+	"artist": "Relect",
+	"chartPath": "songs/Lisia-Nora-1-2/Life.ssc",
+	"audioPath": "songs/Lisia-Nora-1-2/Life.ogg",
+	"key": "1755888561686"
 },
 {
-  "title": "Jej czarne oczy",
-  "artist": "Ivan & Delfin",
-  "chartPath": "songs/Jej czarne oczy.ssc",
-  "audioPath": "songs/Jej czarne oczy.ogg",
-  "key": "1755889693721"
+	"title": "Losing My Mind",
+	"artist": "Mystery Skulls",
+	"chartPath": "songs/Lisia-Nora-1-2/Losing My Mind.ssc",
+	"audioPath": "songs/Lisia-Nora-1-2/Losing My Mind.ogg",
+	"key": "1755888727545"
 },
 {
-  "title": "Makumba",
-  "artist": "Big Cyc",
-  "chartPath": "songs/Makumba.ssc",
-  "audioPath": "songs/Makumba.ogg",
-  "key": "1755890045311"
+	"title": "Jej czarne oczy",
+	"artist": "Ivan & Delfin",
+	"chartPath": "songs/Lisia-Nora-1-2/Jej czarne oczy.ssc",
+	"audioPath": "songs/Lisia-Nora-1-2/Jej czarne oczy.ogg",
+	"key": "1755889693721"
 },
 {
-  "title": "Mix Sałat",
-  "artist": "Taco Hemingway feat. Daria Zawiałow",
-  "chartPath": "songs/Mix Salat.ssc",
-  "audioPath": "songs/Mix Salat.ogg",
-  "key": "1755890206246"
+	"title": "Makumba",
+	"artist": "Big Cyc",
+	"chartPath": "songs/Lisia-Nora-1-2/Makumba.ssc",
+	"audioPath": "songs/Lisia-Nora-1-2/Makumba.ogg",
+	"key": "1755890045311"
 },
 {
-  "title": "Parostatek",
-  "artist": "Krzysztof Krawczyk",
-  "chartPath": "songs/Parostatek.ssc",
-  "audioPath": "songs/Parostatek.ogg",
-  "key": "1755890391755"
+	"title": "Mix Sałat",
+	"artist": "Taco Hemingway feat. Daria Zawiałow",
+	"chartPath": "songs/Lisia-Nora-1-2/Mix Salat.ssc",
+	"audioPath": "songs/Lisia-Nora-1-2/Mix Salat.ogg",
+	"key": "1755890206246"
 },
 {
-  "title": "Prawy do lewego",
-  "artist": "Kayah & Goran Bregović",
-  "chartPath": "songs/Prawy do lewego.ssc",
-  "audioPath": "songs/Prawy do lewego.ogg",
-  "key": "1755890547368"
+	"title": "Parostatek",
+	"artist": "Krzysztof Krawczyk",
+	"chartPath": "songs/Lisia-Nora-1-2/Parostatek.ssc",
+	"audioPath": "songs/Lisia-Nora-1-2/Parostatek.ogg",
+	"key": "1755890391755"
 },
 {
-  "title": "STAR WALKIN'",
-  "artist": "Karol Suchecki & Kito",
-  "chartPath": "songs/Star Walkin.ssc",
-  "audioPath": "songs/Star Walkin.ogg",
-  "key": "1755894378627"
+	"title": "Prawy do lewego",
+	"artist": "Kayah & Goran Bregović",
+	"chartPath": "songs/Lisia-Nora-1-2/Prawy do lewego.ssc",
+	"audioPath": "songs/Lisia-Nora-1-2/Prawy do lewego.ogg",
+	"key": "1755890547368"
 },
 {
-  "title": "Takie Tango",
-  "artist": "Budka Suflera",
-  "chartPath": "songs/Takie Tango.ssc",
-  "audioPath": "songs/Takie Tango.ogg",
-  "key": "1755894587098"
+	"title": "STAR WALKIN'",
+	"artist": "Karol Suchecki & Kito",
+	"chartPath": "songs/Lisia-Nora-1-2/Star Walkin.ssc",
+	"audioPath": "songs/Lisia-Nora-1-2/Star Walkin.ogg",
+	"key": "1755894378627"
 },
 {
-  "title": "VHS",
-  "artist": "Figo i Samogony ft. Grzegorz Skawiński",
-  "chartPath": "songs/VHS.ssc",
-  "audioPath": "songs/VHS.ogg",
-  "key": "1755894948771"
+	"title": "Takie Tango",
+	"artist": "Budka Suflera",
+	"chartPath": "songs/Lisia-Nora-1-2/Takie Tango.ssc",
+	"audioPath": "songs/Lisia-Nora-1-2/Takie Tango.ogg",
+	"key": "1755894587098"
 },
 {
-  "title": "Zawsze z Toba Chcialbym Byc",
-  "artist": "Ich Troje",
-  "chartPath": "songs/Zawsze Z Toba Chcialbym Byc.ssc",
-  "audioPath": "songs/Zawsze Z Toba Chcialbym Byc.ogg",
-  "key": "1755895141329"
+	"title": "VHS",
+	"artist": "Figo i Samogony ft. Grzegorz Skawiński",
+	"chartPath": "songs/Lisia-Nora-1-2/VHS.ssc",
+	"audioPath": "songs/Lisia-Nora-1-2/VHS.ogg",
+	"key": "1755894948771"
 },
 {
-  "title": "Zimna Lufa",
-  "artist": "Jacek Stachursky",
-  "chartPath": "songs/Zimna Lufa (Babylon DENN Remix).ssc",
-  "audioPath": "songs/Zimna Lufa (Babylon DENN Remix).ogg",
-  "key": "1755895326823"
+	"title": "Zawsze z Toba Chcialbym Byc",
+	"artist": "Ich Troje",
+	"chartPath": "songs/Lisia-Nora-1-2/Zawsze Z Toba Chcialbym Byc.ssc",
+	"audioPath": "songs/Lisia-Nora-1-2/Zawsze Z Toba Chcialbym Byc.ogg",
+	"key": "1755895141329"
 },
 {
-  "pack": "dimocracy 1-3",
-  "author": ""
+	"title": "Zimna Lufa",
+	"artist": "Jacek Stachursky",
+	"chartPath": "songs/Lisia-Nora-1-2/Zimna Lufa (Babylon DENN Remix).ssc",
+	"audioPath": "songs/Lisia-Nora-1-2/Zimna Lufa (Babylon DENN Remix).ogg",
+	"key": "1755895326823"
 },
 {
-  "title": "Another Night",
-  "artist": "MYRNE",
-  "chartPath": "songs/dimocracy-1/Another Night.sm",
-  "audioPath": "songs/dimocracy-1/Another Night.ogg",
-  "key": "1755940568650"
+	"pack": "dimocracy 1-3",
+	"author": ""
 },
 {
-  "title": "Subside",
-  "artist": "Ephixa & Bossfight",
-  "chartPath": "songs/dimocracy-1/Subside.ssc",
-  "audioPath": "songs/dimocracy-1/Subside.ogg",
-  "key": "1755940792404"
+	"title": "Another Night",
+	"artist": "MYRNE",
+	"chartPath": "songs/dimocracy-1/Another Night.sm",
+	"audioPath": "songs/dimocracy-1/Another Night.ogg",
+	"key": "1755940568650"
 },
 {
-  "title": "Let Me Hear That",
-  "artist": "Haywyre",
-  "chartPath": "songs/dimocracy-1/let me hear that.sm",
-  "audioPath": "songs/dimocracy-1/let me hear that.ogg",
-  "key": "1755940942114"
+	"title": "Subside",
+	"artist": "Ephixa & Bossfight",
+	"chartPath": "songs/dimocracy-1/Subside.ssc",
+	"audioPath": "songs/dimocracy-1/Subside.ogg",
+	"key": "1755940792404"
 },
 {
-  "title": "Work",
-  "artist": "Teminite",
-  "chartPath": "songs/dimocracy-1/work.sm",
-  "audioPath": "songs/dimocracy-1/work.ogg",
-  "key": "1755941111792"
+	"title": "Let Me Hear That",
+	"artist": "Haywyre",
+	"chartPath": "songs/dimocracy-1/let me hear that.sm",
+	"audioPath": "songs/dimocracy-1/let me hear that.ogg",
+	"key": "1755940942114"
 },
 {
-  "title": "Deathtrap",
-  "artist": "Nhato",
-  "chartPath": "songs/dimocracy-1/deathtrap.ssc",
-  "audioPath": "songs/dimocracy-1/deathtrap.ogg",
-  "key": "1755941871604"
+	"title": "Work",
+	"artist": "Teminite",
+	"chartPath": "songs/dimocracy-1/work.sm",
+	"audioPath": "songs/dimocracy-1/work.ogg",
+	"key": "1755941111792"
 },
 {
-  "title": "Waltz Capriccio",
-  "artist": "Synthion",
-  "chartPath": "songs/dimocracy-1/waltz_capriccio.ssc",
-  "audioPath": "songs/dimocracy-1/waltz_capriccio.ogg",
-  "key": "1755942202688"
+	"title": "Deathtrap",
+	"artist": "Nhato",
+	"chartPath": "songs/dimocracy-1/deathtrap.ssc",
+	"audioPath": "songs/dimocracy-1/deathtrap.ogg",
+	"key": "1755941871604"
 },
 {
-  "title": "Champagne",
-  "artist": "Polyphia",
-  "chartPath": "songs/dimocracy-1/Champagne.sm",
-  "audioPath": "songs/dimocracy-1/Champagne.ogg",
-  "key": "1755948202120"
+	"title": "Waltz Capriccio",
+	"artist": "Synthion",
+	"chartPath": "songs/dimocracy-1/waltz_capriccio.ssc",
+	"audioPath": "songs/dimocracy-1/waltz_capriccio.ogg",
+	"key": "1755942202688"
 },
 {
-  "title": "G.O.A.T.",
-  "artist": "Polyphia",
-  "chartPath": "songs/dimocracy-1/Goat.sm",
-  "audioPath": "songs/dimocracy-1/Polyphia - G.O.A.T.ogg",
-  "key": "1755948365359"
+	"title": "Champagne",
+	"artist": "Polyphia",
+	"chartPath": "songs/dimocracy-1/Champagne.sm",
+	"audioPath": "songs/dimocracy-1/Champagne.ogg",
+	"key": "1755948202120"
 },
 {
-  "title": "King Jammy's Twitching Hype Vampire Nightmare 2",
-  "artist": "Moody Good",
-  "chartPath": "songs/dimocracy-1/King Jammy's Twitching Hype Vampire Nightmare 2.ssc",
-  "audioPath": "songs/dimocracy-1/King Jammy's Twitching Hype Vampire Nightmare 2.ogg",
-  "key": "1755948498694"
+	"title": "G.O.A.T.",
+	"artist": "Polyphia",
+	"chartPath": "songs/dimocracy-1/Goat.sm",
+	"audioPath": "songs/dimocracy-1/Polyphia - G.O.A.T.ogg",
+	"key": "1755948365359"
 },
 {
-  "title": "Ultramarine",
-  "artist": "Yunosuke",
-  "chartPath": "songs/dimocracy-1/ultramarine.sm",
-  "audioPath": "songs/dimocracy-1/ultramarine.ogg",
-  "key": "1755948630850"
+	"title": "King Jammy's Twitching Hype Vampire Nightmare 2",
+	"artist": "Moody Good",
+	"chartPath": "songs/dimocracy-1/King Jammy's Twitching Hype Vampire Nightmare 2.ssc",
+	"audioPath": "songs/dimocracy-1/King Jammy's Twitching Hype Vampire Nightmare 2.ogg",
+	"key": "1755948498694"
 },
 {
-  "title": "Hanabi",
-  "artist": "polysha & Tanchiky",
-  "chartPath": "songs/dimocracy-1/Hanabi.sm",
-  "audioPath": "songs/dimocracy-1/Hanabi.ogg",
-  "key": "1755948769526"
+	"title": "Ultramarine",
+	"artist": "Yunosuke",
+	"chartPath": "songs/dimocracy-1/ultramarine.sm",
+	"audioPath": "songs/dimocracy-1/ultramarine.ogg",
+	"key": "1755948630850"
 },
 {
-  "title": "Lovesick Asteroids",
-  "artist": "polysha",
-  "chartPath": "songs/dimocracy-1/lovesick asteroids.sm",
-  "audioPath": "songs/dimocracy-1/lovesick asteroids.ogg",
-  "key": "1755948930460"
+	"title": "Hanabi",
+	"artist": "polysha & Tanchiky",
+	"chartPath": "songs/dimocracy-1/Hanabi.sm",
+	"audioPath": "songs/dimocracy-1/Hanabi.ogg",
+	"key": "1755948769526"
 },
 {
-  "title": "Never Ever",
-  "artist": "Röyksopp feat. Susanne Sundfør",
-  "chartPath": "songs/dimocracy-1/Never Ever.ssc",
-  "audioPath": "songs/dimocracy-1/RФyksopp - Never Ever (Edit).ogg",
-  "key": "1755949106032"
+	"title": "Lovesick Asteroids",
+	"artist": "polysha",
+	"chartPath": "songs/dimocracy-1/lovesick asteroids.sm",
+	"audioPath": "songs/dimocracy-1/lovesick asteroids.ogg",
+	"key": "1755948930460"
 },
 {
-  "title": "Rendezvous",
-  "artist": "polysha",
-  "chartPath": "songs/dimocracy-1/rendezvous.sm",
-  "audioPath": "songs/dimocracy-1/rendezvous.ogg",
-  "key": "1755949259055"
+	"title": "Never Ever",
+	"artist": "Röyksopp feat. Susanne Sundfør",
+	"chartPath": "songs/dimocracy-1/Never Ever.ssc",
+	"audioPath": "songs/dimocracy-1/RФyksopp - Never Ever (Edit).ogg",
+	"key": "1755949106032"
 },
 {
-  "title": "Meet You",
-  "artist": "DÉ DÉ MOUSE feat. Kizuna Ai",
-  "chartPath": "songs/dimocracy-1/Meet You.sm",
-  "audioPath": "songs/dimocracy-1/Meet You.ogg",
-  "key": "1755949458903"
+	"title": "Rendezvous",
+	"artist": "polysha",
+	"chartPath": "songs/dimocracy-1/rendezvous.sm",
+	"audioPath": "songs/dimocracy-1/rendezvous.ogg",
+	"key": "1755949259055"
 },
 {
-  "title": "raindance",
-  "artist": "Zekk & poplavor",
-  "chartPath": "songs/dimocracy-1/raindance.ssc",
-  "audioPath": "songs/dimocracy-1/raindance.ogg",
-  "key": "1755949653994"
+	"title": "Meet You",
+	"artist": "DÉ DÉ MOUSE feat. Kizuna Ai",
+	"chartPath": "songs/dimocracy-1/Meet You.sm",
+	"audioPath": "songs/dimocracy-1/Meet You.ogg",
+	"key": "1755949458903"
 },
 {
-  "title": "Sleep Cannon",
-  "artist": "Nokae",
-  "chartPath": "songs/dimocracy-1/Sleep Cannon.ssc",
-  "audioPath": "songs/dimocracy-1/Sleep Cannon - Nokae.ogg",
-  "key": "1755949941192"
+	"title": "raindance",
+	"artist": "Zekk & poplavor",
+	"chartPath": "songs/dimocracy-1/raindance.ssc",
+	"audioPath": "songs/dimocracy-1/raindance.ogg",
+	"key": "1755949653994"
 },
 {
-  "title": "Flamenco House",
-  "artist": "lapix",
-  "chartPath": "songs/dimocracy-1/Flamenco House.sm",
-  "audioPath": "songs/dimocracy-1/Flamenco House.ogg",
-  "key": "1755950347648"
+	"title": "Sleep Cannon",
+	"artist": "Nokae",
+	"chartPath": "songs/dimocracy-1/Sleep Cannon.ssc",
+	"audioPath": "songs/dimocracy-1/Sleep Cannon - Nokae.ogg",
+	"key": "1755949941192"
 },
 {
-  "title": "La Primavera",
-  "artist": "FAKE TYPE. feat. REMAH",
-  "chartPath": "songs/dimocracy-1/La Primavera.sm",
-  "audioPath": "songs/dimocracy-1/La Primavera.ogg",
-  "key": "1755950480716"
+	"title": "Flamenco House",
+	"artist": "lapix",
+	"chartPath": "songs/dimocracy-1/Flamenco House.sm",
+	"audioPath": "songs/dimocracy-1/Flamenco House.ogg",
+	"key": "1755950347648"
 },
 {
-  "title": "MASAMUNE",
-  "artist": "NS-Factory",
-  "chartPath": "songs/dimocracy-1/masamune.ssc",
-  "audioPath": "songs/dimocracy-1/masamune.ogg",
-  "key": "1755950657932"
+	"title": "La Primavera",
+	"artist": "FAKE TYPE. feat. REMAH",
+	"chartPath": "songs/dimocracy-1/La Primavera.sm",
+	"audioPath": "songs/dimocracy-1/La Primavera.ogg",
+	"key": "1755950480716"
 },
 {
-  "title": "Pon-Pon-Pompoko Dai-Sen-Saw!!",
-  "artist": "Chroma",
-  "chartPath": "songs/dimocracy-1/pompoko.ssc",
-  "audioPath": "songs/dimocracy-1/pompoko.ogg",
-  "key": "1755950814443"
+	"title": "MASAMUNE",
+	"artist": "NS-Factory",
+	"chartPath": "songs/dimocracy-1/masamune.ssc",
+	"audioPath": "songs/dimocracy-1/masamune.ogg",
+	"key": "1755950657932"
 },
 {
-  "title": "AM to PM",
-  "artist": "Christina Milian",
-  "chartPath": "songs/dimocracy-2/AM_to_PM.ssc",
-  "audioPath": "songs/dimocracy-2/AM to PM.ogg",
-  "key": "1755956374431"
+	"title": "Pon-Pon-Pompoko Dai-Sen-Saw!!",
+	"artist": "Chroma",
+	"chartPath": "songs/dimocracy-1/pompoko.ssc",
+	"audioPath": "songs/dimocracy-1/pompoko.ogg",
+	"key": "1755950814443"
 },
 {
-  "title": "Astronomical Optical Interferometry",
-  "artist": "poplavor & Zekk",
-  "chartPath": "songs/dimocracy-2/Astronomical_Optical_Interferometry.ssc",
-  "audioPath": "songs/dimocracy-2/Astronomical Optical Interferometry.ogg",
-  "key": "1755956805473"
+	"title": "AM to PM",
+	"artist": "Christina Milian",
+	"chartPath": "songs/dimocracy-2/AM_to_PM.ssc",
+	"audioPath": "songs/dimocracy-2/AM to PM.ogg",
+	"key": "1755956374431"
 },
 {
-  "title": "BENJAMIN",
-  "artist": "MARON (IOSYS)",
-  "chartPath": "songs/dimocracy-2/BENJAMIN_-_MARON_IOSYS.ssc",
-  "audioPath": "songs/dimocracy-2/BENJAMIN - MARON (IOSYS).ogg",
-  "key": "1755956951989"
+	"title": "Astronomical Optical Interferometry",
+	"artist": "poplavor & Zekk",
+	"chartPath": "songs/dimocracy-2/Astronomical_Optical_Interferometry.ssc",
+	"audioPath": "songs/dimocracy-2/Astronomical Optical Interferometry.ogg",
+	"key": "1755956805473"
 },
 {
-  "title": "Bi-Zon Zon Zombi",
-  "artist": "MC Natsack",
-  "chartPath": "songs/dimocracy-2/Bi-Zon_Zon_Zombi.ssc",
-  "audioPath": "songs/dimocracy-2/Bi-Zon Zon Zombi.ogg",
-  "key": "1755957089599"
+	"title": "BENJAMIN",
+	"artist": "MARON (IOSYS)",
+	"chartPath": "songs/dimocracy-2/BENJAMIN_-_MARON_IOSYS.ssc",
+	"audioPath": "songs/dimocracy-2/BENJAMIN - MARON (IOSYS).ogg",
+	"key": "1755956951989"
 },
 {
-  "title": "Bloody Tears",
-  "artist": "Kenichi Matsubara",
-  "chartPath": "songs/dimocracy-2/Bloody Tears.ssc",
-  "audioPath": "songs/dimocracy-2/Bloody_Tears.ogg",
-  "key": "1755957275290"
+	"title": "Bi-Zon Zon Zombi",
+	"artist": "MC Natsack",
+	"chartPath": "songs/dimocracy-2/Bi-Zon_Zon_Zombi.ssc",
+	"audioPath": "songs/dimocracy-2/Bi-Zon Zon Zombi.ogg",
+	"key": "1755957089599"
 },
 {
-  "title": "Bounce Trippy",
-  "artist": "Dustvoxx",
-  "chartPath": "songs/dimocracy-2/Bounce_Trippy.ssc",
-  "audioPath": "songs/dimocracy-2/Bounce Trippy.ogg",
-  "key": "1755957578887"
+	"title": "Bloody Tears",
+	"artist": "Kenichi Matsubara",
+	"chartPath": "songs/dimocracy-2/Bloody Tears.ssc",
+	"audioPath": "songs/dimocracy-2/Bloody_Tears.ogg",
+	"key": "1755957275290"
 },
 {
-  "title": "Bunny House",
-  "artist": "lapix",
-  "chartPath": "songs/dimocracy-2/bunny_house_cut.sm",
-  "audioPath": "songs/dimocracy-2/bunny_house_cut.ogg",
-  "key": "1755957722237"
+	"title": "Bounce Trippy",
+	"artist": "Dustvoxx",
+	"chartPath": "songs/dimocracy-2/Bounce_Trippy.ssc",
+	"audioPath": "songs/dimocracy-2/Bounce Trippy.ogg",
+	"key": "1755957578887"
 },
 {
-  "title": "Chikuwa parfait da yo ☆ CKP",
-  "artist": "Hinata Mi Bitter Sweets ♪",
-  "chartPath": "songs/dimocracy-2/CKP.ssc",
-  "audioPath": "songs/dimocracy-2/CKP.ogg",
-  "key": "1755957974259"
+	"title": "Bunny House",
+	"artist": "lapix",
+	"chartPath": "songs/dimocracy-2/bunny_house_cut.sm",
+	"audioPath": "songs/dimocracy-2/bunny_house_cut.ogg",
+	"key": "1755957722237"
 },
 {
-  "title": "cockpit",
-  "artist": "Jimmy Weckl",
-  "chartPath": "songs/dimocracy-2/26_-_cockpit_Jimmy_Weckl.sm",
-  "audioPath": "songs/dimocracy-2/26 - cockpit (Jimmy Weckl).ogg",
-  "key": "1755958127661"
+	"title": "Chikuwa parfait da yo ☆ CKP",
+	"artist": "Hinata Mi Bitter Sweets ♪",
+	"chartPath": "songs/dimocracy-2/CKP.ssc",
+	"audioPath": "songs/dimocracy-2/CKP.ogg",
+	"key": "1755957974259"
 },
 {
-  "title": "Do It!",
-  "artist": "House Rulez",
-  "chartPath": "songs/dimocracy-2/13._House_Rulez_-_Do_It.ssc",
-  "audioPath": "songs/dimocracy-2/13. House Rulez - Do It!.ogg",
-  "key": "1755958253585"
+	"title": "cockpit",
+	"artist": "Jimmy Weckl",
+	"chartPath": "songs/dimocracy-2/26_-_cockpit_Jimmy_Weckl.sm",
+	"audioPath": "songs/dimocracy-2/26 - cockpit (Jimmy Weckl).ogg",
+	"key": "1755958127661"
 },
 {
-  "title": "Electric Injury",
-  "artist": "siqlo",
-  "chartPath": "songs/dimocracy-2/Electric Injury.ssc",
-  "audioPath": "songs/dimocracy-2/Electric Injury.ogg",
-  "key": "1755958405875"
+	"title": "Do It!",
+	"artist": "House Rulez",
+	"chartPath": "songs/dimocracy-2/13._House_Rulez_-_Do_It.ssc",
+	"audioPath": "songs/dimocracy-2/13. House Rulez - Do It!.ogg",
+	"key": "1755958253585"
 },
 {
-  "title": "Energetic Engine ~ Excited Existence",
-  "artist": "wrsw as \"Sound Wave\"",
-  "chartPath": "songs/dimocracy-2/EEEE.ssc",
-  "audioPath": "songs/dimocracy-2/EEEE.ogg",
-  "key": "1755959832142"
+	"title": "Electric Injury",
+	"artist": "siqlo",
+	"chartPath": "songs/dimocracy-2/Electric Injury.ssc",
+	"audioPath": "songs/dimocracy-2/Electric Injury.ogg",
+	"key": "1755958405875"
 },
 {
-  "title": "Gemini in Clockland",
-  "artist": "Chroma",
-  "chartPath": "songs/dimocracy-2/Gemini in Clockland.ssc",
-  "audioPath": "songs/dimocracy-2/Gemini in Clockland.ogg",
-  "key": "1755960670695"
+	"title": "Energetic Engine ~ Excited Existence",
+	"artist": "wrsw as \"Sound Wave\"",
+	"chartPath": "songs/dimocracy-2/EEEE.ssc",
+	"audioPath": "songs/dimocracy-2/EEEE.ogg",
+	"key": "1755959832142"
 },
 {
-  "title": "Ghetto Funk",
-  "artist": "Matroda",
-  "chartPath": "songs/dimocracy-2/ghettofunk.ssc",
-  "audioPath": "songs/dimocracy-2/ghettofunk.ogg",
-  "key": "1755966352730"
+	"title": "Gemini in Clockland",
+	"artist": "Chroma",
+	"chartPath": "songs/dimocracy-2/Gemini in Clockland.ssc",
+	"audioPath": "songs/dimocracy-2/Gemini in Clockland.ogg",
+	"key": "1755960670695"
 },
 {
-  "title": "Himawari Sunset",
-  "artist": "IOSYS × Butaotome",
-  "chartPath": "songs/dimocracy-2/Himawari sunset.ssc",
-  "audioPath": "songs/dimocracy-2/Himawari sunset.ogg",
-  "key": "1755966560143"
+	"title": "Ghetto Funk",
+	"artist": "Matroda",
+	"chartPath": "songs/dimocracy-2/ghettofunk.ssc",
+	"audioPath": "songs/dimocracy-2/ghettofunk.ogg",
+	"key": "1755966352730"
 },
 {
-  "title": "Oshakashama",
-  "artist": "RADWIMPS",
-  "chartPath": "songs/dimocracy-2/Oshakashama.ssc",
-  "audioPath": "songs/dimocracy-2/Oshakashama.ogg",
-  "key": "1755969650717"
+	"title": "Himawari Sunset",
+	"artist": "IOSYS × Butaotome",
+	"chartPath": "songs/dimocracy-2/Himawari sunset.ssc",
+	"audioPath": "songs/dimocracy-2/Himawari sunset.ogg",
+	"key": "1755966560143"
 },
 {
-  "title": "Panopticon",
-  "artist": "cybermiso",
-  "chartPath": "songs/dimocracy-2/panopticon.ssc",
-  "audioPath": "songs/dimocracy-2/panopticon.ogg",
-  "key": "1755980341516"
+	"title": "Oshakashama",
+	"artist": "RADWIMPS",
+	"chartPath": "songs/dimocracy-2/Oshakashama.ssc",
+	"audioPath": "songs/dimocracy-2/Oshakashama.ogg",
+	"key": "1755969650717"
 },
 {
-  "title": "Plash, Plop, Gurgle",
-  "artist": "Camellia",
-  "chartPath": "songs/dimocracy-2/Plash_plop_gurgle.ssc",
-  "audioPath": "songs/dimocracy-2/plash plop gurgle.ogg",
-  "key": "1755980507031"
+	"title": "Panopticon",
+	"artist": "cybermiso",
+	"chartPath": "songs/dimocracy-2/panopticon.ssc",
+	"audioPath": "songs/dimocracy-2/panopticon.ogg",
+	"key": "1755980341516"
 },
 {
-  "title": "Play It Loud",
-  "artist": "Far Too Loud",
-  "chartPath": "songs/dimocracy-2/Play_It_Loud_Broken_Robot_Mix.sm",
-  "audioPath": "songs/dimocracy-2/Play It Loud (Broken Robot Mix).ogg",
-  "key": "1755980761759"
+	"title": "Plash, Plop, Gurgle",
+	"artist": "Camellia",
+	"chartPath": "songs/dimocracy-2/Plash_plop_gurgle.ssc",
+	"audioPath": "songs/dimocracy-2/plash plop gurgle.ogg",
+	"key": "1755980507031"
 },
 {
-  "title": "Raspberry Railgun",
-  "artist": "OSTER Project",
-  "chartPath": "songs/dimocracy-2/Raspberry Railgun.ssc",
-  "audioPath": "songs/dimocracy-2/OSTER Project - Raspberry Railgun.ogg",
-  "key": "1755980968927"
+	"title": "Play It Loud",
+	"artist": "Far Too Loud",
+	"chartPath": "songs/dimocracy-2/Play_It_Loud_Broken_Robot_Mix.sm",
+	"audioPath": "songs/dimocracy-2/Play It Loud (Broken Robot Mix).ogg",
+	"key": "1755980761759"
 },
 {
-  "title": "Riot",
-  "artist": "Tanchiky",
-  "chartPath": "songs/dimocracy-2/riot.sm",
-  "audioPath": "songs/dimocracy-2/riot.ogg",
-  "key": "1755981182190"
+	"title": "Raspberry Railgun",
+	"artist": "OSTER Project",
+	"chartPath": "songs/dimocracy-2/Raspberry Railgun.ssc",
+	"audioPath": "songs/dimocracy-2/OSTER Project - Raspberry Railgun.ogg",
+	"key": "1755980968927"
 },
 {
-  "title": "Sairai",
-  "artist": "Shinichi Kobayashi",
-  "chartPath": "songs/dimocracy-2/sairai.ssc",
-  "audioPath": "songs/dimocracy-2/sairai.ogg",
-  "key": "1755981371967"
+	"title": "Riot",
+	"artist": "Tanchiky",
+	"chartPath": "songs/dimocracy-2/riot.sm",
+	"audioPath": "songs/dimocracy-2/riot.ogg",
+	"key": "1755981182190"
 },
 {
-  "title": "Six String Proof",
-  "artist": "Yvya x Mutsuhiko Izumi",
-  "chartPath": "songs/dimocracy-2/ssp.sm",
-  "audioPath": "songs/dimocracy-2/ssp.ogg",
-  "key": "1755981647192"
+	"title": "Sairai",
+	"artist": "Shinichi Kobayashi",
+	"chartPath": "songs/dimocracy-2/sairai.ssc",
+	"audioPath": "songs/dimocracy-2/sairai.ogg",
+	"key": "1755981371967"
 },
 {
-  "title": "Spicy Trap-House Drums",
-  "artist": "Eliminate & Modestep",
-  "chartPath": "songs/dimocracy-2/Spicy_Trap_House_Drums.ssc",
-  "audioPath": "songs/dimocracy-2/Spicy Trap House Drums.ogg",
-  "key": "1755981861208"
+	"title": "Six String Proof",
+	"artist": "Yvya x Mutsuhiko Izumi",
+	"chartPath": "songs/dimocracy-2/ssp.sm",
+	"audioPath": "songs/dimocracy-2/ssp.ogg",
+	"key": "1755981647192"
 },
 {
-  "title": "Take Me To Pleasure Island",
-  "artist": "Shirobon",
-  "chartPath": "songs/dimocracy-2/Take_Me_To_Pleasure_Island.ssc",
-  "audioPath": "songs/dimocracy-2/Take Me To Pleasure Island.ogg",
-  "key": "1755982543677"
+	"title": "Spicy Trap-House Drums",
+	"artist": "Eliminate & Modestep",
+	"chartPath": "songs/dimocracy-2/Spicy_Trap_House_Drums.ssc",
+	"audioPath": "songs/dimocracy-2/Spicy Trap House Drums.ogg",
+	"key": "1755981861208"
 },
 {
-  "title": "Take me to the Future",
-  "artist": "Haamoja",
-  "chartPath": "songs/dimocracy-2/Take_me_to_the_Future.ssc",
-  "audioPath": "songs/dimocracy-2/Take_me_to_the_Future.ogg",
-  "key": "1755982681843"
+	"title": "Take Me To Pleasure Island",
+	"artist": "Shirobon",
+	"chartPath": "songs/dimocracy-2/Take_Me_To_Pleasure_Island.ssc",
+	"audioPath": "songs/dimocracy-2/Take Me To Pleasure Island.ogg",
+	"key": "1755982543677"
 },
 {
-  "title": "The 90's Decision",
-  "artist": "MYUKKE.",
-  "chartPath": "songs/dimocracy-2/the_90s_decision.ssc",
-  "audioPath": "songs/dimocracy-2/the 90s decision.ogg",
-  "key": "1755982848292"
+	"title": "Take me to the Future",
+	"artist": "Haamoja",
+	"chartPath": "songs/dimocracy-2/Take_me_to_the_Future.ssc",
+	"audioPath": "songs/dimocracy-2/Take_me_to_the_Future.ogg",
+	"key": "1755982681843"
 },
 {
-  "title": "This Night",
-  "artist": "yaseta",
-  "chartPath": "songs/dimocracy-2/this night.sm",
-  "audioPath": "songs/dimocracy-2/this night.ogg",
-  "key": "1755983294424"
+	"title": "The 90's Decision",
+	"artist": "MYUKKE.",
+	"chartPath": "songs/dimocracy-2/the_90s_decision.ssc",
+	"audioPath": "songs/dimocracy-2/the 90s decision.ogg",
+	"key": "1755982848292"
 },
 {
-  "title": "Utopia of Oz",
-  "artist": "sasakure.UK x OSTER project",
-  "chartPath": "songs/dimocracy-2/Utopia of Oz.ssc",
-  "audioPath": "songs/dimocracy-2/Utopia of Oz.ogg",
-  "key": "1755983436470"
+	"title": "This Night",
+	"artist": "yaseta",
+	"chartPath": "songs/dimocracy-2/this night.sm",
+	"audioPath": "songs/dimocracy-2/this night.ogg",
+	"key": "1755983294424"
 },
 {
-  "title": "1516",
-  "artist": "saaa",
-  "chartPath": "songs/dimocracy-3/1516.ssc",
-  "audioPath": "songs/dimocracy-3/1516.ogg",
-  "key": "1756039583004"
+	"title": "Utopia of Oz",
+	"artist": "sasakure.UK x OSTER project",
+	"chartPath": "songs/dimocracy-2/Utopia of Oz.ssc",
+	"audioPath": "songs/dimocracy-2/Utopia of Oz.ogg",
+	"key": "1755983436470"
 },
 {
-  "title": "AI Chill",
-  "artist": "Aichimu",
-  "chartPath": "songs/dimocracy-3/ai chill.ssc",
-  "audioPath": "songs/dimocracy-3/ai chill.ogg",
-  "key": "1756040036078"
+	"title": "1516",
+	"artist": "saaa",
+	"chartPath": "songs/dimocracy-3/1516.ssc",
+	"audioPath": "songs/dimocracy-3/1516.ogg",
+	"key": "1756039583004"
 },
 {
-  "title": "Amazing Mirage",
-  "artist": "lapix",
-  "chartPath": "songs/dimocracy-3/Amazing Mirage.sm",
-  "audioPath": "songs/dimocracy-3/Amazing Mirage.ogg",
-  "key": "1756040393524"
+	"title": "AI Chill",
+	"artist": "Aichimu",
+	"chartPath": "songs/dimocracy-3/ai chill.ssc",
+	"audioPath": "songs/dimocracy-3/ai chill.ogg",
+	"key": "1756040036078"
 },
 {
-  "title": "AYAKASHI",
-  "artist": "Hommarju",
-  "chartPath": "songs/dimocracy-3/ayakashi.sm",
-  "audioPath": "songs/dimocracy-3/ayakashi.ogg",
-  "key": "1756040812839"
+	"title": "Amazing Mirage",
+	"artist": "lapix",
+	"chartPath": "songs/dimocracy-3/Amazing Mirage.sm",
+	"audioPath": "songs/dimocracy-3/Amazing Mirage.ogg",
+	"key": "1756040393524"
 },
 {
-  "title": "Brother Goes Away",
-  "artist": "Hideki Naganuma",
-  "chartPath": "songs/dimocracy-3/Brother Goes Away.ssc",
-  "audioPath": "songs/dimocracy-3/Brother Goes Away.ogg",
-  "key": "1756043292393"
+	"title": "AYAKASHI",
+	"artist": "Hommarju",
+	"chartPath": "songs/dimocracy-3/ayakashi.sm",
+	"audioPath": "songs/dimocracy-3/ayakashi.ogg",
+	"key": "1756040812839"
 },
 {
-  "title": "Feel It",
-  "artist": "IAHN",
-  "chartPath": "songs/dimocracy-3/Feel It.sm",
-  "audioPath": "songs/dimocracy-3/Feel It.ogg",
-  "key": "1756043653804"
+	"title": "Brother Goes Away",
+	"artist": "Hideki Naganuma",
+	"chartPath": "songs/dimocracy-3/Brother Goes Away.ssc",
+	"audioPath": "songs/dimocracy-3/Brother Goes Away.ogg",
+	"key": "1756043292393"
 },
 {
-  "title": "Hellfire",
-  "artist": "Daisuke Ishiwatari",
-  "chartPath": "songs/dimocracy-3/hellfire.sm",
-  "audioPath": "songs/dimocracy-3/hellfire.ogg",
-  "key": "1756044110315"
+	"title": "Feel It",
+	"artist": "IAHN",
+	"chartPath": "songs/dimocracy-3/Feel It.sm",
+	"audioPath": "songs/dimocracy-3/Feel It.ogg",
+	"key": "1756043653804"
 },
 {
-  "title": "HyperTwist",
-  "artist": "TANUKI",
-  "chartPath": "songs/dimocracy-3/HyperTwist.ssc",
-  "audioPath": "songs/dimocracy-3/HyperTwist.ogg",
-  "key": "1756047161160"
+	"title": "Hellfire",
+	"artist": "Daisuke Ishiwatari",
+	"chartPath": "songs/dimocracy-3/hellfire.sm",
+	"audioPath": "songs/dimocracy-3/hellfire.ogg",
+	"key": "1756044110315"
 },
 {
-  "title": "I Love Love You",
-  "artist": "Guitar Vader remixed by Hideki Naganuma",
-  "chartPath": "songs/dimocracy-3/I Love Love You (Love Love Super Dimension Mix).sm",
-  "audioPath": "songs/dimocracy-3/I Love Love You (Love Love Super Dimension Mix).ogg",
-  "key": "1756047318996"
+	"title": "HyperTwist",
+	"artist": "TANUKI",
+	"chartPath": "songs/dimocracy-3/HyperTwist.ssc",
+	"audioPath": "songs/dimocracy-3/HyperTwist.ogg",
+	"key": "1756047161160"
 },
 {
-  "title": "In My Head",
-  "artist": "Virtual Riot feat. PRXZM",
-  "chartPath": "songs/dimocracy-3/In My Head.sm",
-  "audioPath": "songs/dimocracy-3/In My Head.ogg",
-  "key": "1756047506526"
+	"title": "I Love Love You",
+	"artist": "Guitar Vader remixed by Hideki Naganuma",
+	"chartPath": "songs/dimocracy-3/I Love Love You (Love Love Super Dimension Mix).sm",
+	"audioPath": "songs/dimocracy-3/I Love Love You (Love Love Super Dimension Mix).ogg",
+	"key": "1756047318996"
 },
 {
-  "title": "In the past",
-  "artist": "PSYQUI",
-  "chartPath": "songs/dimocracy-3/In the past.ssc",
-  "audioPath": "songs/dimocracy-3/In the past.ogg",
-  "key": "1756047722698"
+	"title": "In My Head",
+	"artist": "Virtual Riot feat. PRXZM",
+	"chartPath": "songs/dimocracy-3/In My Head.sm",
+	"audioPath": "songs/dimocracy-3/In My Head.ogg",
+	"key": "1756047506526"
 },
 {
-  "title": "Intersection",
-  "artist": "AZKi (prod. lapix)",
-  "chartPath": "songs/dimocracy-3/Intersection.sm",
-  "audioPath": "songs/dimocracy-3/Intersection.ogg",
-  "key": "1756047869038"
+	"title": "In the past",
+	"artist": "PSYQUI",
+	"chartPath": "songs/dimocracy-3/In the past.ssc",
+	"audioPath": "songs/dimocracy-3/In the past.ogg",
+	"key": "1756047722698"
 },
 {
-  "title": "K-Pop Culture",
-  "artist": "TAK",
-  "chartPath": "songs/dimocracy-3/K-Pop Culture.ssc",
-  "audioPath": "songs/dimocracy-3/K-Pop Culture.ogg",
-  "key": "1756051163558"
+	"title": "Intersection",
+	"artist": "AZKi (prod. lapix)",
+	"chartPath": "songs/dimocracy-3/Intersection.sm",
+	"audioPath": "songs/dimocracy-3/Intersection.ogg",
+	"key": "1756047869038"
 },
 {
-  "title": "LIN NE KRO NE",
-  "artist": "sasalasa",
-  "chartPath": "songs/LIN NE KRO NE.ssc",
-  "audioPath": "songs/LIN NE KRO NE.ogg",
-  "key": "1756062258937"
+	"title": "K-Pop Culture",
+	"artist": "TAK",
+	"chartPath": "songs/dimocracy-3/K-Pop Culture.ssc",
+	"audioPath": "songs/dimocracy-3/K-Pop Culture.ogg",
+	"key": "1756051163558"
 },
 {
-  "title": "Live Nor Die - Nhato Remix",
-  "artist": "lapix feat. Kanae Asaba",
-  "chartPath": "songs/Live Nor Die - Nhato Remix.sm",
-  "audioPath": "songs/Live Nor Die - Nhato Remix.ogg",
-  "key": "1756062537791"
+	"title": "LIN NE KRO NE",
+	"artist": "sasalasa",
+	"chartPath": "songs/dimocracy-3/LIN NE KRO NE.ssc",
+	"audioPath": "songs/dimocracy-3/LIN NE KRO NE.ogg",
+	"key": "1756062258937"
 },
 {
-  "title": "Neko to Mahou to Natsuyasumi",
-  "artist": "uynet",
-  "chartPath": "songs/neko to mahou to natsuyasumi.ssc",
-  "audioPath": "songs/neko to mahou to natsuyasumi.ogg",
-  "key": "1756062795225"
+	"title": "Live Nor Die - Nhato Remix",
+	"artist": "lapix feat. Kanae Asaba",
+	"chartPath": "songs/dimocracy-3/Live Nor Die - Nhato Remix.sm",
+	"audioPath": "songs/dimocracy-3/Live Nor Die - Nhato Remix.ogg",
+	"key": "1756062537791"
 },
 {
-  "title": "NO",
-  "artist": "Meghan Trainor",
-  "chartPath": "songs/NO-chart.sm",
-  "audioPath": "songs/NO-audio.ogg",
-  "key": "1756062952884"
+	"title": "Neko to Mahou to Natsuyasumi",
+	"artist": "uynet",
+	"chartPath": "songs/dimocracy-3/neko to mahou to natsuyasumi.ssc",
+	"audioPath": "songs/dimocracy-3/neko to mahou to natsuyasumi.ogg",
+	"key": "1756062795225"
 },
 {
-  "title": "NULCTRL",
-  "artist": "Silentroom",
-  "chartPath": "songs/nulctrl.ssc",
-  "audioPath": "songs/nulctrl.ogg",
-  "key": "1756063070627"
+	"title": "NO",
+	"artist": "Meghan Trainor",
+	"chartPath": "songs/dimocracy-3/NO-chart.sm",
+	"audioPath": "songs/dimocracy-3/NO-audio.ogg",
+	"key": "1756062952884"
 },
 {
-  "title": "Oosanbashi",
-  "artist": "Ucchies",
-  "chartPath": "songs/Oosanbashi(iroha chou).sm",
-  "audioPath": "songs/Oosanbashi(iroha chou).ogg",
-  "key": "1756063384208"
+	"title": "NULCTRL",
+	"artist": "Silentroom",
+	"chartPath": "songs/dimocracy-3/nulctrl.ssc",
+	"audioPath": "songs/dimocracy-3/nulctrl.ogg",
+	"key": "1756063070627"
 },
 {
-  "title": "Pixel",
-  "artist": "Mewnlight Rose",
-  "chartPath": "songs/pixel.ssc",
-  "audioPath": "songs/pixel.ogg",
-  "key": "1756063552533"
+	"title": "Oosanbashi",
+	"artist": "Ucchies",
+	"chartPath": "songs/dimocracy-3/Oosanbashi(iroha chou).sm",
+	"audioPath": "songs/dimocracy-3/Oosanbashi(iroha chou).ogg",
+	"key": "1756063384208"
 },
 {
-  "title": "PUMPIN' JUMPIN'",
-  "artist": "Hideki Naganuma",
-  "chartPath": "songs/Pumpin Jumpin.ssc",
-  "audioPath": "songs/Pumpin Jumpin.ogg",
-  "key": "1756063773391"
+	"title": "Pixel",
+	"artist": "Mewnlight Rose",
+	"chartPath": "songs/dimocracy-3/pixel.ssc",
+	"audioPath": "songs/dimocracy-3/pixel.ogg",
+	"key": "1756063552533"
+},
+{
+	"title": "PUMPIN' JUMPIN'",
+	"artist": "Hideki Naganuma",
+	"chartPath": "songs/dimocracy-3/Pumpin Jumpin.ssc",
+	"audioPath": "songs/dimocracy-3/Pumpin Jumpin.ogg",
+	"key": "1756063773391"
 },
 {
   "title": "space dust something something",
   "artist": "Shirobon",
-  "chartPath": "songs/space dust something something.ssc",
-  "audioPath": "songs/space dust something something.ogg",
+  "chartPath": "songs/dimocracy-3/space dust something something.ssc",
+  "audioPath": "songs/dimocracy-3/space dust something something.ogg",
   "key": "1756065729278"
 },
 {
   "title": "sparky spark",
   "artist": "kamome sano",
-  "chartPath": "songs/sparky.sm",
-  "audioPath": "songs/sparky.ogg",
+  "chartPath": "songs/dimocracy-3/sparky.sm",
+  "audioPath": "songs/dimocracy-3/sparky.ogg",
   "key": "1756065941994"
 },
 {
   "title": "Tir na n'Og",
   "artist": "WORLD SEQUENCE",
-  "chartPath": "songs/Tir na n'Og.ssc",
-  "audioPath": "songs/Tir na n'Og.ogg",
+  "chartPath": "songs/dimocracy-3/Tir na n'Og.ssc",
+  "audioPath": "songs/dimocracy-3/Tir na n'Og.ogg",
   "key": "1756066184092"
 },
 {
   "title": "Transport",
   "artist": "Sota Fujimori",
-  "chartPath": "songs/transport.sm",
-  "audioPath": "songs/transport.ogg",
+  "chartPath": "songs/dimocracy-3/transport.sm",
+  "audioPath": "songs/dimocracy-3/transport.ogg",
   "key": "1756066281996"
+},
+{
+  "pack": "9guys1pack",
+  "author": ""
+},
+{
+  "title": "Accelerate",
+  "artist": "Teminite & Skybreak",
+  "chartPath": "songs/9guys1pack/Accelerate.ssc",
+  "audioPath": "songs/9guys1pack/Accelerate.ogg",
+  "key": "1756111553846"
+},
+{
+  "title": "Beyond",
+  "artist": "Lime",
+  "chartPath": "songs/9guys1pack/Lime - Beyond.ssc",
+  "audioPath": "songs/9guys1pack/Lime - Beyond.ogg",
+  "key": "1756112153608"
+},
+{
+  "title": "Body Talk",
+  "artist": "M2U",
+  "chartPath": "songs/9guys1pack/Body Talk.ssc",
+  "audioPath": "songs/9guys1pack/Body Talk.ogg",
+  "key": "1756112435323"
+},
+{
+  "title": "Bullet Waiting for Me",
+  "artist": "Nikki Simmons",
+  "chartPath": "songs/9guys1pack/Bullet Waiting for Me.ssc",
+  "audioPath": "songs/9guys1pack/Bullet Waiting for Me.ogg",
+  "key": "1756143013564"
+},
+{
+  "title": "Carry On",
+  "artist": "Rhodz",
+  "chartPath": "songs/9guys1pack/Carry On.ssc",
+  "audioPath": "songs/9guys1pack/Carry On.ogg",
+  "key": "1756143035112"
+},
+{
+  "title": "Cryptofunk",
+  "artist": "MDK",
+  "chartPath": "songs/9guys1pack/cryptofunk.ssc",
+  "audioPath": "songs/9guys1pack/cryptofunk.ogg",
+  "key": "1756143047773"
+},
+{
+  "title": "Delta",
+  "artist": "C2C",
+  "chartPath": "songs/9guys1pack/Delta.ssc",
+  "audioPath": "songs/9guys1pack/C2C - Delta.ogg",
+  "key": "1756143072675"
+},
+{
+  "title": "Distant",
+  "artist": "AGST",
+  "chartPath": "songs/9guys1pack/distant.ssc",
+  "audioPath": "songs/9guys1pack/distant.ogg",
+  "key": "1756143084711"
+},
+{
+  "title": "edamame",
+  "artist": "bbno$ & Rich Brian",
+  "chartPath": "songs/9guys1pack/edamame (cudsys remix).ssc",
+  "audioPath": "songs/9guys1pack/bbno$ & rich brian - edamame (cudsys remix).ogg",
+  "key": "1756143095208"
+},
+{
+  "title": "Emerald Hill Zone",
+  "artist": "Vector U & Player 2",
+  "chartPath": "songs/9guys1pack/emerald hill zone.ssc",
+  "audioPath": "songs/9guys1pack/emerald hill zone.ogg",
+  "key": "1756143119128"
+},
+{
+  "title": "Eyes On The Stars",
+  "artist": "mameyudoufu",
+  "chartPath": "songs/9guys1pack/eyes on the stars.ssc",
+  "audioPath": "songs/9guys1pack/eyes on the stars.ogg",
+  "key": "1756143133072"
+},
+{
+  "title": "fairly brave",
+  "artist": "Capchii",
+  "chartPath": "songs/9guys1pack/fairly_brave.ssc",
+  "audioPath": "songs/9guys1pack/Capchii - fairly brave.ogg",
+  "key": "1756143146065"
+},
+{
+  "title": "Ghostboy",
+  "artist": "Robotaki",
+  "chartPath": "songs/9guys1pack/SpoopyGhostboy.ssc",
+  "audioPath": "songs/9guys1pack/Ghostboy.ogg",
+  "key": "1756143159629"
+},
+{
+  "title": "Hiccup",
+  "artist": "JX RIDERS",
+  "chartPath": "songs/9guys1pack/Hiccup - JX Riders (ft. Sisterwife).ssc",
+  "audioPath": "songs/9guys1pack/Hiccup.ogg",
+  "key": "1756143172698"
+},
+{
+  "title": "Hold Up",
+  "artist": "Nick Smith",
+  "chartPath": "songs/9guys1pack/Nick Smith - Hold Up.ssc",
+  "audioPath": "songs/9guys1pack/Nick Smith - Hold Up.ogg",
+  "key": "1756143187417"
+},
+{
+  "title": "Holy War",
+  "artist": "Boom Kitty",
+  "chartPath": "songs/9guys1pack/holy_war.ssc",
+  "audioPath": "songs/9guys1pack/holy war.ogg",
+  "key": "1756143202097"
+},
+{
+  "title": "Huracan",
+  "artist": "Gareth Emery",
+  "chartPath": "songs/9guys1pack/Huracan.ssc",
+  "audioPath": "songs/9guys1pack/Huracan.ogg",
+  "key": "1756143212419"
+},
+{
+  "title": "Intergalactic Drive-by",
+  "artist": "Jack & Owane",
+  "chartPath": "songs/9guys1pack/Intergalactic Drive-by.ssc",
+  "audioPath": "songs/9guys1pack/Intergalactic Drive-by.ogg",
+  "key": "1756143230316"
+},
+{
+  "title": "La Prière",
+  "artist": "XinG",
+  "chartPath": "songs/9guys1pack/La Priere.ssc",
+  "audioPath": "songs/9guys1pack/XinG.ogg",
+  "key": "1756143252727"
+},
+{
+  "title": "Love Juice",
+  "artist": "Owane",
+  "chartPath": "songs/9guys1pack/Love Juice.ssc",
+  "audioPath": "songs/9guys1pack/Owane - Love Juice.ogg",
+  "key": "1756143270021"
+},
+{
+  "title": "Love Sacrifice",
+  "artist": "sky_delta",
+  "chartPath": "songs/9guys1pack/Love Sacrifice.ssc",
+  "audioPath": "songs/9guys1pack/Love Sacrifice.ogg",
+  "key": "1756143281454"
+},
+{
+  "title": "Mad For You",
+  "artist": "Snareskin, TROVES",
+  "chartPath": "songs/9guys1pack/Mad For You.ssc",
+  "audioPath": "songs/9guys1pack/Mad For You.ogg",
+  "key": "1756143295083"
+},
+{
+  "title": "MADELINE",
+  "artist": "INJI",
+  "chartPath": "songs/9guys1pack/MADELINE.ssc",
+  "audioPath": "songs/9guys1pack/MADELINE.ogg",
+  "key": "1756143313589"
+},
+{
+  "title": "Melonaid",
+  "artist": "KATOMORI",
+  "chartPath": "songs/9guys1pack/KATOMORI - Melonaid.ssc",
+  "audioPath": "songs/9guys1pack/KATOMORI - Melonaid.ogg",
+  "key": "1756143359281"
+},
+{
+  "title": "Mother Tree",
+  "artist": "Sakuraburst, Former Hero",
+  "chartPath": "songs/9guys1pack/Mother Tree.ssc",
+  "audioPath": "songs/9guys1pack/Mother Tree.ogg",
+  "key": "1756143380178"
+},
+{
+  "title": "Multi-Thread",
+  "artist": "Mameyudoufu",
+  "chartPath": "songs/9guys1pack/Multi-Thread.ssc",
+  "audioPath": "songs/9guys1pack/Multi-Thread.ogg",
+  "key": "1756143394250"
 }
 ]
