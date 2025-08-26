@@ -193,26 +193,67 @@ function stopSong() {
 // --- GAME LOOP HELPERS ---
 
 /**
- * Checks if the current song time has exceeded the audio buffer's duration.
- * @param {number} currentTime - The current `curSongTime`.
+ * @param {number} currentTime is a curSongTime (logical playhead, which includes offsets).
  * @returns {boolean} True if the song should be stopped.
  */
 function isSongFinished(currentTime) {
-		let songHasEnded = false;
+    const GRACE_AFTER_END = 2.0; // seconds to allow misses and animations
+    const EPS = 0.050;           // 50 ms epsilon for float-rounding tolerance
 
-		// Condition A: The audio buffer has finished playing.
-		if (audioBuffer && audioBuffer.duration > 1 && currentTime >= audioBuffer.duration) {
-				songHasEnded = true;
-		}
+    // totalOffset is how much the logical clock is shifted relative to the raw audio clock
+    const totalOffset = (typeof songInfo !== 'undefined' ? (songInfo.offset || 0) : 0) + (typeof additionalOffset !== 'undefined' ? additionalOffset : 0);
 
-		// Condition B: We are past the last note in the chart and there's no real audio.
-		// (We check duration > 1 to identify our silent dummy buffer).
-		if (audioBuffer && audioBuffer.duration <= 1 && currentTime > lastNoteTime + 2.0) {
-				songHasEnded = true;
-		}
-		
-    return songHasEnded;
+    const hasRealAudio = (typeof audioBuffer !== 'undefined' && audioBuffer && audioBuffer.duration > 1);
+
+    // compute audio's logical playtime (i.e. audio position) by removing the chart offsets
+    const audioPlayTime = currentTime - totalOffset;
+
+    // Compute the latest meaningful scheduled time from noteStates (consider hold endTime)
+    let effectiveLast = (typeof lastNoteTime !== 'undefined' ? lastNoteTime : 0);
+    if (Array.isArray(noteStates) && noteStates.length) {
+        for (const n of noteStates) {
+            if (!n) continue;
+            if (n.state === 'irrelevant') continue;
+            let t = n.time;
+            if (n.type === 'hold') {
+                if (typeof n.endTime !== 'undefined' && Number.isFinite(n.endTime)) {
+                    t = n.endTime;
+                } else {
+                    // missing/Infinite tail -> do not extend to Infinity; fallback to lastNoteTime
+                    t = effectiveLast;
+                }
+            }
+            if (Number.isFinite(t)) effectiveLast = Math.max(effectiveLast, t);
+        }
+    }
+
+    if (hasRealAudio) {
+        // If audioPlayTime >= audioBuffer.duration, the audio really finished.
+        // We use EPS to avoid tiny-rounding false positives.
+        if (audioPlayTime >= audioBuffer.duration - EPS) {
+            // But if there are pending notes scheduled *after* audio end, we should keep going until they finish.
+            const pendingAfterAudio = Array.isArray(noteStates) && noteStates.some(
+                n => n && n.state === 'pending' && Number.isFinite(n.time) && n.time > audioBuffer.duration + totalOffset - EPS
+            );
+
+            if (!pendingAfterAudio) {
+                // No late notes — stop as soon as audio finished.
+                return true;
+            } else {
+                // Late notes exist — run until those finish plus a grace period.
+                const endBound = Math.max(audioBuffer.duration, effectiveLast - totalOffset);
+                return currentTime > (endBound + totalOffset + GRACE_AFTER_END - EPS);
+            }
+        } else {
+            // audio not ended yet
+            return false;
+        }
+    } else {
+        // No "real" audio (silent dummy). Finish after the last note + grace.
+        return currentTime > (effectiveLast + GRACE_AFTER_END - EPS);
+    }
 }
+
 
 /**
  * Locks UI controls during a full song playthrough after the first note passes.
