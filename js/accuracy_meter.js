@@ -314,7 +314,7 @@ function AccuracyMeter() {
 
 			const DESIRED_LINES = 40; // aim for ~40 lines at densest moment
 			const marginAcc = 1.0;
-			const rgb = [200, 0, 255];
+			const rgb = [144, 144, 144];
 			const lineWidth = 1;
 
 			// compute densest accuracy range between transition endpoints (startMin->targetMin)
@@ -367,18 +367,18 @@ function AccuracyMeter() {
     const topY = centerY - (meterWidth / 2);
 
     // draw the bar (transparent fill)
-    ctx.fillStyle = 'rgba(200, 0, 255, 0.25)';
+    ctx.fillStyle = `${ACC_MODES[currentModeIndex].color}5`;
     ctx.fillRect(0, topY, canvas.width, meterWidth);
 		
 		// draw ewma bar
 		//if (DEV_MODE) drawEWMA(canvas, ctx, accuracy, minAccuracy, range);
 
-    // optional bestScore marker (no clamping)
+    // bestScore marker 
     if (typeof bestScore !== 'undefined' && bestScore !== null) {
       const bRatio = (bestScore - minAccuracy) / range;
       const bCenterY = canvas.height * (1 - bRatio);
       const bTop = bCenterY - (meterWidth / 2);
-      ctx.strokeStyle = 'rgba(200, 0, 255, 0.6)';
+      ctx.strokeStyle = `${ACC_MODES[currentModeIndex].color}b`;
       ctx.lineWidth = 3;
       ctx.setLineDash([5]);
       ctx.strokeRect(0, bTop, canvas.width, meterWidth);
@@ -460,7 +460,13 @@ function AccuracyMeter() {
 
   // sort ascending so modes go from least precise -> most precise
   mins.sort((a, b) => a - b);
-
+	
+	const colors = [ '#777',
+	               '#b4c',
+								 '#3c3',
+								 '#77f'
+								 ];
+	
   // build ACC_MODES array: first mode is "normal" with -Infinity thresholds
   const modes = mins.map((targetMin, idx) => {
     if (idx === 0) {
@@ -468,7 +474,8 @@ function AccuracyMeter() {
         name: `mode_${targetMin}`,
         targetMin: targetMin,
         entryThreshold: -Infinity,
-        recoverThreshold: -Infinity
+        recoverThreshold: -Infinity,
+				color: colors[0],
       };
     } else {
       const entryThreshold = targetMin + (100 - targetMin) * 0.02; // 94.12  96.57  98.04
@@ -477,7 +484,8 @@ function AccuracyMeter() {
         name: `mode_${targetMin}`,
         targetMin: targetMin,
         entryThreshold: entryThreshold,
-        recoverThreshold: recoverThreshold
+        recoverThreshold: recoverThreshold,
+				color: colors[idx],
       };
     }
   });
