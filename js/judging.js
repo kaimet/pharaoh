@@ -6,7 +6,7 @@ const playerTime = () => curSongTime - (dynamicInputOffset * playbackRate) / 100
 const AM = AccuracyMeter(); 
 //AM.init(); not needed if we call setModes()
 // these are lower boundaries for accuracy modes. These accuracies will be at the bottom of the canvas
-AM.SetModes(90, 94, 96.5, 98); // builds the 3-mode table and resets internal state
+AM.SetModes(90, 94, 96.5, 98); // builds the 4-mode table and resets internal state
 
 
 /** --- JUDGING SYSTEM OVERVIEW ---
@@ -437,7 +437,8 @@ function SetHitGlowEffect(note, accuracy, error, tap = true) {
 
 				const r = (tap ? 30 : 15) * (accuracy == 0 ? 1.2 : 1);
 				const dur = 2500; //(accuracy == 0 ? 9000 : 2500);
-				const drift = error * (tap ? 1.5 : 0.5);
+				const drift = error * (tap ? 1.5 : 0.5)
+				                    * (AM._state().currentModeIndex < 3 ? 1 : 3);//amplify precision on finest mode
 				
 				hitFeedbackEffects.push({
 						x: coords.x,

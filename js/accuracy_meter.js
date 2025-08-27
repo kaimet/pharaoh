@@ -462,8 +462,8 @@ function AccuracyMeter() {
   mins.sort((a, b) => a - b);
 	
 	const colors = [ '#777',
-	               '#b4c',
-								 '#3c3',
+	               '#a5c',
+								 '#4b5',
 								 '#77f'
 								 ];
 	
