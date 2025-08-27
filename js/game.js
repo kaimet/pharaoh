@@ -378,7 +378,8 @@ function drawPlayhead(currentBeat) {
 
     // left arrow ">" (triangle pointing right)
     const arrowSize = 8;
-    const leftX = colXBase - 10;
+    //const leftX = colXBase - 10;
+    const leftX = colXBase + (chartLayoutParams.columnWidth - chartLayoutParams.padding);
     ctx.fillStyle = 'rgba(0,0,0,0.9)';
     ctx.beginPath();
     ctx.moveTo(leftX, yLine);
@@ -388,7 +389,8 @@ function drawPlayhead(currentBeat) {
     ctx.fill();
 
     // right arrow "<" (triangle pointing left)
-    const rightX = colXBase + (chartLayoutParams.columnWidth - chartLayoutParams.padding) + 10;
+    //const rightX = colXBase + (chartLayoutParams.columnWidth - chartLayoutParams.padding) + 10;
+    const rightX = colXBase;
     ctx.beginPath();
     ctx.moveTo(rightX, yLine);
     ctx.lineTo(rightX - arrowSize, yLine - arrowSize);

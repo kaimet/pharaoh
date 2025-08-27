@@ -2264,85 +2264,323 @@
 	"key": "1755687609453"
 },
 {
-	"pack": "Around the World",
-	"author": ""
+  "pack": "9guys1pack",
+  "author": ""
 },
 {
-	"title": "Cicho",
-	"artist": "Ewa Farna",
-	"chartPath": "songs/Around-the-World/Cicho.ssc",
-	"audioPath": "songs/Around-the-World/Cicho.ogg",
-	"key": "1755770688702"
+  "title": "Accelerate",
+  "artist": "Teminite & Skybreak",
+  "chartPath": "songs/9guys1pack/Accelerate.ssc",
+  "audioPath": "songs/9guys1pack/Accelerate.ogg",
+  "key": "1756111553846"
 },
 {
-	"title": "Contempo",
-	"artist": "The Sidh",
-	"chartPath": "songs/Around-the-World/Contempo.sm",
-	"audioPath": "songs/Around-the-World/Contempo.ogg",
-	"key": "1755790843739"
+  "title": "Beyond",
+  "artist": "Lime",
+  "chartPath": "songs/9guys1pack/Lime - Beyond.ssc",
+  "audioPath": "songs/9guys1pack/Lime - Beyond.ogg",
+  "key": "1756112153608"
 },
 {
-	"title": "Dans Ma Fusée",
-	"artist": "Ilona Mitrecey",
-	"chartPath": "songs/Around-the-World/Dans Me Fusee.ssc",
-	"audioPath": "songs/Around-the-World/Dans Me Fusee.ogg",
-	"key": "1755791017669"
+  "title": "Body Talk",
+  "artist": "M2U",
+  "chartPath": "songs/9guys1pack/Body Talk.ssc",
+  "audioPath": "songs/9guys1pack/Body Talk.ogg",
+  "key": "1756112435323"
 },
 {
-	"title": "Det' Det",
-	"artist": "Sukkerchok",
-	"chartPath": "songs/Around-the-World/Det' Det.sm",
-	"audioPath": "songs/Around-the-World/Det Det.ogg",
-	"key": "1755792495582"
+  "title": "Bullet Waiting for Me",
+  "artist": "Nikki Simmons",
+  "chartPath": "songs/9guys1pack/Bullet Waiting for Me.ssc",
+  "audioPath": "songs/9guys1pack/Bullet Waiting for Me.ogg",
+  "key": "1756143013564"
 },
 {
-	"title": "Ethän Lähde",
-	"artist": "G-powered",
-	"chartPath": "songs/Around-the-World/Ethan Ladhe.sm",
-	"audioPath": "songs/Around-the-World/Ethan Ladhe.ogg",
-	"key": "1755792732465"
+  "title": "Carry On",
+  "artist": "Rhodz",
+  "chartPath": "songs/9guys1pack/Carry On.ssc",
+  "audioPath": "songs/9guys1pack/Carry On.ogg",
+  "key": "1756143035112"
 },
 {
-	"title": "Ho Voglia",
-	"artist": "Power Francers",
-	"chartPath": "songs/Around-the-World/Ho Voglia.sm",
-	"audioPath": "songs/Around-the-World/Ho Voglia.ogg",
-	"key": "1755793083280"
+  "title": "Cryptofunk",
+  "artist": "MDK",
+  "chartPath": "songs/9guys1pack/cryptofunk.ssc",
+  "audioPath": "songs/9guys1pack/cryptofunk.ogg",
+  "key": "1756143047773"
 },
 {
-	"title": "Impikan",
-	"artist": "DOLLA",
-	"chartPath": "songs/Around-the-World/Impikan.sm",
-	"audioPath": "songs/Around-the-World/Impikan.ogg",
-	"key": "1755793220024"
+  "title": "Delta",
+  "artist": "C2C",
+  "chartPath": "songs/9guys1pack/Delta.ssc",
+  "audioPath": "songs/9guys1pack/C2C - Delta.ogg",
+  "key": "1756143072675"
 },
 {
-	"title": "Kaya",
-	"artist": "Kaia",
-	"chartPath": "songs/Around-the-World/Kaya.sm",
-	"audioPath": "songs/Around-the-World/Kaya.ogg",
-	"key": "1755793501319"
+  "title": "Distant",
+  "artist": "AGST",
+  "chartPath": "songs/9guys1pack/distant.ssc",
+  "audioPath": "songs/9guys1pack/distant.ogg",
+  "key": "1756143084711"
 },
 {
-	"title": "Muévelo",
-	"artist": "Fey",
-	"chartPath": "songs/Around-the-World/Muevelo.sm",
-	"audioPath": "songs/Around-the-World/Muevelo.ogg",
-	"key": "1755793885931"
+  "title": "edamame",
+  "artist": "bbno$ & Rich Brian",
+  "chartPath": "songs/9guys1pack/edamame (cudsys remix).ssc",
+  "audioPath": "songs/9guys1pack/bbno$ & rich brian - edamame (cudsys remix).ogg",
+  "key": "1756143095208"
 },
 {
-	"title": "Spelar Ingen Roll",
-	"artist": "Caramell",
-	"chartPath": "songs/Around-the-World/Spelar Ingen Roll.sm",
-	"audioPath": "songs/Around-the-World/Spelar Ingen Roll.ogg",
-	"key": "1755794140299"
+  "title": "Emerald Hill Zone",
+  "artist": "Vector U & Player 2",
+  "chartPath": "songs/9guys1pack/emerald hill zone.ssc",
+  "audioPath": "songs/9guys1pack/emerald hill zone.ogg",
+  "key": "1756143119128"
 },
 {
-	"title": "Tike Tike Kardi",
-	"artist": "Arash",
-	"chartPath": "songs/Around-the-World/Tike Tike Kardi-.sm",
-	"audioPath": "songs/Around-the-World/Tike Tike Kardi-.ogg",
-	"key": "1755794299626"
+  "title": "Eyes On The Stars",
+  "artist": "mameyudoufu",
+  "chartPath": "songs/9guys1pack/eyes on the stars.ssc",
+  "audioPath": "songs/9guys1pack/eyes on the stars.ogg",
+  "key": "1756143133072"
+},
+{
+  "title": "fairly brave",
+  "artist": "Capchii",
+  "chartPath": "songs/9guys1pack/fairly_brave.ssc",
+  "audioPath": "songs/9guys1pack/Capchii - fairly brave.ogg",
+  "key": "1756143146065"
+},
+{
+  "title": "Ghostboy",
+  "artist": "Robotaki",
+  "chartPath": "songs/9guys1pack/SpoopyGhostboy.ssc",
+  "audioPath": "songs/9guys1pack/Ghostboy.ogg",
+  "key": "1756143159629"
+},
+{
+  "title": "Hiccup",
+  "artist": "JX RIDERS",
+  "chartPath": "songs/9guys1pack/Hiccup - JX Riders (ft. Sisterwife).ssc",
+  "audioPath": "songs/9guys1pack/Hiccup.ogg",
+  "key": "1756143172698"
+},
+{
+  "title": "Hold Up",
+  "artist": "Nick Smith",
+  "chartPath": "songs/9guys1pack/Nick Smith - Hold Up.ssc",
+  "audioPath": "songs/9guys1pack/Nick Smith - Hold Up.ogg",
+  "key": "1756143187417"
+},
+{
+  "title": "Holy War",
+  "artist": "Boom Kitty",
+  "chartPath": "songs/9guys1pack/holy_war.ssc",
+  "audioPath": "songs/9guys1pack/holy war.ogg",
+  "key": "1756143202097"
+},
+{
+  "title": "Huracan",
+  "artist": "Gareth Emery",
+  "chartPath": "songs/9guys1pack/Huracan.ssc",
+  "audioPath": "songs/9guys1pack/Huracan.ogg",
+  "key": "1756143212419"
+},
+{
+  "title": "Intergalactic Drive-by",
+  "artist": "Jack & Owane",
+  "chartPath": "songs/9guys1pack/Intergalactic Drive-by.ssc",
+  "audioPath": "songs/9guys1pack/Intergalactic Drive-by.ogg",
+  "key": "1756143230316"
+},
+{
+  "title": "La Prière",
+  "artist": "XinG",
+  "chartPath": "songs/9guys1pack/La Priere.ssc",
+  "audioPath": "songs/9guys1pack/XinG.ogg",
+  "key": "1756143252727"
+},
+{
+  "title": "Love Juice",
+  "artist": "Owane",
+  "chartPath": "songs/9guys1pack/Love Juice.ssc",
+  "audioPath": "songs/9guys1pack/Owane - Love Juice.ogg",
+  "key": "1756143270021"
+},
+{
+  "title": "Love Sacrifice",
+  "artist": "sky_delta",
+  "chartPath": "songs/9guys1pack/Love Sacrifice.ssc",
+  "audioPath": "songs/9guys1pack/Love Sacrifice.ogg",
+  "key": "1756143281454"
+},
+{
+  "title": "Mad For You",
+  "artist": "Snareskin, TROVES",
+  "chartPath": "songs/9guys1pack/Mad For You.ssc",
+  "audioPath": "songs/9guys1pack/Mad For You.ogg",
+  "key": "1756143295083"
+},
+{
+  "title": "MADELINE",
+  "artist": "INJI",
+  "chartPath": "songs/9guys1pack/MADELINE.ssc",
+  "audioPath": "songs/9guys1pack/MADELINE.ogg",
+  "key": "1756143313589"
+},
+{
+  "title": "Melonaid",
+  "artist": "KATOMORI",
+  "chartPath": "songs/9guys1pack/KATOMORI - Melonaid.ssc",
+  "audioPath": "songs/9guys1pack/KATOMORI - Melonaid.ogg",
+  "key": "1756143359281"
+},
+{
+  "title": "Mother Tree",
+  "artist": "Sakuraburst, Former Hero",
+  "chartPath": "songs/9guys1pack/Mother Tree.ssc",
+  "audioPath": "songs/9guys1pack/Mother Tree.ogg",
+  "key": "1756143380178"
+},
+{
+  "title": "Multi-Thread",
+  "artist": "Mameyudoufu",
+  "chartPath": "songs/9guys1pack/Multi-Thread.ssc",
+  "audioPath": "songs/9guys1pack/Multi-Thread.ogg",
+  "key": "1756143394250"
+},
+{
+  "title": "Myths You Forgot",
+  "artist": "Camellia & Toby Fox",
+  "chartPath": "songs/9guys1pack/Myths You Forgot.ssc",
+  "audioPath": "songs/9guys1pack/Myths You Forgot.ogg",
+  "key": "1756225939450"
+},
+{
+  "title": "Nettaiya no matsuri",
+  "artist": "M2U x Pica",
+  "chartPath": "songs/9guys1pack/m2u.ssc",
+  "audioPath": "songs/9guys1pack/m2u.ogg",
+  "key": "1756226210234"
+},
+{
+  "title": "OK",
+  "artist": "Cosmicosmo, Slow Shudder",
+  "chartPath": "songs/9guys1pack/OK.ssc",
+  "audioPath": "songs/9guys1pack/Cosmicosmo, Slow Shudder - OK.ogg",
+  "key": "1756226957652"
+},
+{
+  "title": "Picture in My Mind",
+  "artist": "Pinkpantheress, Sam Gellaitry",
+  "chartPath": "songs/9guys1pack/PICTURE IN MY MIND [NIKKO X WINK RMX].ssc",
+  "audioPath": "songs/9guys1pack/Pinkpantheress, Sam Gellaitry - PICTURE IN MY MIND [NIKKO X WINK RMX].ogg",
+  "key": "1756227122688"
+},
+{
+  "title": "Red Hot Chili Samba",
+  "artist": "ARM (IOSYS)",
+  "chartPath": "songs/9guys1pack/Red_Hot_Chili_Samba.ssc",
+  "audioPath": "songs/9guys1pack/Red Hot Chili Samba.ogg",
+  "key": "1756227377510"
+},
+{
+  "title": "SAMBA de 恋心",
+  "artist": "dj TAKA",
+  "chartPath": "songs/9guys1pack/SAMBA de koigokoro.ssc",
+  "audioPath": "songs/9guys1pack/dj TAKA feat. VENUS - SAMBA de koigokoro.ogg",
+  "key": "1756227726814"
+},
+{
+  "title": "Slamurai",
+  "artist": "kLL Bill",
+  "chartPath": "songs/9guys1pack/Slamurai.ssc",
+  "audioPath": "songs/9guys1pack/kLL Bill - Slamurai.ogg",
+  "key": "1756227864251"
+},
+{
+  "title": "Snowfall",
+  "artist": "Inverted Silence",
+  "chartPath": "songs/9guys1pack/Snowfall.ssc",
+  "audioPath": "songs/9guys1pack/Snowfall.ogg",
+  "key": "1756228034441"
+},
+{
+  "title": "Stab Launcher",
+  "artist": "Hommarju",
+  "chartPath": "songs/9guys1pack/stablauncher.ssc",
+  "audioPath": "songs/9guys1pack/stablauncher.ogg",
+  "key": "1756228128668"
+},
+{
+  "title": "Stunnin",
+  "artist": "Curtis Waters",
+  "chartPath": "songs/9guys1pack/Stunnin - Curtis Waters ft. Harm Franklin.ssc",
+  "audioPath": "songs/9guys1pack/Stunnin - Curtis Waters ft. Harm Franklin.ogg",
+  "key": "1756234452623"
+},
+{
+  "title": "Superseded",
+  "artist": "Simpli",
+  "chartPath": "songs/9guys1pack/Superseded.ssc",
+  "audioPath": "songs/9guys1pack/Superseded (feat. Adam Tell).ogg",
+  "key": "1756234604764"
+},
+{
+  "title": "Take Me Back",
+  "artist": "Limitless",
+  "chartPath": "songs/9guys1pack/Take Me Back.ssc",
+  "audioPath": "songs/9guys1pack/Take Me Back.ogg",
+  "key": "1756234752900"
+},
+{
+  "title": "Tamamo-no-Mae",
+  "artist": "Satoru Aratani",
+  "chartPath": "songs/9guys1pack/Tamamo no Mae.ssc",
+  "audioPath": "songs/9guys1pack/Tamamo no Mae.ogg",
+  "key": "1756234905505"
+},
+{
+  "title": "Tiny Fate",
+  "artist": "Capchii",
+  "chartPath": "songs/9guys1pack/Tiny_Fate.ssc",
+  "audioPath": "songs/9guys1pack/Capchii - Tiny Fate.ogg",
+  "key": "1756235323789"
+},
+{
+  "title": "TRUST U",
+  "artist": "SØNATA",
+  "chartPath": "songs/9guys1pack/TRUST U.ssc",
+  "audioPath": "songs/9guys1pack/TRUST U.ogg",
+  "key": "1756235438722"
+},
+{
+  "title": "Virtual Paradise",
+  "artist": "Starjunk 95 X Belela",
+  "chartPath": "songs/9guys1pack/virtual paradise.ssc",
+  "audioPath": "songs/9guys1pack/virtual paradise.ogg",
+  "key": "1756235585469"
+},
+{
+  "title": "Voxel",
+  "artist": "Ryoqucha",
+  "chartPath": "songs/9guys1pack/Voxel.ssc",
+  "audioPath": "songs/9guys1pack/Voxel.ogg",
+  "key": "1756235843479"
+},
+{
+  "title": "What's Your Name",
+  "artist": "Dillon Francis & Calvin Harris",
+  "chartPath": "songs/9guys1pack/whats_your_name.ssc",
+  "audioPath": "songs/9guys1pack/whats your name.ogg",
+  "key": "1756236009175"
+},
+{
+  "title": "When I Fall",
+  "artist": "Tsu Nami & Runn",
+  "chartPath": "songs/9guys1pack/Tsu Nami & Runn - When I Fall.ssc",
+  "audioPath": "songs/9guys1pack/Tsu Nami & Runn - When I Fall.ogg",
+  "key": "1756236127232"
 },
 {
 	"pack": "15gays1-2pack",
@@ -2550,6 +2788,87 @@
 	"chartPath": "songs/15gays1-2pack/Touchy.ssc",
 	"audioPath": "songs/15gays1-2pack/Touchy.ogg",
 	"key": "1755880743692"
+},
+{
+	"pack": "Around the World",
+	"author": ""
+},
+{
+	"title": "Cicho",
+	"artist": "Ewa Farna",
+	"chartPath": "songs/Around-the-World/Cicho.ssc",
+	"audioPath": "songs/Around-the-World/Cicho.ogg",
+	"key": "1755770688702"
+},
+{
+	"title": "Contempo",
+	"artist": "The Sidh",
+	"chartPath": "songs/Around-the-World/Contempo.sm",
+	"audioPath": "songs/Around-the-World/Contempo.ogg",
+	"key": "1755790843739"
+},
+{
+	"title": "Dans Ma Fusée",
+	"artist": "Ilona Mitrecey",
+	"chartPath": "songs/Around-the-World/Dans Me Fusee.ssc",
+	"audioPath": "songs/Around-the-World/Dans Me Fusee.ogg",
+	"key": "1755791017669"
+},
+{
+	"title": "Det' Det",
+	"artist": "Sukkerchok",
+	"chartPath": "songs/Around-the-World/Det' Det.sm",
+	"audioPath": "songs/Around-the-World/Det Det.ogg",
+	"key": "1755792495582"
+},
+{
+	"title": "Ethän Lähde",
+	"artist": "G-powered",
+	"chartPath": "songs/Around-the-World/Ethan Ladhe.sm",
+	"audioPath": "songs/Around-the-World/Ethan Ladhe.ogg",
+	"key": "1755792732465"
+},
+{
+	"title": "Ho Voglia",
+	"artist": "Power Francers",
+	"chartPath": "songs/Around-the-World/Ho Voglia.sm",
+	"audioPath": "songs/Around-the-World/Ho Voglia.ogg",
+	"key": "1755793083280"
+},
+{
+	"title": "Impikan",
+	"artist": "DOLLA",
+	"chartPath": "songs/Around-the-World/Impikan.sm",
+	"audioPath": "songs/Around-the-World/Impikan.ogg",
+	"key": "1755793220024"
+},
+{
+	"title": "Kaya",
+	"artist": "Kaia",
+	"chartPath": "songs/Around-the-World/Kaya.sm",
+	"audioPath": "songs/Around-the-World/Kaya.ogg",
+	"key": "1755793501319"
+},
+{
+	"title": "Muévelo",
+	"artist": "Fey",
+	"chartPath": "songs/Around-the-World/Muevelo.sm",
+	"audioPath": "songs/Around-the-World/Muevelo.ogg",
+	"key": "1755793885931"
+},
+{
+	"title": "Spelar Ingen Roll",
+	"artist": "Caramell",
+	"chartPath": "songs/Around-the-World/Spelar Ingen Roll.sm",
+	"audioPath": "songs/Around-the-World/Spelar Ingen Roll.ogg",
+	"key": "1755794140299"
+},
+{
+	"title": "Tike Tike Kardi",
+	"artist": "Arash",
+	"chartPath": "songs/Around-the-World/Tike Tike Kardi-.sm",
+	"audioPath": "songs/Around-the-World/Tike Tike Kardi-.ogg",
+	"key": "1755794299626"
 },
 {
 	"pack": "Lisia Nora 1-2",
@@ -3211,322 +3530,203 @@
   "key": "1756066281996"
 },
 {
-  "pack": "9guys1pack",
+  "pack": "Gpop's Pack of Original Pad Sims",
   "author": ""
 },
 {
-  "title": "Accelerate",
-  "artist": "Teminite & Skybreak",
-  "chartPath": "songs/9guys1pack/Accelerate.ssc",
-  "audioPath": "songs/9guys1pack/Accelerate.ogg",
-  "key": "1756111553846"
+  "title": "AiAe",
+  "artist": "DJ'TEKINA",
+  "chartPath": "songs/gpop-1/AiAe.sm",
+  "audioPath": "songs/gpop-1/AiAe.ogg",
+  "key": "1756296681761"
 },
 {
-  "title": "Beyond",
-  "artist": "Lime",
-  "chartPath": "songs/9guys1pack/Lime - Beyond.ssc",
-  "audioPath": "songs/9guys1pack/Lime - Beyond.ogg",
-  "key": "1756112153608"
+  "title": "Atomic Jill",
+  "artist": "Kommisar",
+  "chartPath": "songs/gpop-1/Atomic Jill.sm",
+  "audioPath": "songs/gpop-1/Atomic Jill.ogg",
+  "key": "1756297363923"
 },
 {
-  "title": "Body Talk",
-  "artist": "M2U",
-  "chartPath": "songs/9guys1pack/Body Talk.ssc",
-  "audioPath": "songs/9guys1pack/Body Talk.ogg",
-  "key": "1756112435323"
+  "title": "Beautiful One Day",
+  "artist": "Tsunku",
+  "chartPath": "songs/gpop-1/Beautiful One Day.sm",
+  "audioPath": "songs/gpop-1/Beautiful One Day.ogg",
+  "key": "1756308659444"
 },
 {
-  "title": "Bullet Waiting for Me",
-  "artist": "Nikki Simmons",
-  "chartPath": "songs/9guys1pack/Bullet Waiting for Me.ssc",
-  "audioPath": "songs/9guys1pack/Bullet Waiting for Me.ogg",
-  "key": "1756143013564"
+  "title": "Brain Power",
+  "artist": "noma",
+  "chartPath": "songs/gpop-1/Brain Power.sm",
+  "audioPath": "songs/gpop-1/Brain Power.ogg",
+  "key": "1756308793751"
 },
 {
-  "title": "Carry On",
-  "artist": "Rhodz",
-  "chartPath": "songs/9guys1pack/Carry On.ssc",
-  "audioPath": "songs/9guys1pack/Carry On.ogg",
-  "key": "1756143035112"
+  "title": "Drrrrrrr!",
+  "artist": "DJ Sharpnel",
+  "chartPath": "songs/gpop-1/Drrrrrrr.sm",
+  "audioPath": "songs/gpop-1/Drrrrrrr!.ogg",
+  "key": "1756309043313"
 },
 {
-  "title": "Cryptofunk",
-  "artist": "MDK",
-  "chartPath": "songs/9guys1pack/cryptofunk.ssc",
-  "audioPath": "songs/9guys1pack/cryptofunk.ogg",
-  "key": "1756143047773"
+  "title": "Flower",
+  "artist": "DJ Yoshitaka",
+  "chartPath": "songs/gpop-1/Flower (REDALiCE Remix).sm",
+  "audioPath": "songs/gpop-1/FLOWER (REDALiCE Remix).ogg",
+  "key": "1756309126091"
 },
 {
-  "title": "Delta",
-  "artist": "C2C",
-  "chartPath": "songs/9guys1pack/Delta.ssc",
-  "audioPath": "songs/9guys1pack/C2C - Delta.ogg",
-  "key": "1756143072675"
+  "title": "Ghost",
+  "artist": "STi feat. Soojung",
+  "chartPath": "songs/gpop-1/Ghost.sm",
+  "audioPath": "songs/gpop-1/Ghost.ogg",
+  "key": "1756309266906"
 },
 {
-  "title": "Distant",
-  "artist": "AGST",
-  "chartPath": "songs/9guys1pack/distant.ssc",
-  "audioPath": "songs/9guys1pack/distant.ogg",
-  "key": "1756143084711"
+  "title": "Green Night Parade",
+  "artist": "fu_mou",
+  "chartPath": "songs/gpop-1/Green Night Parade.sm",
+  "audioPath": "songs/gpop-1/Green Night Parade.ogg",
+  "key": "1756309410611"
 },
 {
-  "title": "edamame",
-  "artist": "bbno$ & Rich Brian",
-  "chartPath": "songs/9guys1pack/edamame (cudsys remix).ssc",
-  "audioPath": "songs/9guys1pack/bbno$ & rich brian - edamame (cudsys remix).ogg",
-  "key": "1756143095208"
+  "title": "I'm God",
+  "artist": "Clams Casino",
+  "chartPath": "songs/gpop-1/I'm God.sm",
+  "audioPath": "songs/gpop-1/I'm God.ogg",
+  "key": "1756309566524"
 },
 {
-  "title": "Emerald Hill Zone",
-  "artist": "Vector U & Player 2",
-  "chartPath": "songs/9guys1pack/emerald hill zone.ssc",
-  "audioPath": "songs/9guys1pack/emerald hill zone.ogg",
-  "key": "1756143119128"
+  "title": "Inside Identity",
+  "artist": "you",
+  "chartPath": "songs/gpop-1/Inside Identity.sm",
+  "audioPath": "songs/gpop-1/INSIDE IDENTITY (Deco-mori chan Maji kawa-E mix).ogg",
+  "key": "1756309730650"
 },
 {
-  "title": "Eyes On The Stars",
-  "artist": "mameyudoufu",
-  "chartPath": "songs/9guys1pack/eyes on the stars.ssc",
-  "audioPath": "songs/9guys1pack/eyes on the stars.ogg",
-  "key": "1756143133072"
+  "title": "Intersect Thunderbolt",
+  "artist": "Saitama Saisyu Heiki",
+  "chartPath": "songs/gpop-1/Intersect Thunderbolt.sm",
+  "audioPath": "songs/gpop-1/Intersect Thunderbolt.ogg",
+  "key": "1756309901039"
 },
 {
-  "title": "fairly brave",
-  "artist": "Capchii",
-  "chartPath": "songs/9guys1pack/fairly_brave.ssc",
-  "audioPath": "songs/9guys1pack/Capchii - fairly brave.ogg",
-  "key": "1756143146065"
+  "title": "Kung-Fu Rider",
+  "artist": "AstroKid",
+  "chartPath": "songs/gpop-1/Kung-Fu Rider.sm",
+  "audioPath": "songs/gpop-1/Kung-Fu Rider.ogg",
+  "key": "1756310244957"
 },
 {
-  "title": "Ghostboy",
-  "artist": "Robotaki",
-  "chartPath": "songs/9guys1pack/SpoopyGhostboy.ssc",
-  "audioPath": "songs/9guys1pack/Ghostboy.ogg",
-  "key": "1756143159629"
+  "title": "Little Busters Forever",
+  "artist": "Helblinde",
+  "chartPath": "songs/gpop-1/Little Busters Forever.sm",
+  "audioPath": "songs/gpop-1/Little Busters Forever.ogg",
+  "key": "1756310369115"
 },
 {
-  "title": "Hiccup",
-  "artist": "JX RIDERS",
-  "chartPath": "songs/9guys1pack/Hiccup - JX Riders (ft. Sisterwife).ssc",
-  "audioPath": "songs/9guys1pack/Hiccup.ogg",
-  "key": "1756143172698"
+  "title": "One for All, All for One",
+  "artist": "Rahizel",
+  "chartPath": "songs/gpop-1/One for All All for One.sm",
+  "audioPath": "songs/gpop-1/One for All, All for One (Original Mix).ogg",
+  "key": "1756310931521"
 },
 {
-  "title": "Hold Up",
-  "artist": "Nick Smith",
-  "chartPath": "songs/9guys1pack/Nick Smith - Hold Up.ssc",
-  "audioPath": "songs/9guys1pack/Nick Smith - Hold Up.ogg",
-  "key": "1756143187417"
+  "title": "Panic Holic",
+  "artist": "C-Show",
+  "chartPath": "songs/gpop-1/Panic Holic.sm",
+  "audioPath": "songs/gpop-1/PANIC HOLIC.ogg",
+  "key": "1756311152435"
 },
 {
-  "title": "Holy War",
-  "artist": "Boom Kitty",
-  "chartPath": "songs/9guys1pack/holy_war.ssc",
-  "audioPath": "songs/9guys1pack/holy war.ogg",
-  "key": "1756143202097"
+  "title": "Plan 8",
+  "artist": "Ryu",
+  "chartPath": "songs/gpop-1/Plan 8.sm",
+  "audioPath": "songs/gpop-1/Plan 8.ogg",
+  "key": "1756311273249"
 },
 {
-  "title": "Huracan",
-  "artist": "Gareth Emery",
-  "chartPath": "songs/9guys1pack/Huracan.ssc",
-  "audioPath": "songs/9guys1pack/Huracan.ogg",
-  "key": "1756143212419"
+  "title": "Poo",
+  "artist": "Neko Jump",
+  "chartPath": "songs/gpop-1/Poo.sm",
+  "audioPath": "songs/gpop-1/Poo.ogg",
+  "key": "1756311414134"
 },
 {
-  "title": "Intergalactic Drive-by",
-  "artist": "Jack & Owane",
-  "chartPath": "songs/9guys1pack/Intergalactic Drive-by.ssc",
-  "audioPath": "songs/9guys1pack/Intergalactic Drive-by.ogg",
-  "key": "1756143230316"
+  "title": "Right Now",
+  "artist": "PSY",
+  "chartPath": "songs/gpop-1/Right Now.sm",
+  "audioPath": "songs/gpop-1/Right Now.ogg",
+  "key": "1756311524921"
 },
 {
-  "title": "La Prière",
-  "artist": "XinG",
-  "chartPath": "songs/9guys1pack/La Priere.ssc",
-  "audioPath": "songs/9guys1pack/XinG.ogg",
-  "key": "1756143252727"
+  "title": "Satori Eyes",
+  "artist": "minami remixed by ARM",
+  "chartPath": "songs/gpop-1/Satori Eyes Dubstep Remix.sm",
+  "audioPath": "songs/gpop-1/Satori Eyes Dubstep Remix.ogg",
+  "key": "1756312873836"
 },
 {
-  "title": "Love Juice",
-  "artist": "Owane",
-  "chartPath": "songs/9guys1pack/Love Juice.ssc",
-  "audioPath": "songs/9guys1pack/Owane - Love Juice.ogg",
-  "key": "1756143270021"
+  "title": "SINister Evolution",
+  "artist": "TAK",
+  "chartPath": "songs/gpop-1/SINister Evolution.sm",
+  "audioPath": "songs/gpop-1/SINister Evolution.ogg",
+  "key": "1756313189051"
 },
 {
-  "title": "Love Sacrifice",
-  "artist": "sky_delta",
-  "chartPath": "songs/9guys1pack/Love Sacrifice.ssc",
-  "audioPath": "songs/9guys1pack/Love Sacrifice.ogg",
-  "key": "1756143281454"
+  "title": "Smooooch",
+  "artist": "KN",
+  "chartPath": "songs/gpop-1/smooooch KNmix.sm",
+  "audioPath": "songs/gpop-1/smooooch KNmix.ogg",
+  "key": "1756313418261"
 },
 {
-  "title": "Mad For You",
-  "artist": "Snareskin, TROVES",
-  "chartPath": "songs/9guys1pack/Mad For You.ssc",
-  "audioPath": "songs/9guys1pack/Mad For You.ogg",
-  "key": "1756143295083"
+  "title": "So",
+  "artist": "Typhoon",
+  "chartPath": "songs/gpop-1/So.sm",
+  "audioPath": "songs/gpop-1/So.ogg",
+  "key": "1756313558158"
 },
 {
-  "title": "MADELINE",
-  "artist": "INJI",
-  "chartPath": "songs/9guys1pack/MADELINE.ssc",
-  "audioPath": "songs/9guys1pack/MADELINE.ogg",
-  "key": "1756143313589"
+  "title": "Starlight Express",
+  "artist": "ginkiha",
+  "chartPath": "songs/gpop-1/Starlight Express.sm",
+  "audioPath": "songs/gpop-1/Starlight Express.ogg",
+  "key": "1756313684413"
 },
 {
-  "title": "Melonaid",
-  "artist": "KATOMORI",
-  "chartPath": "songs/9guys1pack/KATOMORI - Melonaid.ssc",
-  "audioPath": "songs/9guys1pack/KATOMORI - Melonaid.ogg",
-  "key": "1756143359281"
+  "title": "STOP",
+  "artist": "3rd Coast",
+  "chartPath": "songs/gpop-1/Stop.sm",
+  "audioPath": "songs/gpop-1/STOP.ogg",
+  "key": "1756313795733"
 },
 {
-  "title": "Mother Tree",
-  "artist": "Sakuraburst, Former Hero",
-  "chartPath": "songs/9guys1pack/Mother Tree.ssc",
-  "audioPath": "songs/9guys1pack/Mother Tree.ogg",
-  "key": "1756143380178"
+  "title": "Take On Me",
+  "artist": "Cuve",
+  "chartPath": "songs/gpop-1/Take On Me.sm",
+  "audioPath": "songs/gpop-1/Take On Me.ogg",
+  "key": "1756313898919"
 },
 {
-  "title": "Multi-Thread",
-  "artist": "Mameyudoufu",
-  "chartPath": "songs/9guys1pack/Multi-Thread.ssc",
-  "audioPath": "songs/9guys1pack/Multi-Thread.ogg",
-  "key": "1756143394250"
+  "title": "Umbral Ultimatum",
+  "artist": "Toby Fox",
+  "chartPath": "songs/gpop-1/Umbral Ultimatum.sm",
+  "audioPath": "songs/gpop-1/Umbral Ultimatum.ogg",
+  "key": "1756314040700"
 },
 {
-  "title": "Myths You Forgot",
-  "artist": "Camellia & Toby Fox",
-  "chartPath": "songs/9guys1pack/Myths You Forgot.ssc",
-  "audioPath": "songs/9guys1pack/Myths You Forgot.ogg",
-  "key": "1756225939450"
+  "title": "Uprising Satellite",
+  "artist": "Alternative feat. Systa",
+  "chartPath": "songs/gpop-1/Uprising Satellite.sm",
+  "audioPath": "songs/gpop-1/Uprising Satellite.ogg",
+  "key": "1756314215939"
 },
 {
-  "title": "Nettaiya no matsuri",
-  "artist": "M2U x Pica",
-  "chartPath": "songs/9guys1pack/m2u.ssc",
-  "audioPath": "songs/9guys1pack/m2u.ogg",
-  "key": "1756226210234"
-},
-{
-  "title": "OK",
-  "artist": "Cosmicosmo, Slow Shudder",
-  "chartPath": "songs/9guys1pack/OK.ssc",
-  "audioPath": "songs/9guys1pack/Cosmicosmo, Slow Shudder - OK.ogg",
-  "key": "1756226957652"
-},
-{
-  "title": "Picture in My Mind",
-  "artist": "Pinkpantheress, Sam Gellaitry",
-  "chartPath": "songs/9guys1pack/PICTURE IN MY MIND [NIKKO X WINK RMX].ssc",
-  "audioPath": "songs/9guys1pack/Pinkpantheress, Sam Gellaitry - PICTURE IN MY MIND [NIKKO X WINK RMX].ogg",
-  "key": "1756227122688"
-},
-{
-  "title": "Red Hot Chili Samba",
-  "artist": "ARM (IOSYS)",
-  "chartPath": "songs/9guys1pack/Red_Hot_Chili_Samba.ssc",
-  "audioPath": "songs/9guys1pack/Red Hot Chili Samba.ogg",
-  "key": "1756227377510"
-},
-{
-  "title": "SAMBA de 恋心",
-  "artist": "dj TAKA",
-  "chartPath": "songs/9guys1pack/SAMBA de koigokoro.ssc",
-  "audioPath": "songs/9guys1pack/dj TAKA feat. VENUS - SAMBA de koigokoro.ogg",
-  "key": "1756227726814"
-},
-{
-  "title": "Slamurai",
-  "artist": "kLL Bill",
-  "chartPath": "songs/9guys1pack/Slamurai.ssc",
-  "audioPath": "songs/9guys1pack/kLL Bill - Slamurai.ogg",
-  "key": "1756227864251"
-},
-{
-  "title": "Snowfall",
-  "artist": "Inverted Silence",
-  "chartPath": "songs/9guys1pack/Snowfall.ssc",
-  "audioPath": "songs/9guys1pack/Snowfall.ogg",
-  "key": "1756228034441"
-},
-{
-  "title": "Stab Launcher",
-  "artist": "Hommarju",
-  "chartPath": "songs/9guys1pack/stablauncher.ssc",
-  "audioPath": "songs/9guys1pack/stablauncher.ogg",
-  "key": "1756228128668"
-},
-{
-  "title": "Stunnin",
-  "artist": "Curtis Waters",
-  "chartPath": "songs/9guys1pack/Stunnin - Curtis Waters ft. Harm Franklin.ssc",
-  "audioPath": "songs/9guys1pack/Stunnin - Curtis Waters ft. Harm Franklin.ogg",
-  "key": "1756234452623"
-},
-{
-  "title": "Superseded",
-  "artist": "Simpli",
-  "chartPath": "songs/9guys1pack/Superseded.ssc",
-  "audioPath": "songs/9guys1pack/Superseded (feat. Adam Tell).ogg",
-  "key": "1756234604764"
-},
-{
-  "title": "Take Me Back",
-  "artist": "Limitless",
-  "chartPath": "songs/9guys1pack/Take Me Back.ssc",
-  "audioPath": "songs/9guys1pack/Take Me Back.ogg",
-  "key": "1756234752900"
-},
-{
-  "title": "Tamamo-no-Mae",
-  "artist": "Satoru Aratani",
-  "chartPath": "songs/9guys1pack/Tamamo no Mae.ssc",
-  "audioPath": "songs/9guys1pack/Tamamo no Mae.ogg",
-  "key": "1756234905505"
-},
-{
-  "title": "Tiny Fate",
-  "artist": "Capchii",
-  "chartPath": "songs/9guys1pack/Tiny_Fate.ssc",
-  "audioPath": "songs/9guys1pack/Capchii - Tiny Fate.ogg",
-  "key": "1756235323789"
-},
-{
-  "title": "TRUST U",
-  "artist": "SØNATA",
-  "chartPath": "songs/9guys1pack/TRUST U.ssc",
-  "audioPath": "songs/9guys1pack/TRUST U.ogg",
-  "key": "1756235438722"
-},
-{
-  "title": "Virtual Paradise",
-  "artist": "Starjunk 95 X Belela",
-  "chartPath": "songs/9guys1pack/virtual paradise.ssc",
-  "audioPath": "songs/9guys1pack/virtual paradise.ogg",
-  "key": "1756235585469"
-},
-{
-  "title": "Voxel",
-  "artist": "Ryoqucha",
-  "chartPath": "songs/9guys1pack/Voxel.ssc",
-  "audioPath": "songs/9guys1pack/Voxel.ogg",
-  "key": "1756235843479"
-},
-{
-  "title": "What's Your Name",
-  "artist": "Dillon Francis & Calvin Harris",
-  "chartPath": "songs/9guys1pack/whats_your_name.ssc",
-  "audioPath": "songs/9guys1pack/whats your name.ogg",
-  "key": "1756236009175"
-},
-{
-  "title": "When I Fall",
-  "artist": "Tsu Nami & Runn",
-  "chartPath": "songs/9guys1pack/Tsu Nami & Runn - When I Fall.ssc",
-  "audioPath": "songs/9guys1pack/Tsu Nami & Runn - When I Fall.ogg",
-  "key": "1756236127232"
+  "title": "What's Going On?",
+  "artist": "Turtles",
+  "chartPath": "songs/gpop-1/What's Going On.sm",
+  "audioPath": "songs/gpop-1/What's Going On.ogg",
+  "key": "1756314448023"
 }
 ]
