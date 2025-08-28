@@ -436,9 +436,12 @@ function SetHitGlowEffect(note, accuracy, error, tap = true) {
 				}
 
 				const r = (tap ? 30 : 15) * (accuracy == 0 ? 1.2 : 1);
-				const dur = 2500; //(accuracy == 0 ? 9000 : 2500);
-				const drift = error * (tap ? 1.5 : 0.5)
-				                    * (AM._state().currentModeIndex < 3 ? 1 : 3);//amplify precision on finest mode
+				
+				const dur = 2500; 
+				
+				let drift = error * (tap ? 1.5 : 0.5); // slower drift on hold releases
+				drift *= (AM._state().currentModeIndex < 3 ? 1 : 3); // amplify precision on finest mode
+				if (accuracy === 0) drift = 0;
 				
 				hitFeedbackEffects.push({
 						x: coords.x,
