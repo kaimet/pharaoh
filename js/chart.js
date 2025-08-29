@@ -126,11 +126,15 @@ function parseMetadata(metadataBlock) {
 		const STOP_OFFSET = 0.01; // small beat nudge so notes on same beat are processed before stops
 
     const info = { title: '', artist: '', offset: 0, bpms: [], stops: [], warps: [] }; 
-    const titleMatch = metadataBlock.match(/#TITLE:(.*?);/);
+    let titleMatch = metadataBlock.match(/#TITLE:(.*?);/);
     if (titleMatch) info.title = titleMatch[1].trim();
+    titleMatch = metadataBlock.match(/#TITLETRANSLIT:(.*?);/);
+    if (titleMatch && titleMatch[1].trim().length > 0) info.title = titleMatch[1].trim();
 
-    const artistMatch = metadataBlock.match(/#ARTIST:(.*?);/);
+    let artistMatch = metadataBlock.match(/#ARTIST:(.*?);/);
     if (artistMatch) info.artist = artistMatch[1].trim();
+    artistMatch = metadataBlock.match(/#ARTISTTRANSLIT:(.*?);/);
+    if (artistMatch && artistMatch[1].trim().length > 0) info.artist = artistMatch[1].trim();
     
     const offsetMatch = metadataBlock.match(/#OFFSET:(.*?);/);
     if (offsetMatch) info.offset = parseFloat(offsetMatch[1].trim());
