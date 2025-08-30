@@ -98,6 +98,7 @@ function loadSettings() {
         if (settings.showPlayhead !== undefined) {
             document.getElementById('showPlayhead').checked = settings.showPlayhead;
         }
+				document.getElementById('showPlayhead').checked = false; // no playhead
 
         // Restore the last selected difficulty
         if (settings.lastSelectedDifficulty !== undefined) {

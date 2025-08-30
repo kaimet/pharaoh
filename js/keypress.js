@@ -149,6 +149,8 @@ function handleSpeedControl(e) {
  * Toggle playhead mode (Slash key)
  */
 function handlePlayheadToggle(e) {
+		return; // Playhead is depricated ;)
+		
     // Disable this hotkey if we are in a high score run AND the first note has passed.
     if (isPlaying && isFullSongPlay && playerTime() >= firstNoteTime) {
         return;

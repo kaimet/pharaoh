@@ -51,7 +51,7 @@
 						<input type="range" id="assistVolume" min="0" max="1" value="1" step="0.25">
         </div>
 				
-        <div class="control-group">
+        <div class="control-group" style="display: none;">
             <label for="showPlayhead">Always Show Playhead:</label>
             <input type="checkbox" id="showPlayhead" checked >
         </div>
@@ -114,15 +114,15 @@
                 <li><strong>Shift - &#x2B06 / &#x2B07 :</strong> Adjust song volume</li>
                 <li><strong>Enter / Esc :</strong> Start / Stop playing.
                 <strong>` (Backquote/Tilde) :</strong> Start from the previous place.</li>
-                <li><strong>-, +, Numpad -, +, * :</strong> Adjust playback speed.</li>
-                <li><strong>/ (Slash) :</strong> Toggle Playhead</li>
+                <li><strong>-, +, 0, Numpad -, +, * :</strong> Adjust playback speed.</li>
+                <!--<li><strong>/ (Slash) :</strong> Toggle Playhead</li>-->
             </ul>
 						<p></p>
             <ul>
 								<li><strong>Click to Start:</strong> Click on any part of the chart to start playing from that specific beat.</li>
                 <li><strong>Auto-Calibration:</strong> The game automatically calibrates your input offset as you play. You can lock it by clicking on its display.</li>
-                <li><strong>Controls during play:</strong> Speed and Playhead controls/hotkeys are locked after the first note, but you can freely adjust them during the intro or during practice plays.</li>
-                <li><strong>Additional offset:</strong> It is different from input offset. Its purpose is to adjust chart's own offset in case you hear assist tick and audio are not in sync. For historical reasons many charts need it to be set to -9ms.</li>
+                <li><strong>Controls during play:</strong> Playback speed is locked after the first note, but you can freely adjust it during the intro or during practice plays.</li>
+                <li><strong>Additional offset:</strong> It is different from input offset. Its purpose is to adjust chart's own offset in case you can hear that assist tick and audio are not in sync. For historical reasons many charts need it to be set to -9ms.</li>
                 <li><strong>High Scores:</strong> Records are saved in your browser and are unique for each combination of difficulty, speed, and play mode (e.g., with playhead, with assist). You can skip long inros, the score is valid if you played from the first to the last note.</li>
                 <li><strong>Roulette:</strong> You can exclude a song from roulette results by right-clicking on it. Roulette has strong preference to songs played long time ago (or not played at all).</li>
 								<li><strong>Drag & Drop:</strong> To play any chart that you have - grab two files, chart file (.sm or .ssc) and audio file (.ogg/.mp3), and drop them on this page. You can find an enormous amount of song packs in the internet, for example at <a href="https://itgdb.s1sh.xyz/pack_search/" target="_blank">https://itgdb.s1sh.xyz/pack_search/</a></li>
@@ -133,7 +133,7 @@
 		
 <script src="resources/clap.js"></script>
 <script>
-const DEV_MODE = false;
+const DEV_MODE = true;
 //localStorage.clear();
 //localStorage.removeItem("");
 		
