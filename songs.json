@@ -4148,5 +4148,93 @@
   "chartPath": "songs/gpop-3/Versus.sm",
   "audioPath": "songs/gpop-3/Versus.ogg",
   "key": "1756562990977"
+},
+{
+  "pack": "Notice Me Benpai",
+  "author": ""
+},
+{
+  "title": "Arcanes",
+  "artist": "Leaf",
+  "chartPath": "songs/notice-me-benpai/Arcanes.sm",
+  "audioPath": "songs/notice-me-benpai/Arcanes.ogg",
+  "key": "1756584496315"
+},
+{
+  "title": "Color",
+  "artist": "Pa’s Lam System",
+  "chartPath": "songs/notice-me-benpai/Color.ssc",
+  "audioPath": "songs/notice-me-benpai/Colors.ogg",
+  "key": "1756585794880"
+},
+{
+  "title": "Gloss",
+  "artist": "KRNE",
+  "chartPath": "songs/notice-me-benpai/Gloss.sm",
+  "audioPath": "songs/notice-me-benpai/Gloss (Niteloop Flip).ogg",
+  "key": "1756633470378"
+},
+{
+  "title": "Going Haywyre",
+  "artist": "Synergy Sound",
+  "chartPath": "songs/notice-me-benpai/Going Haywyre.sm",
+  "audioPath": "songs/notice-me-benpai/Going Haywyre.ogg",
+  "key": "1756633858654"
+},
+{
+  "title": "Hallelujah☆Essaim",
+  "artist": "Miyu Tomita, Saori Oonishi, Naomi Oozora, Kana Hanazawa",
+  "chartPath": "songs/notice-me-benpai/Hallelujah Essaim.sm",
+  "audioPath": "songs/notice-me-benpai/Hallelujah Essaim.ogg",
+  "key": "1756634008581"
+},
+{
+  "title": "Jupiter Junction",
+  "artist": "Nhato",
+  "chartPath": "songs/notice-me-benpai/Jupiter Junction.ssc",
+  "audioPath": "songs/notice-me-benpai/Jupiter_Junction.ogg",
+  "key": "1756634222439"
+},
+{
+  "title": "Masked Heart",
+  "artist": "Ujico/Snail’s House",
+  "chartPath": "songs/notice-me-benpai/Maskedheart.sm",
+  "audioPath": "songs/notice-me-benpai/Maskedheart.ogg",
+  "key": "1756634576175"
+},
+{
+  "title": "Night Landscape",
+  "artist": "Rhodz",
+  "chartPath": "songs/notice-me-benpai/Night Landscape.sm",
+  "audioPath": "songs/notice-me-benpai/Night Landscape.ogg",
+  "key": "1756634877461"
+},
+{
+  "title": "No title",
+  "artist": "Reol",
+  "chartPath": "songs/notice-me-benpai/No title.sm",
+  "audioPath": "songs/notice-me-benpai/No title.ogg",
+  "key": "1756634999621"
+},
+{
+  "title": "Out Of Love",
+  "artist": "Shirobon",
+  "chartPath": "songs/notice-me-benpai/Out Of Love.sm",
+  "audioPath": "songs/notice-me-benpai/Out Of Love.ogg",
+  "key": "1756635129853"
+},
+{
+  "title": "Take it easy",
+  "artist": "Clean Tears",
+  "chartPath": "songs/notice-me-benpai/Take it easy.sm",
+  "audioPath": "songs/notice-me-benpai/Take it easy.ogg",
+  "key": "1756638660283"
+},
+{
+  "title": "You’re On",
+  "artist": "Madeon",
+  "chartPath": "songs/notice-me-benpai/You're On.sm",
+  "audioPath": "songs/notice-me-benpai/You're On.ogg",
+  "key": "1756639241904"
 }
 ]
