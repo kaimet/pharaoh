@@ -15,7 +15,7 @@ document.addEventListener('keydown', (e) => {
 });
 
 /* Simple arrow navigation for the listbox:
-   - ArrowDown / ArrowUp move to the immediate next/prev option only.
+   - ArrowDown / ArrowUp move to the immediate next/prev option.
    - If target option is a pack header or is hidden, do nothing.
    - Dispatches a 'change' event so existing change-handler will open pack / load song / highlight.
 */
@@ -47,8 +47,6 @@ document.addEventListener('keydown', (e) => {
   }
 
   document.addEventListener('keydown', (e) => {
-    if (isPlaying) return;
-		
 		const selector = document.getElementById(selectorId);
     if (!selector) return;
 
@@ -57,6 +55,8 @@ document.addEventListener('keydown', (e) => {
 			
       // prevent page scrolling
       e.preventDefault();
+			
+			if (isPlaying || isLoadingSong) return;
 
       const dir = e.key === 'ArrowDown' ? 1 : -1;
       tryMoveOne(selector, dir);
