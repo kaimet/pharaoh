@@ -4150,7 +4150,7 @@
   "key": "1756562990977"
 },
 {
-  "pack": "Notice Me Benpai",
+  "pack": "Notice Me Benpai 1-2",
   "author": ""
 },
 {
@@ -4236,5 +4236,166 @@
   "chartPath": "songs/notice-me-benpai/You're On.sm",
   "audioPath": "songs/notice-me-benpai/You're On.ogg",
   "key": "1756639241904"
+},
+{
+  "title": "Bug Thief",
+  "artist": "Iglooghost",
+  "chartPath": "songs/notice-me-benpai-2/Bug Thief.sm",
+  "audioPath": "songs/notice-me-benpai-2/Bug Thief.ogg",
+  "key": "1756652543303"
+},
+{
+  "title": "Candy Carousel",
+  "artist": "Aika & Trifect",
+  "chartPath": "songs/notice-me-benpai-2/Candy Carousel.sm",
+  "audioPath": "songs/notice-me-benpai-2/Candy Carousel.ogg",
+  "key": "1756652711442"
+},
+{
+  "title": "Chatterbox",
+  "artist": "Complexive",
+  "chartPath": "songs/notice-me-benpai-2/Chatterbox.sm",
+  "audioPath": "songs/notice-me-benpai-2/Chatterbox.ogg",
+  "key": "1756652881157"
+},
+{
+  "title": "Checkpoint",
+  "artist": "Nitro Fun X Hyper Potions",
+  "chartPath": "songs/notice-me-benpai-2/Checkpoint.sm",
+  "audioPath": "songs/notice-me-benpai-2/Checkpoint.ogg",
+  "key": "1756653031310"
+},
+{
+  "title": "Clean The Sea",
+  "artist": "Horsnake",
+  "chartPath": "songs/notice-me-benpai-2/Clean The Sea.sm",
+  "audioPath": "songs/notice-me-benpai-2/Clean The Sea.ogg",
+  "key": "1756653198064"
+},
+{
+  "title": "Computer Blues",
+  "artist": "meganeko",
+  "chartPath": "songs/notice-me-benpai-2/Computer Blues.sm",
+  "audioPath": "songs/notice-me-benpai-2/Computer Blues.ogg",
+  "key": "1756653330948"
+},
+{
+  "title": "Desert",
+  "artist": "Inova",
+  "chartPath": "songs/notice-me-benpai-2/Desert.sm",
+  "audioPath": "songs/notice-me-benpai-2/Desert.ogg",
+  "key": "1756653507112"
+},
+{
+  "title": "Dot to Dot",
+  "artist": "mameyudoufu",
+  "chartPath": "songs/notice-me-benpai-2/Dot to Dot.sm",
+  "audioPath": "songs/notice-me-benpai-2/Dot to Dot.ogg",
+  "key": "1756653651937"
+},
+{
+  "title": "drop pop candy",
+  "artist": "Giga-P & Reol",
+  "chartPath": "songs/notice-me-benpai-2/drop pop candy.sm",
+  "audioPath": "songs/notice-me-benpai-2/drop pop candy.ogg",
+  "key": "1756653810336"
+},
+{
+  "title": "ERIS",
+  "artist": "DeltaHedron",
+  "chartPath": "songs/notice-me-benpai-2/ERIS.sm",
+  "audioPath": "songs/notice-me-benpai-2/ERIS.ogg",
+  "key": "1756653974561"
+},
+{
+  "title": "Heart of Gold",
+  "artist": "Limitless",
+  "chartPath": "songs/notice-me-benpai-2/Heart of Gold.sm",
+  "audioPath": "songs/notice-me-benpai-2/Heart of Gold.ogg",
+  "key": "1756654055502"
+},
+{
+  "title": "Hiccup",
+  "artist": "Shindig",
+  "chartPath": "songs/notice-me-benpai-2/Hiccup.sm",
+  "audioPath": "songs/notice-me-benpai-2/Hiccup.ogg",
+  "key": "1756654183090"
+},
+{
+  "title": "Libertas",
+  "artist": "Zekk",
+  "chartPath": "songs/notice-me-benpai-2/Libertas.sm",
+  "audioPath": "songs/notice-me-benpai-2/Libertas.ogg",
+  "key": "1756654332520"
+},
+{
+  "title": "Peacock",
+  "artist": "7 Minutes Dead",
+  "chartPath": "songs/notice-me-benpai-2/Peacock (Haywyre Remix).sm",
+  "audioPath": "songs/notice-me-benpai-2/Peacock (Haywyre Remix).ogg",
+  "key": "1756656694872"
+},
+{
+  "title": "Spica",
+  "artist": "Synthion",
+  "chartPath": "songs/notice-me-benpai-2/Spica.sm",
+  "audioPath": "songs/notice-me-benpai-2/Spica.ogg",
+  "key": "1756657240414"
+},
+{
+  "title": "Studiopolis Zone",
+  "artist": "Ben Briggs",
+  "chartPath": "songs/notice-me-benpai-2/Studiopolis Zone.sm",
+  "audioPath": "songs/notice-me-benpai-2/Studiopolis Zone (Ben Briggs Remix).ogg",
+  "key": "1756657484326"
+},
+{
+  "title": "The Edge",
+  "artist": "Grant",
+  "chartPath": "songs/notice-me-benpai-2/The Edge.sm",
+  "audioPath": "songs/notice-me-benpai-2/The Edge.ogg",
+  "key": "1756660972448"
+},
+{
+  "title": "The Queen",
+  "artist": "M2U",
+  "chartPath": "songs/notice-me-benpai-2/The Queen.sm",
+  "audioPath": "songs/notice-me-benpai-2/The Queen.ogg",
+  "key": "1756661169626"
+},
+{
+  "title": "Unison System",
+  "artist": "Memme",
+  "chartPath": "songs/notice-me-benpai-2/Unison System.sm",
+  "audioPath": "songs/notice-me-benpai-2/Unison System.ogg",
+  "key": "1756661328202"
+},
+{
+  "title": "Velocity",
+  "artist": "M2U",
+  "chartPath": "songs/notice-me-benpai-2/Velocity.sm",
+  "audioPath": "songs/notice-me-benpai-2/Velocity.ogg",
+  "key": "1756661460836"
+},
+{
+  "title": "Vintage Computers",
+  "artist": "mameyudoufu",
+  "chartPath": "songs/notice-me-benpai-2/Vintage Computers.sm",
+  "audioPath": "songs/notice-me-benpai-2/Vintage Computers.ogg",
+  "key": "1756661606526"
+},
+{
+  "title": "Whisper",
+  "artist": "Boombox Cartel",
+  "chartPath": "songs/notice-me-benpai-2/Whisper (Airuei Remix).sm",
+  "audioPath": "songs/notice-me-benpai-2/Whisper (Airuei Remix).ogg",
+  "key": "1756662173345"
+},
+{
+  "title": "White Crow",
+  "artist": "Camellia",
+  "chartPath": "songs/notice-me-benpai-2/White Crow.sm",
+  "audioPath": "songs/notice-me-benpai-2/White Crow.ogg",
+  "key": "1756662319944"
 }
 ]

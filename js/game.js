@@ -271,6 +271,8 @@ function updateControlLocks(currentTime) {
 
 /**
  * Schedules assist claps to be played in the near future using a just-in-time approach.
+ * Missed claps while the page is hidden or the AudioContext is suspended are skipped
+ * to avoid a burst on resume.
  * @param {number} currentTime - The current `curSongTime`.
  */
 function scheduleAssistClaps(currentTime) {
@@ -278,13 +280,40 @@ function scheduleAssistClaps(currentTime) {
     if (assistVolume <= 0) return;
 
     const scheduleHorizon = currentTime + 0.1; // Schedule sounds 100ms in the future.
+
+    // If the tab is hidden or the audio context is not running, we will SKIP claps
+    // that fall within the scheduling horizon to avoid queuing them and then bursting
+    // them all at resume.
+    const pageVisible = typeof document !== 'undefined' ? document.visibilityState === 'visible' : true;
+    const audioRunning = (typeof audioContext !== 'undefined' && audioContext && audioContext.state === 'running');
+
     while (nextClapToScheduleIndex < noteTimings.length && noteTimings[nextClapToScheduleIndex] < scheduleHorizon) {
         const time = noteTimings[nextClapToScheduleIndex];
-        const scheduleTime = startTime + (time / playbackRate);
+
+        if (!pageVisible || !audioRunning) {
+            // Skip this clap — the page is not actively playing audio now.
+            // We advance nextClapToScheduleIndex so we don't backlog claps.
+            nextClapToScheduleIndex++;
+            continue;
+        }
+
+        // Normal scheduling path:
+        // compute absolute audioContext time when the clap should play.
+        let scheduleTime = startTime + (time / playbackRate);
+
+        // Defensive: ensure we never schedule a start time in the past
+        if (typeof audioContext !== 'undefined' && audioContext) {
+            if (scheduleTime < audioContext.currentTime) {
+							nextClapToScheduleIndex++;
+							continue;
+            }
+        }
+
         playSound(assistClapBuffer, scheduleTime, assistVolume);
         nextClapToScheduleIndex++;
     }
 }
+
 
 /** // --- DYNAMIC ERROR FLASH LOGIC ---  (Not used. Was replaced by Hit Glows)
 		// This system creates a responsive flash that reflects the player's performance
