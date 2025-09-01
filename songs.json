@@ -4653,5 +4653,40 @@
   "chartPath": "songs/kighas-kawaii-bops/the snack that smiles back (feat. raychel jay).sm",
   "audioPath": "songs/kighas-kawaii-bops/Shawn Wasabi - the snack that smiles back (feat. raychel jay).ogg",
   "key": "1756714760275"
+},
+{
+  "title": "antidepressants",
+  "artist": "bbno$",
+  "chartPath": "songs/kiwi/antidepressants.ssc",
+  "audioPath": "songs/kiwi/bbno$ - antidepressants.ogg",
+  "key": "1756721156907"
+},
+{
+  "title": "Bimbo Doll",
+  "artist": "Tila Tsoli",
+  "chartPath": "songs/kiwi/Bimbo Doll.ssc",
+  "audioPath": "songs/kiwi/Tila Tsoli - Bimbo Doll.ogg",
+  "key": "1756721348289"
+},
+{
+  "title": "Blame It On You",
+  "artist": "2XO",
+  "chartPath": "songs/kiwi/Blame It On You.sm",
+  "audioPath": "songs/kiwi/2XO - Blame It On You.ogg",
+  "key": "1756721476055"
+},
+{
+  "title": "Burst My Bubble",
+  "artist": "Bao The Whale",
+  "chartPath": "songs/kiwi/Burst My Bubble.sm",
+  "audioPath": "songs/kiwi/Bao The Whale - Burst My Bubble.ogg",
+  "key": "1756722008158"
+},
+{
+  "title": "Coconuts",
+  "artist": "Kim Petras",
+  "chartPath": "songs/kiwi/Coconuts.ssc",
+  "audioPath": "songs/kiwi/Kim Petras - Coconuts.ogg",
+  "key": "1756722245429"
 }
 ]
