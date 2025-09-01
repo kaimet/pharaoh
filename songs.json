@@ -4492,5 +4492,110 @@
   "chartPath": "songs/animal_crossover/These Hallowed Wings.sm",
   "audioPath": "songs/animal_crossover/These Hallowed Wings - Stupendium.ogg",
   "key": "1756696229367"
+},
+{
+  "title": "Arcade",
+  "artist": "Wave Meow",
+  "chartPath": "songs/kawaii-nesis-2/Arcade.ssc",
+  "audioPath": "songs/kawaii-nesis-2/Wave Meow - Arcade.ogg",
+  "key": "1756702859268"
+},
+{
+  "title": "Elixir",
+  "artist": "JoeniNpcGamer",
+  "chartPath": "songs/kawaii-nesis-2/Elixir.ssc",
+  "audioPath": "songs/kawaii-nesis-2/JoeniNpcGamer - Elixir.ogg",
+  "key": "1756701517906"
+},
+{
+  "title": "Forever Summer Holiday",
+  "artist": "Kero Kero Bonito",
+  "chartPath": "songs/kawaii-nesis-2/Forever Summer Holiday.ssc",
+  "audioPath": "songs/kawaii-nesis-2/Kero Kero Bonito - Forever Summer Holiday.ogg",
+  "key": "1756701668361"
+},
+{
+  "title": "High",
+  "artist": "Stessie",
+  "chartPath": "songs/kawaii-nesis-2/High.ssc",
+  "audioPath": "songs/kawaii-nesis-2/Stessie - High.ogg",
+  "key": "1756701852109"
+},
+{
+  "title": "Into Your Heart",
+  "artist": "DanK",
+  "chartPath": "songs/kawaii-nesis-2/Into Your Heart (ft. Rainy).ssc",
+  "audioPath": "songs/kawaii-nesis-2/DanK - Into Your Heart (ft. Rainy).ogg",
+  "key": "1756702012219"
+},
+{
+  "title": "Natsuzora",
+  "artist": "HoneyKomeBear",
+  "chartPath": "songs/kawaii-nesis-2/Natsuzora (20XX Remix).ssc",
+  "audioPath": "songs/kawaii-nesis-2/HoneyComeBear - Natsuzora (20XX Remix).ogg",
+  "key": "1756702163468"
+},
+{
+  "title": "Runaways",
+  "artist": "Mihony & Stavensuniverse",
+  "chartPath": "songs/kawaii-nesis-2/Runaways (feat. Moon Jelly).ssc",
+  "audioPath": "songs/kawaii-nesis-2/Mihony & Stavensuniverse - Runaways (feat. Moon Jelly).ogg",
+  "key": "1756702298166"
+},
+{
+  "title": "Summer Dream",
+  "artist": "Kirara Magik",
+  "chartPath": "songs/kawaii-nesis-2/Summer Dream (feat. Chevy).ssc",
+  "audioPath": "songs/kawaii-nesis-2/Kirara Magic - Summer Dream (feat. Chevy).ogg",
+  "key": "1756702410717"
+},
+{
+  "title": "Superstar",
+  "artist": "AIKA",
+  "chartPath": "songs/kawaii-nesis-2/Superstar (feat. TOFIE).ssc",
+  "audioPath": "songs/kawaii-nesis-2/AIKA - Superstar (feat. TOFIE).ogg",
+  "key": "1756702500452"
+},
+{
+  "title": "Superstars",
+  "artist": "YSAK",
+  "chartPath": "songs/kawaii-nesis-2/Superstars.ssc",
+  "audioPath": "songs/kawaii-nesis-2/YSAK - Superstars.ogg",
+  "key": "1756702653771"
+},
+{
+  "title": "Galactic Bagel",
+  "artist": "Stavensuniverse & Atropos",
+  "chartPath": "songs/zingers-exclusively-2/Galactic Bagel.ssc",
+  "audioPath": "songs/zingers-exclusively-2/Stavensuniverse & Atropos - Galactic Bagel.ogg",
+  "key": "1756703232613"
+},
+{
+  "title": "Girls Girls Girls",
+  "artist": "Dolly Style",
+  "chartPath": "songs/zingers-exclusively-2/Girls Girls Girls.sm",
+  "audioPath": "songs/zingers-exclusively-2/Dolly Style - Girls Girls Girls.ogg",
+  "key": "1756709016873"
+},
+{
+  "title": "JUMP",
+  "artist": "Dolly Style",
+  "chartPath": "songs/zingers-exclusively-2/JUMP.sm",
+  "audioPath": "songs/zingers-exclusively-2/Dolly Style - JUMP.ogg",
+  "key": "1756709175043"
+},
+{
+  "title": "Moonlight",
+  "artist": "Kazukii, Paper Skies, Jeto & Sharks",
+  "chartPath": "songs/zingers-exclusively-2/Moonlight (ft. Slyleaf).sm",
+  "audioPath": "songs/zingers-exclusively-2/Kazukii, Paper Skies, Jeto & Sharks - Moonlight (ft. Slyleaf).ogg",
+  "key": "1756709766919"
+},
+{
+  "title": "W.I.T.C.H",
+  "artist": "Devon Cole",
+  "chartPath": "songs/zingers-exclusively-2/W.I.T.C.H.sm",
+  "audioPath": "songs/zingers-exclusively-2/Devon Cole - W.I.T.C.H.ogg",
+  "key": "1756710115866"
 }
 ]
