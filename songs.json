@@ -4688,5 +4688,93 @@
   "chartPath": "songs/kiwi/Coconuts.ssc",
   "audioPath": "songs/kiwi/Kim Petras - Coconuts.ogg",
   "key": "1756722245429"
+},
+{
+	"pack": "Highflyer",
+	"author": ""
+},
+{
+  "title": "Ace Attorney (Mayoi Ayasato-Ace Attorney's Theme)",
+  "artist": "Remixed by OSTER project",
+  "chartPath": "songs/highflyer/ttrails-1/Ace Attorney (Mayoi Ayasato-Ace Attorney's Theme).ssc",
+  "audioPath": "songs/highflyer/ttrails-1/Ace Attorney (Mayoi Ayasato-Ace Attorney's Theme).ogg",
+  "key": "1756730410455"
+},
+{
+  "title": "AM to PM",
+  "artist": "Christina Milian",
+  "chartPath": "songs/highflyer/ttrails-1/AM to PM.ssc",
+  "audioPath": "songs/highflyer/ttrails-1/AM to PM.ogg",
+  "key": "1756730663168"
+},
+{
+  "title": "DANCE ALL NIGHT (DDR EDITION)",
+  "artist": "Sota Fujimori",
+  "chartPath": "songs/highflyer/ttrails-1/DANCE ALL NIGHT (DDR EDITION).sm",
+  "audioPath": "songs/highflyer/ttrails-1/DANCE ALL NIGHT (DDR EDITION).ogg",
+  "key": "1756730820303"
+},
+{
+  "title": "jet coaster☆girl",
+  "artist": "sasakure.UK feat. mirto",
+  "chartPath": "songs/highflyer/ttrails-1/jet coaster girl sasakure.UK tRiCkStAr Remix.ssc",
+  "audioPath": "songs/highflyer/ttrails-1/jet coaster girl sasakure.UK tRiCkStAr Remix.ogg",
+  "key": "1756731187439"
+},
+{
+  "title": "War of Change",
+  "artist": "Thousand Foot Krutch",
+  "chartPath": "songs/highflyer/ttrails-1/War of Change (Andy Hunter Remix).ssc",
+  "audioPath": "songs/highflyer/ttrails-1/War of Change (Andy Hunter Remix).ogg",
+  "key": "1756731699025"
+},
+{
+  "title": "Crazy in Love",
+  "artist": "Beyonce feat. Jay Z",
+  "chartPath": "songs/highflyer/trom-1/Crazy in Love (William Matthew Remix).ssc",
+  "audioPath": "songs/highflyer/trom-1/Crazy in Love (William Matthew Remix).ogg",
+  "key": "1756734319509"
+},
+{
+  "title": "He Said She Said",
+  "artist": "Ashley Tisdale",
+  "chartPath": "songs/highflyer/trom-1/He Said She Said.ssc",
+  "audioPath": "songs/highflyer/trom-1/He Said She Said.ogg",
+  "key": "1756734616533"
+},
+{
+  "title": "These Words (I Love You, I Love You)",
+  "artist": "Natasha Bedingfield",
+  "chartPath": "songs/highflyer/trom-1/These Words (I Love You, I Love You).ssc",
+  "audioPath": "songs/highflyer/trom-1/These Words (I Love You, I Love You).ogg",
+  "key": "1756734734856"
+},
+{
+  "title": "Late Night Feelings",
+  "artist": "Mark Ronson feat. Lykke Li",
+  "chartPath": "songs/highflyer/trom-1/Late Night Feelings.ssc",
+  "audioPath": "songs/highflyer/trom-1/Late Night Feelings.ogg",
+  "key": "1756734965736"
+},
+{
+  "title": "マジLOVE1000%",
+  "artist": "ST☆RISH",
+  "chartPath": "songs/highflyer/trom-1/MAJI Love 1000%.ssc",
+  "audioPath": "songs/highflyer/trom-1/MAJI Love 1000%.ogg",
+  "key": "1756735390405"
+},
+{
+  "title": "マジLOVE2000%",
+  "artist": "ST☆RISH",
+  "chartPath": "songs/highflyer/trom-1/MAJI Love 2000%.ssc",
+  "audioPath": "songs/highflyer/trom-1/MAJI Love 2000%.ogg",
+  "key": "1756735524836"
+},
+{
+  "title": "Speed of Love",
+  "artist": "Owl City",
+  "chartPath": "songs/highflyer/trom-1/Speed of Love.ssc",
+  "audioPath": "songs/highflyer/trom-1/Speed of Love.ogg",
+  "key": "1756735685310"
 }
 ]
