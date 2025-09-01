@@ -4397,5 +4397,100 @@
   "chartPath": "songs/notice-me-benpai-2/White Crow.sm",
   "audioPath": "songs/notice-me-benpai-2/White Crow.ogg",
   "key": "1756662319944"
+},
+{
+	"pack": "Kigha",
+	"author": ""
+},
+{
+  "title": "Able Sisters",
+  "artist": "Animal Crossing",
+  "chartPath": "songs/animal_crossover/Able Sisters (Synthion Trap Edit).sm",
+  "audioPath": "songs/animal_crossover/Able Sisters (Synthion Trap Edit).ogg",
+  "key": "1756693930141"
+},
+{
+  "title": "ANIMAL CROSSING",
+  "artist": "COSMICOSMO",
+  "chartPath": "songs/animal_crossover/ANIMAL CROSSING-CC.sm",
+  "audioPath": "songs/animal_crossover/ANIMAL CROSSING-CC.ogg",
+  "key": "1756694115225"
+},
+{
+  "title": "ANIMAL CROSSING",
+  "artist": "Shawn Wasabi",
+  "chartPath": "songs/animal_crossover/ANIMAL CROSSING-SW.sm",
+  "audioPath": "songs/animal_crossover/ANIMAL CROSSING-SW.ogg",
+  "key": "1756694272393"
+},
+{
+  "title": "ANIMAL CROSSING MANGOTALE VIP",
+  "artist": "Shawn Wasabi",
+  "chartPath": "songs/animal_crossover/ANIMAL CROSSING MANGOTALE VIP (feat. Sophia Black).ssc",
+  "audioPath": "songs/animal_crossover/Shawn Wasabi - ANIMAL CROSSING MANGOTALE VIP (feat. Sophia Black).ogg",
+  "key": "1756694431108"
+},
+{
+  "title": "Animal Crossing New Horizons Main Theme",
+  "artist": "Animal Crossing",
+  "chartPath": "songs/animal_crossover/Animal Crossing New Horizons Main Theme (ASDEK Remix).sm",
+  "audioPath": "songs/animal_crossover/Animal Crossing New Horizons Main Theme (ASDEK Remix).ogg",
+  "key": "1756694626069"
+},
+{
+  "title": "Bubblegum K.K.",
+  "artist": "Animal Crossing",
+  "chartPath": "songs/animal_crossover/Bubblegum K.K. (FusionNFire Remix).sm",
+  "audioPath": "songs/animal_crossover/Animal Crossing - Bubblegum K.K. (FusionNFire Remix).ogg",
+  "key": "1756694761507"
+},
+{
+  "title": "Bubblegum K.K. 2",
+  "artist": "Animal Crossing",
+  "chartPath": "songs/animal_crossover/Bubblegum K.K (Qumu Remix).ssc",
+  "audioPath": "songs/animal_crossover/Bubblegum K.K. (Qumu Remix).ogg",
+  "key": "1756694929508"
+},
+{
+  "title": "K.K. Cruisin'",
+  "artist": "Animal Crossing",
+  "chartPath": "songs/animal_crossover/K.K. Cruisin' (Camellia Remix).sm",
+  "audioPath": "songs/animal_crossover/K.K. Cruisin' (Camellia Remix).ogg",
+  "key": "1756695220479"
+},
+{
+  "title": "K.K. House",
+  "artist": "Animal Crossing",
+  "chartPath": "songs/animal_crossover/K.K. House (TAK Remix).sm",
+  "audioPath": "songs/animal_crossover/K.K. House (TAK Remix).ogg",
+  "key": "1756695559417"
+},
+{
+  "title": "New Horizons",
+  "artist": "Animal Crossing",
+  "chartPath": "songs/animal_crossover/New Horizons (TOKYO MACHINE Remix).sm",
+  "audioPath": "songs/animal_crossover/New Horizons (TOKYO MACHINE Remix).ogg",
+  "key": "1756695709068"
+},
+{
+  "title": "OK Motors Theme",
+  "artist": "Animal Crossing Pocket Camp",
+  "chartPath": "songs/animal_crossover/OK Motors Theme (Remix).sm",
+  "audioPath": "songs/animal_crossover/Animal Crossing Pocket Camp - OK Motors Theme (Remix).ogg",
+  "key": "1756695910183"
+},
+{
+  "title": "One For Kapp'n",
+  "artist": "Grimecraft x Maxo",
+  "chartPath": "songs/animal_crossover/One for Kapp'n.sm",
+  "audioPath": "songs/animal_crossover/One For Kapp'n.ogg",
+  "key": "1756696074173"
+},
+{
+  "title": "These Hallowed Wings",
+  "artist": "Stupendium",
+  "chartPath": "songs/animal_crossover/These Hallowed Wings.sm",
+  "audioPath": "songs/animal_crossover/These Hallowed Wings - Stupendium.ogg",
+  "key": "1756696229367"
 }
 ]
