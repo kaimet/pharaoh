@@ -4597,5 +4597,61 @@
   "chartPath": "songs/zingers-exclusively-2/W.I.T.C.H.sm",
   "audioPath": "songs/zingers-exclusively-2/Devon Cole - W.I.T.C.H.ogg",
   "key": "1756710115866"
+},
+{
+  "title": "Bubblegum KK",
+  "artist": "Hikaru Station",
+  "chartPath": "songs/kighas-kawaii-bops/Bubblegum KK.ssc",
+  "audioPath": "songs/kighas-kawaii-bops/Bubblegum_K.K._-_Hikaru_Station_ft._Trifect.ogg",
+  "key": "1756712419686"
+},
+{
+  "title": "Finish Line",
+  "artist": "Ravela",
+  "chartPath": "songs/kighas-kawaii-bops/Finish Line.ssc",
+  "audioPath": "songs/kighas-kawaii-bops/Ravela - Finish Line.ogg",
+  "key": "1756712637092"
+},
+{
+  "title": "Higher",
+  "artist": "Wave Racer",
+  "chartPath": "songs/kighas-kawaii-bops/Higher.ssc",
+  "audioPath": "songs/kighas-kawaii-bops/Wave Racer - Higher.ogg",
+  "key": "1756712886062"
+},
+{
+  "title": "Lockdown",
+  "artist": "PIKASONIC & Tatsunoshin",
+  "chartPath": "songs/kighas-kawaii-bops/Lockdown (ft NEONA).ssc",
+  "audioPath": "songs/kighas-kawaii-bops/PIKASONIC & Tatsunoshin - Lockdown (ft.NEONA).ogg",
+  "key": "1756713060003"
+},
+{
+  "title": "Penguin of the Galaxy Railway ft. nicamoq",
+  "artist": "Aiobahn & Yunomi",
+  "chartPath": "songs/kighas-kawaii-bops/Penguin of the Galaxy Railway ft. nicamoq (Stripe.P Remix).sm",
+  "audioPath": "songs/kighas-kawaii-bops/Aiobahn & Yunomi - Penguin of the Galaxy Railway ft. nicamoq (Stripe.P Remix).ogg",
+  "key": "1756713223623"
+},
+{
+  "title": "Piplup Step",
+  "artist": "Serph ft. ZUN",
+  "chartPath": "songs/kighas-kawaii-bops/Piplup Step.sm",
+  "audioPath": "songs/kighas-kawaii-bops/Piplup Step - Serph ft ZUN.ogg",
+  "key": "1756713395342"
+},
+{
+  "title": "Saisei",
+  "artist": "Perfume",
+  "chartPath": "songs/kighas-kawaii-bops/Saisei.sm",
+  "audioPath": "songs/kighas-kawaii-bops/Perfume - Saisei.ogg",
+  "key": "1756714725469"
+},
+{
+  "title": "the snack that smiles back",
+  "artist": "Shawn Wasabi",
+  "chartPath": "songs/kighas-kawaii-bops/the snack that smiles back (feat. raychel jay).sm",
+  "audioPath": "songs/kighas-kawaii-bops/Shawn Wasabi - the snack that smiles back (feat. raychel jay).ogg",
+  "key": "1756714760275"
 }
 ]
