@@ -4909,5 +4909,61 @@
   "chartPath": "songs/highflyer/tterr-1/The Vampire [Highflyer].sm",
   "audioPath": "songs/highflyer/tterr-1/The Vampire [Highflyer].ogg",
   "key": "1756816745539"
+},
+{
+  "title": "2 Be Loved",
+  "artist": "Lizzo",
+  "chartPath": "songs/highflyer/trom-2/2 Be Loved.sm",
+  "audioPath": "songs/highflyer/trom-2/2 Be Loved.ogg",
+  "key": "1756821772114"
+},
+{
+  "title": "Heart to Break",
+  "artist": "Kim Petras",
+  "chartPath": "songs/highflyer/trom-2/Heart to Break.sm",
+  "audioPath": "songs/highflyer/trom-2/Heart to Break.ogg",
+  "key": "1756822157535"
+},
+{
+  "title": "Inside Your Heart",
+  "artist": "AKIRA YAMAOKA",
+  "chartPath": "songs/highflyer/trom-2/INSIDE YOUR HEART.sm",
+  "audioPath": "songs/highflyer/trom-2/INSIDE YOUR HEART.ogg",
+  "key": "1756822312933"
+},
+{
+  "title": "Lover",
+  "artist": "ND Lee",
+  "chartPath": "songs/highflyer/trom-2/Lover (CE Style).sm",
+  "audioPath": "songs/highflyer/trom-2/Lover (CE Style).ogg",
+  "key": "1756825458906"
+},
+{
+  "title": "LUVORATORRRRRY!",
+  "artist": "Reol feat. nqrse",
+  "chartPath": "songs/highflyer/trom-2/Luvoratorrrrry!.sm",
+  "audioPath": "songs/highflyer/trom-2/Luvoratorrrrry!.ogg",
+  "key": "1756825561910"
+},
+{
+  "title": "Marry Me",
+  "artist": "Jennifer Lopez & Maluma",
+  "chartPath": "songs/highflyer/trom-2/Marry Me.sm",
+  "audioPath": "songs/highflyer/trom-2/Marry Me.ogg",
+  "key": "1756825696944"
+},
+{
+  "title": "More Than Friends",
+  "artist": "meesh",
+  "chartPath": "songs/highflyer/trom-2/More_Than_Friends.sm",
+  "audioPath": "songs/highflyer/trom-2/More Than Friends.ogg",
+  "key": "1756825842641"
+},
+{
+  "title": "Surrender My Heart",
+  "artist": "Carly Rae Jepson",
+  "chartPath": "songs/highflyer/trom-2/Surrender My Heart.sm",
+  "audioPath": "songs/highflyer/trom-2/Surrender My Heart.ogg",
+  "key": "1756826273513"
 }
 ]
