@@ -334,19 +334,19 @@ function chooseWeightedIndex(weights) {
 
 /**
  * Roulette: never-played first, then fill up to TARGET_SHARE with oldest-played;
- * played-song weights use an exponential curve so older songs receive much stronger weight.
+ * played-song weights use an exponential curve so older songs receive stronger weight.
  *
  * options: {
- *   targetShare: 0..1 (default 0.5),
+ *   targetShare: 0..1 (default 0.33),
  *   maxAgeMs: ms over which played-song weight reaches max (default 30 days),
  *   maxPlayedWeight: weight cap for played songs (default 12),
- *   expAlpha: exponential sharpness (default 5),
- *   neverMultiplier: multiplier applied to maxPlayedWeight to produce never-played weight (default 1.5)
+ *   expAlpha: exponential sharpness (default 3),
+ *   neverMultiplier: multiplier applied to maxPlayedWeight to produce never-played weight (default 1.1)
  * }
  */
 function runRoulette(options = {}) {
-    // procentage of all songs for roulette candidates
-		const TARGET_SHARE = (typeof options.targetShare === 'number') ? options.targetShare : 0.6;
+    // procentage of all songs for roulette candidates (33%). They are played the longest time ago.
+		const TARGET_SHARE = (typeof options.targetShare === 'number') ? options.targetShare : 0.33;
     const MAX_AGE_MS = (typeof options.maxAgeMs === 'number') ? options.maxAgeMs : 30 * 24 * 60 * 60 * 1000; // 30 days
     const MAX_PLAYED_WEIGHT = (typeof options.maxPlayedWeight === 'number') ? options.maxPlayedWeight : 12;
     const EXP_ALPHA = (typeof options.expAlpha === 'number') ? options.expAlpha : 3.0; // sharper => more bias to oldest
@@ -530,6 +530,7 @@ async function loadSongFromUrl(songData) {
     bestScoreDisplay.textContent = 'Loading...';
     songSelector.disabled = true;
     document.getElementById('playButton').disabled = true;
+		showNotAvailableScreen();
 		let isAudio = (songData.audioPath && songData.audioPath.length > 1);
 		
     try {
