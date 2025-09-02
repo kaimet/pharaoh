@@ -4874,5 +4874,40 @@
   "chartPath": "songs/highflyer/ttrails-2/Waiting for Tonight (P.A.F.F. Trap Remix).sm",
   "audioPath": "songs/highflyer/ttrails-2/Waiting for Tonight (P.A.F.F. Trap Remix).ogg",
   "key": "1756808599813"
+},
+{
+  "title": "Bloody Mary",
+  "artist": "FAKE TYPE x KANKAN",
+  "chartPath": "songs/highflyer/tterr-1/Bloody Mary.sm",
+  "audioPath": "songs/highflyer/tterr-1/Bloody Mary.ogg",
+  "key": "1756815765490"
+},
+{
+  "title": "DEADLOCK",
+  "artist": "RoughSketch",
+  "chartPath": "songs/highflyer/tterr-1/DEADLOCK (STARDOM Remix).sm",
+  "audioPath": "songs/highflyer/tterr-1/DEADLOCK (STARDOM Remix).ogg",
+  "key": "1756816059476"
+},
+{
+  "title": "Ghost Clock",
+  "artist": "BEMANI Sound Team \"Yvya\"",
+  "chartPath": "songs/highflyer/tterr-1/Ghost Clock.sm",
+  "audioPath": "songs/highflyer/tterr-1/Ghost Clock.ogg",
+  "key": "1756816190152"
+},
+{
+  "title": "Poison Blood",
+  "artist": "udouddo",
+  "chartPath": "songs/highflyer/tterr-1/Poison Blood.sm",
+  "audioPath": "songs/highflyer/tterr-1/Poison Blood.ogg",
+  "key": "1756816503406"
+},
+{
+  "title": "The Vampire",
+  "artist": "DECO*27 feat. Hatsune Miku",
+  "chartPath": "songs/highflyer/tterr-1/The Vampire [Highflyer].sm",
+  "audioPath": "songs/highflyer/tterr-1/The Vampire [Highflyer].ogg",
+  "key": "1756816745539"
 }
 ]
