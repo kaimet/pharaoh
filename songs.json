@@ -5002,13 +5002,6 @@
   "key": "1756881965664"
 },
 {
-  "title": "Treat Me Like A Slut",
-  "artist": "Kim Petras",
-  "chartPath": "songs/highflyer/memories/Treat Me Like A Slut.sm",
-  "audioPath": "songs/highflyer/memories/Treat Me Like A Slut.ogg",
-  "key": "1756882179505"
-},
-{
   "title": "TWINKLE MAGIC",
   "artist": "P*Light",
   "chartPath": "songs/highflyer/memories/TWINKLE MAGIC.sm",
@@ -5091,5 +5084,82 @@
   "chartPath": "songs/highflyer/shii-techy/The Fox.sm",
   "audioPath": "songs/highflyer/shii-techy/The Fox.ogg",
   "key": "1756905297381"
+},
+{
+  "title": "he loves me, he loves me not",
+  "artist": "Jessica Baio",
+  "chartPath": "songs/highflyer/trom-3/he loves me, he loves me not.sm",
+  "audioPath": "songs/highflyer/trom-3/he loves me, he loves me not.ogg",
+  "key": "1756915822739"
+},
+{
+  "title": "Kiss Me More",
+  "artist": "Doja Cat feat. SZA",
+  "chartPath": "songs/highflyer/trom-3/Kiss Me More (Alpha Hex Remix).sm",
+  "audioPath": "songs/highflyer/trom-3/Kiss Me More (Alpha Hex Remix).ogg",
+  "key": "1756916196513"
+},
+{
+  "title": "Looking to Love",
+  "artist": "Nick Talos feat. Chelcee Grimes",
+  "chartPath": "songs/highflyer/trom-3/Looking to Love (Nick Talos & Nalestar Club Mix).sm",
+  "audioPath": "songs/highflyer/trom-3/Looking to Love (Nick Talos & Nalestar Club Mix).ogg",
+  "key": "1756916343909"
+},
+{
+  "title": "Love Me Like You Do",
+  "artist": "Ellie Goulding",
+  "chartPath": "songs/highflyer/trom-3/Love Me Like You Do.sm",
+  "audioPath": "songs/highflyer/trom-3/Love Me Like You Do.ogg",
+  "key": "1756916607978"
+},
+{
+  "title": "Made You Look",
+  "artist": "Meghan Trainor",
+  "chartPath": "songs/highflyer/trom-3/Made You Look.sm",
+  "audioPath": "songs/highflyer/trom-3/Made You Look.ogg",
+  "key": "1756916767653"
+},
+{
+  "title": "Never Gonna Give You Up",
+  "artist": "Radioclub",
+  "chartPath": "songs/highflyer/trom-3/Never Gonna Give You Up.sm",
+  "audioPath": "songs/highflyer/trom-3/Never Gonna Give You Up.ogg",
+  "key": "1756916990142"
+},
+{
+  "title": "OMG",
+  "artist": "Gryffin & Carly Rae Jepsen",
+  "chartPath": "songs/highflyer/trom-3/OMG (Anki Remix).sm",
+  "audioPath": "songs/highflyer/trom-3/OMG (Anki Remix).ogg",
+  "key": "1756917260065"
+},
+{
+  "title": "ROM-eo & Juli8",
+  "artist": "Nina Goddess of Dance",
+  "chartPath": "songs/highflyer/trom-3/romeojuli8.sm",
+  "audioPath": "songs/highflyer/trom-3/Nina - Romeojuli8.ogg",
+  "key": "1756921728839"
+},
+{
+  "title": "Stay The Night",
+  "artist": "Sigala feat. Talia Mar",
+  "chartPath": "songs/highflyer/trom-3/Stay The Night.sm",
+  "audioPath": "songs/highflyer/trom-3/Stay The Night.ogg",
+  "key": "1756922162637"
+},
+{
+  "title": "Treat Me Like A Slut",
+  "artist": "Kim Petras",
+  "chartPath": "songs/highflyer/trom-3/Treat Me Like A Slut.sm",
+  "audioPath": "songs/highflyer/trom-3/Treat Me Like A Slut.ogg",
+  "key": "1756922491051"
+},
+{
+  "title": "Won(*3*)Chu Kissme!",
+  "artist": "Remixed by BEMANI Sound Team \"L.E.D.\" & IOSYS",
+  "chartPath": "songs/highflyer/trom-3/Won(_3_)Chu KissMe!.sm",
+  "audioPath": "songs/highflyer/trom-3/Won(_3_)Chu KissMe!.ogg",
+  "key": "1756922679300"
 }
 ]
