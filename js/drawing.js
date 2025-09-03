@@ -46,10 +46,10 @@ function calculateChartLayout(measures, availableWidth, topOffset) {
 
     // spacing between measures (previous code had hardcoded 2px)
     const MEASURE_SPACING = 0;
-		
-		// if density is too high we are taking all avalable screen space
-		if (totalNoteEvents / finalColumnCount > TARGET_DENSITY * 2) topOffset = 0;
-		
+    
+    // if density is too high we are taking all avalable screen space
+    if (totalNoteEvents / finalColumnCount > TARGET_DENSITY * 2) topOffset = 0;
+    
     const targetHeight = window.innerHeight - topOffset - (BORDER * 2);
     const measureHeight = Math.max(20, Math.floor((targetHeight / measuresPerColumn) - MEASURE_SPACING));
 
@@ -309,7 +309,7 @@ function drawMeasureGrid(ctx, colXBase, measureYBase, layout) {
         let x = colXBase + (i * layout.laneWidth) + xOffset + NOTE_SIZE / 2;
         ctx.fillRect(x - 0.7, measureYBase, 1.4, layout.measureHeight);
     }
-		
+    
     // Draw 4th beats marks
     const laneX = colXBase + (layout.columnWidth - layout.padding - NOTE_SIZE) / 2;
     for (let beat = 1; beat < 4; beat++) {
@@ -436,11 +436,11 @@ function drawChart() {
         }
 
         drawMeasureGrid(ctx, colXBase, measureYBase, layout);
-				
+        
         drawBpmChangesForMeasure(ctx, measureIndex, measureYBase, colXBase, colIndex, layout);
-				
+        
         drawNotesForMeasure(ctx, measure, measureYBase, colXBase, colIndex, activeHolds, layout);
-				if (nextColumnPreview) drawNextColumnHeadPreview(ctx, measureIndex, colXBase, measureYBase, layout);
+        if (nextColumnPreview) drawNextColumnHeadPreview(ctx, measureIndex, colXBase, measureYBase, layout);
     });
 }
 
@@ -540,10 +540,10 @@ function clearUnderlay() {
 }
 
 function showNotAvailableScreen() {
-		const overlayCanvas = document.getElementById('overlayCanvas');
-		const ctx = overlayCanvas.getContext('2d');
-		ctx.save();
-		ctx.fillStyle = 'rgba(200, 200, 200, 0.75)';
-		ctx.fillRect(0, 0, overlayCanvas.width, overlayCanvas.height);
-		ctx.restore();
+    const overlayCanvas = document.getElementById('overlayCanvas');
+    const ctx = overlayCanvas.getContext('2d');
+    ctx.save();
+    ctx.fillStyle = 'rgba(200, 200, 200, 0.75)';
+    ctx.fillRect(0, 0, overlayCanvas.width, overlayCanvas.height);
+    ctx.restore();
 }

@@ -3,10 +3,10 @@
 
 function playSound(buffer, time, volume) {
     if (!audioContext || !buffer || volume <= 0 || !masterGainNode) return null;
-		const source = audioContext.createBufferSource();
-		source.buffer = buffer;
-		const gainNode = audioContext.createGain();
-		gainNode.gain.value = volume;
+    const source = audioContext.createBufferSource();
+    source.buffer = buffer;
+    const gainNode = audioContext.createGain();
+    gainNode.gain.value = volume;
     source.connect(gainNode).connect(masterGainNode);
     source.start(time);
     return source;
@@ -19,8 +19,8 @@ function generateClapSound(type = 'zap') {
     const buffer = audioContext.createBuffer(1, sampleRate * duration, sampleRate);
     const data = buffer.getChannelData(0);
     const len = data.length;
-		
-		if (type === 'loaded' && loadedClapBuffer) {
+    
+    if (type === 'loaded' && loadedClapBuffer) {
         assistClapBuffer = loadedClapBuffer;
         return; // Exit, we don't need to generate anything.
     }
@@ -61,8 +61,8 @@ function generateClapSound(type = 'zap') {
                 data[i] = Math.sin(Math.PI * 2 * 1000 * i / sampleRate) * Math.exp(-i / (sampleRate * 0.01));
             }
             break;
-						
-				// A burst of shaped white noise to simulate an impact.
+            
+        // A burst of shaped white noise to simulate an impact.
         case 'clap':
             for (let i = 0; i < len; i++) {
                 // White noise for the 'smack' sound
@@ -72,9 +72,9 @@ function generateClapSound(type = 'zap') {
                 data[i] = noise * envelope;
             }
             break;
-					
-				// A mellow, 8-bit-style beep. Less harsh than a square wave.
-				case 'triangle':
+          
+        // A mellow, 8-bit-style beep. Less harsh than a square wave.
+        case 'triangle':
             const freq = 440; // A higher pitch often works well for triangles
             for (let i = 0; i < len; i++) {
                 const time = i / sampleRate;

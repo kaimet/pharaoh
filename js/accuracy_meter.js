@@ -51,7 +51,7 @@ function AccuracyMeter() {
     baseWidth: 20,                 // thickness when in normal mode
     transitionMs: 2000,            // duration of smooth transition
     minSamplesToConsider: 40,      // minimum samples before upgrades considered
-		minSecondsBetweenUpgrades: 10,  // seconds to wait between successive upgrades (default 10s)
+    minSecondsBetweenUpgrades: 10,  // seconds to wait between successive upgrades (default 10s)
     // EWMA asymmetry: choose slower alpha for entry (stable), faster alpha for exit (reactive)
     ewmaEntryN: 80,                // effective window size for entry (smaller alpha)
     ewmaExitN: 20,                 // effective window size for exit  (larger alpha)
@@ -77,9 +77,9 @@ function AccuracyMeter() {
   // Mode indices & zoom state
   let currentModeIndex = 0;  // settled mode index (only updated when a transition finishes)
   let pendingModeIndex = 0;  // where we're transitioning to (equals current when idle)
-	
-	// last upgrade timestamp in ms (performance.now()); -Infinity means no upgrade yet
-	let lastUpgradeTime = -Infinity;
+  
+  // last upgrade timestamp in ms (performance.now()); -Infinity means no upgrade yet
+  let lastUpgradeTime = -Infinity;
 
   // rendering / transition state (accuracyZoom)
   let accuracyZoom = {
@@ -127,7 +127,7 @@ function AccuracyMeter() {
     totalSamplesSeen = 0;
     currentModeIndex = 0;
     pendingModeIndex = 0;
-		lastUpgradeTime = performance.now();// first minSecondsBetweenUpgrades without upgrade 
+    lastUpgradeTime = performance.now();// first minSecondsBetweenUpgrades without upgrade 
 
     accuracyZoom.currentMin = NORMAL_MODE.targetMin;
     accuracyZoom.currentWidth = cfg.baseWidth;
@@ -214,14 +214,14 @@ function AccuracyMeter() {
           && ewmaAccuracy !== null
           && ewmaAccuracy >= next.entryThreshold
           && curAccuracy >= next.recoverThreshold) {
-						
+            
         // time-based gate
-				const now = performance.now();
-				if (now - lastUpgradeTime < (cfg.minSecondsBetweenUpgrades * 1000)) {
-					return; // skip upgrade attempt for now
-				}
-				
-				// start smooth transition to next mode
+        const now = performance.now();
+        if (now - lastUpgradeTime < (cfg.minSecondsBetweenUpgrades * 1000)) {
+          return; // skip upgrade attempt for now
+        }
+        
+        // start smooth transition to next mode
         requestMode(nextIndex, /*immediate=*/false);
         dlog('upgrade requested to', nextIndex, next.name);
         return;
@@ -294,7 +294,7 @@ function AccuracyMeter() {
         accuracyZoom.startMin = accuracyZoom.currentMin;
         accuracyZoom.startWidth = accuracyZoom.currentWidth;
         currentModeIndex = pendingModeIndex;
-				lastUpgradeTime = performance.now();   // cooldown starts after transition finished
+        lastUpgradeTime = performance.now();   // cooldown starts after transition finished
         dlog('transition finished, currentMode=', ACC_MODES[currentModeIndex].name);
       }
     } else {
@@ -308,70 +308,70 @@ function AccuracyMeter() {
 
     const range = 100 - minAccuracy || 1;
     
-		// --- Grid lines during zoom transitions  ---
-		(function drawAutoStepGrid() {
-			if (!(accuracyZoom.startTime && accuracyZoom.startTime > 0)) return; // only during transitions
+    // --- Grid lines during zoom transitions  ---
+    (function drawAutoStepGrid() {
+      if (!(accuracyZoom.startTime && accuracyZoom.startTime > 0)) return; // only during transitions
 
-			const DESIRED_LINES = 40; // aim for ~40 lines at densest moment
-			const marginAcc = 1.0;
-			const rgb = [144, 144, 144];
-			const lineWidth = 1;
+      const DESIRED_LINES = 40; // aim for ~40 lines at densest moment
+      const marginAcc = 1.0;
+      const rgb = [144, 144, 144];
+      const lineWidth = 1;
 
-			// compute densest accuracy range between transition endpoints (startMin->targetMin)
-			const startMin = (typeof accuracyZoom.startMin === 'number') ? accuracyZoom.startMin : accuracyZoom.currentMin;
-			const targetMin = (typeof accuracyZoom.targetMin === 'number') ? accuracyZoom.targetMin : accuracyZoom.currentMin;
-			const startRange = 100 - startMin;
-			const targetRange = 100 - targetMin;
-			const densestRange = Math.max(startRange, targetRange, 0.0001);
+      // compute densest accuracy range between transition endpoints (startMin->targetMin)
+      const startMin = (typeof accuracyZoom.startMin === 'number') ? accuracyZoom.startMin : accuracyZoom.currentMin;
+      const targetMin = (typeof accuracyZoom.targetMin === 'number') ? accuracyZoom.targetMin : accuracyZoom.currentMin;
+      const startRange = 100 - startMin;
+      const targetRange = 100 - targetMin;
+      const densestRange = Math.max(startRange, targetRange, 0.0001);
 
-			// compute step so densestRange / step ≈ DESIRED_LINES
-			let step = densestRange / DESIRED_LINES;
-			// clamp step to sensible floor/ceiling (avoid too tiny or too huge steps)
-			step = Math.max(0.01, Math.min(step, 5.0)); // between 0.01 and 5 accuracy units
-			step = 0.2;
+      // compute step so densestRange / step ≈ DESIRED_LINES
+      let step = densestRange / DESIRED_LINES;
+      // clamp step to sensible floor/ceiling (avoid too tiny or too huge steps)
+      step = Math.max(0.01, Math.min(step, 5.0)); // between 0.01 and 5 accuracy units
+      step = 0.2;
 
-			// compute drawing bounds
-			let startAcc = Math.max(0, minAccuracy - marginAcc);
-			let endAcc = Math.min(100 + marginAcc, 100 + marginAcc);
-			let startK = Math.floor(startAcc / step);
-			let endK = Math.ceil(endAcc / step);
+      // compute drawing bounds
+      let startAcc = Math.max(0, minAccuracy - marginAcc);
+      let endAcc = Math.min(100 + marginAcc, 100 + marginAcc);
+      let startK = Math.floor(startAcc / step);
+      let endK = Math.ceil(endAcc / step);
 
-			// transparency depends on lines density
-			const alpha = ((startMin + targetMin) / 2 - 90) * 0.05 + 0.3; // (0.32..0.66) 
-			
-			// draw lines
-			ctx.save();
-			ctx.lineWidth = lineWidth;
-			ctx.strokeStyle = `rgba(${rgb[0]}, ${rgb[1]}, ${rgb[2]}, ${alpha})`;
-			ctx.beginPath();
+      // transparency depends on lines density
+      const alpha = ((startMin + targetMin) / 2 - 90) * 0.05 + 0.3; // (0.32..0.66) 
+      
+      // draw lines
+      ctx.save();
+      ctx.lineWidth = lineWidth;
+      ctx.strokeStyle = `rgba(${rgb[0]}, ${rgb[1]}, ${rgb[2]}, ${alpha})`;
+      ctx.beginPath();
 
-			const pixelMargin = 20;
-			for (let k = startK; k <= endK; k++) {
-				const a = k * step;
-				const ratio = (a - minAccuracy) / (range || 1);
-				const yFloat = canvas.height * (1 - ratio);
-				if (yFloat < -pixelMargin || yFloat > canvas.height + pixelMargin) continue;
-				const y = yFloat; //Math.round(yFloat) + 0.5;
-				ctx.moveTo(0, y);
-				ctx.lineTo(canvas.width, y);
-			}
+      const pixelMargin = 20;
+      for (let k = startK; k <= endK; k++) {
+        const a = k * step;
+        const ratio = (a - minAccuracy) / (range || 1);
+        const yFloat = canvas.height * (1 - ratio);
+        if (yFloat < -pixelMargin || yFloat > canvas.height + pixelMargin) continue;
+        const y = yFloat; //Math.round(yFloat) + 0.5;
+        ctx.moveTo(0, y);
+        ctx.lineTo(canvas.width, y);
+      }
 
-			ctx.stroke();
-			ctx.restore();
-		})();
+      ctx.stroke();
+      ctx.restore();
+    })();
 
 
-		
-		const ratio = (accuracy - minAccuracy) / range; // can be <0 or >1 -> off-screen
+    
+    const ratio = (accuracy - minAccuracy) / range; // can be <0 or >1 -> off-screen
     const centerY = canvas.height * (1 - ratio);
     const topY = centerY - (meterWidth / 2);
 
     // draw the bar (transparent fill)
     ctx.fillStyle = `${ACC_MODES[currentModeIndex].color}5`;
     ctx.fillRect(0, topY, canvas.width, meterWidth);
-		
-		// draw ewma bar
-		//if (DEV_MODE) drawEWMA(canvas, ctx, accuracy, minAccuracy, range);
+    
+    // draw ewma bar
+    //if (DEV_MODE) drawEWMA(canvas, ctx, accuracy, minAccuracy, range);
 
     // bestScore marker 
     if (typeof bestScore !== 'undefined' && bestScore !== null) {
@@ -387,63 +387,63 @@ function AccuracyMeter() {
 
     ctx.restore();
   }
-	
-	// qwma bar visualization (for debug)
-	function drawEWMA(canvas, ctx, accuracy, minAccuracy, range) {
-		if (ewmaAccuracy == null) return;
-		
-		const ewmaRatio = (ewmaAccuracy - minAccuracy) / range;
-		const ewmaCenterY = canvas.height * (1 - ewmaRatio);
-		const ewmaTopY = ewmaCenterY - (5 / 2); // 5px thickness
-		ctx.fillStyle = 'rgba(200, 0, 255, 0.5)'; // less transparent, same hue
-		ctx.fillRect(0, ewmaTopY, canvas.width, 5);
-		
-		// --- Draw dashed "next-upgrade" line (gray if upgrade is impossible now) ---
-		const nextIndex = Math.min(currentModeIndex + 1, ACC_MODES.length - 1);
-		if (nextIndex > currentModeIndex) {
-			const next = ACC_MODES[nextIndex];
-			const entryThreshold = next.entryThreshold;
-			if (isFinite(entryThreshold)) { // skip if -Infinity etc
-				const entryRatio = (entryThreshold - minAccuracy) / range;
-				const entryCenterY = canvas.height * (1 - entryRatio);
-				const entryTop = entryCenterY; // 1px line centered at this Y
+  
+  // qwma bar visualization (for debug)
+  function drawEWMA(canvas, ctx, accuracy, minAccuracy, range) {
+    if (ewmaAccuracy == null) return;
+    
+    const ewmaRatio = (ewmaAccuracy - minAccuracy) / range;
+    const ewmaCenterY = canvas.height * (1 - ewmaRatio);
+    const ewmaTopY = ewmaCenterY - (5 / 2); // 5px thickness
+    ctx.fillStyle = 'rgba(200, 0, 255, 0.5)'; // less transparent, same hue
+    ctx.fillRect(0, ewmaTopY, canvas.width, 5);
+    
+    // --- Draw dashed "next-upgrade" line (gray if upgrade is impossible now) ---
+    const nextIndex = Math.min(currentModeIndex + 1, ACC_MODES.length - 1);
+    if (nextIndex > currentModeIndex) {
+      const next = ACC_MODES[nextIndex];
+      const entryThreshold = next.entryThreshold;
+      if (isFinite(entryThreshold)) { // skip if -Infinity etc
+        const entryRatio = (entryThreshold - minAccuracy) / range;
+        const entryCenterY = canvas.height * (1 - entryRatio);
+        const entryTop = entryCenterY; // 1px line centered at this Y
 
-				// Decide whether upgrade is currently possible (match the same conditions used by the evaluator)
-				const now = performance.now();
-				const enoughSamples = (typeof totalSamplesSeen === 'number') ? (totalSamplesSeen >= cfg.minSamplesToConsider) : true;
-				const ewmaOK = (typeof ewmaAccuracy === 'number') ? (ewmaAccuracy >= entryThreshold) : false;
-				const recoverOK = (typeof accuracy === 'number') ? (accuracy >= next.recoverThreshold) : false;
+        // Decide whether upgrade is currently possible (match the same conditions used by the evaluator)
+        const now = performance.now();
+        const enoughSamples = (typeof totalSamplesSeen === 'number') ? (totalSamplesSeen >= cfg.minSamplesToConsider) : true;
+        const ewmaOK = (typeof ewmaAccuracy === 'number') ? (ewmaAccuracy >= entryThreshold) : false;
+        const recoverOK = (typeof accuracy === 'number') ? (accuracy >= next.recoverThreshold) : false;
 
-				// cooldown check: support time-based cooldown (minSecondsBetweenUpgrades) if configured,
-				// otherwise fall back to note-based cooldown (minNotesBetweenUpgrades) if present.
-				let cooldownOK = true;
-				if (typeof cfg.minSecondsBetweenUpgrades === 'number' && typeof lastUpgradeTime === 'number') {
-					cooldownOK = (now - lastUpgradeTime) >= (cfg.minSecondsBetweenUpgrades * 1000);
-				} else if (typeof cfg.minNotesBetweenUpgrades === 'number' && typeof lastUpgradeSample === 'number') {
-					cooldownOK = (totalSamplesSeen - lastUpgradeSample) >= cfg.minNotesBetweenUpgrades;
-				}
+        // cooldown check: support time-based cooldown (minSecondsBetweenUpgrades) if configured,
+        // otherwise fall back to note-based cooldown (minNotesBetweenUpgrades) if present.
+        let cooldownOK = true;
+        if (typeof cfg.minSecondsBetweenUpgrades === 'number' && typeof lastUpgradeTime === 'number') {
+          cooldownOK = (now - lastUpgradeTime) >= (cfg.minSecondsBetweenUpgrades * 1000);
+        } else if (typeof cfg.minNotesBetweenUpgrades === 'number' && typeof lastUpgradeSample === 'number') {
+          cooldownOK = (totalSamplesSeen - lastUpgradeSample) >= cfg.minNotesBetweenUpgrades;
+        }
 
-				const upgradePossible = enoughSamples /*&& ewmaOK && recoverOK*/ && cooldownOK;
+        const upgradePossible = enoughSamples /*&& ewmaOK && recoverOK*/ && cooldownOK;
 
-				// Color: purple when possible, gray when not
-				const strokeColor = upgradePossible ? 'rgba(200, 0, 255, 0.9)' : 'rgba(128,128,128,0.7)';
+        // Color: purple when possible, gray when not
+        const strokeColor = upgradePossible ? 'rgba(200, 0, 255, 0.9)' : 'rgba(128,128,128,0.7)';
 
-				ctx.save();
-				ctx.strokeStyle = strokeColor;
-				ctx.lineWidth = 5;
-				ctx.setLineDash([6, 6]);
-				ctx.beginPath();
-				ctx.moveTo(0, entryTop + 0.5);
-				ctx.lineTo(canvas.width, entryTop + 0.5);
-				ctx.stroke();
-				ctx.setLineDash([]);
-				ctx.restore();
-			}
-		}
+        ctx.save();
+        ctx.strokeStyle = strokeColor;
+        ctx.lineWidth = 5;
+        ctx.setLineDash([6, 6]);
+        ctx.beginPath();
+        ctx.moveTo(0, entryTop + 0.5);
+        ctx.lineTo(canvas.width, entryTop + 0.5);
+        ctx.stroke();
+        ctx.setLineDash([]);
+        ctx.restore();
+      }
+    }
 
-	}
-	
-	function SetModes(...args) {
+  }
+  
+  function SetModes(...args) {
   // accept array or variadic args
   let mins = args.length === 1 && Array.isArray(args[0]) ? args[0].slice() : Array.from(args);
 
@@ -460,13 +460,13 @@ function AccuracyMeter() {
 
   // sort ascending so modes go from least precise -> most precise
   mins.sort((a, b) => a - b);
-	
-	const colors = [ '#777',
-	               '#a5c',
-								 '#4b5',
-								 '#77f'
-								 ];
-	
+  
+  const colors = [ '#777',
+                 '#a5c',
+                 '#4b5',
+                 '#77f'
+                 ];
+  
   // build ACC_MODES array: first mode is "normal" with -Infinity thresholds
   const modes = mins.map((targetMin, idx) => {
     if (idx === 0) {
@@ -475,7 +475,7 @@ function AccuracyMeter() {
         targetMin: targetMin,
         entryThreshold: -Infinity,
         recoverThreshold: -Infinity,
-				color: colors[0],
+        color: colors[0],
       };
     } else {
       const entryThreshold = targetMin + (100 - targetMin) * 0.02; // 94.12  96.57  98.04
@@ -485,7 +485,7 @@ function AccuracyMeter() {
         targetMin: targetMin,
         entryThreshold: entryThreshold,
         recoverThreshold: recoverThreshold,
-				color: colors[idx],
+        color: colors[idx],
       };
     }
   });
@@ -501,7 +501,7 @@ function AccuracyMeter() {
     reset,
     note,      // call per judged note (pass curAccuracy)
     draw,      // call every frame to draw the meter with given curAccuracy (and optional bestScore)
-		SetModes,  // wrapper of init, setting modes with lower limits as parameters
+    SetModes,  // wrapper of init, setting modes with lower limits as parameters
     // also expose some internal state for debugging if needed:
     _state: () => ({
       cfg, ACC_MODES, ewmaAccuracy, totalSamplesSeen, currentModeIndex, pendingModeIndex, accuracyZoom

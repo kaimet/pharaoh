@@ -1,8 +1,8 @@
 
 // Backspase - Roulette
 document.addEventListener('keydown', (e) => {
-		if (isPlaying) return;
-		
+        if (isPlaying) return;
+        
     // ignore Backspace when focused in a text field
     const active = document.activeElement;
     if (e.key === 'Backspace') {
@@ -39,7 +39,7 @@ document.addEventListener('keydown', (e) => {
       selector.selectedIndex = target;
       // Fire change so your UI's change handler will load/highlight the song
       selector.dispatchEvent(new Event('change', { bubbles: true }));
-			showSelectedSongToast(target);
+            showSelectedSongToast(target);
       return true;
     }
     // if target is a pack or hidden item -> do nothing
@@ -47,16 +47,16 @@ document.addEventListener('keydown', (e) => {
   }
 
   document.addEventListener('keydown', (e) => {
-		const selector = document.getElementById(selectorId);
+        const selector = document.getElementById(selectorId);
     if (!selector) return;
 
     if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
-			if (e.ctrlKey || e.shiftKey) return;
-			
+            if (e.ctrlKey || e.shiftKey) return;
+            
       // prevent page scrolling
       e.preventDefault();
-			
-			if (isPlaying || isLoadingSong) return;
+            
+            if (isPlaying || isLoadingSong) return;
 
       const dir = e.key === 'ArrowDown' ? 1 : -1;
       tryMoveOne(selector, dir);
@@ -99,10 +99,10 @@ function handleSpeedControl(e) {
         return;
     }
 
-		const active = document.activeElement;
-		if (active && (active.tagName === 'INPUT' || active.tagName === 'TEXTAREA' || active.isContentEditable)) {
-				return; // user can use minus key to set offset in the input element, so let them
-		}
+        const active = document.activeElement;
+        if (active && (active.tagName === 'INPUT' || active.tagName === 'TEXTAREA' || active.isContentEditable)) {
+                return; // user can use minus key to set offset in the input element, so let them
+        }
 
     e.preventDefault();
 
@@ -128,7 +128,7 @@ function handleSpeedControl(e) {
         }
 
         //playbackRate = newSpeed; //it changes in onPlaybackRateChange
-				onPlaybackRateChange(newSpeed);
+                onPlaybackRateChange(newSpeed);
         startTime = audioContext.currentTime - (lastSongTime / playbackRate);
 
         if (songSource) {
@@ -149,8 +149,8 @@ function handleSpeedControl(e) {
  * Toggle playhead mode (Slash key)
  */
 function handlePlayheadToggle(e) {
-		return; // Playhead is depricated ;)
-		
+        return; // Playhead is depricated ;)
+        
     // Disable this hotkey if we are in a high score run AND the first note has passed.
     if (isPlaying && isFullSongPlay && playerTime() >= firstNoteTime) {
         return;
@@ -204,9 +204,9 @@ function handleSelectingChartDifficulty(e) {
 function handlePlayStopShortcuts(e) {
     if (e.code === 'Enter') {
         if (isLoadingSong) {
-					userWantToPlay = true; // playback will start when song is loaded
-					return;
-				}
+                    userWantToPlay = true; // playback will start when song is loaded
+                    return;
+                }
         e.preventDefault();
         playSong();
         return true;
@@ -217,8 +217,8 @@ function handlePlayStopShortcuts(e) {
         playSong(lastStartBeat);
         return true;
     }
-		
-		// --- quick-start digit keys (Digit1..Digit9) ---
+        
+        // --- quick-start digit keys (Digit1..Digit9) ---
     const idx = digitCodeToIndex(e.code);
     if (idx !== -1) {
         if (isLoadingSong) return;
@@ -376,7 +376,7 @@ function registerQuickStart(beat, thresholdBeats = 8) {
   const msg = wasAdjustment
     ? `Start position updated → key ${keyLabel}`
     : `Start position assigned to key ${keyLabel}`;
-	
+    
   window.showSongToast(msg, { tag: 'quickStart', duration: 1400 });
 }
 

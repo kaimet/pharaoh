@@ -1,7 +1,7 @@
 /** Save/Load game state in local storage
-	*****
+  *****
   * Controls, keybinds, best score, last played song, difficulty etc
-	*****/
+  *****/
 
 // It generate a hash from a string.
 // We using it to genarate a unique chart key based on actual chart note data.
@@ -39,7 +39,7 @@ function getHighScoreKey(speed, playheadOn, assistOn) {
     }
 
     // Creates a key like "1234567890-12-1.2-ASSIST"
-		const key = `${chartHash}-${speed.toFixed(1)}-${modeString}`; // db(key);
+    const key = `${chartHash}-${speed.toFixed(1)}-${modeString}`; // db(key);
     return key;
 }
 
@@ -82,8 +82,8 @@ function loadSettings() {
         if (settings.assistVolume !== undefined) {
             document.getElementById('assistVolume').value = settings.assistVolume;
         }
-				
-				if (settings.clapSoundType !== undefined) {
+        
+        if (settings.clapSoundType !== undefined) {
             document.getElementById('clapSoundType').value = settings.clapSoundType;
         }
 
@@ -98,7 +98,7 @@ function loadSettings() {
         if (settings.showPlayhead !== undefined) {
             document.getElementById('showPlayhead').checked = settings.showPlayhead;
         }
-				document.getElementById('showPlayhead').checked = false; // no playhead
+        document.getElementById('showPlayhead').checked = false; // no playhead
 
         // Restore the last selected difficulty
         if (settings.lastSelectedDifficulty !== undefined) {
@@ -107,8 +107,8 @@ function loadSettings() {
             lastSelectedDifficulty = 6; 
         }
     } else { 
-				lastSelectedDifficulty = 6; // Default difficulty for the first time
-		}
+        lastSelectedDifficulty = 6; // Default difficulty for the first time
+    }
 }
 
 function updateKeybindUI() {
@@ -205,15 +205,15 @@ function displayBestScore() {
     }
 
     // Only show toast if the display element is not visible
-		const isVisible = isElementInViewport(display);
-		if (!isVisible && window.showSongToast) {
-			window.showSongToast(message, {
-					tag: 'bestScore',
-					mode: 'queue',    
-					duration: 2500,
-					replaceQueued: true // ensure queued bestScore entries are replaced by later ones
-				});
-		}
+    const isVisible = isElementInViewport(display);
+    if (!isVisible && window.showSongToast) {
+      window.showSongToast(message, {
+          tag: 'bestScore',
+          mode: 'queue',    
+          duration: 2500,
+          replaceQueued: true // ensure queued bestScore entries are replaced by later ones
+        });
+    }
 }
 
 function updateJudgementDisplayFromHistory() {
@@ -232,25 +232,25 @@ function updateJudgementDisplayFromHistory() {
         document.getElementById('missesDisplay').textContent = '0';
         document.getElementById('accuracyDisplay').textContent = '100';
     }
-		
-		// Restore saved locked value (if any) on UI init
-		const savedFixed = parseFloat(localStorage.getItem('fixedInputOffset'));
-		if (!isNaN(savedFixed)) {
-				fixedInputOffset = savedFixed;
-				autoCalibrate = false;
-				// show locked state visually
-				const offsetEl2 = document.getElementById('offsetDisplay');
-				if (offsetEl2) offsetEl2.classList.add('offset-locked');
-				// ensure the initial dynamic value matches the lock
-				dynamicInputOffset = fixedInputOffset;
-		}
-		document.getElementById('offsetDisplay').textContent = dynamicInputOffset.toFixed(0);
+    
+    // Restore saved locked value (if any) on UI init
+    const savedFixed = parseFloat(localStorage.getItem('fixedInputOffset'));
+    if (!isNaN(savedFixed)) {
+        fixedInputOffset = savedFixed;
+        autoCalibrate = false;
+        // show locked state visually
+        const offsetEl2 = document.getElementById('offsetDisplay');
+        if (offsetEl2) offsetEl2.classList.add('offset-locked');
+        // ensure the initial dynamic value matches the lock
+        dynamicInputOffset = fixedInputOffset;
+    }
+    document.getElementById('offsetDisplay').textContent = dynamicInputOffset.toFixed(0);
 }
 
 function recordRecentPlay() {
     if (!songInfo.artist || !songInfo.title) return;
-		if (!selectedSongKey) return;
-		
+    if (!selectedSongKey) return;
+    
     const key = selectedSongKey;
     const recentPlays = JSON.parse(localStorage.getItem('pharaohRecentPlays') || '{}');
     recentPlays[key] = Date.now(); // Store the current timestamp

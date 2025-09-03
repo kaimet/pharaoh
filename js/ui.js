@@ -15,38 +15,38 @@ window.onload = async function() {
             populateSongSelector(); // Build the list of songs first
             
             // Now, determine which song to load initially
-						const savedSettingsRaw = localStorage.getItem('pharaohWebPlayerSettings');
-						let initialSongIndex = null;
+            const savedSettingsRaw = localStorage.getItem('pharaohWebPlayerSettings');
+            let initialSongIndex = null;
 
-						if (savedSettingsRaw) {
-								const savedSettings = JSON.parse(savedSettingsRaw);
-								if (savedSettings.lastPlayedSongIndex !== undefined &&
-										savedSettings.lastPlayedSongIndex > -1 &&
-										savedSettings.lastPlayedSongIndex < prepackagedSongs.length) {
-										initialSongIndex = savedSettings.lastPlayedSongIndex;
-								} else {
-										// settings exist but no valid song index -> use roulette
-										initialSongIndex = runRoulette({selectSong: false});
-								}
-						} else {
-								// no settings at all (first time) -> pick the very first song
-								initialSongIndex = 2; // after roulette and first pack options  // <-- shady
-						}
+            if (savedSettingsRaw) {
+                const savedSettings = JSON.parse(savedSettingsRaw);
+                if (savedSettings.lastPlayedSongIndex !== undefined &&
+                    savedSettings.lastPlayedSongIndex > -1 &&
+                    savedSettings.lastPlayedSongIndex < prepackagedSongs.length) {
+                    initialSongIndex = savedSettings.lastPlayedSongIndex;
+                } else {
+                    // settings exist but no valid song index -> use roulette
+                    initialSongIndex = runRoulette({selectSong: false});
+                }
+            } else {
+                // no settings at all (first time) -> pick the very first song
+                initialSongIndex = 2; // after roulette and first pack options  // <-- shady
+            }
 
-						if (prepackagedSongs.length > 0) {
-								// Set the selector to the correct song and then load it
-								openOnlyPack(getPackIndexForSongIndex(initialSongIndex));
-								highlightCurrentSong(initialSongIndex);
-								document.getElementById('songSelector').value = initialSongIndex - 1; // <-- shady
-								loadSongFromUrl(prepackagedSongs[initialSongIndex - 1]); // <-- shady
-						}
+            if (prepackagedSongs.length > 0) {
+                // Set the selector to the correct song and then load it
+                openOnlyPack(getPackIndexForSongIndex(initialSongIndex));
+                highlightCurrentSong(initialSongIndex);
+                document.getElementById('songSelector').value = initialSongIndex - 1; // <-- shady
+                loadSongFromUrl(prepackagedSongs[initialSongIndex - 1]); // <-- shady
+            }
         }
     } catch (error) {
         console.error("Error fetching or parsing songs.json:", error);
     }
-		
+    
     // Initialize audio
-		try {
+    try {
         audioContext = new (window.AudioContext || window.webkitAudioContext)();
 
         // --- Decode the embedded Base64 sound on startup ---
@@ -77,7 +77,7 @@ window.onload = async function() {
 };
 
 function setupUIEventListeners() {
-		document.getElementById('copyJsonButton').addEventListener('click', () => {
+    document.getElementById('copyJsonButton').addEventListener('click', () => {
         const jsonOutput = document.getElementById('devJsonOutput');
         const textToCopy = jsonOutput.value;
 
@@ -94,7 +94,7 @@ function setupUIEventListeners() {
             alert('JSON entry copied to clipboard (fallback method).');
         }
     });
-		
+    
     document.getElementById('playButton').addEventListener('click', playSong);
     document.getElementById('stopButton').addEventListener('click', stopSong);
     
@@ -106,9 +106,9 @@ function setupUIEventListeners() {
     
     document.getElementById('assistVolume').addEventListener('input', () => {
         displayBestScore();
-				updateJudgementDisplayFromHistory();
+        updateJudgementDisplayFromHistory();
     });
-		document.getElementById('clapSoundType').addEventListener('change', (e) => {
+    document.getElementById('clapSoundType').addEventListener('change', (e) => {
         generateClapSound(e.target.value);
     });
 
@@ -117,7 +117,7 @@ function setupUIEventListeners() {
             clearOverlay();
         }
         displayBestScore();
-				updateJudgementDisplayFromHistory();
+        updateJudgementDisplayFromHistory();
     });
 
     document.getElementById('speedControl').addEventListener('input', e => {
@@ -126,10 +126,10 @@ function setupUIEventListeners() {
         if (isPlaying && songSource) {
             songSource.playbackRate.value = playbackRate;
         }
-				onPlaybackRateChange(playbackRate);
-				
+        onPlaybackRateChange(playbackRate);
+        
         displayBestScore();
-				updateJudgementDisplayFromHistory();
+        updateJudgementDisplayFromHistory();
     });
 
     document.getElementById('audioOffset').addEventListener('change', e => {
@@ -141,44 +141,44 @@ function setupUIEventListeners() {
         additionalOffset = offsetValue / 1000;
     });
     
-		// Make the offset display clickable to toggle lock/unlock of auto-calibration
-		const offsetEl = document.getElementById('offsetDisplay');
-		if (offsetEl) {
-				offsetEl.style.cursor = 'pointer';
-				offsetEl.title = 'Click to lock/unlock input calibration (auto-calibration).';
+    // Make the offset display clickable to toggle lock/unlock of auto-calibration
+    const offsetEl = document.getElementById('offsetDisplay');
+    if (offsetEl) {
+        offsetEl.style.cursor = 'pointer';
+        offsetEl.title = 'Click to lock/unlock input calibration (auto-calibration).';
 
-				offsetEl.addEventListener('click', () => {
-						// Toggle
-						autoCalibrate = !autoCalibrate;
+        offsetEl.addEventListener('click', () => {
+            // Toggle
+            autoCalibrate = !autoCalibrate;
 
-						if (!autoCalibrate) {
-								// Lock: capture current dynamicInputOffset (ms)
-								fixedInputOffset = dynamicInputOffset;
-								offsetEl.classList.add('offset-locked');
-								if (window.showSongToast) window.showSongToast(`Input offset locked: ${(fixedInputOffset / playbackRate).toFixed(0)}ms`);
-								localStorage.setItem('fixedInputOffset', fixedInputOffset);
-						} else {
-								// Unlock: resume auto-calibration
-								fixedInputOffset = null;
-								offsetEl.classList.remove('offset-locked');
-								if (window.showSongToast) window.showSongToast('Auto-calibration enabled');
-								localStorage.removeItem('fixedInputOffset');
-								// keep dynamicInputOffset as-is; future taps will update it
-						}
-						// Update UI immediately
-						updateJudgementUI();
-				});
-		}
+            if (!autoCalibrate) {
+                // Lock: capture current dynamicInputOffset (ms)
+                fixedInputOffset = dynamicInputOffset;
+                offsetEl.classList.add('offset-locked');
+                if (window.showSongToast) window.showSongToast(`Input offset locked: ${(fixedInputOffset / playbackRate).toFixed(0)}ms`);
+                localStorage.setItem('fixedInputOffset', fixedInputOffset);
+            } else {
+                // Unlock: resume auto-calibration
+                fixedInputOffset = null;
+                offsetEl.classList.remove('offset-locked');
+                if (window.showSongToast) window.showSongToast('Auto-calibration enabled');
+                localStorage.removeItem('fixedInputOffset');
+                // keep dynamicInputOffset as-is; future taps will update it
+            }
+            // Update UI immediately
+            updateJudgementUI();
+        });
+    }
 
-		
+    
     document.getElementById('chartSelector').addEventListener('change', initChart);
     window.addEventListener('resize', drawChart);
     window.addEventListener('keydown', handleKeyPress);
     window.addEventListener('keyup', handleKeyRelease);
-		
+    
     
     // --- FULL-PAGE DRAG AND DROP LOGIC ---
-		
+    
     const dropZone = document.getElementById('dropZone');
 
     // STEP 1: Listen on the window to know when a drag starts.
@@ -212,11 +212,11 @@ function setupUIEventListeners() {
         
         // Pass the event to file handler.
         handleFileDrop(e);
-				
-				window.dispatchEvent(new KeyboardEvent('keydown',{'code': 'NumpadMultiply'})); // set original speed
+        
+        window.dispatchEvent(new KeyboardEvent('keydown',{'code': 'NumpadMultiply'})); // set original speed
     });
-		
-		/*
+    
+    /*
     // --- SIMPLIFIED DRAG AND DROP LOGIC ---
     // We attach listeners to the entire body to avoid any issues with overlays.
     
@@ -242,8 +242,8 @@ function setupUIEventListeners() {
         document.body.style.backgroundColor = '#222'; // Reset background
         handleFileDrop(e); // Pass the event to your file handler.
     });
-		*/
-		
+    */
+    
 /**
  * --- CLICK-TO-PLAY HANDLER ---
  * This function acts as a bridge between the visual, offset-unaware canvas
@@ -260,26 +260,26 @@ function setupUIEventListeners() {
     const canvasContainer = document.getElementById('canvasContainer');
     canvasContainer.addEventListener('click', (event) => {
         if (isLoadingSong) return;
-				
-				const rect = event.target.getBoundingClientRect();
+        
+        const rect = event.target.getBoundingClientRect();
         const x = event.clientX - rect.left;
         const y = event.clientY - rect.top;
 
-				const totalOffset = songInfo.offset + additionalOffset;
-				// Get the pure beat from the visual coordinates
+        const totalOffset = songInfo.offset + additionalOffset;
+        // Get the pure beat from the visual coordinates
         let targetBeat = getBeatFromCoordinates(x, y);
-				// The inverse transformation
-				const targetTime = songTiming.getTimeAtBeat(targetBeat);
-				targetBeat = songTiming.getBeatAtTime(targetTime - totalOffset);
-				
+        // The inverse transformation
+        const targetTime = songTiming.getTimeAtBeat(targetBeat);
+        targetBeat = songTiming.getBeatAtTime(targetTime - totalOffset);
+        
         if (targetBeat !== null) {
             playSong(targetBeat); // Call playSong with the pre-compensated beat
         }
     });
-		
-		// --- Help Modal
-		
-		const helpButton = document.getElementById('helpButton');
+    
+    // --- Help Modal
+    
+    const helpButton = document.getElementById('helpButton');
     const helpModal = document.getElementById('helpModal');
     const closeHelpButton = document.getElementById('closeHelpButton');
 
@@ -320,7 +320,7 @@ function populateChartSelector() {
     });
 
     // --- SELECTION LOGIC ---
-		
+    
     let targetDifficulty;
     
     // First, try to find a saved difficulty for THIS SPECIFIC song.
@@ -365,8 +365,8 @@ function handleFileDrop(event) {
     
     const files = event.dataTransfer.files;
     const chartFile = Array.from(files).find(f => f.name.endsWith('.sm') || f.name.endsWith('.ssc'));
-		
-		// We check the file extension as a fallback for Firefox.
+    
+    // We check the file extension as a fallback for Firefox.
     const audioFile = Array.from(files).find(f => 
         f.type.startsWith('audio/') || 
         f.name.toLowerCase().endsWith('.mp3') ||
@@ -375,7 +375,7 @@ function handleFileDrop(event) {
 
     if (!audioFile) {
         audioBuffer = audioContext.createBuffer(1, 1, audioContext.sampleRate);
-				audioIsReady = true;
+        audioIsReady = true;
     }
 
     if (chartFile) {
@@ -385,36 +385,36 @@ function handleFileDrop(event) {
             if (allCharts.length > 0) {
                 updateDeveloperInfo(chartFile.name, audioFile ? audioFile.name : 'audio.mp3');
                 
-								populateChartSelector();
-								clearSongSelection();
+                populateChartSelector();
+                clearSongSelection();
                 
-								initChart();
-								
-								if (window.showSongToast) {
-									showSongToast(`${songInfo.artist} - ${songInfo.title}`, { tag: 'selection', duration: 3000 });
-								}
+                initChart();
                 
-								displayBestScore();
+                if (window.showSongToast) {
+                  showSongToast(`${songInfo.artist} - ${songInfo.title}`, { tag: 'selection', duration: 3000 });
+                }
+                
+                displayBestScore();
                 
                 chartIsReady = true;
                 
                 if (chartIsReady && audioIsReady) {
                     document.getElementById('playButton').disabled = false;
                     isLoadingSong = false; // Loading complete
-										clearOverlay();
+                    clearOverlay();
                 } else {
-										showNotAvailableScreen();
-								}
+                    showNotAvailableScreen();
+                }
             } else {
                 alert('No "dance-single" charts found in this file.');
                 isLoadingSong = false; // Failed to load, so stop loading state
-								clearOverlay();
+                clearOverlay();
             }
         };
         chartReader.readAsText(chartFile);
     } else {
         isLoadingSong = false;
-				clearOverlay();
+        clearOverlay();
     }
 
     if (audioFile) {
@@ -428,26 +428,26 @@ function handleFileDrop(event) {
                     if (chartIsReady && audioIsReady) {
                         document.getElementById('playButton').disabled = false;
                         isLoadingSong = false; // Loading complete
-												clearOverlay();
-												if (userWantToPlay) playSong();
+                        clearOverlay();
+                        if (userWantToPlay) playSong();
                     }
                 })
                 .catch(err => {
                     alert(`Error decoding audio file: ${err}`);
                     isLoadingSong = false; // Failed to load, so stop loading state
-										clearOverlay();
+                    clearOverlay();
                 });
         };
         audioReader.readAsArrayBuffer(audioFile);
     }
-		
-		selectedSongKey = '';
+    
+    selectedSongKey = '';
 }
 
 // Generates json entry for current song
 function updateDeveloperInfo(chartFileName = 'chart.sm', audioFileName = 'audio.mp3') {
-		if (!DEV_MODE) return;
-		
+    if (!DEV_MODE) return;
+    
     // If we don't have a title from a loaded chart, do nothing.
     if (!songInfo || !songInfo.title) {
         document.getElementById('devInfoContainer').style.display = 'none';
@@ -468,9 +468,9 @@ function updateDeveloperInfo(chartFileName = 'chart.sm', audioFileName = 'audio.
         chartPath: `songs/${chartFileName}`,
         audioPath: `songs/${audioFileName}`
     };
-		let key = selectedSongKey;
-		if (!key) key = `${Date.now()}`;
-		devJson.key = key;
+    let key = selectedSongKey;
+    if (!key) key = `${Date.now()}`;
+    devJson.key = key;
 
     // Convert the object to a nicely formatted string
     const jsonString = ',\n' + JSON.stringify(devJson, null, 2); // null, 2 enables pretty-printing

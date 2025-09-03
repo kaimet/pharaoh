@@ -1,80 +1,80 @@
 
 (function instalSongSelectingHandler() {
     document.getElementById('songSelector').addEventListener('change', (ev) => {
-				const selector = document.getElementById('songSelector');
-				const selectedVal = selector.value;
-				if (selectedVal === 'roulette') {
-						// user clicked the roulette option
-						runRoulette();
-						// keep the listbox visible; runRoulette will set selection/highlight/load
-						return;
-				}
+        const selector = document.getElementById('songSelector');
+        const selectedVal = selector.value;
+        if (selectedVal === 'roulette') {
+            // user clicked the roulette option
+            runRoulette();
+            // keep the listbox visible; runRoulette will set selection/highlight/load
+            return;
+        }
 
-				const selectedIndex = parseInt(selectedVal, 10);
-				if (isNaN(selectedIndex)) return;
+        const selectedIndex = parseInt(selectedVal, 10);
+        if (isNaN(selectedIndex)) return;
 
-				const opt = selector.options[selector.selectedIndex];
+        const opt = selector.options[selector.selectedIndex];
 
-				// PACK header clicked -> toggle open/close
-				if (opt && opt.dataset && opt.dataset.type === 'pack') {
-						const wasOpen = opt.dataset.packOpen === 'true';
-						if (!wasOpen) {
-								openOnlyPack(selectedIndex);
-						} else {
-								openOnlyPack(-1);
-						}
-						return;
-				}
+        // PACK header clicked -> toggle open/close
+        if (opt && opt.dataset && opt.dataset.type === 'pack') {
+            const wasOpen = opt.dataset.packOpen === 'true';
+            if (!wasOpen) {
+                openOnlyPack(selectedIndex);
+            } else {
+                openOnlyPack(-1);
+            }
+            return;
+        }
 
-				// SONG clicked -> ensure its pack is open and load it
-				const item = prepackagedSongs[selectedIndex];
-				if (item && !item.pack) {
-						openPackContainingIndex(selectedIndex);
-						highlightCurrentSong(getOptionIndexForSongValue(selectedIndex));
-						loadSongFromUrl(item);
-						window.dispatchEvent(new KeyboardEvent('keydown',{'code': 'NumpadMultiply'})); // original speed
-						saveSettings();
-				}
-		});
-		
-		/*
-		// X key toggles exclusion when selector is focused or active element
-		document.addEventListener('keydown', (e) => {
-			const selector = document.getElementById('songSelector');
-			if (!selector) return;
+        // SONG clicked -> ensure its pack is open and load it
+        const item = prepackagedSongs[selectedIndex];
+        if (item && !item.pack) {
+            openPackContainingIndex(selectedIndex);
+            highlightCurrentSong(getOptionIndexForSongValue(selectedIndex));
+            loadSongFromUrl(item);
+            window.dispatchEvent(new KeyboardEvent('keydown',{'code': 'NumpadMultiply'})); // original speed
+            saveSettings();
+        }
+    });
+    
+    /*
+    // X key toggles exclusion when selector is focused or active element
+    document.addEventListener('keydown', (e) => {
+      const selector = document.getElementById('songSelector');
+      if (!selector) return;
 
-			// ensure input areas not intercepting
-			const active = document.activeElement;
-			if (active && (active.tagName === 'INPUT' || active.tagName === 'TEXTAREA' || active.isContentEditable)) return;
+      // ensure input areas not intercepting
+      const active = document.activeElement;
+      if (active && (active.tagName === 'INPUT' || active.tagName === 'TEXTAREA' || active.isContentEditable)) return;
 
-			if (e.key === 'x' || e.key === 'X') {
-				// only when selector has focus (or you can allow global toggle for convenience)
-				if (document.activeElement === selector || selector.contains(document.activeElement)) {
-					e.preventDefault();
-					toggleExcludeSelectedSong();
-				}
-			}
-		});
-		*/
+      if (e.key === 'x' || e.key === 'X') {
+        // only when selector has focus (or you can allow global toggle for convenience)
+        if (document.activeElement === selector || selector.contains(document.activeElement)) {
+          e.preventDefault();
+          toggleExcludeSelectedSong();
+        }
+      }
+    });
+    */
 
-		// contextmenu (right-click) on the listbox: toggle exclude for clicked option
-		document.getElementById('songSelector').addEventListener('contextmenu', (e) => {
-			e.preventDefault();
-			const selector = document.getElementById('songSelector');
-			// find option index under mouse by computing relative position with option heights
-			// simpler approach: use elementFromPoint to get option element (works in many browsers)
-			const el = document.elementFromPoint(e.clientX, e.clientY);
-			if (!el || el.tagName !== 'OPTION') {
-				// some browsers don't expose OPTION via elementFromPoint; fallback to current selectedIndex
-				toggleExcludeSelectedSong();
-				return;
-			}
-			// get option index
-			const index = Array.prototype.indexOf.call(selector.options, el);
-			if (index < 0) return;
-			selector.selectedIndex = index;
-			toggleExcludeSelectedSong();
-		});
+    // contextmenu (right-click) on the listbox: toggle exclude for clicked option
+    document.getElementById('songSelector').addEventListener('contextmenu', (e) => {
+      e.preventDefault();
+      const selector = document.getElementById('songSelector');
+      // find option index under mouse by computing relative position with option heights
+      // simpler approach: use elementFromPoint to get option element (works in many browsers)
+      const el = document.elementFromPoint(e.clientX, e.clientY);
+      if (!el || el.tagName !== 'OPTION') {
+        // some browsers don't expose OPTION via elementFromPoint; fallback to current selectedIndex
+        toggleExcludeSelectedSong();
+        return;
+      }
+      // get option index
+      const index = Array.prototype.indexOf.call(selector.options, el);
+      if (index < 0) return;
+      selector.selectedIndex = index;
+      toggleExcludeSelectedSong();
+    });
 })();
 
 // --- allow re-clicking the same pack/roulette option to toggle/trigger it --- //
@@ -141,8 +141,8 @@ function populateSongSelector() {
     const THREE_DAYS_MS = 3 * 24 * 60 * 60 * 1000;
     const MONTH_MS = 30 * 24 * 60 * 60 * 1000;
     const now = Date.now();
-		
-		const excludedSet = loadExcludedSet(); // get excluded songs
+    
+    const excludedSet = loadExcludedSet(); // get excluded songs
 
     let currentPackIndex = -1;
 
@@ -169,14 +169,14 @@ function populateSongSelector() {
             if (item.artist && item.title) {
                 const playKey = getPlayKey(item);
                 optionText = `${item.artist} - ${item.title}`;
-								
-								if (excludedSet.has(playKey)) {
-										option.dataset.excluded = 'true';
-										option.classList.add('excluded-song');
-										optionText = `${optionText} 🚫`;
-								} else {
-										option.dataset.excluded = 'false';
-								}
+                
+                if (excludedSet.has(playKey)) {
+                    option.dataset.excluded = 'true';
+                    option.classList.add('excluded-song');
+                    optionText = `${optionText} 🚫`;
+                } else {
+                    option.dataset.excluded = 'false';
+                }
 
                 if (sessionPlayedSongs.has(playKey)) {
                     optionText = `🟢 ${optionText}`;
@@ -230,15 +230,15 @@ function toggleExcludeSelectedSong() {
 
   // Update option UI immediately
   if (excluded.has(key)) {
-			opt.dataset.excluded = 'true';
-			opt.classList.add('excluded-song');
-			const base = (opt.textContent || '').replace(/\s*🚫$/, '').trim();
-			opt.textContent = `${base} 🚫`;
-	} else {
-			opt.dataset.excluded = 'false';
-			opt.classList.remove('excluded-song');
-			opt.textContent = (opt.textContent || '').replace(/\s*🚫$/, '').trim();
-	}
+      opt.dataset.excluded = 'true';
+      opt.classList.add('excluded-song');
+      const base = (opt.textContent || '').replace(/\s*🚫$/, '').trim();
+      opt.textContent = `${base} 🚫`;
+  } else {
+      opt.dataset.excluded = 'false';
+      opt.classList.remove('excluded-song');
+      opt.textContent = (opt.textContent || '').replace(/\s*🚫$/, '').trim();
+  }
 
   // optional: show small toast to confirm
   if (window.showSongToast) {
@@ -346,30 +346,30 @@ function chooseWeightedIndex(weights) {
  */
 function runRoulette(options = {}) {
     // procentage of all songs for roulette candidates (33%). They are played the longest time ago.
-		const TARGET_SHARE = (typeof options.targetShare === 'number') ? options.targetShare : 0.33;
+    const TARGET_SHARE = (typeof options.targetShare === 'number') ? options.targetShare : 0.33;
     const MAX_AGE_MS = (typeof options.maxAgeMs === 'number') ? options.maxAgeMs : 30 * 24 * 60 * 60 * 1000; // 30 days
     const MAX_PLAYED_WEIGHT = (typeof options.maxPlayedWeight === 'number') ? options.maxPlayedWeight : 12;
     const EXP_ALPHA = (typeof options.expAlpha === 'number') ? options.expAlpha : 3.0; // sharper => more bias to oldest
     const NEVER_MULTIPLIER = (typeof options.neverMultiplier === 'number') ? options.neverMultiplier : 1.1;
     const NEVER_WEIGHT = Math.max(1, Math.round(MAX_PLAYED_WEIGHT * NEVER_MULTIPLIER));
-		const THREE_DAYS_MS = 3 * 24 * 60 * 60 * 1000;
-		
-		selectSong = options.selectSong == undefined ? true : options.selectSong;
-		
+    const THREE_DAYS_MS = 3 * 24 * 60 * 60 * 1000;
+    
+    selectSong = options.selectSong == undefined ? true : options.selectSong;
+    
     const recentPlays = JSON.parse(localStorage.getItem('pharaohRecentPlays') || '{}');
     const now = Date.now();
-		
+    
     // gather song indices (skip pack headers and exluded songs)
-		const allSongIndices = [];
+    const allSongIndices = [];
     const excludedSet = loadExcludedSet();
-		for (let i = 0; i < prepackagedSongs.length; i++) {
-			if (!prepackagedSongs[i] || prepackagedSongs[i].pack) continue;
-			const key = getPlayKey(prepackagedSongs[i]);
-			if (excludedSet.has(key)) continue; // completely ignore excluded songs
-			allSongIndices.push(i);
-		}
+    for (let i = 0; i < prepackagedSongs.length; i++) {
+      if (!prepackagedSongs[i] || prepackagedSongs[i].pack) continue;
+      const key = getPlayKey(prepackagedSongs[i]);
+      if (excludedSet.has(key)) continue; // completely ignore excluded songs
+      allSongIndices.push(i);
+    }
 
-		
+    
     const totalSongs = allSongIndices.length;
     if (totalSongs === 0) return;
 
@@ -399,8 +399,8 @@ function runRoulette(options = {}) {
         const need = targetCount - candidates.length;
         for (let i = 0; i < need && i < played.length; i++) {
             // exclude very recently played songs if we already have enough candidates
-						if (played[i].age < THREE_DAYS_MS && candidates.length > 50) break;
-						candidates.push(played[i].songIndex);
+            if (played[i].age < THREE_DAYS_MS && candidates.length > 50) break;
+            candidates.push(played[i].songIndex);
         }
     }
 
@@ -443,10 +443,10 @@ function runRoulette(options = {}) {
     }
 
     if (selectSong) {
-			finalizeRouletteChoice(chosenSongIndex);
-		} else {
-			return chosenSongIndex;
-		}
+      finalizeRouletteChoice(chosenSongIndex);
+    } else {
+      return chosenSongIndex;
+    }
 
     // finalize: open pack, set selector, highlight, dispatch change, show toast
     function finalizeRouletteChoice(songIndex) {
@@ -459,7 +459,7 @@ function runRoulette(options = {}) {
             selector.selectedIndex = optIdx;
             highlightCurrentSong(optIdx);
             selector.dispatchEvent(new Event('change', { bubbles: true }));
-						showSelectedSongToast(optIdx);
+            showSelectedSongToast(optIdx);
 
         } else {
             // fallback: load directly
@@ -469,14 +469,14 @@ function runRoulette(options = {}) {
 }
 
 function showSelectedSongToast(index) {
-		const selector = document.getElementById('songSelector');
-		if (window.showSongToast) {
-				const toastText = optionLabel(selector.options[index]);
-				window.showSongToast(toastText, {
-						tag: 'selection',
-						duration: 3000
-				});
-		}
+    const selector = document.getElementById('songSelector');
+    if (window.showSongToast) {
+        const toastText = optionLabel(selector.options[index]);
+        window.showSongToast(toastText, {
+            tag: 'selection',
+            duration: 3000
+        });
+    }
 
 }
 
@@ -522,7 +522,7 @@ function getOptionIndexForSongValue(songValue) {
 
 async function loadSongFromUrl(songData) {
     isLoadingSong = true;
-		stopSong();
+    stopSong();
 
     // Show loading indicator and disable controls
     const bestScoreDisplay = document.getElementById('bestScoreDisplay');
@@ -530,9 +530,9 @@ async function loadSongFromUrl(songData) {
     bestScoreDisplay.textContent = 'Loading...';
     songSelector.disabled = true;
     document.getElementById('playButton').disabled = true;
-		showNotAvailableScreen();
-		let isAudio = (songData.audioPath && songData.audioPath.length > 1);
-		
+    showNotAvailableScreen();
+    let isAudio = (songData.audioPath && songData.audioPath.length > 1);
+    
     try {
         // Fetch both files concurrently
         const [chartResponse, audioResponse] = await Promise.all([
@@ -553,38 +553,38 @@ async function loadSongFromUrl(songData) {
             alert('No "dance-single" charts found in this file.');
             return;
         }
-				
-				selectedSongKey = songData.key;
-				if (!selectedSongKey) selectedSongKey = `${songData.artist}-${songData.title}`;
         
-				// dev info
+        selectedSongKey = songData.key;
+        if (!selectedSongKey) selectedSongKey = `${songData.artist}-${songData.title}`;
+        
+        // dev info
         const chartFileName = songData.chartPath.split('/').pop();
         const audioFileName = songData.audioPath.split('/').pop();
         updateDeveloperInfo(chartFileName, audioFileName);
-				
+        
 
         // Populate the UI and initialize the chart
-				sessionPlayHistory = {};
+        sessionPlayHistory = {};
         populateChartSelector();
         initChart();
-				showNotAvailableScreen(); // need to be after initChart() bacause initChart clears the overlay
+        showNotAvailableScreen(); // need to be after initChart() bacause initChart clears the overlay
 
         // Decode the audio data
         audioBuffer = isAudio ? await audioContext.decodeAudioData(audioData)
-				                      : audioContext.createBuffer(1, 1, audioContext.sampleRate);
-				
+                              : audioContext.createBuffer(1, 1, audioContext.sampleRate);
+        
     } catch (error) {
         alert(`Error loading song: ${error.message}`);
         console.error("Load song error:", error);
     } finally {
-				isLoadingSong = false;
-				// Re-enable controls
-				songSelector.disabled = false;
-				document.getElementById('playButton').disabled = false;
-				clearOverlay();
-				if (userWantToPlay) playSong();
-				// The best score will be displayed by the initChart/drawChart functions
-		}
+        isLoadingSong = false;
+        // Re-enable controls
+        songSelector.disabled = false;
+        document.getElementById('playButton').disabled = false;
+        clearOverlay();
+        if (userWantToPlay) playSong();
+        // The best score will be displayed by the initChart/drawChart functions
+    }
 }
 
 /** Clear any selection in the listbox and remove current-song highlight. */
@@ -613,8 +613,8 @@ function clearSongSelection() {
       selector.options[i].classList.remove('current-song');
     }
   }
-	
-	openOnlyPack(-1); // Collapse all packs
+  
+  openOnlyPack(-1); // Collapse all packs
   
 }
 

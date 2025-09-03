@@ -47,24 +47,24 @@ async function playSong(startFromBeat = 0) {
     if (audioContext.state === 'suspended') {
         await audioContext.resume();
     }
-		// schedule a little into the future to avoid races
-		const SLACK = 0.02; // 20 ms
-		const scheduledStart = audioContext.currentTime + SLACK;
-		
+    // schedule a little into the future to avoid races
+    const SLACK = 0.02; // 20 ms
+    const scheduledStart = audioContext.currentTime + SLACK;
+    
     stopSong();
-		document.getElementById('songSelector').blur();
-		document.getElementById('chartSelector').blur();
-		document.getElementById('audioOffset').blur();
+    document.getElementById('songSelector').blur();
+    document.getElementById('chartSelector').blur();
+    document.getElementById('audioOffset').blur();
     document.getElementById('chartCanvas').scrollIntoView({ behavior: 'smooth' });
-		userWantToPlay = false;
-		
-		// The pre-compensation logic in click handlers can produce a negative beat
+    userWantToPlay = false;
+    
+    // The pre-compensation logic in click handlers can produce a negative beat
     // if the click is near the start and chart has positive offset. So, we must handle this case.
-		if (startFromBeat < 0) {
+    if (startFromBeat < 0) {
         startFromBeat = 0;
     }
-		
-		if (startFromBeat > 0) {
+    
+    if (startFromBeat > 0) {
         lastStartBeat = startFromBeat;
         registerQuickStart(startFromBeat); // auto-assign into quickStarts if eligible
     }
@@ -72,9 +72,9 @@ async function playSong(startFromBeat = 0) {
 
     // Determine if this is a full playthrough for high score purposes.
     isFullSongPlay = (startFromBeat < firstNoteBeat);
-		
-		isJudge = isFullSongPlay; // if false than judging will beging after the first keypress
-		
+    
+    isJudge = isFullSongPlay; // if false than judging will beging after the first keypress
+    
     if (isFullSongPlay) {
         speedDuringPlay = playbackRate;
         playheadDuringPlay = document.getElementById('showPlayhead').checked;
@@ -84,15 +84,15 @@ async function playSong(startFromBeat = 0) {
 
     // --- Time Calculations ---
     
-		const totalOffset = songInfo.offset + additionalOffset;
-		
+    const totalOffset = songInfo.offset + additionalOffset;
+    
     let logicalTimeOffset = startFromBeat > 0 && songTiming ? songTiming.getTimeAtBeat(startFromBeat) : 0;
-		
+    
     let physicalAudioOffset = logicalTimeOffset; // Physical audio starts at the pure logical time.
-		
+    
     const initialGameClockTime = logicalTimeOffset + totalOffset;
     
-		// This formula creates the "contaminated" `curSongTime` for the game loop.
+    // This formula creates the "contaminated" `curSongTime` for the game loop.
     // `startTime` is a reference point in the past that allows our `gameLoop`
     // to calculate `curSongTime` correctly using the simple formula:
     // `curSongTime = (audioContext.currentTime - startTime) * playbackRate`.
@@ -100,19 +100,19 @@ async function playSong(startFromBeat = 0) {
     
     // State should be reset based on the pure logical time.
     resetJudgingState(logicalTimeOffset);
-		
-		// Reset the assist clap scheduler state.
+    
+    // Reset the assist clap scheduler state.
     const firstClapIndex = noteTimings.findIndex(time => time >= initialGameClockTime);
     if (firstClapIndex !== -1) {
         nextClapToScheduleIndex = firstClapIndex;
     } else {
         nextClapToScheduleIndex = 0;
     }
-		
-		// --- Audio Setup ---
+    
+    // --- Audio Setup ---
     if (audioBuffer) {
-				masterGainNode = audioContext.createGain();
-				masterGainNode.connect(audioContext.destination);
+        masterGainNode = audioContext.createGain();
+        masterGainNode.connect(audioContext.destination);
         songSource = audioContext.createBufferSource();
         songSource.buffer = audioBuffer;
         songSource.playbackRate.value = playbackRate;
@@ -120,8 +120,8 @@ async function playSong(startFromBeat = 0) {
         songGainNode.gain.value = Math.pow(parseFloat(document.getElementById('songVolume').value), 2);
         songSource.connect(songGainNode).connect(masterGainNode);
         
-				// The first parameter is `when` (in absolute real-world time)
-				// (0 is being shortcut of `now`), 
+        // The first parameter is `when` (in absolute real-world time)
+        // (0 is being shortcut of `now`), 
         // The second is `where` (offset within the audio buffer).
         songSource.start(scheduledStart, physicalAudioOffset);
     }
@@ -135,8 +135,8 @@ async function playSong(startFromBeat = 0) {
  * This includes stopping audio, saving settings, and processing high scores.
  */
 function stopSong() {
-		saveSettings(); // save settings in local storage
-		
+    saveSettings(); // save settings in local storage
+    
     if (songSource) {
         try { songSource.stop(0); } catch(e) {}
         songSource.disconnect();
@@ -162,32 +162,32 @@ function stopSong() {
     forceShowPlayheadUntil = 0;
 
     clearOverlay();
-		
-		// Check if we should save a high score
-		if (isFullSongPlay && curSongTime >= lastNoteTime) {
-				saveHighScore();
-				const key = getHighScoreKey(speedDuringPlay, playheadDuringPlay, assistDuringPlay);
+    
+    // Check if we should save a high score
+    if (isFullSongPlay && curSongTime >= lastNoteTime) {
+        saveHighScore();
+        const key = getHighScoreKey(speedDuringPlay, playheadDuringPlay, assistDuringPlay);
         if (key) {
             sessionPlayHistory[key] = {
                 misses: missCount,
                 accuracy: parseFloat(document.getElementById('accuracyDisplay').textContent)
             };
         }
-				recordRecentPlay(); // Also record that we played it recently
-				saveLastPlayedDifficulty();
-				
-				// Mark song as played in this session and update the selector
-				const songKey = `${songInfo.artist}-${songInfo.title}`;
-				sessionPlayedSongs.add(songKey);
-				
-				const selector = document.getElementById('songSelector');
-				const selectedOption = selector.options[selector.selectedIndex];
-				if (selectedOption && !selectedOption.text.startsWith('🟢')) {
-						selectedOption.text = `🟢 ${selectedOption.text.replace('🔵 ', '').replace('🔹 ', '')}`;
-				}
-		}
-		
-		isFullSongPlay = false; // Reset for the next run
+        recordRecentPlay(); // Also record that we played it recently
+        saveLastPlayedDifficulty();
+        
+        // Mark song as played in this session and update the selector
+        const songKey = `${songInfo.artist}-${songInfo.title}`;
+        sessionPlayedSongs.add(songKey);
+        
+        const selector = document.getElementById('songSelector');
+        const selectedOption = selector.options[selector.selectedIndex];
+        if (selectedOption && !selectedOption.text.startsWith('🟢')) {
+            selectedOption.text = `🟢 ${selectedOption.text.replace('🔵 ', '').replace('🔹 ', '')}`;
+        }
+    }
+    
+    isFullSongPlay = false; // Reset for the next run
 }
 
 // --- GAME LOOP HELPERS ---
@@ -304,8 +304,8 @@ function scheduleAssistClaps(currentTime) {
         // Defensive: ensure we never schedule a start time in the past
         if (typeof audioContext !== 'undefined' && audioContext) {
             if (scheduleTime < audioContext.currentTime) {
-							nextClapToScheduleIndex++;
-							continue;
+              nextClapToScheduleIndex++;
+              continue;
             }
         }
 
@@ -316,53 +316,53 @@ function scheduleAssistClaps(currentTime) {
 
 
 /** // --- DYNAMIC ERROR FLASH LOGIC ---  (Not used. Was replaced by Hit Glows)
-		// This system creates a responsive flash that reflects the player's performance
-		// over a short "perception window," handling both single large errors and streams of small ones.
-		//
-		// It works in two parts:
-		// 1. The Producer (processScoreEvent): When a note is judged, it calculates the event's
-		//    "impact" (how much it hurt the score, scaled by its weight). It then adds this
-		//    impact and a timestamp to a short-term list called 'impactHistory'.
-		//
-		// 2. The Consumer (this block in gameLoop): Every frame, this block:
-		//    a. Sums the 'impact' of all events in the 'impactHistory' list that happened
-		//       within the last half-second (the PERCEPTION_WINDOW_MS).
-		//    b. Translates this 'cumulativeImpact' into a potential flash intensity ('newFlash').
-		//    c. If this new intensity is greater than the flash that's currently fading out
-		//       ('curFlash'), it sets a new, higher peak for the flash to fade from.
-		//    d. It continuously calculates the fading animation, ensuring a smooth decay.
+    // This system creates a responsive flash that reflects the player's performance
+    // over a short "perception window," handling both single large errors and streams of small ones.
+    //
+    // It works in two parts:
+    // 1. The Producer (processScoreEvent): When a note is judged, it calculates the event's
+    //    "impact" (how much it hurt the score, scaled by its weight). It then adds this
+    //    impact and a timestamp to a short-term list called 'impactHistory'.
+    //
+    // 2. The Consumer (this block in gameLoop): Every frame, this block:
+    //    a. Sums the 'impact' of all events in the 'impactHistory' list that happened
+    //       within the last half-second (the PERCEPTION_WINDOW_MS).
+    //    b. Translates this 'cumulativeImpact' into a potential flash intensity ('newFlash').
+    //    c. If this new intensity is greater than the flash that's currently fading out
+    //       ('curFlash'), it sets a new, higher peak for the flash to fade from.
+    //    d. It continuously calculates the fading animation, ensuring a smooth decay.
  * @returns {number} The calculated opacity for the flash (0 to 0.7).
  */
 function updateGlobalFlash() {
-		return 0; // Turns everything off
-		
+    return 0; // Turns everything off
+    
     const now = performance.now();
-		const PERCEPTION_WINDOW_MS = 500;       // How far back we look.
-		const CUMULATIVE_IMPACT_THRESHOLD = 80; // The sum of impact needed before a flash appears.
-		const IMPACT_SENSITIVITY = 500;         // A divisor. Lower = more intense flash for the same error.
+    const PERCEPTION_WINDOW_MS = 500;       // How far back we look.
+    const CUMULATIVE_IMPACT_THRESHOLD = 80; // The sum of impact needed before a flash appears.
+    const IMPACT_SENSITIVITY = 500;         // A divisor. Lower = more intense flash for the same error.
 
-		// Prune history: Keep only the events within our perception window.
-		impactHistory = impactHistory.filter(event => now - event.time < PERCEPTION_WINDOW_MS);
+    // Prune history: Keep only the events within our perception window.
+    impactHistory = impactHistory.filter(event => now - event.time < PERCEPTION_WINDOW_MS);
     const cumulativeImpact = impactHistory.reduce((sum, event) => sum + event.impact, 0);
 
-		// Calculate the potential new flash intensity based on the current window.
+    // Calculate the potential new flash intensity based on the current window.
     let newFlash = 0;
     if (cumulativeImpact > CUMULATIVE_IMPACT_THRESHOLD) {
         newFlash = Math.min(0.7, cumulativeImpact / IMPACT_SENSITIVITY);
     }
 
-		// Re-trigger the flash if the new error is worse than the current fading flash.
+    // Re-trigger the flash if the new error is worse than the current fading flash.
     if (newFlash > curFlash) {
         maxFlash = newFlash;
         accuracyFlash.fadeStartTime = now;
     }
 
-		// Run the fade logic every frame.
+    // Run the fade logic every frame.
     const FADE_DURATION_MS = 5000;
     let currentFlashOpacity = 0;
     if (maxFlash > 0) {
         const elapsedTime = now - accuracyFlash.fadeStartTime;
-				// Calculate the current opacity based on the last peak (maxFlash).
+        // Calculate the current opacity based on the last peak (maxFlash).
         currentFlashOpacity = Math.max(0, maxFlash * (1 - (elapsedTime / FADE_DURATION_MS)));
     }
     curFlash = currentFlashOpacity; // Update global for next frame's comparison
@@ -469,8 +469,8 @@ function drawHitGlows(ctx) {
             ctx.fill();
         }
     }
-		
-		drawMistakeRecapEffect();
+    
+    drawMistakeRecapEffect();
 }
 
 /**
@@ -479,7 +479,7 @@ function drawHitGlows(ctx) {
  */
 function drawMistakeRecapEffect() {
     const ctx = document.getElementById('underlayCanvas').getContext('2d');
-		
+    
     const now = performance.now();
     for (let i = mistakeRecapEffects.length - 1; i >= 0; i--) {
         const effect = mistakeRecapEffects[i];
@@ -491,16 +491,16 @@ function drawMistakeRecapEffect() {
         }
 
         const fadeProgress = elapsedTime / effect.duration;
-				
+        
         let r = effect.maxRadius;
-				if (effect.horizontalDrift == 0) r *= (0.15 + (0.85 * fadeProgress));
-				
+        if (effect.horizontalDrift == 0) r *= (0.15 + (0.85 * fadeProgress));
+        
         const currentX = effect.x + (effect.horizontalDrift * fadeProgress);
 
-				ctx.fillStyle = effect.color;
-				ctx.beginPath();
-				ctx.arc(currentX, effect.y, r, 0, 2 * Math.PI);
-				ctx.fill();
+        ctx.fillStyle = effect.color;
+        ctx.beginPath();
+        ctx.arc(currentX, effect.y, r, 0, 2 * Math.PI);
+        ctx.fill();
     }
 }
 
@@ -555,10 +555,10 @@ function handlePlayheadDrawing(currentTime) {
             } else {
                 shouldDrawPlayhead = true; // In the intro before the first note
             }
-						
-						// before the first input if we started not from beggining
-						if (!isJudge) shouldDrawPlayhead = true;
-						
+            
+            // before the first input if we started not from beggining
+            if (!isJudge) shouldDrawPlayhead = true;
+            
         } else {
             shouldDrawPlayhead = true; // In the outro after the last note
         }
@@ -578,15 +578,15 @@ function drawOverlay(currentTime, flashOpacity, accuracy) {
     const overlayCanvas = document.getElementById('overlayCanvas');
     const overlayCtx = overlayCanvas.getContext('2d');
     clearOverlay();
-		
-		AM.draw(overlayCanvas, overlayCtx, curAccuracy, bestScore);
-		
+    
+    AM.draw(overlayCanvas, overlayCtx, curAccuracy, bestScore);
+    
     drawGlobalFlash(overlayCtx, flashOpacity);
-		
+    
     drawHitGlows(overlayCtx);
-		
+    
     drawSpeedIndicator(overlayCtx);
-		
+    
     handlePlayheadDrawing(currentTime);
 }
 
