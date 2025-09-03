@@ -5028,5 +5028,40 @@
   "chartPath": "songs/highflyer/memories/wanting, getting, wanting.sm",
   "audioPath": "songs/highflyer/memories/wanting, getting, wanting.ogg",
   "key": "1756882758247"
+},
+{
+  "title": "About Damn Time",
+  "artist": "Lizzo",
+  "chartPath": "songs/highflyer/ttrails-3/About Damn Time.sm",
+  "audioPath": "songs/highflyer/ttrails-3/About Damn Time.ogg",
+  "key": "1756896073585"
+},
+{
+  "title": "Explore Every Ave",
+  "artist": "BEMANI Sound Team \"SYUNN\"",
+  "chartPath": "songs/highflyer/ttrails-3/Explore_Every_Ave.sm",
+  "audioPath": "songs/highflyer/ttrails-3/Explore_Every_Ave.ogg",
+  "key": "1756896449255"
+},
+{
+  "title": "Hold Me Like A Grudge",
+  "artist": "Fall Out Boy",
+  "chartPath": "songs/highflyer/ttrails-3/Hold Me Like A Grudge - Fall Out Boy.ssc",
+  "audioPath": "songs/highflyer/ttrails-3/Hold Me Like A Grudge.ogg",
+  "key": "1756896721184"
+},
+{
+  "title": "Ready Steady",
+  "artist": "Vivid BAD SQUAD x Hatsune Miku",
+  "chartPath": "songs/highflyer/ttrails-3/Ready Steady.sm",
+  "audioPath": "songs/highflyer/ttrails-3/Ready Steady.ogg",
+  "key": "1756897336912"
+},
+{
+  "title": "We Can Win The Fight",
+  "artist": "D-crew feat.Matt Tucker",
+  "chartPath": "songs/highflyer/ttrails-3/We Can Win The Fight.sm",
+  "audioPath": "songs/highflyer/ttrails-3/We Can Win The Fight.ogg",
+  "key": "1756898337847"
 }
 ]
