@@ -5063,5 +5063,33 @@
   "chartPath": "songs/highflyer/ttrails-3/We Can Win The Fight.sm",
   "audioPath": "songs/highflyer/ttrails-3/We Can Win The Fight.ogg",
   "key": "1756898337847"
+},
+{
+  "title": "Baby Shark",
+  "artist": "Pinkfong",
+  "chartPath": "songs/highflyer/shii-techy/Baby Shark.sm",
+  "audioPath": "songs/highflyer/shii-techy/Baby Shark.ogg",
+  "key": "1756903659026"
+},
+{
+  "title": "Friday Night",
+  "artist": "Kensuke Inage & Yoshihiro Arai",
+  "chartPath": "songs/highflyer/shii-techy/Friday Night.sm",
+  "audioPath": "songs/highflyer/shii-techy/Friday Night.ogg",
+  "key": "1756904340694"
+},
+{
+  "title": "Perception Check",
+  "artist": "Tom Cardy",
+  "chartPath": "songs/highflyer/shii-techy/Perception Check.sm",
+  "audioPath": "songs/highflyer/shii-techy/Perception Check.ogg",
+  "key": "1756904775816"
+},
+{
+  "title": "The Fox",
+  "artist": "Ylvis",
+  "chartPath": "songs/highflyer/shii-techy/The Fox.sm",
+  "audioPath": "songs/highflyer/shii-techy/The Fox.ogg",
+  "key": "1756905297381"
 }
 ]
