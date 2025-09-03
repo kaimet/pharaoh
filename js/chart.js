@@ -28,7 +28,13 @@ function initChart() {
 					.map(line => line.trim())        // << strip spaces on each line
 					.filter(line => line.length > 0) // ignore empty lines
 			);
+		
+		// Remove/clear lines that are skipped by negative stops or warps (this updates measures in-place)
+    removeSkippedNotes(measures);
+		
+		// chart hash for remembering high scores
     chartHash = cyrb128(JSON.stringify(measures));
+		
     noteBeats = getNoteBeats(measures);
 		firstNoteBeat = noteBeats.length > 0 ? noteBeats[0] : 0;
     noteTimings = noteBeats.map(beat => songTiming.getTimeAtBeat(beat)); 
@@ -54,6 +60,81 @@ function initChart() {
 		displayBestScore();
 		updateJudgementDisplayFromHistory();
 }
+
+/**
+ * Remove (replace with '0000') notes in measures that are skipped by negative STOPs or WARPS.
+ * This is run *after* songTiming = createUnifiedTiming(...) and *before* getNoteBeats(measures).
+ *
+ * - preserves measure subdivision counts (we replace lines with '0000' rather than removing lines)
+ * - handles multiple stops/warps
+ */
+function removeSkippedNotes(measures) {
+    if (!songTiming || !songInfo) return;
+
+    // Defensive local copies
+    const bpms = songInfo.bpms || [];
+    const stops = songInfo.stops || [];
+    const warps = songInfo.warps || [];
+
+    // 1) Build a timing with negative stops zeroed to compute removed spans for negative STOPs
+    const stopsNoNeg = stops.map(s => ({ beat: s.beat, duration: s.duration < 0 ? 0 : s.duration }));
+    const timingNoNeg = createUnifiedTiming(bpms, stopsNoNeg, warps || []);
+
+    // Small epsilon for numeric noise
+    const EPS_SKIP = 1e-3;
+    // Helper to mark beats in (beatA, beatB] as skipped: replace lines with '0000'
+    function markBeatRangeSkipped(beatA, beatB) {
+        if (!(beatB > beatA + 1e-12)) return;
+        for (let measureIndex = 0; measureIndex < measures.length; measureIndex++) {
+            const measure = measures[measureIndex];
+            const linesCount = measure.length;
+            if (linesCount === 0) continue;
+            for (let lineIndex = 0; lineIndex < linesCount; lineIndex++) {
+                const beat = measureIndex * 4 + (lineIndex / linesCount) * 4;
+                if (beat > beatA && beat <= beatB) {
+                    // Replace the line with a no-note line preserving subdivision count.
+                    measure[lineIndex] = '0000';
+                }
+            }
+        }
+    }
+
+    // 2) Process negative STOPs: compute how many seconds were removed and map that
+    //    to a beat range in timingNoNeg, then mark those beats as skipped.
+    if (stops && stops.length) {
+        for (const stop of stops) {
+            if (!stop || typeof stop.duration === 'undefined') continue;
+            if (stop.duration >= 0) continue; // only negative stops here
+
+            const stopBeat = stop.beat;
+            // time at stopBeat in real timeline and no-neg timeline
+            const tWith = songTiming.getTimeAtBeat(stopBeat);
+            const tNo = timingNoNeg.getTimeAtBeat(stopBeat);
+            const delta = tNo - tWith;
+            if (delta <= EPS_SKIP) continue;
+
+            // targetTime in no-neg timeline marks end of removed chunk
+            const targetTime = tNo + delta;
+            // find beat in no-neg timeline that corresponds to targetTime
+            const beatEnd = timingNoNeg.getBeatAtTime(targetTime);
+
+            markBeatRangeSkipped(stopBeat, beatEnd);
+        }
+    }
+
+    // 3) Process WARPS: warp at beat -> skip (beat, beat+length]
+    if (warps && warps.length) {
+        for (const warp of warps) {
+            if (!warp || typeof warp.beat === 'undefined' || typeof warp.length === 'undefined') continue;
+            const warpBeat = warp.beat;
+            const warpLen = warp.length;
+            if (!(warpLen > 1e-9)) continue;
+            const beatEnd = warpBeat + warpLen;
+            markBeatRangeSkipped(warpBeat, beatEnd);
+        }
+    }
+}
+
 
 function simplifyBpmsForChart(sortedBPMs) {
     if (noteBeats.length === 0 || sortedBPMs.length <= 1) return sortedBPMs.length > 0 ? sortedBPMs : [{beat: 0, bpm: 60}];

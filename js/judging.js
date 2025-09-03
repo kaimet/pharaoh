@@ -101,7 +101,7 @@ function resetJudgingState(startTime) {
     }
 
     noteStates.sort((a, b) => a.time - b.time);
-		
+
 		// Find the time of the first note that will actually be judged.
     firstJudgableNoteTime = Infinity; 
     for (const note of noteStates) {
