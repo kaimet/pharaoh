@@ -2422,13 +2422,6 @@
   "key": "1756143295083"
 },
 {
-  "title": "MADELINE",
-  "artist": "INJI",
-  "chartPath": "songs/9guys1pack/MADELINE.ssc",
-  "audioPath": "songs/9guys1pack/MADELINE.ogg",
-  "key": "1756143313589"
-},
-{
   "title": "Melonaid",
   "artist": "KATOMORI",
   "chartPath": "songs/9guys1pack/KATOMORI - Melonaid.ssc",
@@ -5161,5 +5154,75 @@
   "chartPath": "songs/highflyer/trom-3/Won(_3_)Chu KissMe!.sm",
   "audioPath": "songs/highflyer/trom-3/Won(_3_)Chu KissMe!.ogg",
   "key": "1756922679300"
+},
+{
+  "title": "4BLOOD",
+  "artist": "KIRA feat. Hatsune Miku",
+  "chartPath": "songs/highflyer/tterr-2/4BLOOD.sm",
+  "audioPath": "songs/highflyer/tterr-2/4BLOOD.ogg",
+  "key": "1757014213456"
+},
+{
+  "title": "Ghost",
+  "artist": "Confetti",
+  "chartPath": "songs/highflyer/tterr-2/Ghost (Dark).sm",
+  "audioPath": "songs/highflyer/tterr-2/Ghost (Dark).ogg",
+  "key": "1757014513013"
+},
+{
+  "title": "Killdozer",
+  "artist": "Kim Dracula",
+  "chartPath": "songs/highflyer/tterr-2/Killdozer.sm",
+  "audioPath": "songs/highflyer/tterr-2/Killdozer.ogg",
+  "key": "1757014795052"
+},
+{
+  "title": "Lights Out",
+  "artist": "Bludnypmh",
+  "chartPath": "songs/highflyer/tterr-2/Lights Out.sm",
+  "audioPath": "songs/highflyer/tterr-2/Lights Out.ogg",
+  "key": "1757014988551"
+},
+{
+  "title": "Manslaughter",
+  "artist": "Let's Be Friends",
+  "chartPath": "songs/highflyer/tterr-2/Manslaughter.sm",
+  "audioPath": "songs/highflyer/tterr-2/Manslaughter.ogg",
+  "key": "1757015102770"
+},
+{
+  "title": "Mind Parasite",
+  "artist": "Tomosuke",
+  "chartPath": "songs/highflyer/tterr-2/Mind Parasite.sm",
+  "audioPath": "songs/highflyer/tterr-2/Mind Parasite.ogg",
+  "key": "1757015293999"
+},
+{
+  "title": "Murder Hornet",
+  "artist": "CG5",
+  "chartPath": "songs/highflyer/tterr-2/Murder Hornet (song).sm",
+  "audioPath": "songs/highflyer/tterr-2/Murder Hornet (song).ogg",
+  "key": "1757015398238"
+},
+{
+  "title": "Phanto(me)",
+  "artist": "Reol",
+  "chartPath": "songs/highflyer/tterr-2/Phantome.sm",
+  "audioPath": "songs/highflyer/tterr-2/Phantome.ogg",
+  "key": "1757015784789"
+},
+{
+  "title": "Scary-Happy Halloween",
+  "artist": "Pokemon Sound Team \"Pokemon Kids TV\"",
+  "chartPath": "songs/highflyer/tterr-2/Scary-Happy Halloween.sm",
+  "audioPath": "songs/highflyer/tterr-2/Scary-Happy Halloween.ogg",
+  "key": "1757016052628"
+},
+{
+  "title": "Your Rain (Rage Mix)",
+  "artist": "Akira Yamaoka feat. Mary Elizabeth McGlynn",
+  "chartPath": "songs/highflyer/tterr-2/Your Rain(RAGE MIX).sm",
+  "audioPath": "songs/highflyer/tterr-2/Your Rain(RAGE MIX).ogg",
+  "key": "1757016289002"
 }
 ]
