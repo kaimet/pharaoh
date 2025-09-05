@@ -3223,7 +3223,7 @@
 },
 {
 	"title": "Energetic Engine ~ Excited Existence",
-	"artist": "wrsw as \"Sound Wave\"",
+	"artist": "wrsw",
 	"chartPath": "songs/dimocracy-2/EEEE.ssc",
 	"audioPath": "songs/dimocracy-2/EEEE.ogg",
 	"key": "1755959832142"
@@ -3405,7 +3405,7 @@
 },
 {
 	"title": "I Love Love You",
-	"artist": "Guitar Vader remixed by Hideki Naganuma",
+	"artist": "Guitar Vader",
 	"chartPath": "songs/dimocracy-3/I Love Love You (Love Love Super Dimension Mix).sm",
 	"audioPath": "songs/dimocracy-3/I Love Love You (Love Love Super Dimension Mix).ogg",
 	"key": "1756047318996"
@@ -3446,7 +3446,7 @@
 	"key": "1756062258937"
 },
 {
-	"title": "Live Nor Die - Nhato Remix",
+	"title": "Live Nor Die",
 	"artist": "lapix feat. Kanae Asaba",
 	"chartPath": "songs/dimocracy-3/Live Nor Die - Nhato Remix.sm",
 	"audioPath": "songs/dimocracy-3/Live Nor Die - Nhato Remix.ogg",
@@ -4176,7 +4176,7 @@
 },
 {
   "title": "Hallelujah☆Essaim",
-  "artist": "Miyu Tomita, Saori Oonishi, Naomi Oozora, Kana Hanazawa",
+  "artist": "Tomita, Oonishi, Oozora, Hanazawa",
   "chartPath": "songs/notice-me-benpai/Hallelujah Essaim.sm",
   "audioPath": "songs/notice-me-benpai/Hallelujah Essaim.ogg",
   "key": "1756634008581"
@@ -4424,7 +4424,7 @@
   "key": "1756694431108"
 },
 {
-  "title": "Animal Crossing New Horizons Main Theme",
+  "title": "New Horizons Main Theme",
   "artist": "Animal Crossing",
   "chartPath": "songs/kigha/animal_crossover/Animal Crossing New Horizons Main Theme (ASDEK Remix).sm",
   "audioPath": "songs/kigha/animal_crossover/Animal Crossing New Horizons Main Theme (ASDEK Remix).ogg",
@@ -4620,7 +4620,7 @@
   "key": "1756713060003"
 },
 {
-  "title": "Penguin of the Galaxy Railway ft. nicamoq",
+  "title": "Penguin of the Galaxy Railway",
   "artist": "Aiobahn & Yunomi",
   "chartPath": "songs/kigha/kighas-kawaii-bops/Penguin of the Galaxy Railway ft. nicamoq (Stripe.P Remix).sm",
   "audioPath": "songs/kigha/kighas-kawaii-bops/Aiobahn & Yunomi - Penguin of the Galaxy Railway ft. nicamoq (Stripe.P Remix).ogg",
@@ -4687,7 +4687,7 @@
 	"author": ""
 },
 {
-  "title": "Ace Attorney (Mayoi Ayasato-Ace Attorney's Theme)",
+  "title": "Ace Attorney",
   "artist": "Remixed by OSTER project",
   "chartPath": "songs/highflyer/ttrails-1/Ace Attorney (Mayoi Ayasato-Ace Attorney's Theme).ssc",
   "audioPath": "songs/highflyer/ttrails-1/Ace Attorney (Mayoi Ayasato-Ace Attorney's Theme).ogg",
@@ -5150,7 +5150,7 @@
 },
 {
   "title": "Won(*3*)Chu Kissme!",
-  "artist": "Remixed by BEMANI Sound Team \"L.E.D.\" & IOSYS",
+  "artist": "BEMANI & IOSYS",
   "chartPath": "songs/highflyer/trom-3/Won(_3_)Chu KissMe!.sm",
   "audioPath": "songs/highflyer/trom-3/Won(_3_)Chu KissMe!.ogg",
   "key": "1756922679300"
@@ -5213,16 +5213,121 @@
 },
 {
   "title": "Scary-Happy Halloween",
-  "artist": "Pokemon Sound Team \"Pokemon Kids TV\"",
+  "artist": "Pokemon Sound Team",
   "chartPath": "songs/highflyer/tterr-2/Scary-Happy Halloween.sm",
   "audioPath": "songs/highflyer/tterr-2/Scary-Happy Halloween.ogg",
   "key": "1757016052628"
 },
 {
   "title": "Your Rain (Rage Mix)",
-  "artist": "Akira Yamaoka feat. Mary Elizabeth McGlynn",
+  "artist": "Akira Yamaoka",
   "chartPath": "songs/highflyer/tterr-2/Your Rain(RAGE MIX).sm",
   "audioPath": "songs/highflyer/tterr-2/Your Rain(RAGE MIX).ogg",
   "key": "1757016289002"
+},
+{
+  "title": "8 Days of Christmas",
+  "artist": "Destiny's Child",
+  "chartPath": "songs/highflyer/tadv/8 Days of Christmas.sm",
+  "audioPath": "songs/highflyer/tadv/8 Days of Christmas.ogg",
+  "key": "1757065808430"
+},
+{
+  "title": "100 Degrees",
+  "artist": "Kylie Minogue feat. Dannii Minogue",
+  "chartPath": "songs/highflyer/tadv/100 Degrees.sm",
+  "audioPath": "songs/highflyer/tadv/100 Degrees.ogg",
+  "key": "1757066628515"
+},
+{
+  "title": "Beta Snow",
+  "artist": "MYUKKE.",
+  "chartPath": "songs/highflyer/tadv/Beta Snow.sm",
+  "audioPath": "songs/highflyer/tadv/Beta Snow.ogg",
+  "key": "1757066921095"
+},
+{
+  "title": "Butter",
+  "artist": "BTS",
+  "chartPath": "songs/highflyer/tadv/Butter (Holiday Remix).sm",
+  "audioPath": "songs/highflyer/tadv/Butter (Holiday Remix).ogg",
+  "key": "1757067049388"
+},
+{
+  "title": "December in Strasbourg",
+  "artist": "nana(Sevencolors) feat. mana",
+  "chartPath": "songs/highflyer/tadv/December in Strasbourg.sm",
+  "audioPath": "songs/highflyer/tadv/December in Strasbourg.ogg",
+  "key": "1757067191373"
+},
+{
+  "title": "Heart Shaker",
+  "artist": "Twice",
+  "chartPath": "songs/highflyer/tadv/Heart Shaker (Galactika Holiday Remix).sm",
+  "audioPath": "songs/highflyer/tadv/Heart Shaker (Galactika Holiday Remix).ogg",
+  "key": "1757067338467"
+},
+{
+  "title": "Jingle Bell Rock",
+  "artist": "aespa",
+  "chartPath": "songs/highflyer/tadv/Jingle Bell Rock.sm",
+  "audioPath": "songs/highflyer/tadv/Jingle Bell Rock.ogg",
+  "key": "1757067712329"
+},
+{
+  "title": "Nicolaus-san no Dekigokoro",
+  "artist": "BEMANI Sound Team",
+  "chartPath": "songs/highflyer/tadv/Nicolaus-san no Dekigokoro.sm",
+  "audioPath": "songs/highflyer/tadv/Nicolaus-san no Dekigokoro.ogg",
+  "key": "1757071639745"
+},
+{
+  "title": "Papa Noel",
+  "artist": "TRI.BE",
+  "chartPath": "songs/highflyer/tadv/Papa Noel.sm",
+  "audioPath": "songs/highflyer/tadv/Papa Noel.ogg",
+  "key": "1757071998311"
+},
+{
+  "title": "Santa Tell Me",
+  "artist": "Ariana Grande",
+  "chartPath": "songs/highflyer/tadv/Santa Tell Me.sm",
+  "audioPath": "songs/highflyer/tadv/Santa Tell Me.ogg",
+  "key": "1757072153446"
+},
+{
+  "title": "Snowmelt",
+  "artist": "Nora2R × Yvya",
+  "chartPath": "songs/highflyer/tadv/Snowmelt.sm",
+  "audioPath": "songs/highflyer/tadv/Snowmelt.ogg",
+  "key": "1757072312847"
+},
+{
+  "title": "White Christmas",
+  "artist": "BeautifulDay",
+  "chartPath": "songs/highflyer/tadv/White Christmas.sm",
+  "audioPath": "songs/highflyer/tadv/White Christmas.ogg",
+  "key": "1757072629994"
+},
+{
+  "title": "White Lovers",
+  "artist": "Sana Shintani",
+  "chartPath": "songs/highflyer/tadv/White Lovers.sm",
+  "audioPath": "songs/highflyer/tadv/White Lovers.ogg",
+  "key": "1757072856424"
+},
+{
+  "title": "Winter Gift",
+  "artist": "Qrispy Joybox",
+  "chartPath": "songs/highflyer/tadv/Winter Gift.sm",
+  "audioPath": "songs/highflyer/tadv/Winter Gift.ogg",
+  "key": "1757073045098"
+},
+{
+  "title": "Itazurana tenshi to☆Christmas Eve",
+  "artist": "Megumi Tatsumi",
+  "chartPath": "songs/highflyer/tadv/Christmas Eve.sm",
+  "audioPath": "songs/highflyer/tadv/Christmas Eve.ogg",
+  "key": "1757073185408"
 }
 ]

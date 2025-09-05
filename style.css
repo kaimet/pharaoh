@@ -226,7 +226,7 @@ body { background-color: #222;
 /* listbox styling (basic) */
 .song-listbox {
   width: 100%;
-  max-width: 400px;
+  max-width: 420px;
   min-height: 120px;
   box-sizing: border-box;
   font-family: inherit;
@@ -244,7 +244,7 @@ body { background-color: #222;
 
 /* song rows indent */
 .song-listbox option.song {
-  padding-left: 1.2em;
+  padding-left: 1.0em;
   text-align: left;
 }
 
