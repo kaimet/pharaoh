@@ -7,12 +7,6 @@
 // This timeline is an array of events, each mapping a specific beat to a specific
 // second in the song's audio. It correctly accounts for the time dilations caused
 // by BPM changes and the time gaps caused by stops.
-//
-// THE OUTPUT:
-// It returns an object containing two methods: getTimeAtBeat() and getBeatAtTime().
-// These two functions become the absolute "single source of truth" for all timing-related
-// calculations in the entire application, from judging to drawing.
-//
  *
  * UNIFIED TIMING ENGINE
  * Calculates a master timing map and returns an object containing two functions:
@@ -22,10 +16,8 @@
  */
 function createUnifiedTiming(bpms, stops, warps) {
     const EPS = 1e-9;
-    // This must match (or be slightly bigger than) the offset you add in parser.
-    // If you use stopBeat += 0.01 in parser, set PARSE_OFFSET = 0.01.
-    const PARSE_OFFSET = 0.01;
-    const GROUP_EPS = PARSE_OFFSET * 1.5; // cluster beats within this distance
+    // Only collapse true FP noise, never intentional offsets like +0.01
+    const GROUP_EPS = 1e-6;
 
     // Build raw events list
     const events = [
@@ -37,65 +29,63 @@ function createUnifiedTiming(bpms, stops, warps) {
     // Sort by raw beat first (stable), so clustering will scan in order
     events.sort((a, b) => {
         if (Math.abs(a.beat - b.beat) > EPS) return a.beat - b.beat;
-        // tie-break raw type to keep deterministic order before clustering
         return a.type.localeCompare(b.type);
     });
 
-    // Cluster neighboring beats into groupBeat representatives
+    // Cluster neighboring beats into groupBeat representatives (for ordering only)
     let lastGroupRep = null;
     for (const ev of events) {
         if (lastGroupRep === null || ev.beat - lastGroupRep > GROUP_EPS) {
             lastGroupRep = ev.beat;
         }
-        // assign cluster representative (groupBeat)
         ev.groupBeat = lastGroupRep;
     }
 
     // Deterministic type priority for same logical beat ordering
     const typePriority = { 'BPM': 0, 'STOP': 1, 'WARP': 2 };
 
-    // Now sort by groupBeat, then by typePriority, then by raw beat for stability
+    // Order by groupBeat, then by typePriority, then by raw beat for stability
     events.sort((a, b) => {
         if (Math.abs(a.groupBeat - b.groupBeat) > EPS) return a.groupBeat - b.groupBeat;
-        const pa = (typePriority[a.type] || 99);
-        const pb = (typePriority[b.type] || 99);
+        const pa = (typePriority[a.type] ?? 99);
+        const pb = (typePriority[b.type] ?? 99);
         if (pa !== pb) return pa - pb;
         return a.beat - b.beat;
     });
 
-    // Build timeline using groupBeat for math
+    // Build timeline using RAW beat for math (preserve parser's intentional offsets)
     const initialBpm = bpms[0]?.bpm ?? 60;
     const timeline = [{ beat: 0, time: 0, bpm: initialBpm }];
     let lastEvent = timeline[0];
 
     for (const event of events) {
-        const eventBeatForMath = event.groupBeat;
+        const beatForMath = event.beat; // <-- key change: use raw beat, not groupBeat
 
-        // allow equal-group events; skip only if event is strictly before last
-        if (eventBeatForMath + EPS < lastEvent.beat) continue;
+        // allow equal-beat events; skip only if event is strictly before last
+        if (beatForMath + EPS < lastEvent.beat) continue;
 
-        const beatDelta = eventBeatForMath - lastEvent.beat;
+        const beatDelta = beatForMath - lastEvent.beat;
         const timeDelta = (beatDelta * 60) / lastEvent.bpm;
         const newTime = lastEvent.time + timeDelta;
 
         let newBpm = lastEvent.bpm;
         let timeAfterEvent = newTime;
-        let lastBeatForNext = eventBeatForMath;
+        let lastBeatForNext = beatForMath;
 
         if (event.type === 'BPM') {
             newBpm = event.value;
-            timeline.push({ beat: eventBeatForMath, time: newTime, bpm: newBpm });
-            lastBeatForNext = eventBeatForMath;
+            timeline.push({ beat: beatForMath, time: newTime, bpm: newBpm });
         } else if (event.type === 'STOP') {
-            timeline.push({ beat: eventBeatForMath, time: newTime, bpm: lastEvent.bpm });
+            // Represent a STOP as a plateau: two entries at the same beat
+            timeline.push({ beat: beatForMath, time: newTime, bpm: lastEvent.bpm });
             timeAfterEvent = newTime + event.value;
-            timeline.push({ beat: eventBeatForMath, time: timeAfterEvent, bpm: lastEvent.bpm });
-            lastBeatForNext = eventBeatForMath;
+            timeline.push({ beat: beatForMath, time: timeAfterEvent, bpm: lastEvent.bpm });
         } else if (event.type === 'WARP') {
-            const warpedGroupBeat = eventBeatForMath + event.value;
-            timeline.push({ beat: eventBeatForMath, time: newTime, bpm: lastEvent.bpm });
-            timeline.push({ beat: warpedGroupBeat, time: newTime, bpm: lastEvent.bpm });
-            lastBeatForNext = warpedGroupBeat;
+            // Warp: jump forward in beat at constant time
+            const warpedBeat = beatForMath + event.value;
+            timeline.push({ beat: beatForMath, time: newTime, bpm: lastEvent.bpm });
+            timeline.push({ beat: warpedBeat, time: newTime, bpm: lastEvent.bpm });
+            lastBeatForNext = warpedBeat;
         }
 
         lastEvent = { beat: lastBeatForNext, time: timeAfterEvent, bpm: newBpm };
@@ -103,11 +93,23 @@ function createUnifiedTiming(bpms, stops, warps) {
 
     return {
         getTimeAtBeat: function(beat) {
-            let segment = timeline[0];
+            let segmentIndex = 0;
             for (let i = 1; i < timeline.length; i++) {
-                if (timeline[i].beat > beat) break;
-                segment = timeline[i];
+                if (timeline[i].beat - beat > EPS) break;
+                segmentIndex = i;
             }
+
+            // If we landed exactly on a STOP plateau (duplicate beat entries),
+            // step back to the first entry at that beat so notes-at-beat happen before the stop.
+            while (
+                segmentIndex > 0 &&
+                Math.abs(timeline[segmentIndex].beat - beat) <= EPS &&
+                Math.abs(timeline[segmentIndex - 1].beat - beat) <= EPS
+            ) {
+                segmentIndex--;
+            }
+
+            const segment = timeline[segmentIndex];
             const beatDelta = beat - segment.beat;
             return segment.time + (beatDelta * 60) / segment.bpm;
         },
@@ -123,7 +125,7 @@ function createUnifiedTiming(bpms, stops, warps) {
             const nextSegment = timeline[segmentIndex + 1];
 
             // If next segment has same beat => STOP; playhead doesn't move
-            if (nextSegment && nextSegment.beat === segment.beat) {
+            if (nextSegment && Math.abs(nextSegment.beat - segment.beat) <= EPS) {
                 return segment.beat;
             }
 
@@ -135,3 +137,4 @@ function createUnifiedTiming(bpms, stops, warps) {
         _debug_timeline: timeline
     };
 }
+
