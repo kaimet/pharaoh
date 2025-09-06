@@ -49,10 +49,12 @@ function initChart() {
     }
     
     let bpmsForProcessing = [...songInfo.bpms];
+    /*
     if (bpmsForProcessing.length > 0) {
         const lastBpm = bpmsForProcessing[bpmsForProcessing.length - 1];
         bpmsForProcessing.push({ beat: 99999, bpm: lastBpm.bpm }); // some dirty fix
     }
+    */
     simplifiedBpms = simplifyBpmsForChart(bpmsForProcessing);
     
     drawChart();
@@ -62,104 +64,126 @@ function initChart() {
 }
 
 /**
- * Remove (replace with '0000') notes in measures that are skipped by negative STOPs or WARPS.
- * This is run *after* songTiming = createUnifiedTiming(...) and *before* getNoteBeats(measures).
+ * Remove (replace with '0000') notes in measures that are skipped by WARPS or negative STOPs.
+ * Run AFTER: songTiming = createUnifiedTiming(...)
+ * Run BEFORE: getNoteBeats(measures)
  *
- * - preserves measure subdivision counts (we replace lines with '0000' rather than removing lines)
+ * - preserves measure subdivision counts (replace lines with '0000' rather than removing lines)
  * - handles multiple stops/warps
  */
 function removeSkippedNotes(measures) {
     if (!songTiming || !songInfo) return;
 
     // Defensive local copies
-    const bpms = songInfo.bpms || [];
+    const bpms  = songInfo.bpms  || [];
     const stops = songInfo.stops || [];
     const warps = songInfo.warps || [];
 
-    // 1) Build a timing with negative stops zeroed to compute removed spans for negative STOPs
-    const stopsNoNeg = stops.map(s => ({ beat: s.beat, duration: s.duration < 0 ? 0 : s.duration }));
-    const timingNoNeg = createUnifiedTiming(bpms, stopsNoNeg, warps || []);
+    // Build a monotonic timing for converting seconds -> beats:
+    // zero out negative stops only; keep positive stops and warps intact.
+    const negStops = stops.filter(s => s && s.duration < 0);
+    const timingNoNeg = negStops.length > 0
+        ? createUnifiedTiming(
+            bpms,
+            stops.map(s => (s && s.duration < 0) ? { beat: s.beat, duration: 0 } : s),
+            warps
+          )
+        : songTiming; // if no negative stops, reuse main timing
 
-    // Small epsilon for numeric noise
-    const EPS_SKIP = 1e-3;
-    // Helper to mark beats in (beatA, beatB] as skipped: replace lines with '0000'
-    function markBeatRangeSkipped(beatA, beatB) {
-        if (!(beatB > beatA + 1e-12)) return;
-        for (let measureIndex = 0; measureIndex < measures.length; measureIndex++) {
-            const measure = measures[measureIndex];
-            const linesCount = measure.length;
-            if (linesCount === 0) continue;
-            for (let lineIndex = 0; lineIndex < linesCount; lineIndex++) {
-                const beat = measureIndex * 4 + (lineIndex / linesCount) * 4;
-                if (beat > beatA && beat <= beatB) {
-                    // Replace the line with a no-note line preserving subdivision count.
+    const EPS = 1e-9;
+
+    // Collect skip intervals as [startBeat, endBeat], then merge
+    const intervals = [];
+
+    // WARPS: skip (beat, beat+length]
+    for (const warp of warps) {
+        if (!warp || typeof warp.beat !== 'number' || typeof warp.length !== 'number') continue;
+        if (warp.length > EPS) {
+            intervals.push([warp.beat, warp.beat + warp.length]);
+        }
+    }
+
+    // Negative STOPs: remove dt seconds from the timeline at that beat.
+    // Convert dt to a beat span in the monotonic (no-negative-stops) timing.
+    for (const stop of negStops) {
+        if (!stop || typeof stop.beat !== 'number' || typeof stop.duration !== 'number') continue;
+        const dt = -stop.duration; // seconds removed; positive
+        if (dt <= EPS) continue;
+
+        // Pre-event time at that beat in no-negative-stops timing
+        const t0 = timingNoNeg.getTimeAtBeat(stop.beat);
+        const bEnd = timingNoNeg.getBeatAtTime(t0 + dt);
+
+        if (bEnd > stop.beat + EPS) {
+            intervals.push([stop.beat, bEnd]);
+        }
+    }
+
+    // Merge overlapping/adjacent intervals to minimize work
+    intervals.sort((a, b) => (a[0] - b[0]) || (a[1] - b[1]));
+    const merged = [];
+    for (const [s, e] of intervals) {
+        if (!merged.length || s > merged[merged.length - 1][1] + EPS) {
+            merged.push([s, e]);
+        } else {
+            if (e > merged[merged.length - 1][1]) merged[merged.length - 1][1] = e;
+        }
+    }
+
+    // Apply skips: replace any line whose beat lies in any merged interval (s, e] with '0000'
+    for (let measureIndex = 0; measureIndex < measures.length; measureIndex++) {
+        const measure = measures[measureIndex];
+        const linesCount = measure.length;
+        if (linesCount === 0) continue;
+
+        for (let lineIndex = 0; lineIndex < linesCount; lineIndex++) {
+            const beat = measureIndex * 4 + (lineIndex / linesCount) * 4;
+
+            // Membership test: (s, e]
+            for (const [s, e] of merged) {
+                if (beat > s + EPS && beat <= e + EPS) {
                     measure[lineIndex] = '0000';
+                    break;
                 }
             }
         }
     }
-
-    // 2) Process negative STOPs: compute how many seconds were removed and map that
-    //    to a beat range in timingNoNeg, then mark those beats as skipped.
-    if (stops && stops.length) {
-        for (const stop of stops) {
-            if (!stop || typeof stop.duration === 'undefined') continue;
-            if (stop.duration >= 0) continue; // only negative stops here
-
-            const stopBeat = stop.beat;
-            // time at stopBeat in real timeline and no-neg timeline
-            const tWith = songTiming.getTimeAtBeat(stopBeat);
-            const tNo = timingNoNeg.getTimeAtBeat(stopBeat);
-            const delta = tNo - tWith;
-            if (delta <= EPS_SKIP) continue;
-
-            // targetTime in no-neg timeline marks end of removed chunk
-            const targetTime = tNo + delta;
-            // find beat in no-neg timeline that corresponds to targetTime
-            const beatEnd = timingNoNeg.getBeatAtTime(targetTime);
-
-            markBeatRangeSkipped(stopBeat, beatEnd);
-        }
-    }
-
-    // 3) Process WARPS: warp at beat -> skip (beat, beat+length]
-    if (warps && warps.length) {
-        for (const warp of warps) {
-            if (!warp || typeof warp.beat === 'undefined' || typeof warp.length === 'undefined') continue;
-            const warpBeat = warp.beat;
-            const warpLen = warp.length;
-            if (!(warpLen > 1e-9)) continue;
-            const beatEnd = warpBeat + warpLen;
-            markBeatRangeSkipped(warpBeat, beatEnd);
-        }
-    }
 }
 
-
 function simplifyBpmsForChart(sortedBPMs) {
-    if (noteBeats.length === 0 || sortedBPMs.length <= 1) return sortedBPMs.length > 0 ? sortedBPMs : [{beat: 0, bpm: 60}];
-    const simplifiedBpms = [];
-    if (sortedBPMs[0].beat > 0) {
-        simplifiedBpms.push({ beat: 0, bpm: sortedBPMs[0].bpm });
+    // Require at least 2 note beats to compute any effective bpm
+    if (noteBeats.length <= 1) {
+        return sortedBPMs.length > 0 ? sortedBPMs : [{ beat: 0, bpm: 60 }];
     }
-    simplifiedBpms.push(sortedBPMs[0]);
-    let lastBpm = sortedBPMs[0].bpm;
+
+    // Ensure sortedBPMs has one initial value
+    const first = sortedBPMs.length > 0 ? sortedBPMs[0] : { beat: 0, bpm: 60 };
+
+    const simplified = [];
+    if (first.beat > 0) simplified.push({ beat: 0, bpm: first.bpm });
+    simplified.push({ beat: first.beat, bpm: first.bpm });
+
+    let lastBpm = first.bpm;
+
     for (let i = 0; i < noteBeats.length - 1; i++) {
         const startBeat = noteBeats[i];
-        const endBeat = noteBeats[i + 1];
-        const timeAtStart = songTiming.getTimeAtBeat(startBeat);
-        const timeAtEnd = songTiming.getTimeAtBeat(endBeat);
-        const timeDelta = timeAtEnd - timeAtStart;
-        const beatDelta = endBeat - startBeat;
-        if (timeDelta > 0.001 && beatDelta > 0) {
-            const effectiveBpm = (beatDelta / timeDelta) * 60;
+        const endBeat   = noteBeats[i + 1];
+
+        const t0 = songTiming.getTimeAtBeat(startBeat);
+        const t1 = songTiming.getTimeAtBeat(endBeat);
+
+        const dt = t1 - t0;
+        const db = endBeat - startBeat;
+
+        if (db > 0 && dt > 0.001) {
+            const effectiveBpm = (db / dt) * 60;
             if (Math.abs(effectiveBpm - lastBpm) > 0.5) {
-                simplifiedBpms.push({ beat: startBeat, bpm: effectiveBpm });
+                simplified.push({ beat: startBeat, bpm: effectiveBpm });
                 lastBpm = effectiveBpm;
             }
         }
     }
-    return simplifiedBpms;
+    return simplified;
 }
 
 function getNoteBeats(measures) {
@@ -204,59 +228,48 @@ function parseChartFile(fileContent) {
 }
 
 function parseMetadata(metadataBlock) {
-    const STOP_OFFSET = 0.01; // small beat nudge so notes on same beat are processed before stops
+    const info = { title: '', artist: '', offset: 0, bpms: [], stops: [], warps: [] };
 
-    const info = { title: '', artist: '', offset: 0, bpms: [], stops: [], warps: [] }; 
-    let titleMatch = metadataBlock.match(/#TITLE:(.*?);/);
-    if (titleMatch) info.title = titleMatch[1].trim();
-    titleMatch = metadataBlock.match(/#TITLETRANSLIT:(.*?);/);
-    if (titleMatch && titleMatch[1].trim().length > 0) info.title = titleMatch[1].trim();
+    let m = metadataBlock.match(/#TITLE:(.*?);/);
+    if (m) info.title = m[1].trim();
+    m = metadataBlock.match(/#TITLETRANSLIT:(.*?);/);
+    if (m && m[1].trim().length > 0) info.title = m[1].trim();
 
-    let artistMatch = metadataBlock.match(/#ARTIST:(.*?);/);
-    if (artistMatch) info.artist = artistMatch[1].trim();
-    artistMatch = metadataBlock.match(/#ARTISTTRANSLIT:(.*?);/);
-    if (artistMatch && artistMatch[1].trim().length > 0) info.artist = artistMatch[1].trim();
-    
-    const offsetMatch = metadataBlock.match(/#OFFSET:(.*?);/);
-    if (offsetMatch) info.offset = parseFloat(offsetMatch[1].trim());
+    m = metadataBlock.match(/#ARTIST:(.*?);/);
+    if (m) info.artist = m[1].trim();
+    m = metadataBlock.match(/#ARTISTTRANSLIT:(.*?);/);
+    if (m && m[1].trim().length > 0) info.artist = m[1].trim();
+
+    m = metadataBlock.match(/#OFFSET:(.*?);/);
+    if (m) info.offset = parseFloat(m[1].trim());
 
     const bpmsMatch = metadataBlock.match(/#BPMS:(.*?);/s);
     if (bpmsMatch) {
         info.bpms = bpmsMatch[1].trim().split(',').map(entry => {
-            const parts = entry.trim().split('=');
-            return parts.length === 2 ? { beat: parseFloat(parts[0]), bpm: parseFloat(parts[1]) } : null;
+            const [beatStr, bpmStr] = entry.trim().split('=');
+            return (beatStr && bpmStr) ? { beat: parseFloat(beatStr), bpm: parseFloat(bpmStr) } : null;
         }).filter(Boolean);
     }
+
     const stopsMatch = metadataBlock.match(/#STOPS:(.*?);/s);
     if (stopsMatch && stopsMatch[1].trim().length > 0) {
         info.stops = stopsMatch[1].trim().split(',').map(entry => {
-            const parts = entry.trim().split('=');
-            if (parts.length === 2) {
-                // THE FIX: Add a tiny offset to the beat to ensure stops
-                // are processed AFTER notes on the same beat.
-                const beat = parseFloat(parts[0]) + STOP_OFFSET;
-                const duration = parseFloat(parts[1]);
-                return { beat, duration };
-            }
-            return null;
+            const [beatStr, durStr] = entry.trim().split('=');
+            return (beatStr && durStr) ? { beat: parseFloat(beatStr), duration: parseFloat(durStr) } : null;
         }).filter(Boolean);
     }
+
     const warpsMatch = metadataBlock.match(/#WARPS:(.*?);/s);
     if (warpsMatch && warpsMatch[1].trim().length > 0) {
         info.warps = warpsMatch[1].trim().split(',').map(entry => {
-            const parts = entry.trim().split('=');
-            // We do the same for warps, just in case.
-            if (parts.length === 2) {
-                const beat = parseFloat(parts[0]) + Number.EPSILON;
-                const length = parseFloat(parts[1]);
-                return { beat, length };
-            }
-            return null;
+            const [beatStr, lenStr] = entry.trim().split('=');
+            return (beatStr && lenStr) ? { beat: parseFloat(beatStr), length: parseFloat(lenStr) } : null;
         }).filter(Boolean);
     }
-    
+
     info.bpms.sort((a, b) => a.beat - b.beat);
     info.stops.sort((a, b) => a.beat - b.beat);
     info.warps.sort((a, b) => a.beat - b.beat);
     return info;
 }
+
