@@ -178,7 +178,7 @@ let sessionPlayHistory = {};
 let areControlsLocked = false;
 let sessionPlayedSongs = new Set();
 let selectedSongKey = '';
-const LONG_PAUSE = 2.0 // (in sec.) playhead will be shown during long pauses
+const LONG_PAUSE = 1.0 // (in sec.) playhead will be shown during long pauses
 let userWantToPlay = false; // if user try to start play but song isn't loaded yet we'll start when possible
 
 // --- Judging System State ---
