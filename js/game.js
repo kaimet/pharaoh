@@ -71,7 +71,7 @@ async function playSong(startFromBeat = 0) {
 
 
     // Determine if this is a full playthrough for high score purposes.
-    isFullSongPlay = (startFromBeat < firstNoteBeat);
+    isFullSongPlay = (startFromBeat <= firstNoteBeat);
     
     isJudge = isFullSongPlay; // if false than judging will beging after the first keypress
     
@@ -527,7 +527,7 @@ function drawSpeedIndicator(ctx) {
  */
 function handlePlayheadDrawing(currentTime) {
     const currentBeat = songTiming.getBeatAtTime(currentTime);
-
+    
     // Force playhead to show briefly when switching to a new column
     if (chartLayoutParams.measuresPerColumn > 0) {
         const measureIndex = Math.floor(currentBeat / 4);
@@ -548,7 +548,7 @@ function handlePlayheadDrawing(currentTime) {
         if (nextNoteIndex !== -1) {
             const prevNoteIndex = nextNoteIndex - 1;
             if (prevNoteIndex >= 0) {
-                // Also show playhead during long breaks (>= 2 seconds)
+                // Also show playhead during long breaks (>= 1 second)
                 if ((noteTimings[nextNoteIndex] - noteTimings[prevNoteIndex]) / playbackRate >= LONG_PAUSE) {
                     shouldDrawPlayhead = true;
                 }
