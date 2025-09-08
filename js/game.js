@@ -574,12 +574,22 @@ function handlePlayheadDrawing(currentTime) {
  * @param {number} currentTime - The current `curSongTime`.
  * @param {number} flashOpacity - The calculated opacity for the global flash.
  */
+let amEndDraw = false;
 function drawOverlay(currentTime, flashOpacity, accuracy) {
     const overlayCanvas = document.getElementById('overlayCanvas');
     const overlayCtx = overlayCanvas.getContext('2d');
     clearOverlay();
     
-    AM.draw(overlayCanvas, overlayCtx, curAccuracy, bestScore);
+    if (currentTime < noteTimings[noteTimings.length - 1] + 0.1) {
+        AM.draw(overlayCanvas, overlayCtx, curAccuracy, bestScore);
+        amEndDraw = false;
+    } else if (!amEndDraw) {
+         // after the last note draw it once on underlay canvas, so it would stay visible
+        const underlayCanvas = document.getElementById('underlayCanvas');
+        const underlayCtx = underlayCanvas.getContext('2d');
+        AM.draw(underlayCanvas, underlayCtx, curAccuracy, bestScore);
+        amEndDraw = true;
+    }
     
     drawGlobalFlash(overlayCtx, flashOpacity);
     
