@@ -5788,5 +5788,159 @@
   "chartPath": "songs/HellKiteChaos/tba-3/Mykah - Battle (From Zelda II The Adventure of Link).ssc",
   "audioPath": "songs/HellKiteChaos/tba-3/Mykah - Battle (From Zelda II The Adventure of Link).ogg",
   "key": "1757256703167"
+},
+{
+  "title": "A Long Fall",
+  "artist": "The Icarus Kid, Lacey Johnson",
+  "chartPath": "songs/HellKiteChaos/tba-4/A Long Fall.ssc",
+  "audioPath": "songs/HellKiteChaos/tba-4/A Long Fall.ogg",
+  "key": "1757326215920"
+},
+{
+  "title": "A Severed Timeline",
+  "artist": "TNH Nebula",
+  "chartPath": "songs/HellKiteChaos/tba-4/A Severed Timeline.ssc",
+  "audioPath": "songs/HellKiteChaos/tba-4/A Severed Timeline.ogg",
+  "key": "1757326352755"
+},
+{
+  "title": "Another Winter",
+  "artist": "Press Start Studios",
+  "chartPath": "songs/HellKiteChaos/tba-4/Another Winter.ssc",
+  "audioPath": "songs/HellKiteChaos/tba-4/Another Winter.ogg",
+  "key": "1757326644702"
+},
+{
+  "title": "Armor Armarge Stage",
+  "artist": "Turbomaster",
+  "chartPath": "songs/HellKiteChaos/tba-4/Armor Armarge Stage.ssc",
+  "audioPath": "songs/HellKiteChaos/tba-4/Armor Armarge Stage.ogg",
+  "key": "1757334035368"
+},
+{
+  "title": "Bob-omb Battlefield",
+  "artist": "Flexstyle, Ben Briggs, Firaga",
+  "chartPath": "songs/HellKiteChaos/tba-4/Bob-omb Battlefield.ssc",
+  "audioPath": "songs/HellKiteChaos/tba-4/Bob-omb Battlefield.ogg",
+  "key": "1757326869209"
+},
+{
+  "title": "Final Fantasy Mystic Quest - Boss Battle",
+  "artist": "Bryan EL",
+  "chartPath": "songs/HellKiteChaos/tba-4/Boss Battle.ssc",
+  "audioPath": "songs/HellKiteChaos/tba-4/Boss Battle.ogg",
+  "key": "1757326976216"
+},
+{
+  "title": "Lufia II Rise of the Sinistrals - Boss Battle",
+  "artist": "Bryan EL",
+  "chartPath": "songs/HellKiteChaos/tba-4/Boss Battle (From Lufia II Rise of the Sinistrals).ssc",
+  "audioPath": "songs/HellKiteChaos/tba-4/Boss Battle (From Lufia II Rise of the Sinistrals).ogg",
+  "key": "1757327086947"
+},
+{
+  "title": "Dire, Dire Docks",
+  "artist": "RoBKTA, Firaga",
+  "chartPath": "songs/HellKiteChaos/tba-4/Dire, Dire Docks.ssc",
+  "audioPath": "songs/HellKiteChaos/tba-4/Dire, Dire Docks.ogg",
+  "key": "1757327216148"
+},
+{
+  "title": "Galaxy Reactor",
+  "artist": "Ben Briggs, Arthur x Medic",
+  "chartPath": "songs/HellKiteChaos/tba-4/Galaxy Reactor (From Super Mario Galaxy).ssc",
+  "audioPath": "songs/HellKiteChaos/tba-4/Galaxy Reactor (From Super Mario Galaxy).ogg",
+  "key": "1757327549506"
+},
+{
+  "title": "Goron City",
+  "artist": "Vector U, Player2",
+  "chartPath": "songs/HellKiteChaos/tba-4/Goron City.ssc",
+  "audioPath": "songs/HellKiteChaos/tba-4/Goron City.ogg",
+  "key": "1757327740995"
+},
+{
+  "title": "MANIA",
+  "artist": "GameChops, Hyper Potions, Skye Rocket",
+  "chartPath": "songs/HellKiteChaos/tba-4/Mania (From Sonic Mania).ssc",
+  "audioPath": "songs/HellKiteChaos/tba-4/Mania (From Sonic Mania).ogg",
+  "key": "1757331676168"
+},
+{
+  "title": "Mausoleum Mash",
+  "artist": "Danny Baranowsky",
+  "chartPath": "songs/HellKiteChaos/tba-4/Mausoleum Mash.ssc",
+  "audioPath": "songs/HellKiteChaos/tba-4/Mausoleum Mash.ogg",
+  "key": "1757331844110"
+},
+{
+  "title": "Peaches",
+  "artist": "Vector U, Player2",
+  "chartPath": "songs/HellKiteChaos/tba-4/Peaches.ssc",
+  "audioPath": "songs/HellKiteChaos/tba-4/Peaches.ogg",
+  "key": "1757332083779"
+},
+{
+  "title": "Rip & Tear",
+  "artist": "Mick Gordon",
+  "chartPath": "songs/HellKiteChaos/tba-4/Rip & Tear.ssc",
+  "audioPath": "songs/HellKiteChaos/tba-4/Rip & Tear.ogg",
+  "key": "1757332360631"
+},
+{
+  "title": "RUN",
+  "artist": "CG5",
+  "chartPath": "songs/HellKiteChaos/tba-4/RUN.ssc",
+  "audioPath": "songs/HellKiteChaos/tba-4/RUN.ogg",
+  "key": "1757332511918"
+},
+{
+  "title": "Scrambled Eggman",
+  "artist": "BrainCells, SnappleMan",
+  "chartPath": "songs/HellKiteChaos/tba-4/Scrambled Eggman.ssc",
+  "audioPath": "songs/HellKiteChaos/tba-4/Scrambled Eggman.ogg",
+  "key": "1757332797371"
+},
+{
+  "title": "Sherbet Land",
+  "artist": "Hyper Potions, VGR",
+  "chartPath": "songs/HellKiteChaos/tba-4/Sherbet Land.ssc",
+  "audioPath": "songs/HellKiteChaos/tba-4/Sherbet Land.ogg",
+  "key": "1757332957355"
+},
+{
+  "title": "Sneakman",
+  "artist": "arthur x medic, Firaga, RoboRob",
+  "chartPath": "songs/HellKiteChaos/tba-4/Sneakman.ssc",
+  "audioPath": "songs/HellKiteChaos/tba-4/Sneakman.ogg",
+  "key": "1757333078249"
+},
+{
+  "title": "Special Stage",
+  "artist": "Player2",
+  "chartPath": "songs/HellKiteChaos/tba-4/Special Stage.ssc",
+  "audioPath": "songs/HellKiteChaos/tba-4/Special Stage.ogg",
+  "key": "1757333229097"
+},
+{
+  "title": "Sunny Mountain",
+  "artist": "Bryan EL",
+  "chartPath": "songs/HellKiteChaos/tba-4/Sunny Mountain.ssc",
+  "audioPath": "songs/HellKiteChaos/tba-4/Sunny Mountain.ogg",
+  "key": "1757333342046"
+},
+{
+  "title": "Super Smash Bros. Brawl Theme",
+  "artist": "Vector U, VGR",
+  "chartPath": "songs/HellKiteChaos/tba-4/Super Smash Bros. Brawl Main Theme.ssc",
+  "audioPath": "songs/HellKiteChaos/tba-4/Super Smash Bros. Brawl Main Theme.ogg",
+  "key": "1757333448132"
+},
+{
+  "title": "The Cyber Grind",
+  "artist": "meganeko",
+  "chartPath": "songs/HellKiteChaos/tba-4/The Cyber Grind.ssc",
+  "audioPath": "songs/HellKiteChaos/tba-4/The Cyber Grind.ogg",
+  "key": "1757333549784"
 }
 ]
