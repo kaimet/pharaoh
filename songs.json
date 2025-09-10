@@ -4501,13 +4501,6 @@
   "key": "1756701517906"
 },
 {
-  "title": "Forever Summer Holiday",
-  "artist": "Kero Kero Bonito",
-  "chartPath": "songs/kigha/kawaii-nesis-2/Forever Summer Holiday.ssc",
-  "audioPath": "songs/kigha/kawaii-nesis-2/Kero Kero Bonito - Forever Summer Holiday.ogg",
-  "key": "1756701668361"
-},
-{
   "title": "High",
   "artist": "Stessie",
   "chartPath": "songs/kigha/kawaii-nesis-2/High.ssc",
@@ -6089,5 +6082,117 @@
   "chartPath": "songs/HellKiteChaos/tba-5/Wii Shop Channel.ssc",
   "audioPath": "songs/HellKiteChaos/tba-5/Wii Shop Channel.ogg",
   "key": "1757363498013"
+},
+{
+  "title": "Can't Stop Rockin'",
+  "artist": "ZZ Top",
+  "chartPath": "songs/HellKiteChaos/80s-hits/ZZ Top - Can't Stop Rockin'.ssc",
+  "audioPath": "songs/HellKiteChaos/80s-hits/ZZ Top - Can't Stop Rockin'.ogg",
+  "key": "1757511040374"
+},
+{
+  "title": "Danger Zone",
+  "artist": "Kenny Loggins",
+  "chartPath": "songs/HellKiteChaos/80s-hits/Kenny Loggins - Danger Zone.ssc",
+  "audioPath": "songs/HellKiteChaos/80s-hits/Kenny Loggins - Danger Zone.ogg",
+  "key": "1757511209960"
+},
+{
+  "title": "Higher Love",
+  "artist": "Steve Winwood",
+  "chartPath": "songs/HellKiteChaos/80s-hits/Steve Winwood - Higher Love.ssc",
+  "audioPath": "songs/HellKiteChaos/80s-hits/Steve Winwood - Higher Love.ogg",
+  "key": "1757511410829"
+},
+{
+  "title": "Holding Out for a Hero",
+  "artist": "Bonnie Tyler",
+  "chartPath": "songs/HellKiteChaos/80s-hits/Bonnie Tyler - Holding Out for a Hero.ssc",
+  "audioPath": "songs/HellKiteChaos/80s-hits/Bonnie Tyler - Holding Out for a Hero.ogg",
+  "key": "1757511584640"
+},
+{
+  "title": "Karma Chameleon",
+  "artist": "Culture Club",
+  "chartPath": "songs/HellKiteChaos/80s-hits/Culture Club - Karma Chameleon.ssc",
+  "audioPath": "songs/HellKiteChaos/80s-hits/Culture Club - Karma Chameleon.ogg",
+  "key": "1757511812422"
+},
+{
+  "title": "Kickstart My Heart",
+  "artist": "Mötley Crüe",
+  "chartPath": "songs/HellKiteChaos/80s-hits/Kickstart My Heart - Mötley Crüe.ssc",
+  "audioPath": "songs/HellKiteChaos/80s-hits/Kickstart My Heart - Mötley Crüe.ogg",
+  "key": "1757512082351"
+},
+{
+  "title": "Love Is A Battlefield",
+  "artist": "Pat Benatar",
+  "chartPath": "songs/HellKiteChaos/80s-hits/Pat Benatar - Love Is A Battlefield.ssc",
+  "audioPath": "songs/HellKiteChaos/80s-hits/Pat Benatar - Love Is A Battlefield.ogg",
+  "key": "1757512247338"
+},
+{
+  "title": "Love Shack",
+  "artist": "The B-52's",
+  "chartPath": "songs/HellKiteChaos/80s-hits/The B-52s - Love Shack.ssc",
+  "audioPath": "songs/HellKiteChaos/80s-hits/The B-52s - Love Shack.ogg",
+  "key": "1757512408874"
+},
+{
+  "title": "Maneater",
+  "artist": "Daryl Hall & John Oates",
+  "chartPath": "songs/HellKiteChaos/80s-hits/Daryl Hall, John Oates - Maneater.ssc",
+  "audioPath": "songs/HellKiteChaos/80s-hits/Daryl Hall, John Oates - Maneater.ogg",
+  "key": "1757512616524"
+},
+{
+  "title": "Money For Nothing",
+  "artist": "Dire Straits",
+  "chartPath": "songs/HellKiteChaos/80s-hits/Dire Straits - Money for Nothing.ssc",
+  "audioPath": "songs/HellKiteChaos/80s-hits/Dire Straits - Money for Nothing.ogg",
+  "key": "1757512948980"
+},
+{
+  "title": "Never Gonna Give You Up",
+  "artist": "Rick Astley",
+  "chartPath": "songs/HellKiteChaos/80s-hits/Rick Astley - Never Gonna Give You Up.ssc",
+  "audioPath": "songs/HellKiteChaos/80s-hits/Rick Astley - Never Gonna Give You Up.ogg",
+  "key": "1757513199030"
+},
+{
+  "title": "Rebel Yell",
+  "artist": "Billy Idol",
+  "chartPath": "songs/HellKiteChaos/80s-hits/Billy Idol - Rebel Yell.ssc",
+  "audioPath": "songs/HellKiteChaos/80s-hits/Billy Idol - Rebel Yell.ogg",
+  "key": "1757513336183"
+},
+{
+  "title": "Summer Of '69",
+  "artist": "Bryan Adams",
+  "chartPath": "songs/HellKiteChaos/80s-hits/Bryan Adams - Summer Of 69.ssc",
+  "audioPath": "songs/HellKiteChaos/80s-hits/Bryan Adams - Summer Of 69.ogg",
+  "key": "1757513680010"
+},
+{
+  "title": "Take On Me",
+  "artist": "a ha",
+  "chartPath": "songs/HellKiteChaos/80s-hits/a ha - Take On Me.ssc",
+  "audioPath": "songs/HellKiteChaos/80s-hits/a ha - Take On Me.ogg",
+  "key": "1757513810185"
+},
+{
+  "title": "The Boys Of Summer",
+  "artist": "Don Henley",
+  "chartPath": "songs/HellKiteChaos/80s-hits/Don Henley - The Boys Of Summer.ssc",
+  "audioPath": "songs/HellKiteChaos/80s-hits/Don Henley - The Boys Of Summer.ogg",
+  "key": "1757513964867"
+},
+{
+  "title": "We Built This City",
+  "artist": "Starship",
+  "chartPath": "songs/HellKiteChaos/80s-hits/Starship - We Built This City.ssc",
+  "audioPath": "songs/HellKiteChaos/80s-hits/Starship - We Built This City.ogg",
+  "key": "1757514170028"
 }
 ]

@@ -580,7 +580,7 @@ function drawOverlay(currentTime, flashOpacity, accuracy) {
     const overlayCtx = overlayCanvas.getContext('2d');
     clearOverlay();
     
-    if (currentTime < noteTimings[noteTimings.length - 1] + 0.1) {
+    if (currentTime < noteTimings[noteTimings.length - 1] + 0.25) {
         AM.draw(overlayCanvas, overlayCtx, curAccuracy, bestScore);
         amEndDraw = false;
     } else if (!amEndDraw) {

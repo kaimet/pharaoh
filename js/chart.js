@@ -177,7 +177,7 @@ function simplifyBpmsForChart(sortedBPMs) {
 
         if (db > 0 && dt > 0.001) {
             const effectiveBpm = (db / dt) * 60;
-            if (Math.abs(effectiveBpm - lastBpm) > 0.5) {
+            if (Math.abs(effectiveBpm - lastBpm) > effectiveBpm * 0.07) { // if differs more then 7%
                 simplified.push({ beat: startBeat, bpm: effectiveBpm });
                 lastBpm = effectiveBpm;
             }
