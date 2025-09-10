@@ -6194,5 +6194,54 @@
   "chartPath": "songs/HellKiteChaos/80s-hits/Starship - We Built This City.ssc",
   "audioPath": "songs/HellKiteChaos/80s-hits/Starship - We Built This City.ogg",
   "key": "1757514170028"
+},
+{
+  "title": "ANSI.SYS",
+  "artist": "MASTER BOOT RECORD",
+  "chartPath": "songs/HellKiteChaos/tech-ology/ANSI SYS.sm",
+  "audioPath": "songs/HellKiteChaos/tech-ology/ANSI SYS.ogg",
+  "key": "1757521988505"
+},
+{
+  "title": "Anubis",
+  "artist": "Brandberg",
+  "chartPath": "songs/HellKiteChaos/tech-ology/Brandberg - Anubis.sm",
+  "audioPath": "songs/HellKiteChaos/tech-ology/Brandberg - Anubis.ogg",
+  "key": "1757522576787"
+},
+{
+  "title": "Black Lotus",
+  "artist": "WA.",
+  "chartPath": "songs/HellKiteChaos/tech-ology/Black Lotus.sm",
+  "audioPath": "songs/HellKiteChaos/tech-ology/Black Lotus.ogg",
+  "key": "1757522602207"
+},
+{
+  "title": "Drop Your Weapon",
+  "artist": "Drop Your Weapon",
+  "chartPath": "songs/HellKiteChaos/tech-ology/Drop Your Weapon.sm",
+  "audioPath": "songs/HellKiteChaos/tech-ology/Drop Your Weapon.ogg",
+  "key": "1757523121885"
+},
+{
+  "title": "Invisible Frenzy",
+  "artist": "Kobaryo",
+  "chartPath": "songs/HellKiteChaos/tech-ology/Kobaryo - Invisible Frenzy.sm",
+  "audioPath": "songs/HellKiteChaos/tech-ology/Kobaryo - Invisible Frenzy.ogg",
+  "key": "1757523280271"
+},
+{
+  "title": "Mini Boss Theme",
+  "artist": "Sonic Team",
+  "chartPath": "songs/HellKiteChaos/tech-ology/Sonic 3 - Mini boss.sm",
+  "audioPath": "songs/HellKiteChaos/tech-ology/Sonic 3 - Mini boss.ogg",
+  "key": "1757523889060"
+},
+{
+  "title": "Toxic Caves",
+  "artist": "Sonic Team",
+  "chartPath": "songs/HellKiteChaos/tech-ology/Toxic Caves.sm",
+  "audioPath": "songs/HellKiteChaos/tech-ology/SEGA - Toxic Caves (Sonic Spinball).ogg",
+  "key": "1757524143976"
 }
 ]
