@@ -6450,5 +6450,82 @@
   "chartPath": "songs/braeden/bt-2/Typhoon.sm",
   "audioPath": "songs/braeden/bt-2/Typhoon.ogg",
   "key": "1757785828137"
+},
+{
+  "title": "Almost Easy",
+  "artist": "Avenged Sevenfold",
+  "chartPath": "songs/braeden/bt-3/Almost Easy.sm",
+  "audioPath": "songs/braeden/bt-3/Almost Easy.ogg",
+  "key": "1757790937168"
+},
+{
+  "title": "Da Capo",
+  "artist": "Ace of Base",
+  "chartPath": "songs/braeden/bt-3/DA CAPO.sm",
+  "audioPath": "songs/braeden/bt-3/DA CAPO.ogg",
+  "key": "1757791171014"
+},
+{
+  "title": "Dial My Number",
+  "artist": "Master Blaster",
+  "chartPath": "songs/braeden/bt-3/Dial My Number.sm",
+  "audioPath": "songs/braeden/bt-3/Dial My Number.ogg",
+  "key": "1757791282462"
+},
+{
+  "title": "I Turn to You 2k20",
+  "artist": "Empyre One feat. Scarlet",
+  "chartPath": "songs/braeden/bt-3/I Turn to You 2k20.sm",
+  "audioPath": "songs/braeden/bt-3/I Turn to You 2k20.ogg",
+  "key": "1757791902060"
+},
+{
+  "title": "Johanna",
+  "artist": "Dan Balan",
+  "chartPath": "songs/braeden/bt-3/Shut Up.sm",
+  "audioPath": "songs/braeden/bt-3/Shut Up.ogg",
+  "key": "1757792060167"
+},
+{
+  "title": "Right on time (Ryu☆Remix)",
+  "artist": "Ryu☆",
+  "chartPath": "songs/braeden/bt-3/Right on time (Ryu Remix).sm",
+  "audioPath": "songs/braeden/bt-3/Right on time (Ryu Remix).ogg",
+  "key": "1757792285686"
+},
+{
+  "title": "Schlagwerk",
+  "artist": "TaQ",
+  "chartPath": "songs/braeden/bt-3/schlagwerk.sm",
+  "audioPath": "songs/braeden/bt-3/schlagwerk.ogg",
+  "key": "1757792386161"
+},
+{
+  "title": "The Anthem",
+  "artist": "Good Charlotte",
+  "chartPath": "songs/braeden/bt-3/The Anthem.sm",
+  "audioPath": "songs/braeden/bt-3/The Anthem.ogg",
+  "key": "1757792580931"
+},
+{
+  "title": "Underestimated",
+  "artist": "PsykkoPhobia Bros.",
+  "chartPath": "songs/braeden/bt-3/Underestimated.sm",
+  "audioPath": "songs/braeden/bt-3/Underestimated.ogg",
+  "key": "1757792718650"
+},
+{
+  "title": "Waluigi Pinball",
+  "artist": "Kentaro Ishizaka",
+  "chartPath": "songs/braeden/bt-3/Waluigi Pinball.sm",
+  "audioPath": "songs/braeden/bt-3/Waluigi Pinball.ogg",
+  "key": "1757792829588"
+},
+{
+  "title": "World Gone Silent",
+  "artist": "Fahjah & Sally Oh",
+  "chartPath": "songs/braeden/bt-3/World Gone Silent.sm",
+  "audioPath": "songs/braeden/bt-3/World Gone Silent.ogg",
+  "key": "1757792934615"
 }
 ]
