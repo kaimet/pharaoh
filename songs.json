@@ -4480,13 +4480,6 @@
   "key": "1756696074173"
 },
 {
-  "title": "These Hallowed Wings",
-  "artist": "Stupendium",
-  "chartPath": "songs/kigha/animal_crossover/These Hallowed Wings.sm",
-  "audioPath": "songs/kigha/animal_crossover/These Hallowed Wings - Stupendium.ogg",
-  "key": "1756696229367"
-},
-{
   "title": "Arcade",
   "artist": "Wave Meow",
   "chartPath": "songs/kigha/kawaii-nesis-2/Arcade.ssc",
@@ -6243,5 +6236,149 @@
   "chartPath": "songs/HellKiteChaos/tech-ology/Toxic Caves.sm",
   "audioPath": "songs/HellKiteChaos/tech-ology/SEGA - Toxic Caves (Sonic Spinball).ogg",
   "key": "1757524143976"
+},
+{
+	"pack": "Braeden",
+	"author": ""
+},
+{
+  "title": "Aaron's Party",
+  "artist": "Aaron Carter",
+  "chartPath": "songs/braeden/bt-1/Aaron's Party.sm",
+  "audioPath": "songs/braeden/bt-1/Aaron's Party.ogg",
+  "key": "1757531758135"
+},
+{
+  "title": "Around the World",
+  "artist": "ATC",
+  "chartPath": "songs/braeden/bt-1/Around the World.sm",
+  "audioPath": "songs/braeden/bt-1/Around the World.ogg",
+  "key": "1757532014565"
+},
+{
+  "title": "Everyone",
+  "artist": "Backstreet Boys",
+  "chartPath": "songs/braeden/bt-1/Everyone.sm",
+  "audioPath": "songs/braeden/bt-1/Everyone.ogg",
+  "key": "1757532307798"
+},
+{
+  "title": "Full Circle",
+  "artist": "Dream Theater",
+  "chartPath": "songs/braeden/bt-1/Octavarium (III. Full Circle).sm",
+  "audioPath": "songs/braeden/bt-1/Octavarium (III. Full Circle).ogg",
+  "key": "1757532532860"
+},
+{
+  "title": "In The Dark",
+  "artist": "The Birthday Massacre",
+  "chartPath": "songs/braeden/bt-1/In The Dark.sm",
+  "audioPath": "songs/braeden/bt-1/In The Dark.ogg",
+  "key": "1757532746258"
+},
+{
+  "title": "Maxx Unlimited",
+  "artist": "Z",
+  "chartPath": "songs/braeden/bt-1/Maxx Unlimited.sm",
+  "audioPath": "songs/braeden/bt-1/Maxx Unlimited.ogg",
+  "key": "1757534946735"
+},
+{
+  "title": "Mayim Mayim",
+  "artist": "Sound Artz",
+  "chartPath": "songs/braeden/bt-1/Mayim Mayim.sm",
+  "audioPath": "songs/braeden/bt-1/mayim.ogg",
+  "key": "1757764353118"
+},
+{
+  "title": "Playa",
+  "artist": "Hamel and St. Croix feat. Jules Mari",
+  "chartPath": "songs/braeden/bt-1/Playa (Original Mix).sm",
+  "audioPath": "songs/braeden/bt-1/Playa (Original Mix).ogg",
+  "key": "1757764823896"
+},
+{
+  "title": "Poison",
+  "artist": "Groove Coverage",
+  "chartPath": "songs/braeden/bt-1/Poison (Friday Night Posse Mix).ssc",
+  "audioPath": "songs/braeden/bt-1/Poison (Friday Night Posse Mix).ogg",
+  "key": "1757765136536"
+},
+{
+  "title": "Saber Wing",
+  "artist": "TAG",
+  "chartPath": "songs/braeden/bt-1/Saber Wing.sm",
+  "audioPath": "songs/braeden/bt-1/Saber Wing.ogg",
+  "key": "1757765310985"
+},
+{
+  "title": "Shining Star (Justin K & DJ K-Mixx Remix)",
+  "artist": "CJ Stone",
+  "chartPath": "songs/braeden/bt-1/Shining Star.sm",
+  "audioPath": "songs/braeden/bt-1/Shining Star.ogg",
+  "key": "1757765546158"
+},
+{
+  "title": "Shooting Star",
+  "artist": "Discotronic",
+  "chartPath": "songs/braeden/bt-1/Shooting Star.sm",
+  "audioPath": "songs/braeden/bt-1/Shooting Star.ogg",
+  "key": "1757770191341"
+},
+{
+  "title": "Skyline",
+  "artist": "Mirrored Theory",
+  "chartPath": "songs/braeden/bt-1/Skyline.sm",
+  "audioPath": "songs/braeden/bt-1/Skyline.ogg",
+  "key": "1757770388708"
+},
+{
+  "title": "The Deep Blue",
+  "artist": "Kai Tracid",
+  "chartPath": "songs/braeden/bt-1/The Deep Blue.sm",
+  "audioPath": "songs/braeden/bt-1/The Deep Blue.ogg",
+  "key": "1757770628066"
+},
+{
+  "title": "Track 2",
+  "artist": "Zach Ohren",
+  "chartPath": "songs/braeden/bt-1/Track 2.sm",
+  "audioPath": "songs/braeden/bt-1/Track 2.ogg",
+  "key": "1757771041542"
+},
+{
+  "title": "Trigger",
+  "artist": "sonic-coll.",
+  "chartPath": "songs/braeden/bt-1/Trigger.sm",
+  "audioPath": "songs/braeden/bt-1/Trigger.ogg",
+  "key": "1757771195452"
+},
+{
+  "title": "un deux trois",
+  "artist": "SDMS",
+  "chartPath": "songs/braeden/bt-1/un deux trois.sm",
+  "audioPath": "songs/braeden/bt-1/un deux trois.ogg",
+  "key": "1757771313585"
+},
+{
+  "title": "What I've Done",
+  "artist": "Linkin Park",
+  "chartPath": "songs/braeden/bt-1/What I've Done.sm",
+  "audioPath": "songs/braeden/bt-1/What I've Done.ogg",
+  "key": "1757771960362"
+},
+{
+  "title": "X-Ercize",
+  "artist": "Ziggy X",
+  "chartPath": "songs/braeden/bt-1/X-Ercize.sm",
+  "audioPath": "songs/braeden/bt-1/X-Ercize.ogg",
+  "key": "1757772035023"
+},
+{
+  "title": "Your Own Destiny",
+  "artist": "Darwin & Entity",
+  "chartPath": "songs/braeden/bt-1/Your Own Destiny.sm",
+  "audioPath": "songs/braeden/bt-1/Your Own Destiny.ogg",
+  "key": "1757772180959"
 }
 ]
