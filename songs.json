@@ -6380,5 +6380,75 @@
   "chartPath": "songs/braeden/bt-1/Your Own Destiny.sm",
   "audioPath": "songs/braeden/bt-1/Your Own Destiny.ogg",
   "key": "1757772180959"
+},
+{
+  "title": "Beat That",
+  "artist": "Shirobon",
+  "chartPath": "songs/braeden/bt-2/Beat That.sm",
+  "audioPath": "songs/braeden/bt-2/Beat That.ogg",
+  "key": "1757781457425"
+},
+{
+  "title": "Chronon",
+  "artist": "SlipGate",
+  "chartPath": "songs/braeden/bt-2/Chronon.sm",
+  "audioPath": "songs/braeden/bt-2/Chronon.ogg",
+  "key": "1757781873449"
+},
+{
+  "title": "Empty Streets (Aurora Mix)",
+  "artist": "Late Night Alumni",
+  "chartPath": "songs/braeden/bt-2/Empty Streets.sm",
+  "audioPath": "songs/braeden/bt-2/Empty Streets.ogg",
+  "key": "1757782021249"
+},
+{
+  "title": "I Will Fly",
+  "artist": "Cat",
+  "chartPath": "songs/braeden/bt-2/I Will Fly (Delaction Remix).sm",
+  "audioPath": "songs/braeden/bt-2/I Will Fly (Delaction Remix).ogg",
+  "key": "1757782568651"
+},
+{
+  "title": "Ignite",
+  "artist": "K-391",
+  "chartPath": "songs/braeden/bt-2/Ignite.sm",
+  "audioPath": "songs/braeden/bt-2/Ignite.ogg",
+  "key": "1757782668378"
+},
+{
+  "title": "Lava Trouble Bubble",
+  "artist": "Machinae Supremacy",
+  "chartPath": "songs/braeden/bt-2/Lava Trouble Bubble.sm",
+  "audioPath": "songs/braeden/bt-2/Lava Trouble Bubble.ogg",
+  "key": "1757783976274"
+},
+{
+  "title": "Lugia's Song",
+  "artist": "Kamex",
+  "chartPath": "songs/braeden/bt-2/Lugia's Song.sm",
+  "audioPath": "songs/braeden/bt-2/Lugia's Song.ogg",
+  "key": "1757784169314"
+},
+{
+  "title": "Narcotic",
+  "artist": "DJ Gollum vs. Basslovers United",
+  "chartPath": "songs/braeden/bt-2/Narcotic (DJ Gollum Video Edit).sm",
+  "audioPath": "songs/braeden/bt-2/Narcotic (DJ Gollum Video Edit).ogg",
+  "key": "1757784293014"
+},
+{
+  "title": "Shuuen no Claudia",
+  "artist": "Nidaime Suzaku",
+  "chartPath": "songs/braeden/bt-2/Shuuen no Claudia.sm",
+  "audioPath": "songs/braeden/bt-2/Shuuen no Claudia.ogg",
+  "key": "1757784624710"
+},
+{
+  "title": "Typhoon",
+  "artist": "Re-Locate",
+  "chartPath": "songs/braeden/bt-2/Typhoon.sm",
+  "audioPath": "songs/braeden/bt-2/Typhoon.ogg",
+  "key": "1757785828137"
 }
 ]
