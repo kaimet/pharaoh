@@ -2783,87 +2783,6 @@
 	"key": "1755880743692"
 },
 {
-	"pack": "Around the World",
-	"author": ""
-},
-{
-	"title": "Cicho",
-	"artist": "Ewa Farna",
-	"chartPath": "songs/Around-the-World/Cicho.ssc",
-	"audioPath": "songs/Around-the-World/Cicho.ogg",
-	"key": "1755770688702"
-},
-{
-	"title": "Contempo",
-	"artist": "The Sidh",
-	"chartPath": "songs/Around-the-World/Contempo.sm",
-	"audioPath": "songs/Around-the-World/Contempo.ogg",
-	"key": "1755790843739"
-},
-{
-	"title": "Dans Ma Fusée",
-	"artist": "Ilona Mitrecey",
-	"chartPath": "songs/Around-the-World/Dans Me Fusee.ssc",
-	"audioPath": "songs/Around-the-World/Dans Me Fusee.ogg",
-	"key": "1755791017669"
-},
-{
-	"title": "Det' Det",
-	"artist": "Sukkerchok",
-	"chartPath": "songs/Around-the-World/Det' Det.sm",
-	"audioPath": "songs/Around-the-World/Det Det.ogg",
-	"key": "1755792495582"
-},
-{
-	"title": "Ethän Lähde",
-	"artist": "G-powered",
-	"chartPath": "songs/Around-the-World/Ethan Ladhe.sm",
-	"audioPath": "songs/Around-the-World/Ethan Ladhe.ogg",
-	"key": "1755792732465"
-},
-{
-	"title": "Ho Voglia",
-	"artist": "Power Francers",
-	"chartPath": "songs/Around-the-World/Ho Voglia.sm",
-	"audioPath": "songs/Around-the-World/Ho Voglia.ogg",
-	"key": "1755793083280"
-},
-{
-	"title": "Impikan",
-	"artist": "DOLLA",
-	"chartPath": "songs/Around-the-World/Impikan.sm",
-	"audioPath": "songs/Around-the-World/Impikan.ogg",
-	"key": "1755793220024"
-},
-{
-	"title": "Kaya",
-	"artist": "Kaia",
-	"chartPath": "songs/Around-the-World/Kaya.sm",
-	"audioPath": "songs/Around-the-World/Kaya.ogg",
-	"key": "1755793501319"
-},
-{
-	"title": "Muévelo",
-	"artist": "Fey",
-	"chartPath": "songs/Around-the-World/Muevelo.sm",
-	"audioPath": "songs/Around-the-World/Muevelo.ogg",
-	"key": "1755793885931"
-},
-{
-	"title": "Spelar Ingen Roll",
-	"artist": "Caramell",
-	"chartPath": "songs/Around-the-World/Spelar Ingen Roll.sm",
-	"audioPath": "songs/Around-the-World/Spelar Ingen Roll.ogg",
-	"key": "1755794140299"
-},
-{
-	"title": "Tike Tike Kardi",
-	"artist": "Arash",
-	"chartPath": "songs/Around-the-World/Tike Tike Kardi-.sm",
-	"audioPath": "songs/Around-the-World/Tike Tike Kardi-.ogg",
-	"key": "1755794299626"
-},
-{
 	"pack": "Lisia Nora 1-2",
 	"author": ""
 },
@@ -6242,6 +6161,83 @@
 	"author": ""
 },
 {
+	"title": "Cicho",
+	"artist": "Ewa Farna",
+	"chartPath": "songs/Around-the-World/Cicho.ssc",
+	"audioPath": "songs/Around-the-World/Cicho.ogg",
+	"key": "1755770688702"
+},
+{
+	"title": "Contempo",
+	"artist": "The Sidh",
+	"chartPath": "songs/Around-the-World/Contempo.sm",
+	"audioPath": "songs/Around-the-World/Contempo.ogg",
+	"key": "1755790843739"
+},
+{
+	"title": "Dans Ma Fusée",
+	"artist": "Ilona Mitrecey",
+	"chartPath": "songs/Around-the-World/Dans Me Fusee.ssc",
+	"audioPath": "songs/Around-the-World/Dans Me Fusee.ogg",
+	"key": "1755791017669"
+},
+{
+	"title": "Det' Det",
+	"artist": "Sukkerchok",
+	"chartPath": "songs/Around-the-World/Det' Det.sm",
+	"audioPath": "songs/Around-the-World/Det Det.ogg",
+	"key": "1755792495582"
+},
+{
+	"title": "Ethän Lähde",
+	"artist": "G-powered",
+	"chartPath": "songs/Around-the-World/Ethan Ladhe.sm",
+	"audioPath": "songs/Around-the-World/Ethan Ladhe.ogg",
+	"key": "1755792732465"
+},
+{
+	"title": "Ho Voglia",
+	"artist": "Power Francers",
+	"chartPath": "songs/Around-the-World/Ho Voglia.sm",
+	"audioPath": "songs/Around-the-World/Ho Voglia.ogg",
+	"key": "1755793083280"
+},
+{
+	"title": "Impikan",
+	"artist": "DOLLA",
+	"chartPath": "songs/Around-the-World/Impikan.sm",
+	"audioPath": "songs/Around-the-World/Impikan.ogg",
+	"key": "1755793220024"
+},
+{
+	"title": "Kaya",
+	"artist": "Kaia",
+	"chartPath": "songs/Around-the-World/Kaya.sm",
+	"audioPath": "songs/Around-the-World/Kaya.ogg",
+	"key": "1755793501319"
+},
+{
+	"title": "Muévelo",
+	"artist": "Fey",
+	"chartPath": "songs/Around-the-World/Muevelo.sm",
+	"audioPath": "songs/Around-the-World/Muevelo.ogg",
+	"key": "1755793885931"
+},
+{
+	"title": "Spelar Ingen Roll",
+	"artist": "Caramell",
+	"chartPath": "songs/Around-the-World/Spelar Ingen Roll.sm",
+	"audioPath": "songs/Around-the-World/Spelar Ingen Roll.ogg",
+	"key": "1755794140299"
+},
+{
+	"title": "Tike Tike Kardi",
+	"artist": "Arash",
+	"chartPath": "songs/Around-the-World/Tike Tike Kardi-.sm",
+	"audioPath": "songs/Around-the-World/Tike Tike Kardi-.ogg",
+	"key": "1755794299626"
+},
+{
   "title": "Aaron's Party",
   "artist": "Aaron Carter",
   "chartPath": "songs/braeden/bt-1/Aaron's Party.sm",
@@ -6527,5 +6523,68 @@
   "chartPath": "songs/braeden/bt-3/World Gone Silent.sm",
   "audioPath": "songs/braeden/bt-3/World Gone Silent.ogg",
   "key": "1757792934615"
+},
+{
+  "title": "7 Nights",
+  "artist": "Ben Nicky",
+  "chartPath": "songs/braeden/nbn/7 Nights.sm",
+  "audioPath": "songs/braeden/nbn/7 Nights.ogg",
+  "key": "1757843808608"
+},
+{
+  "title": "A 20 Ans",
+  "artist": "Lorie",
+  "chartPath": "songs/braeden/nbn/A 20 Ans.sm",
+  "audioPath": "songs/braeden/nbn/A 20 Ans.ogg",
+  "key": "1757843984405"
+},
+{
+  "title": "Again",
+  "artist": "Kim Leoni",
+  "chartPath": "songs/braeden/nbn/Again.sm",
+  "audioPath": "songs/braeden/nbn/Again.ogg",
+  "key": "1757844176224"
+},
+{
+  "title": "Jonathan's Dream",
+  "artist": "MAX & Seorryang (S.I.D-Sound)",
+  "chartPath": "songs/braeden/nbn/Jonathan's Dream.sm",
+  "audioPath": "songs/braeden/nbn/Jonathan's Dream.ogg",
+  "key": "1757845597710"
+},
+{
+  "title": "Kinder Eyes",
+  "artist": "Ryan Riback feat Ryann",
+  "chartPath": "songs/braeden/nbn/Kinder Eyes.ssc",
+  "audioPath": "songs/braeden/nbn/Kinder Eyes.ogg",
+  "key": "1757845748373"
+},
+{
+  "title": "News 39",
+  "artist": "Mitchie M feat. Hatsune Miku",
+  "chartPath": "songs/braeden/nbn/News 39.sm",
+  "audioPath": "songs/braeden/nbn/News 39.ogg",
+  "key": "1757846095369"
+},
+{
+  "title": "No Strings Attached",
+  "artist": "*NSYNC",
+  "chartPath": "songs/braeden/nbn/No Strings Attached.sm",
+  "audioPath": "songs/braeden/nbn/No Strings Attached.ogg",
+  "key": "1757846216006"
+},
+{
+  "title": "Pokemon Johto",
+  "artist": "PJ Lequerica",
+  "chartPath": "songs/braeden/nbn/Pokemon Johto.sm",
+  "audioPath": "songs/braeden/nbn/Pokemon Johto.ogg",
+  "key": "1757846633361"
+},
+{
+  "title": "Tarzan Boy",
+  "artist": "Baltimora",
+  "chartPath": "songs/braeden/nbn/Tarzan Boy.sm",
+  "audioPath": "songs/braeden/nbn/Tarzan Boy.ogg",
+  "key": "1757847130229"
 }
 ]
