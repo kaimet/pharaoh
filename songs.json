@@ -6586,5 +6586,47 @@
   "chartPath": "songs/braeden/nbn/Tarzan Boy.sm",
   "audioPath": "songs/braeden/nbn/Tarzan Boy.ogg",
   "key": "1757847130229"
+},
+{
+  "title": "Brainstorm",
+  "artist": "Dougal & Gammer",
+  "chartPath": "songs/braeden/bt-4/Brainstorm.sm",
+  "audioPath": "songs/braeden/bt-4/Brainstorm.ogg",
+  "key": "1757852587676"
+},
+{
+  "title": "Constellate",
+  "artist": "Chime",
+  "chartPath": "songs/braeden/bt-4/Constellate.ssc",
+  "audioPath": "songs/braeden/bt-4/Constellate.ogg",
+  "key": "1757852785240"
+},
+{
+  "title": "Diamond Dust Zone Act 1",
+  "artist": "T. Maeda, J. Senoue",
+  "chartPath": "songs/braeden/bt-4/Diamond Dust Zone Act 1.sm",
+  "audioPath": "songs/braeden/bt-4/Diamond Dust Zone Act 1.ogg",
+  "key": "1757853187764"
+},
+{
+  "title": "Headstrong",
+  "artist": "Trapt",
+  "chartPath": "songs/braeden/bt-4/Headstrong.ssc",
+  "audioPath": "songs/braeden/bt-4/Headstrong.ogg",
+  "key": "1757853843498"
+},
+{
+  "title": "Otter's Dance",
+  "artist": "DJ Wulf Vs. DJ Vix-N",
+  "chartPath": "songs/braeden/bt-4/Otter's Dance (Hotroot Mix).sm",
+  "audioPath": "songs/braeden/bt-4/Otter's Dance (Hotroot Mix).ogg",
+  "key": "1757861329756"
+},
+{
+  "title": "Proof of the existence",
+  "artist": "Nekomata Master",
+  "chartPath": "songs/braeden/bt-4/Proof of the existence.sm",
+  "audioPath": "songs/braeden/bt-4/Proof of the existence.ogg",
+  "key": "1757861589106"
 }
 ]
