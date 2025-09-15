@@ -6639,5 +6639,61 @@
   "chartPath": "songs2/rosewood/ea-3/alone.ssc",
   "audioPath": "songs2/rosewood/ea-3/alone.ogg",
   "key": "1757934667164"
+},
+{
+  "title": "Are U Ready",
+  "artist": "Shouya Namai",
+  "chartPath": "songs2/rosewood/ea-3/areuready.ssc",
+  "audioPath": "songs2/rosewood/ea-3/areuready.ogg",
+  "key": "1757938278762"
+},
+{
+  "title": "Back In Black",
+  "artist": "AC/DC",
+  "chartPath": "songs2/rosewood/ea-3/backinblack2.ssc",
+  "audioPath": "songs2/rosewood/ea-3/backinblack2.ogg",
+  "key": "1757938547504"
+},
+{
+  "title": "Bad Apple!!",
+  "artist": "RICHAADEB",
+  "chartPath": "songs2/rosewood/ea-3/badapple.ssc",
+  "audioPath": "songs2/rosewood/ea-3/badapple.ogg",
+  "key": "1757938746255"
+},
+{
+  "title": "Beat It",
+  "artist": "Michael Jackson",
+  "chartPath": "songs2/rosewood/ea-3/beatit-normalized.ssc",
+  "audioPath": "songs2/rosewood/ea-3/beatit-normalized.ogg",
+  "key": "1757938864793"
+},
+{
+  "title": "Berry",
+  "artist": "Pica",
+  "chartPath": "songs2/rosewood/ea-3/Pica - Berry.ssc",
+  "audioPath": "songs2/rosewood/ea-3/Pica - Berry.ogg",
+  "key": "1757939042139"
+},
+{
+  "title": "Body Moves",
+  "artist": "The Glitch Mob",
+  "chartPath": "songs2/rosewood/ea-3/bodymoves2.ssc",
+  "audioPath": "songs2/rosewood/ea-3/bodymoves4.ogg",
+  "key": "1757939205195"
+},
+{
+  "title": "Boom Clap",
+  "artist": "Charli XCX",
+  "chartPath": "songs2/rosewood/ea-3/boomclap.ssc",
+  "audioPath": "songs2/rosewood/ea-3/boomclap.ogg",
+  "key": "1757939407596"
+},
+{
+  "title": "Clutch",
+  "artist": "moyu",
+  "chartPath": "songs2/rosewood/ea-3/clutch.ssc",
+  "audioPath": "songs2/rosewood/ea-3/clutch.ogg",
+  "key": "1757939661831"
 }
 ]
