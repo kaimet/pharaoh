@@ -6628,5 +6628,16 @@
   "chartPath": "songs/braeden/bt-4/Proof of the existence.sm",
   "audioPath": "songs/braeden/bt-4/Proof of the existence.ogg",
   "key": "1757861589106"
+},
+{
+	"pack": "Rosewood",
+	"author": ""
+},
+{
+  "title": "Alone Dancer",
+  "artist": "YACT-010",
+  "chartPath": "songs2/rosewood/ea-3/alone.ssc",
+  "audioPath": "songs2/rosewood/ea-3/alone.ogg",
+  "key": "1757934667164"
 }
 ]
