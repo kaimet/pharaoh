@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharaoh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="devInfoContainer" style="display: none; margin-top: 2px; border: 1px solid #444; padding: 0rem; border-radius: 8px; width: 90%; max-width: 600px;">
+        <h3>Developer Info (JSON Entry)</h3>
+        <textarea id="devJsonOutput" readonly style="width: 98%; height: 120px; background-color: #333; color: #eee; border: 1px solid #555; font-family: monospace;"></textarea>
+				<button id="copyJsonButton" style="margin-top: 5px;">Copy to Clipboard</button>
+    </div>
+		
+		<div id="songContainer" style="text-align: center;">
+				<div style="font-size: 1.6em; ">Select a Song</div>
+				<p>Or drop your own .sm/.ssc file AND .ogg/.mp3 file on this page</p>
+        <select id="songSelector" size="10" aria-label="Songs" class="song-listbox"></select>
+        <div id="bestScoreDisplay" style="margin-top: 8px; font-size: 1.2em; color: #ffe838;"></div>
+    </div>
+    
+    <div id="dropZone">
+    </div>
+    
+    <div id="controls">
+        <select id="chartSelector" style="display: none;"></select>
+        
+        <div class="control-group">
+            <button id="playButton" disabled>Play</button>
+            <button id="helpButton">Help</button>
+            <button id="stopButton">Stop</button>
+        </div>
+
+        <div class="control-group">
+            <label for="songVolume">Song Volume:</label>
+            <input type="range" id="songVolume" min="0" max="1" value="0.4" step="0.01">
+        </div>
+
+        <div class="control-group">
+            <label for="assistVolume">Assist:</label>
+            <select id="clapSoundType" style="padding: 5px;">
+								<option value="triangle">Popcorn</option>
+                <option value="zap">Drum Kick</option>
+								<option value="loaded" disabled>Clap</option>
+                <option value="sine">Ping Pong</option>
+								<option value="clap">Brush</option>
+                <!--<option value="square">Metronome</option> -->
+                <!-- <option value="noise">Brush</option> -->
+            </select>
+						<input type="range" id="assistVolume" min="0" max="1" value="1" step="0.25">
+        </div>
+				
+        <div class="control-group" style="display: none;">
+            <label for="showPlayhead">Always Show Playhead:</label>
+            <input type="checkbox" id="showPlayhead" checked >
+        </div>
+
+        <div class="control-group" style="display: none;">
+            <label for="userVolume">Player Clap Volume:</label>
+            <input type="range" id="userVolume" min="0" max="1" value="0" step="0.05">
+        </div>
+
+         <div class="control-group">
+            <label for="speedControl">Speed:</label>
+            <span id="speedValue">1.0x</span>
+            <input type="range" id="speedControl" min="0.5" max="2" value="1" step="0.1">
+        </div>
+        
+        <div class="control-group">
+            <label for="audioOffset">Additional Offset (ms):</label>
+            <input type="number" id="audioOffset" value="-9" style="width: 80px;">
+        </div>
+
+        <div class="control-group">
+            <div id="keybindSettings">
+                <!-- Keybind inputs will be generated here -->
+            </div>
+        </div>
+    </div>
+
+    <div id="judgementDisplay">
+        <div>
+            <span id="missesDisplay">0</span>
+            <div class="label">Misses</div>
+        </div>
+        <div>
+            <span id="accuracyDisplay">100.00</span>%
+            <div class="label">Accuracy</div>
+        </div>
+         <div>
+            <span style="font-size: 0.7em"><span id="offsetDisplay">0</span>ms</span>
+            <div class="label">Input Offset</div>
+        </div>
+    </div>
+		
+		<div id="debug" style="font-size: 1.2em; display: none;"></div>
+          
+    <a name="chart"></a>
+    <div id="canvasContainer">
+				<canvas id="underlayCanvas"></canvas>
+        <canvas id="chartCanvas"></canvas>
+        <canvas id="overlayCanvas"></canvas>
+    </div>
+		
+		<div id="helpModal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <span id="closeHelpButton" class="close-button">×</span>
+            <h3>Help & Hotkeys</h3>
+            <ul>
+                <li><strong>&#x2B06 / &#x2B07 :</strong> Previous/next song</li>
+                <li><strong>Backspase :</strong> Roulette</li>
+                <li><strong>&#x2B05 / &#x27A1 :</strong> Select chart difficulty.</li>
+                <li><strong>Shift - &#x2B06 / &#x2B07 :</strong> Adjust song volume</li>
+                <li><strong>Enter / Esc :</strong> Start / Stop playing.
+                <strong>` (Backquote/Tilde) :</strong> Start from the previous place.</li>
+                <li><strong>-, +, 0, Numpad -, +, * :</strong> Adjust playback speed.</li>
+                <!--<li><strong>/ (Slash) :</strong> Toggle Playhead</li>-->
+            </ul>
+						<p></p>
+            <ul>
+								<li><strong>Click to Start:</strong> Click on any part of the chart to start playing from that specific beat.</li>
+                <li><strong>Auto-Calibration:</strong> The game automatically calibrates your input offset as you play. You can lock it by clicking on its display.</li>
+                <li><strong>Controls during play:</strong> Playback speed is locked after the first note, but you can freely adjust it during the intro or during practice plays.</li>
+                <li><strong>Additional offset:</strong> It is different from input offset. Its purpose is to adjust chart's own offset in case you can hear that assist tick and audio are not in sync. For historical reasons many charts need it to be set to -9ms.</li>
+                <li><strong>High Scores:</strong> Records are saved in your browser and are unique for each combination of difficulty, speed, and play mode (e.g., with playhead, with assist). You can skip long inros, the score is valid if you played from the first to the last note.</li>
+                <li><strong>Roulette:</strong> You can exclude a song from roulette results by right-clicking on it. Roulette always picks songs among those played long time ago (or not played at all).</li>
+								<li><strong>Drag & Drop:</strong> To play any chart that you have - grab two files, chart file (.sm or .ssc) and audio file (.ogg/.mp3), and drop them on this page. You can find an enormous amount of song packs in the internet, for example at <a href="https://itgdb.s1sh.xyz/pack_search/" target="_blank">https://itgdb.s1sh.xyz/pack_search/</a></li>
+            </ul>
+        </div>
+    </div>
+		
+		
+<script src="resources/clap.js"></script>
+<script>
+const DEV_MODE = true;
+//localStorage.clear();
+//localStorage.removeItem("");
+		
+// --- Core Gameplay and Audio State ---
+let audioContext;
+let audioBuffer;
+let assistClapBuffer;
+let songSource, songGainNode;
+let masterGainNode;
+let loadedClapBuffer = null;
+let isPlaying = false;
+let startTime = 0;
+let lastStartBeat = 0; // for starting from the last place (Blackquote hotkey)
+let quickStarts = new Array(10).fill(null); // starting places (1-0 shortcuts)
+let curSongTime = 0;
+let playbackRate = 1.0;
+document.getElementById('audioOffset').value = -9;
+let additionalOffset = -0.009;
+let animationFrameId;
+let allCharts = [];
+let songInfo = { title: '', offset: 0, bpms: [], stops: [], warps: [] };
+let lastSelectedDifficulty = null;
+let measures = [];
+let chartHash = null; // unique hash based on measures[]
+let noteBeats = [];
+let noteTimings = [];
+let simplifiedBpms = [];
+let chartMeter = 0;
+let nextClapToScheduleIndex = 0;
+let lastKnownColumnIndex = -1; // To track column changes
+let forceShowPlayheadUntil = 0; // Timestamp to force playhead visibility
+let songTiming; // contains two functions: getTimeAtBeat() and getBeatAtTime()
+let isFullSongPlay = false;       // Was the song played from the start?
+let firstNoteBeat = 0; 
+let firstNoteTime = 0;
+let lastNoteTime = 0;
+let isLoadingSong = false;
+let speedDuringPlay = 1.0;        // for score record
+let playheadDuringPlay = false;   // -/-
+let assistDuringPlay = false;     // -/-
+let sessionPlayHistory = {};
+let areControlsLocked = false;
+let sessionPlayedSongs = new Set();
+let selectedSongKey = '';
+const LONG_PAUSE = 1.0 // (in sec.) playhead will be shown during long pauses
+let userWantToPlay = false; // if user try to start play but song isn't loaded yet we'll start when possible
+
+// --- Judging System State ---
+let noteStates = [];
+let hitErrors = []; // Raw errors in ms for calibration
+let hitFeedbackEffects = [];
+let mistakeRecapEffects = [];
+let totalWeightedScore = 0;
+let totalWeight = 0;
+let curAccuracy = 0;
+let bestScore = null;
+let missCount = 0;
+let consMisses = 0;  // consecutive misses (for not to draw if > 5)
+let dynamicInputOffset = 0; // The on-the-fly calibrated offset in ms
+let autoCalibrate = true;        // true = keep auto-calibrating (default)
+let fixedInputOffset = null;     // when non-null (ms) we lock dynamicInputOffset to this value
+let keysHeld = { 0: false, 1: false, 2: false, 3: false }; // to track held keys
+let firstJudgableNoteTime = Infinity;
+const accuracyFlash = {
+    color: '255,0,0',     
+    opacity: 0,           
+    fadeStartTime: 0     
+};
+let impactHistory = [];
+let maxFlash = 0;
+let curFlash = 0; // This will hold the current real-time opacity of the fading flash.
+// Short-term memory for dynamic flash feedback
+const SCORE_HISTORY_LENGTH = 10; // How many recent notes to remember
+let recentNoteScores = [];
+
+let isJudge = true; // for not to judge until the first keypress if started not from the beggining
+const PERFECT_WINDOW_MS = 22.5;
+const MISS_WINDOW_MS = 180;
+const HOLD_PERFECT_WINDOW_MS = 100;
+const HOLD_MISS_WINDOW_MS = 360;
+
+const TAP_NOTE_WEIGHT = 1.0;       // Includes tap notes AND hold heads
+const HOLD_RELEASE_WEIGHT = 1 / 3; // hold/roll tails have 3 times lower influence on accuracy score
+
+const missWindow = () => MISS_WINDOW_MS * playbackRate;
+const perfectWindow = () => PERFECT_WINDOW_MS * playbackRate;
+const holdMissWindow = () => HOLD_MISS_WINDOW_MS * playbackRate;
+const holdPerfectWindow = () => HOLD_PERFECT_WINDOW_MS * playbackRate;
+
+let chartLayoutParams = {
+    columnWidth: 0,
+    measuresPerColumn: 0,
+    measureHeight: 0,
+    border: 6,
+    padding: 32
+};
+
+let keybinds = { 'KeyQ': 0, 'KeyS': 1, 'KeyJ': 2, 'KeyI': 3 };
+
+let prepackagedSongs = [];
+
+
+
+
+
+function logDev(...args) {
+    if (DEV_MODE) {
+        console.log(...args);
+    }
+}
+function db(v) {
+	if (!DEV_MODE) return;
+	const debugOut = document.getElementById('debug');
+	debugOut.style.display = 'block';
+	debugOut.innerHTML = v.toFixed(2);
+}
+
+</script>
+
+<script src="js/toast_manager.js" defer></script>
+<script src="js/song_selector.js" defer></script>
+<script src="js/ui.js" defer></script>
+<script src="js/keypress.js" defer></script>
+<script src="js/accuracy_meter.js" defer></script>
+<script src="js/game.js" defer></script>
+<script src="js/judging.js" defer></script>
+<script src="js/timing.js" defer></script>
+<script src="js/audio.js" defer></script>
+<script src="js/savings.js" defer></script>
+<script src="js/chart.js" defer></script>
+<script src="js/drawing.js" defer></script>
+
+</body>
+</html>
