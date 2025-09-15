@@ -6698,9 +6698,23 @@
 },
 {
   "title": "Cyberpet",
-  "artist": "Rakky Ripper, PUTOCHINOMARICON, eurosanto",
+  "artist": "Rakky Ripper, Putochinomaricon, eurosanto",
   "chartPath": "songs2/rosewood/ea-3/cyberpet.ssc",
   "audioPath": "songs2/rosewood/ea-3/cyberpet.ogg",
   "key": "1757940950449"
+},
+{
+  "title": "Dance It Off",
+  "artist": "Laidback Luke, Ally Brooke, Dannic",
+  "chartPath": "songs2/rosewood/ea-3/danceitoff.ssc",
+  "audioPath": "songs2/rosewood/ea-3/danceitoff.ogg",
+  "key": "1757945985720"
+},
+{
+  "title": "Everywhere",
+  "artist": "Jennifer Cooke, Cr3on & 3NRGY",
+  "chartPath": "songs2/rosewood/ea-3/everywhere.ssc",
+  "audioPath": "songs2/rosewood/ea-3/everywhere.ogg",
+  "key": "1757946447776"
 }
 ]
