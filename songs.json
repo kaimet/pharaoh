@@ -6695,5 +6695,82 @@
   "chartPath": "songs2/rosewood/ea-3/clutch.ssc",
   "audioPath": "songs2/rosewood/ea-3/clutch.ogg",
   "key": "1757939661831"
+},
+{
+  "title": "Cyberpet",
+  "artist": "Rakky Ripper, Putochinomaricon, eurosanto",
+  "chartPath": "songs2/rosewood/ea-3/cyberpet.ssc",
+  "audioPath": "songs2/rosewood/ea-3/cyberpet.ogg",
+  "key": "1757940950449"
+},
+{
+  "title": "Dance It Off",
+  "artist": "Laidback Luke, Ally Brooke, Dannic",
+  "chartPath": "songs2/rosewood/ea-3/danceitoff.ssc",
+  "audioPath": "songs2/rosewood/ea-3/danceitoff.ogg",
+  "key": "1757945985720"
+},
+{
+  "title": "Everywhere",
+  "artist": "Jennifer Cooke, Cr3on & 3NRGY",
+  "chartPath": "songs2/rosewood/ea-3/everywhere.ssc",
+  "audioPath": "songs2/rosewood/ea-3/everywhere.ogg",
+  "key": "1757946447776"
+},
+{
+  "title": "I Only Date Cowboys",
+  "artist": "Kylie Morgan",
+  "chartPath": "songs2/rosewood/ea-3/cowboy-normalized.ssc",
+  "audioPath": "songs2/rosewood/ea-3/cowboy-normalized.ogg",
+  "key": "1757954526002"
+},
+{
+  "title": "Into the Groove",
+  "artist": "Madonna",
+  "chartPath": "songs2/rosewood/ea-3/intothegroove-normalized.ssc",
+  "audioPath": "songs2/rosewood/ea-3/intothegroove2.ogg",
+  "key": "1757954669065"
+},
+{
+  "title": "Reality Purge",
+  "artist": "Elliot Hsu",
+  "chartPath": "songs2/rosewood/ea-3/realitypurge.ssc",
+  "audioPath": "songs2/rosewood/ea-3/realitypurge.ogg",
+  "key": "1757955438986"
+},
+{
+  "title": "Summit",
+  "artist": "Aika feat. GUMI",
+  "chartPath": "songs2/rosewood/ea-3/summit.ssc",
+  "audioPath": "songs2/rosewood/ea-3/summit.ogg",
+  "key": "1757958557000"
+},
+{
+  "title": "Sweet Tornado",
+  "artist": "Vospi",
+  "chartPath": "songs2/rosewood/ea-3/sweettornado.ssc",
+  "audioPath": "songs2/rosewood/ea-3/sweet.ogg",
+  "key": "1757959091302"
+},
+{
+  "title": "Tongue",
+  "artist": "Reve",
+  "chartPath": "songs2/rosewood/ea-3/tongue.ssc",
+  "audioPath": "songs2/rosewood/ea-3/tongue.ogg",
+  "key": "1757959516562"
+},
+{
+  "title": "U Can't Touch This",
+  "artist": "MC Hammer",
+  "chartPath": "songs2/rosewood/ea-3/ucanttouchthis-normalized.ssc",
+  "audioPath": "songs2/rosewood/ea-3/ucanttouchthis-normalized.ogg",
+  "key": "1757959772112"
+},
+{
+  "title": "Wish I Could",
+  "artist": "Stessie",
+  "chartPath": "songs2/rosewood/ea-3/wish.ssc",
+  "audioPath": "songs2/rosewood/ea-3/wish.ogg",
+  "key": "1757959985837"
 }
 ]
