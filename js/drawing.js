@@ -450,7 +450,7 @@ function gcd(a, b) { return b === 0 ? a : gcd(b, a % b); }
 
 const COLOR_MAP = {
     4: '#000000', 8: '#0000FF', 12: '#990099', 16: '#009900',
-    24: '#990099', 32: '#009900', 64: '#009900', 'default': '#AAAAAA'
+    24: '#990099', 32: '#666600', 64: '#666600', 'default': '#AAAAAA'
 };
 
 function getColorForQuantization(lineIndex, notesInMeasure) {
