@@ -6929,5 +6929,40 @@
   "chartPath": "songs2/rosewood/ea-4/yurari.ssc",
   "audioPath": "songs2/rosewood/ea-4/yurari.ogg",
   "key": "1758044178555"
+},
+{
+  "title": "2 Cool 4 Love",
+  "artist": "Prezioso, Zombic, BADVIBES",
+  "chartPath": "songs2/rosewood/ea-5/2cool.ssc",
+  "audioPath": "songs2/rosewood/ea-5/2cool3.ogg",
+  "key": "1758135928128"
+},
+{
+  "title": "24HRS",
+  "artist": "CLMD, Tobtok",
+  "chartPath": "songs2/rosewood/ea-5/24hrs.ssc",
+  "audioPath": "songs2/rosewood/ea-5/24hrs.ogg",
+  "key": "1758136071980"
+},
+{
+  "title": "Act of God",
+  "artist": "Layton Giordani, Linney, Sarah de Warren",
+  "chartPath": "songs2/rosewood/ea-5/actofgod.ssc",
+  "audioPath": "songs2/rosewood/ea-5/actofgod.ogg",
+  "key": "1758136274355"
+},
+{
+  "title": "Anxiety",
+  "artist": "YUKIYANAGI",
+  "chartPath": "songs2/rosewood/ea-5/Anxiety.ssc",
+  "audioPath": "songs2/rosewood/ea-5/Anxiety.ogg",
+  "key": "1758136493899"
+},
+{
+  "title": "Best Life",
+  "artist": "KOYOTIE",
+  "chartPath": "songs2/rosewood/ea-5/bestlife.ssc",
+  "audioPath": "songs2/rosewood/ea-5/bestlife.ogg",
+  "key": "1758136777704"
 }
 ]
