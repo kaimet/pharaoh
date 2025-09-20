@@ -4653,15 +4653,15 @@
 {
   "title": "マジLOVE1000%",
   "artist": "ST☆RISH",
-  "chartPath": "songs/highflyer/trom-1/MAJI Love 1000%.ssc",
-  "audioPath": "songs/highflyer/trom-1/MAJI Love 1000%.ogg",
+  "chartPath": "songs/highflyer/trom-1/MAJI Love 1000.ssc",
+  "audioPath": "songs/highflyer/trom-1/MAJI Love 1000.ogg",
   "key": "1756735390405"
 },
 {
   "title": "マジLOVE2000%",
   "artist": "ST☆RISH",
-  "chartPath": "songs/highflyer/trom-1/MAJI Love 2000%.ssc",
-  "audioPath": "songs/highflyer/trom-1/MAJI Love 2000%.ogg",
+  "chartPath": "songs/highflyer/trom-1/MAJI Love 2000.ssc",
+  "audioPath": "songs/highflyer/trom-1/MAJI Love 2000.ogg",
   "key": "1756735524836"
 },
 {
@@ -6964,5 +6964,138 @@
   "chartPath": "songs2/rosewood/ea-5/bestlife.ssc",
   "audioPath": "songs2/rosewood/ea-5/bestlife.ogg",
   "key": "1758136777704"
+},
+{
+  "title": "Bruce Wayne",
+  "artist": "NOTD, INJI",
+  "chartPath": "songs2/rosewood/ea-5/brucewayne.ssc",
+  "audioPath": "songs2/rosewood/ea-5/brucewayne.ogg",
+  "key": "1758221433965"
+},
+{
+  "title": "Dreams Control",
+  "artist": "Shapov",
+  "chartPath": "songs2/rosewood/ea-5/dreamscontrol.ssc",
+  "audioPath": "songs2/rosewood/ea-5/dreamscontrol2.ogg",
+  "key": "1758221857492"
+},
+{
+  "title": "FOREIGN",
+  "artist": "HEDEGAARD, Moses, CANCUN?",
+  "chartPath": "songs2/rosewood/ea-5/foreign.ssc",
+  "audioPath": "songs2/rosewood/ea-5/foreign.ogg",
+  "key": "1758222435061"
+},
+{
+  "title": "Freedom",
+  "artist": "Oliver Heldens, Buuren, Harper",
+  "chartPath": "songs2/rosewood/ea-5/freedom.ssc",
+  "audioPath": "songs2/rosewood/ea-5/freedom.ogg",
+  "key": "1758295591241"
+},
+{
+  "title": "Funk Rave",
+  "artist": "Anitta",
+  "chartPath": "songs2/rosewood/ea-5/funkrave.ssc",
+  "audioPath": "songs2/rosewood/ea-5/funkrave.ogg",
+  "key": "1758295760118"
+},
+{
+  "title": "Give It To Me",
+  "artist": "Swanky Tunes, Veronica Bravo, J R",
+  "chartPath": "songs2/rosewood/ea-5/giveittome.ssc",
+  "audioPath": "songs2/rosewood/ea-5/giveittome.ogg",
+  "key": "1758296049585"
+},
+{
+  "title": "HYPER VISION",
+  "artist": "VOLTA",
+  "chartPath": "songs2/rosewood/ea-5/hypervision2.ssc",
+  "audioPath": "songs2/rosewood/ea-5/hypervision.ogg",
+  "key": "1758296271638"
+},
+{
+  "title": "La_Original.mp3",
+  "artist": "Emilia, TINI",
+  "chartPath": "songs2/rosewood/ea-5/la-original.ssc",
+  "audioPath": "songs2/rosewood/ea-5/la-original.ogg",
+  "key": "1758303789890"
+},
+{
+  "title": "Maneater",
+  "artist": "JKRS, ECHO",
+  "chartPath": "songs2/rosewood/ea-5/maneater.ssc",
+  "audioPath": "songs2/rosewood/ea-5/maneater.ogg",
+  "key": "1758304061234"
+},
+{
+  "title": "Mango",
+  "artist": "Anjulie, Soaky Siren, SAK PASE",
+  "chartPath": "songs2/rosewood/ea-5/mango.ssc",
+  "audioPath": "songs2/rosewood/ea-5/mango.ogg",
+  "key": "1758304184880"
+},
+{
+  "title": "Middle of the Night",
+  "artist": "K-Deejays",
+  "chartPath": "songs2/rosewood/ea-5/middleofthenight.ssc",
+  "audioPath": "songs2/rosewood/ea-5/middleofthenight3.ogg",
+  "key": "1758304351317"
+},
+{
+  "title": "MONEY ON THE DASH",
+  "artist": "Elley Duhe & Whethan",
+  "chartPath": "songs2/rosewood/ea-5/moneyonthedash.ssc",
+  "audioPath": "songs2/rosewood/ea-5/moneyonthedash.ogg",
+  "key": "1758304523164"
+},
+{
+  "title": "Overdrive",
+  "artist": "Gia Woods",
+  "chartPath": "songs2/rosewood/ea-5/overdrive.ssc",
+  "audioPath": "songs2/rosewood/ea-5/overdrive.ogg",
+  "key": "1758304785758"
+},
+{
+  "title": "Power",
+  "artist": "Nostalgix, Bipolar Sunshine",
+  "chartPath": "songs2/rosewood/ea-5/power.ssc",
+  "audioPath": "songs2/rosewood/ea-5/power6.ogg",
+  "key": "1758304937108"
+},
+{
+  "title": "Pulse Drive",
+  "artist": "SaberZ, Drifter5",
+  "chartPath": "songs2/rosewood/ea-5/pulsedrive.ssc",
+  "audioPath": "songs2/rosewood/ea-5/pulsedrive.ogg",
+  "key": "1758305061124"
+},
+{
+  "title": "Push Me",
+  "artist": "Dannic",
+  "chartPath": "songs2/rosewood/ea-5/pushme.ssc",
+  "audioPath": "songs2/rosewood/ea-5/pushme.ogg",
+  "key": "1758390038296"
+},
+{
+  "title": "Somedays",
+  "artist": "Sonny Fodera, Jazzy, D.O.D",
+  "chartPath": "songs2/rosewood/ea-5/somedays2.ssc",
+  "audioPath": "songs2/rosewood/ea-5/somedays2.ogg",
+  "key": "1758390338025"
+},
+{
+  "title": "Sugar",
+  "artist": "Sarah de Warren, Weird Genius",
+  "chartPath": "songs2/rosewood/ea-5/sugar.ssc",
+  "audioPath": "songs2/rosewood/ea-5/sugar.ogg",
+  "key": "1758390527386"
+},
+{
+  "title": "wish.",
+  "artist": "Oliverse & Ellii",
+  "chartPath": "songs2/rosewood/ea-5/wish.ssc",
+  "audioPath": "songs2/rosewood/ea-5/wish.ogg",
+  "key": "1758391026636"
 }
 ]

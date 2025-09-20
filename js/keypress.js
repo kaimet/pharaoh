@@ -99,10 +99,10 @@ function handleSpeedControl(e) {
         return;
     }
 
-        const active = document.activeElement;
-        if (active && (active.tagName === 'INPUT' || active.tagName === 'TEXTAREA' || active.isContentEditable)) {
-                return; // user can use minus key to set offset in the input element, so let them
-        }
+    const active = document.activeElement;
+    if (active && (active.tagName === 'INPUT' || active.tagName === 'TEXTAREA' || active.isContentEditable)) {
+            return; // user can use minus key to set offset in the input element, so let them
+    }
 
     e.preventDefault();
 
@@ -128,7 +128,7 @@ function handleSpeedControl(e) {
         }
 
         //playbackRate = newSpeed; //it changes in onPlaybackRateChange
-                onPlaybackRateChange(newSpeed);
+        onPlaybackRateChange(newSpeed);
         startTime = audioContext.currentTime - (lastSongTime / playbackRate);
 
         if (songSource) {
@@ -222,6 +222,11 @@ function handlePlayStopShortcuts(e) {
     const idx = digitCodeToIndex(e.code);
     if (idx !== -1) {
         if (isLoadingSong) return;
+        const active = document.activeElement;
+        if (active && (active.tagName === 'INPUT' || active.tagName === 'TEXTAREA' || active.isContentEditable)) {
+                return; 
+        }
+        
         const beat = quickStarts[idx];
         if (beat !== null) {
             e.preventDefault();
