@@ -5523,13 +5523,6 @@
   "key": "1757191510877"
 },
 {
-  "title": "The Darkness of Eternity",
-  "artist": "Vector U",
-  "chartPath": "songs/HellKiteChaos/tba-2/Vector U - The Darkness of Eternity (From -Final Fantasy IX-).ssc",
-  "audioPath": "songs/HellKiteChaos/tba-2/Vector U - The Darkness of Eternity (From -Final Fantasy IX-).ogg",
-  "key": "1757191714685"
-},
-{
   "title": "Top Gear 2 Intro Theme",
   "artist": "Tauan Gutierres",
   "chartPath": "songs/HellKiteChaos/tba-2/Tauan Gutierres - Top Gear 2 Intro Theme (Tauan Gutierres REMIX).ssc",
@@ -7097,5 +7090,107 @@
   "chartPath": "songs2/rosewood/ea-5/wish.ssc",
   "audioPath": "songs2/rosewood/ea-5/wish.ogg",
   "key": "1758391026636"
+},
+{
+  "title": "Moonlight Shadow",
+  "artist": "Prezioso, Keanu Silva, Adalwolf, Ninkid",
+  "chartPath": "songs2/rosewood/evmem/moonlightshadow.ssc",
+  "audioPath": "songs2/rosewood/evmem/moonlightshadow.ogg",
+  "key": "1758472541382"
+},
+{
+  "title": "Moonlit Floor",
+  "artist": "LISA",
+  "chartPath": "songs2/rosewood/evmem/kissme-fakemines.ssc",
+  "audioPath": "songs2/rosewood/evmem/kissme.ogg",
+  "key": "1758472684380"
+},
+{
+  "title": "Not So Bad",
+  "artist": "Yves V, Ilkay Sencan, Emie",
+  "chartPath": "songs2/rosewood/evmem/notsobad.ssc",
+  "audioPath": "songs2/rosewood/evmem/notsobad3.ogg",
+  "key": "1758473355457"
+},
+{
+  "title": "Phonkcorn",
+  "artist": "Kowbra",
+  "chartPath": "songs2/rosewood/evmem/phonkcorn-fakemines.ssc",
+  "audioPath": "songs2/rosewood/evmem/phonkcorn.ogg",
+  "key": "1758473636852"
+},
+{
+  "title": "Scatman",
+  "artist": "BXT",
+  "chartPath": "songs2/rosewood/evmem/scatman-fakemines.ssc",
+  "audioPath": "songs2/rosewood/evmem/scatman.ogg",
+  "key": "1758555560256"
+},
+{
+  "title": "Call Me",
+  "artist": "Cascada",
+  "chartPath": "songs2/rosewood/studio24/callme.ssc",
+  "audioPath": "songs2/rosewood/studio24/callme.ogg",
+  "key": "1758558222965"
+},
+{
+  "title": "Ain't Nobody",
+  "artist": "Cascada",
+  "chartPath": "songs2/rosewood/studio24/aintnobody.ssc",
+  "audioPath": "songs2/rosewood/studio24/aintnobody.ogg",
+  "key": "1758558371774"
+},,
+{
+  "title": "Murder",
+  "artist": "Cascada",
+  "chartPath": "songs2/rosewood/studio24/murder.ssc",
+  "audioPath": "songs2/rosewood/studio24/murder.ogg",
+  "key": "1758654432231"
+}
+{
+  "title": "Relight My Fire",
+  "artist": "Cascada",
+  "chartPath": "songs2/rosewood/studio24/relightmyfire.ssc",
+  "audioPath": "songs2/rosewood/studio24/relightmyfire.ogg",
+  "key": "1758654224342"
+},
+{
+  "title": "Blame It on the Boogie",
+  "artist": "Cascada",
+  "chartPath": "songs2/rosewood/studio24/blameitontheboogie.ssc",
+  "audioPath": "songs2/rosewood/studio24/blameitontheboogie.ogg",
+  "key": "1758654494307"
+},
+{
+	"pack": "Badjas",
+	"author": ""
+},
+{
+  "title": "Bwa !",
+  "artist": "Thaehan",
+  "chartPath": "songs2/badjas/bb3/05. Bwa.sm",
+  "audioPath": "songs2/badjas/bb3/05. Bwa.ogg",
+  "key": "1758654914144"
+},
+{
+  "title": "Cool Patrol",
+  "artist": "Ninja Sex Party",
+  "chartPath": "songs2/badjas/bb3/Cool Patrol.sm",
+  "audioPath": "songs2/badjas/bb3/Cool Patrol.ogg",
+  "key": "1758655355815"
+},
+{
+  "title": "I Can't Fix You",
+  "artist": "The Living Tombstone",
+  "chartPath": "songs2/badjas/bb3/I Can't Fix You.sm",
+  "audioPath": "songs2/badjas/bb3/I Can't Fix You.ogg",
+  "key": "1758656686382"
+},
+{
+  "title": "Mermaid Girl",
+  "artist": "Cream Puff",
+  "chartPath": "songs2/badjas/bb3/Mermaid Girl.sm",
+  "audioPath": "songs2/badjas/bb3/Mermaid Girl.ogg",
+  "key": "1758657505071"
 }
 ]
