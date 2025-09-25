@@ -7192,5 +7192,58 @@
   "chartPath": "songs2/badjas/bb3/Mermaid Girl.sm",
   "audioPath": "songs2/badjas/bb3/Mermaid Girl.ogg",
   "key": "1758657505071"
+},
+{
+  "title": "Pick Me Up",
+  "artist": "Perfume",
+  "chartPath": "songs2/badjas/bb3/Pick Me Up.sm",
+  "audioPath": "songs2/badjas/bb3/Pick Me Up.ogg",
+  "key": "1758743953736"
+},
+{
+  "title": "Gospel of Dismay",
+  "artist": "MiatriSs ft. Triforcefilms",
+  "chartPath": "songs2/badjas/bb4/Gospel of Dismay.sm",
+  "audioPath": "songs2/badjas/bb4/Gospel of Dismay.ogg",
+  "key": "1758746094267"
+},
+{
+  "title": "Indestructable",
+  "artist": "Aaro",
+  "chartPath": "songs2/badjas/bb4/Indestructable.sm",
+  "audioPath": "songs2/badjas/bb4/Indestructable.ogg",
+  "key": "1758826136853"
+},
+{
+	"pack": "DDR",
+	"author": ""
+},
+{
+  "title": "39",
+  "artist": "sasakure.UK×DECO*27",
+  "chartPath": "songs2/ddr/a/39.sm",
+  "audioPath": "songs2/ddr/a/39.ogg",
+  "key": "1758827283440"
+},
+{
+  "title": "Arifureta sekai seifuku",
+  "artist": "PinocchioP",
+  "chartPath": "songs2/ddr/a/Arifureta sekai seifuku.sm",
+  "audioPath": "songs2/ddr/a/Arifureta sekai seifuku.ogg",
+  "key": "1758827961466"
+},
+{
+  "title": "Bad Apple!! feat. nomico",
+  "artist": "Alstroemeria Records",
+  "chartPath": "songs2/ddr/a/Bad Apple.sm",
+  "audioPath": "songs2/ddr/a/Bad Apple.ogg",
+  "key": "1758828149742"
+},
+{
+  "title": "Buraikku jikorizer",
+  "artist": "kradness",
+  "chartPath": "songs2/ddr/a/Buraikku jikorizer.sm",
+  "audioPath": "songs2/ddr/a/Buraikku jikorizer.ogg",
+  "key": "1758828584384"
 }
 ]
