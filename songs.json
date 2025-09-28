@@ -7378,5 +7378,33 @@
   "chartPath": "songs2/ddr/a/Koisuru uchuu sensou!!.sm",
   "audioPath": "songs2/ddr/a/Koisuru uchuu sensou!!.ogg",
   "key": "1758996357417"
+},
+{
+  "title": "Kunshi ayauku mo chikou yore",
+  "artist": "A応P",
+  "chartPath": "songs2/ddr/a/Kunshi ayauku mo chikou yore.sm",
+  "audioPath": "songs2/ddr/a/Kunshi ayauku mo chikou yore.ogg",
+  "key": "1759081128881"
+},
+{
+  "title": "Plain Asia -PHQ remix-",
+  "artist": "PHQUASE",
+  "chartPath": "songs2/ddr/a/Plain Asia -PHQ remix-.sm",
+  "audioPath": "songs2/ddr/a/Plain Asia -PHQ remix-.ogg",
+  "key": "1759082690477"
+},
+{
+  "title": "Pursuer",
+  "artist": "Ryo Shirasawa (noisycroak)",
+  "chartPath": "songs2/ddr/a/Pursuer.sm",
+  "audioPath": "songs2/ddr/a/Pursuer.ogg",
+  "key": "1759087677015"
+},
+{
+  "title": "Rejoin",
+  "artist": "BEMANI Sound Team \"HuΣeR feat.PON\"",
+  "chartPath": "songs2/ddr/a/Rejoin.sm",
+  "audioPath": "songs2/ddr/a/Rejoin.ogg",
+  "key": "1759087857491"
 }
 ]
