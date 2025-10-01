@@ -7630,5 +7630,61 @@
   "chartPath": "songs2/ddr/supernova/Flow.sm",
   "audioPath": "songs2/ddr/supernova/Flow.ogg",
   "key": "1759264430935"
+},
+{
+  "title": "gekkou chou",
+  "artist": "Asaki",
+  "chartPath": "songs2/ddr/supernova/Gekkou chou.sm",
+  "audioPath": "songs2/ddr/supernova/Gekkou chou.ogg",
+  "key": "1759343611441"
+},
+{
+  "title": "GIVE ME UP",
+  "artist": "LH MUSIC CREATION",
+  "chartPath": "songs2/ddr/supernova/GIVE ME UP.sm",
+  "audioPath": "songs2/ddr/supernova/GIVE ME UP.ogg",
+  "key": "1759343726377"
+},
+{
+  "title": "Himawari",
+  "artist": "RIYU from BeForU",
+  "chartPath": "songs2/ddr/supernova/Himawari.sm",
+  "audioPath": "songs2/ddr/supernova/Himawari.ogg",
+  "key": "1759344121980"
+},
+{
+  "title": "HONEY♂PUNCH",
+  "artist": "RIYU KOSAKA",
+  "chartPath": "songs2/ddr/supernova/HONEY PUNCH.sm",
+  "audioPath": "songs2/ddr/supernova/HONEY PUNCH.ogg",
+  "key": "1759345342810"
+},
+{
+  "title": "Hunting for you",
+  "artist": "Togo Project feat. Megu & Scotty D.",
+  "chartPath": "songs2/ddr/supernova/Hunting for you.sm",
+  "audioPath": "songs2/ddr/supernova/Hunting for you.ogg",
+  "key": "1759345462818"
+},
+{
+  "title": "iFUTURELIST(DDR VERSION)",
+  "artist": "AKIRA YAMAOKA",
+  "chartPath": "songs2/ddr/supernova/iFUTURELIST(DDR VERSION).sm",
+  "audioPath": "songs2/ddr/supernova/iFUTURELIST(DDR VERSION).ogg",
+  "key": "1759345614684"
+},
+{
+  "title": "INNOCENCE OF SILENCE",
+  "artist": "nc ft NRG Factory",
+  "chartPath": "songs2/ddr/supernova/INNOCENCE OF SILENCE.sm",
+  "audioPath": "songs2/ddr/supernova/INNOCENCE OF SILENCE.ogg",
+  "key": "1759345745118"
+},
+{
+  "title": "Knock Out Regrets",
+  "artist": "MAKI@TOGO.BAND",
+  "chartPath": "songs2/ddr/supernova/Knock Out Regrets.sm",
+  "audioPath": "songs2/ddr/supernova/Knock Out Regrets.ogg",
+  "key": "1759346485369"
 }
 ]
