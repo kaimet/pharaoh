@@ -7318,7 +7318,7 @@
 },
 {
   "title": "Himawari sunset",
-  "artist": "ARM・Maron (IOSYS) × ranko・paprika (Butaotome)",
+  "artist": "IOSYS × Butaotome",
   "chartPath": "songs2/ddr/a/Himawari sunset.sm",
   "audioPath": "songs2/ddr/a/Himawari sunset.ogg",
   "key": "1758995068216"
@@ -7576,7 +7576,7 @@
   "key": "1759258676527"
 },
 {
-  "title": "CAN'T STOP FALLIN' IN LOVE -super euro version-",
+  "title": "CAN'T STOP FALLIN' IN LOVE",
   "artist": "NAOKI with Y&Co.",
   "chartPath": "songs2/ddr/supernova/cant stop fallin in love.sm",
   "audioPath": "songs2/ddr/supernova/cant stop fallin in love.ogg",
@@ -7686,5 +7686,229 @@
   "chartPath": "songs2/ddr/supernova/Knock Out Regrets.sm",
   "audioPath": "songs2/ddr/supernova/Knock Out Regrets.ogg",
   "key": "1759346485369"
+},
+{
+  "title": "LONG TRAIN RUNNIN'",
+  "artist": "X-TREME",
+  "chartPath": "songs2/ddr/supernova/LONG TRAIN RUNNIN'.sm",
+  "audioPath": "songs2/ddr/supernova/LONG TRAIN RUNNIN'.ogg",
+  "key": "1759426681135"
+},
+{
+  "title": "LOVE AT FIRSTSIGHT",
+  "artist": "KYLIE MINOGUE",
+  "chartPath": "songs2/ddr/supernova/LOVE AT FIRSTSIGHT(TwinMasterplan Mix).sm",
+  "audioPath": "songs2/ddr/supernova/LOVE AT FIRSTSIGHT(TwinMasterplan Mix).ogg",
+  "key": "1759426783368"
+},
+{
+  "title": "LOVE IS ORANGE",
+  "artist": "Orange Lounge",
+  "chartPath": "songs2/ddr/supernova/LOVE IS ORANGE.sm",
+  "audioPath": "songs2/ddr/supernova/LOVE IS ORANGE.ogg",
+  "key": "1759426903781"
+},
+{
+  "title": "MARIA(I believe...)",
+  "artist": "NAOKI feat. PAULA TERRY",
+  "chartPath": "songs2/ddr/supernova/MARIA(I believe...).sm",
+  "audioPath": "songs2/ddr/supernova/MARIA(I believe...).ogg",
+  "key": "1759427026414"
+},
+{
+  "title": "MATSURI (J-SUMMER MIX)",
+  "artist": "RE-VENGE",
+  "chartPath": "songs2/ddr/supernova/MATSURI (J-SUMMER MIX).sm",
+  "audioPath": "songs2/ddr/supernova/MATSURI (J-SUMMER MIX).ogg",
+  "key": "1759427134905"
+},
+{
+  "title": "MAX 300 (Super-Max-Me Mix)",
+  "artist": "Jondi & Spesh",
+  "chartPath": "songs2/ddr/supernova/MAX 300 (Super-Max-Me Mix).sm",
+  "audioPath": "songs2/ddr/supernova/MAX 300 (Super-Max-Me Mix).ogg",
+  "key": "1759427252643"
+},
+{
+  "title": "MIDNIGHT SPECIAL",
+  "artist": "Love machineguns",
+  "chartPath": "songs2/ddr/supernova/MIDNIGHT SPECIAL.sm",
+  "audioPath": "songs2/ddr/supernova/MIDNIGHT SPECIAL.ogg",
+  "key": "1759517986121"
+},
+{
+  "title": "Mind Parasite",
+  "artist": "TOMOSUKE",
+  "chartPath": "songs2/ddr/supernova/Mind Parasite.sm",
+  "audioPath": "songs2/ddr/supernova/Mind Parasite.ogg",
+  "key": "1759518100824"
+},
+{
+  "title": "MONDO STREET",
+  "artist": "Orange Lounge",
+  "chartPath": "songs2/ddr/supernova/MONDO STREET.sm",
+  "audioPath": "songs2/ddr/supernova/MONDO STREET.ogg",
+  "key": "1759518231026"
+},,
+{
+  "title": "Monkey Punk",
+  "artist": "Big Idea",
+  "chartPath": "songs2/ddr/supernova/Monkey Punk.sm",
+  "audioPath": "songs2/ddr/supernova/Monkey Punk.ogg",
+  "key": "1759686104207"
+}
+{
+  "title": "Tino's White Horse",
+  "artist": "Morning Blue Dragon",
+  "chartPath": "songs2/ddr/supernova/Tino's White Horse.sm",
+  "audioPath": "songs2/ddr/supernova/Tino's White Horse.ogg",
+  "key": "1759683792361"
+},
+{
+  "title": "TRUE LOVE",
+  "artist": "jun feat. Schanita",
+  "chartPath": "songs2/ddr/supernova/TRUE LOVE.sm",
+  "audioPath": "songs2/ddr/supernova/TRUE LOVE.ogg",
+  "key": "1759684196862"
+},
+{
+  "title": "WOOKIE WOOKIE",
+  "artist": "MACHOMAN",
+  "chartPath": "songs2/ddr/supernova/WOOKIE WOOKIE.sm",
+  "audioPath": "songs2/ddr/supernova/WOOKIE WOOKIE.ogg",
+  "key": "1759685356302"
+},
+{
+  "title": "You're Not Here",
+  "artist": "Heather",
+  "chartPath": "songs2/ddr/supernova/You're Not Here.sm",
+  "audioPath": "songs2/ddr/supernova/You're Not Here.ogg",
+  "key": "1759685716442"
+},
+{
+  "title": "AM-3P (\"CHAOS\" Special)",
+  "artist": "KTz",
+  "chartPath": "songs2/ddr/supernova-2/AM-3P (CHAOS Special).sm",
+  "audioPath": "songs2/ddr/supernova-2/AM-3P (CHAOS Special).ogg",
+  "key": "1759697541974"
+},
+{
+  "title": "ANGELUS",
+  "artist": "Hitomi Shimatani",
+  "chartPath": "songs2/ddr/supernova-2/ANGELUS.sm",
+  "audioPath": "songs2/ddr/supernova-2/ANGELUS.ogg",
+  "key": "1759697720342"
+},
+{
+  "title": "Arrabbiata",
+  "artist": "Reven-G alterative",
+  "chartPath": "songs2/ddr/supernova-2/Arrabbiata.sm",
+  "audioPath": "songs2/ddr/supernova-2/Arrabbiata.ogg",
+  "key": "1759697864726"
+},
+{
+  "title": "B4U (\"VOLTAGE\" Special)",
+  "artist": "NAOKI",
+  "chartPath": "songs2/ddr/supernova-2/B4U (VOLTAGE Special).sm",
+  "audioPath": "songs2/ddr/supernova-2/B4U (VOLTAGE Special).ogg",
+  "key": "1759698049979"
+},
+{
+  "title": "Baby's Tears (SKY GIRLS opening theme)",
+  "artist": "RIYU KOSAKA",
+  "chartPath": "songs2/ddr/supernova-2/Baby's Tears (SKY GIRLS opening theme).sm",
+  "audioPath": "songs2/ddr/supernova-2/Baby's Tears (SKY GIRLS opening theme).ogg",
+  "key": "1759698197807"
+},
+{
+  "title": "Bloody Tears(IIDX EDITION)",
+  "artist": "DJ YOSHITAKA",
+  "chartPath": "songs2/ddr/supernova-2/Bloody Tears(IIDX EDITION).sm",
+  "audioPath": "songs2/ddr/supernova-2/Bloody Tears(IIDX EDITION).ogg",
+  "key": "1759698385958"
+},
+{
+  "title": "BRILLIANT 2U (\"STREAM\" Special)",
+  "artist": "NAOKI",
+  "chartPath": "songs2/ddr/supernova-2/BRILLIANT 2U (STREAM Special).sm",
+  "audioPath": "songs2/ddr/supernova-2/BRILLIANT 2U (STREAM Special).ogg",
+  "key": "1759698490859"
+},
+{
+  "title": "Burn Baby Burn",
+  "artist": "SLOTH MUSIC PROJECT feat. ANDY L",
+  "chartPath": "songs2/ddr/supernova-2/Burn Baby Burn.sm",
+  "audioPath": "songs2/ddr/supernova-2/Burn Baby Burn.ogg",
+  "key": "1759769225470"
+},
+{
+  "title": "Feelings Won't Fade (Extend Trance Mix)",
+  "artist": "SySF.",
+  "chartPath": "songs2/ddr/supernova-2/Feelings Won't Fade(Extend Trance Mix).sm",
+  "audioPath": "songs2/ddr/supernova-2/Feelings Won't Fade(Extend Trance Mix).ogg",
+  "key": "1759770085294"
+},
+{
+  "title": "Flow (Jammin' Ragga Mix)",
+  "artist": "Scotty D. revisits U1",
+  "chartPath": "songs2/ddr/supernova-2/Flow (Jammin' Ragga Mix).sm",
+  "audioPath": "songs2/ddr/supernova-2/Flow (Jammin' Ragga Mix).ogg",
+  "key": "1759770411244"
+},
+{
+  "title": "L'amour et la liberte",
+  "artist": "NAOKI in the MERCURE",
+  "chartPath": "songs2/ddr/supernova-2/L'amour et la liberte(Darwin & DJ Silver remix).sm",
+  "audioPath": "songs2/ddr/supernova-2/L'amour et la liberte(Darwin & DJ Silver remix).ogg",
+  "key": "1759771597723"
+},
+{
+  "title": "MOONSTER",
+  "artist": "kobo uniting Marsha & D.",
+  "chartPath": "songs2/ddr/supernova-2/MOONSTER.sm",
+  "audioPath": "songs2/ddr/supernova-2/MOONSTER.ogg",
+  "key": "1759857673654"
+},
+{
+  "title": "Music In The Rhythm",
+  "artist": "nc ft. Electric Touch",
+  "chartPath": "songs2/ddr/supernova-2/Music In The Rhythm.sm",
+  "audioPath": "songs2/ddr/supernova-2/Music In The Rhythm.ogg",
+  "key": "1759857806460"
+},
+{
+  "title": "Poseidon",
+  "artist": "NAOKI underground",
+  "chartPath": "songs2/ddr/supernova-2/Poseidon.sm",
+  "audioPath": "songs2/ddr/supernova-2/Poseidon.ogg",
+  "key": "1759858408932"
+},
+{
+  "title": "TRIP MACHINE PhoeniX",
+  "artist": "DE-SIRE alterative",
+  "chartPath": "songs2/ddr/supernova-2/TRIP MACHINE PhoeniX.sm",
+  "audioPath": "songs2/ddr/supernova-2/TRIP MACHINE PhoeniX.ogg",
+  "key": "1759870641275"
+},
+{
+  "title": "Trust -DanceDanceRevolution mix-",
+  "artist": "Tatsh feat.Yoko",
+  "chartPath": "songs2/ddr/supernova-2/Trust -DanceDanceRevolution mix-.sm",
+  "audioPath": "songs2/ddr/supernova-2/Trust -DanceDanceRevolution mix-.ogg",
+  "key": "1759870761066"
+},
+{
+  "title": "Unreal",
+  "artist": "Black Rose Garden",
+  "chartPath": "songs2/ddr/supernova-2/Unreal.sm",
+  "audioPath": "songs2/ddr/supernova-2/Unreal.ogg",
+  "key": "1759871058283"
+},
+{
+  "title": "volcano",
+  "artist": "Yasuhiro Abe",
+  "chartPath": "songs2/ddr/supernova-2/volcano.sm",
+  "audioPath": "songs2/ddr/supernova-2/volcano.ogg",
+  "key": "1759940195546"
 }
 ]
