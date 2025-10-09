@@ -7749,14 +7749,14 @@
   "chartPath": "songs2/ddr/supernova/MONDO STREET.sm",
   "audioPath": "songs2/ddr/supernova/MONDO STREET.ogg",
   "key": "1759518231026"
-},,
+},
 {
   "title": "Monkey Punk",
   "artist": "Big Idea",
   "chartPath": "songs2/ddr/supernova/Monkey Punk.sm",
   "audioPath": "songs2/ddr/supernova/Monkey Punk.ogg",
   "key": "1759686104207"
-}
+},
 {
   "title": "Tino's White Horse",
   "artist": "Morning Blue Dragon",
@@ -7910,5 +7910,44 @@
   "chartPath": "songs2/ddr/supernova-2/volcano.sm",
   "audioPath": "songs2/ddr/supernova-2/volcano.ogg",
   "key": "1759940195546"
+},
+{
+	"pack": "Kerpa",
+	"author": ""
+},
+{
+  "title": "Already Gone",
+  "artist": "Slowpalace / FWLR / Qwinn",
+  "chartPath": "songs2/kerpa/sp2/Already Gone.ssc",
+  "audioPath": "songs2/kerpa/sp2/Already Gone.ogg",
+  "key": "1759941820528"
+},
+{
+  "title": "Break Free",
+  "artist": "Teminite",
+  "chartPath": "songs2/kerpa/sp2/Break Free.ssc",
+  "audioPath": "songs2/kerpa/sp2/Break Free.ogg",
+  "key": "1759942452744"
+},
+{
+  "title": "Bunny Hopper",
+  "artist": "Tare",
+  "chartPath": "songs2/kerpa/sp2/Bunny Hopper Nightmare Version.ssc",
+  "audioPath": "songs2/kerpa/sp2/Bunny Hopper.ogg",
+  "key": "1759942604674"
+},
+{
+  "title": "Burn Out Syndrome",
+  "artist": "M2U",
+  "chartPath": "songs2/kerpa/sp2/Burn Out Syndrome.ssc",
+  "audioPath": "songs2/kerpa/sp2/burnout.ogg",
+  "key": "1759942732147"
+},
+{
+  "title": "I'm not Dead I'm Just Addicted to Gacha Games",
+  "artist": "Saltysweet",
+  "chartPath": "songs2/kerpa/sp2/Gatcha Games.ssc",
+  "audioPath": "songs2/kerpa/sp2/gatcha.ogg",
+  "key": "1759943508979"
 }
 ]
