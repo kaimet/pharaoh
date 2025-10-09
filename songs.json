@@ -560,8 +560,8 @@
 {
 	"title": "Riders, Unite!",
 	"artist": "Andreas Viklund",
-	"chartPath": "songs/In-The-Groove/Riders, Unite!.sm",
-	"audioPath": "songs/In-The-Groove/Riders, Unite!.ogg"
+	"chartPath": "songs/In-The-Groove/Riders, Unite.sm",
+	"audioPath": "songs/In-The-Groove/Riders, Unite.ogg"
 },
 {
 	"title": "Round and Round",
@@ -1922,8 +1922,8 @@
 {
 	"title": "Woah!",
 	"artist": "Haki",
-	"chartPath": "songs/5guys1pack/Woah!.sm",
-	"audioPath": "songs/5guys1pack/Woah!.ogg",
+	"chartPath": "songs/5guys1pack/Woah.sm",
+	"audioPath": "songs/5guys1pack/Woah.ogg",
 	"key": "1755553622312"
 },
 {
@@ -2972,7 +2972,7 @@
 	"title": "Do It!",
 	"artist": "House Rulez",
 	"chartPath": "songs/dimocracy-2/13._House_Rulez_-_Do_It.ssc",
-	"audioPath": "songs/dimocracy-2/13. House Rulez - Do It!.ogg",
+	"audioPath": "songs/dimocracy-2/13. House Rulez - Do It.ogg",
 	"key": "1755958253585"
 },
 {
@@ -3319,7 +3319,7 @@
   "title": "Drrrrrrr!",
   "artist": "DJ Sharpnel",
   "chartPath": "songs/gpop-1/Drrrrrrr.sm",
-  "audioPath": "songs/gpop-1/Drrrrrrr!.ogg",
+  "audioPath": "songs/gpop-1/Drrrrrrr.ogg",
   "key": "1756309043313"
 },
 {
@@ -4569,8 +4569,8 @@
 {
 	"title": "Up!",
 	"artist": "Kep1er",
-	"chartPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Up!.sm",
-	"audioPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Up!.ogg",
+	"chartPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Up.sm",
+	"audioPath": "songs/Highflyer's-Tech-Trails---Korean-Air/Up.ogg",
 	"key": "1755199137030"
 },
 {
@@ -4835,8 +4835,8 @@
 {
   "title": "LUVORATORRRRRY!",
   "artist": "Reol feat. nqrse",
-  "chartPath": "songs/highflyer/trom-2/Luvoratorrrrry!.sm",
-  "audioPath": "songs/highflyer/trom-2/Luvoratorrrrry!.ogg",
+  "chartPath": "songs/highflyer/trom-2/Luvoratorrrrry.sm",
+  "audioPath": "songs/highflyer/trom-2/Luvoratorrrrry.ogg",
   "key": "1756825561910"
 },
 {
@@ -4870,8 +4870,8 @@
 {
   "title": "Hopeful Frontier!!!",
   "artist": "cosMo@暴走P",
-  "chartPath": "songs/highflyer/memories/Hopeful Frontier!!!.sm",
-  "audioPath": "songs/highflyer/memories/Hopeful Frontier!!!.ogg",
+  "chartPath": "songs/highflyer/memories/Hopeful Frontier.sm",
+  "audioPath": "songs/highflyer/memories/Hopeful Frontier.ogg",
   "key": "1756842109249"
 },
 {
@@ -5052,8 +5052,8 @@
 {
   "title": "Won(*3*)Chu Kissme!",
   "artist": "BEMANI & IOSYS",
-  "chartPath": "songs/highflyer/trom-3/Won(_3_)Chu KissMe!.sm",
-  "audioPath": "songs/highflyer/trom-3/Won(_3_)Chu KissMe!.ogg",
+  "chartPath": "songs/highflyer/trom-3/Won(_3_)Chu KissMe.sm",
+  "audioPath": "songs/highflyer/trom-3/Won(_3_)Chu KissMe.ogg",
   "key": "1756922679300"
 },
 {
@@ -5241,8 +5241,8 @@
 {
   "title": "Bonbiskip!!",
   "artist": "good-cool feat. Hideo Suwa",
-  "chartPath": "songs/highflyer/ttrails-4/Bonbiskip!!.sm",
-  "audioPath": "songs/highflyer/ttrails-4/Bonbiskip!!.ogg",
+  "chartPath": "songs/highflyer/ttrails-4/Bonbiskip.sm",
+  "audioPath": "songs/highflyer/ttrails-4/Bonbiskip.ogg",
   "key": "1757087968673"
 },
 {
@@ -5297,8 +5297,8 @@
 {
   "title": "SO DANCE!",
   "artist": "Dankira Association",
-  "chartPath": "songs/highflyer/ttrails-4/SO DANCE!.sm",
-  "audioPath": "songs/highflyer/ttrails-4/SO DANCE!.ogg",
+  "chartPath": "songs/highflyer/ttrails-4/SO DANCE.sm",
+  "audioPath": "songs/highflyer/ttrails-4/SO DANCE.ogg",
   "key": "1757090308304"
 },
 {
@@ -5861,8 +5861,8 @@
 {
   "title": "It's Pizza Time!",
   "artist": "The Musical Ghost",
-  "chartPath": "songs/HellKiteChaos/tba-5/It's Pizza Time!.ssc",
-  "audioPath": "songs/HellKiteChaos/tba-5/It's Pizza Time!.ogg",
+  "chartPath": "songs/HellKiteChaos/tba-5/It's Pizza Time.ssc",
+  "audioPath": "songs/HellKiteChaos/tba-5/It's Pizza Time.ogg",
   "key": "1757357287644"
 },
 {
@@ -7270,8 +7270,8 @@
 {
   "title": "DREAMING-ING!!",
   "artist": "Tokimeki Idol project",
-  "chartPath": "songs2/ddr/a/DREAMING-ING!!.sm",
-  "audioPath": "songs2/ddr/a/DREAMING-ING!!.ogg",
+  "chartPath": "songs2/ddr/a/DREAMING-ING.sm",
+  "audioPath": "songs2/ddr/a/DREAMING-ING.ogg",
   "key": "1758912296168"
 },
 {
@@ -7375,8 +7375,8 @@
 {
   "title": "Koisuru☆uchuu sensou!!",
   "artist": "Prim",
-  "chartPath": "songs2/ddr/a/Koisuru uchuu sensou!!.sm",
-  "audioPath": "songs2/ddr/a/Koisuru uchuu sensou!!.ogg",
+  "chartPath": "songs2/ddr/a/Koisuru uchuu sensou.sm",
+  "audioPath": "songs2/ddr/a/Koisuru uchuu sensou.ogg",
   "key": "1758996357417"
 },
 {
@@ -7459,8 +7459,8 @@
 {
   "title": "SUN² SUMMER STEP!",
   "artist": "Tokimeki Idol project",
-  "chartPath": "songs2/ddr/a/SUN2 SUMMER STEP!.sm",
-  "audioPath": "songs2/ddr/a/SUN2 SUMMER STEP!.ogg",
+  "chartPath": "songs2/ddr/a/SUN2 SUMMER STEP.sm",
+  "audioPath": "songs2/ddr/a/SUN2 SUMMER STEP.ogg",
   "key": "1759166994402"
 },
 {
