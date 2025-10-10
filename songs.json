@@ -7949,5 +7949,54 @@
   "chartPath": "songs2/kerpa/sp2/Gatcha Games.ssc",
   "audioPath": "songs2/kerpa/sp2/gatcha.ogg",
   "key": "1759943508979"
+},
+{
+  "title": "Interim",
+  "artist": "Nokae",
+  "chartPath": "songs2/kerpa/sp2/Interim.ssc",
+  "audioPath": "songs2/kerpa/sp2/interim.ogg",
+  "key": "1760125177561"
+},
+{
+  "title": "Mad Rat, Alive?",
+  "artist": "Camellia",
+  "chartPath": "songs2/kerpa/sp2/Mad Rat Alive.ssc",
+  "audioPath": "songs2/kerpa/sp2/mad rat alive.ogg",
+  "key": "1760125386423"
+},
+{
+  "title": "Mambacore",
+  "artist": "Infected Mushroom",
+  "chartPath": "songs2/kerpa/sp2/Mambacore.sm",
+  "audioPath": "songs2/kerpa/sp2/Mambacore.ogg",
+  "key": "1760125515386"
+},
+{
+  "title": "Rise and Shine",
+  "artist": "Teminite",
+  "chartPath": "songs2/kerpa/sp2/Rise and Shine.ssc",
+  "audioPath": "songs2/kerpa/sp2/rise and shine.ogg",
+  "key": "1760125666091"
+},
+{
+  "title": "Rude Buster",
+  "artist": "James Landino / Varien",
+  "chartPath": "songs2/kerpa/sp2/Rude Buster.ssc",
+  "audioPath": "songs2/kerpa/sp2/rude buster.ogg",
+  "key": "1760125810422"
+},
+{
+  "title": "Super Wubtendo",
+  "artist": "MDK",
+  "chartPath": "songs2/kerpa/sp2/Super Wubtendo.ssc",
+  "audioPath": "songs2/kerpa/sp2/Super Wubtendo1.ogg",
+  "key": "1760125937916"
+},
+{
+  "title": "Tides",
+  "artist": "Cargo",
+  "chartPath": "songs2/kerpa/sp2/Tides.ssc",
+  "audioPath": "songs2/kerpa/sp2/Tides.ogg",
+  "key": "1760126328461"
 }
 ]
